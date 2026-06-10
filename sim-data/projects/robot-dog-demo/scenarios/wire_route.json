@@ -1,0 +1,8 @@
+﻿{
+    "config":  {
+                   "min_bend_radius_m":  0.01
+               },
+    "duration_s":  2,
+    "name":  "Wire Route",
+    "id":  "wire_route"
+}

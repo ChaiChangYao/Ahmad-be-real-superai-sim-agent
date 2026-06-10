@@ -1,0 +1,15 @@
+[
+  {
+    "id": "asset-337713965a52",
+    "project_id": "verify-step-only",
+    "original_filename": "demo.step",
+    "stored_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\verify-step-only\\assets\\imported\\demo.step",
+    "relative_path": "assets/imported/demo.step",
+    "file_type": "step",
+    "size_bytes": 2816941,
+    "sha256": "62925460c64de9af24e0b7e7068e95f45140018cd171df00edc49a14b3367127",
+    "role": "cad",
+    "source": "user_upload",
+    "status": "found"
+  }
+]

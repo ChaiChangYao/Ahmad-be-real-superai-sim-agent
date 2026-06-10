@@ -1,0 +1,32 @@
+[
+  {
+    "id": "imu-industrial-01",
+    "brand": "Generic",
+    "model": "Industrial IMU Module",
+    "component_type": "imu",
+    "dimensions_m": [0.04, 0.03, 0.01],
+    "mass_kg": 0.02,
+    "sensor_range_m": 0.0,
+    "sensor_fov_deg": 0.0,
+    "communication_interface": "CAN",
+    "source_url": null,
+    "datasheet_url": null,
+    "confidence": "placeholder",
+    "notes": "Body orientation source."
+  },
+  {
+    "id": "depth-front-01",
+    "brand": "Generic",
+    "model": "Front Depth Module",
+    "component_type": "depth_camera",
+    "dimensions_m": [0.08, 0.03, 0.03],
+    "mass_kg": 0.16,
+    "sensor_range_m": 6.0,
+    "sensor_fov_deg": 86.0,
+    "communication_interface": "USB/CAN",
+    "source_url": null,
+    "datasheet_url": null,
+    "confidence": "placeholder",
+    "notes": "Forward obstacle detection."
+  }
+]

@@ -1,0 +1,86 @@
+[showcase_launcher] Running script: C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\genesis-world\examples\sensors\imu_franka.py
+[showcase_launcher] Headless: True · Web record: True
+[showcase_launcher] Record path: C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-4d72720514\state_timeseries.json
+[38;5;159m[Genesis] [21:08:13] [INFO] [38;5;121m╭───────────────────────────────────────────────╮[0m[38;5;159m[0m
+[38;5;159m[Genesis] [21:08:13] [INFO] [38;5;121m│┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈[0m[38;5;159m [38;5;121m[1m[3mGenesis[0m[38;5;159m [38;5;121m┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈│[0m[38;5;159m[0m
+[38;5;159m[Genesis] [21:08:13] [INFO] [38;5;121m╰───────────────────────────────────────────────╯[0m[38;5;159m[0m
+[38;5;226m[Genesis] [21:08:15] [WARNING] Backend [38;5;121m[4mgs.gpu[0m[38;5;226m not available on this machine. Falling back to CPU.[0m
+[38;5;159m[Genesis] [21:08:16] [INFO] Running on [38;5;121m[4m[AMD Ryzen 7 6800H with Radeon Graphics][0m[38;5;159m with backend [38;5;121m[4mgs.cpu[0m[38;5;159m. Device memory: [38;5;121m[4m15.25[0m[38;5;159m GB.[0m
+[38;5;159m[Genesis] [21:08:16] [INFO] 🚀 Genesis initialized. 🔖 version: [38;5;121m[4m1.0.0[0m[38;5;159m, 🎨 theme: [38;5;121m[4mdark[0m[38;5;159m, 🌱 seed: [38;5;121m[4mNone[0m[38;5;159m, 🐛 debug: [38;5;121m[4mFalse[0m[38;5;159m, 📏 precision: [38;5;121m[4m32[0m[38;5;159m, 🔥 performance: [38;5;121m[4mFalse[0m[38;5;159m, 💬 verbose: [38;5;121m[4mINFO[0m[38;5;159m[0m
+[38;5;159m[Genesis] [21:08:21] [INFO] Scene [38;5;121m[3m<7cb9af7>[0m[38;5;159m created.[0m
+[38;5;159m[Genesis] [21:08:21] [INFO] Adding [38;5;121m<gs.engine.entities.RigidEntity>[0m[38;5;159m. idx: [38;5;121m0[0m[38;5;159m, uid: [38;5;121m[3m<e6e1803>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Plane>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [21:08:21] [INFO] Adding [38;5;121m<gs.engine.entities.RigidEntity>[0m[38;5;159m. idx: [38;5;121m1[0m[38;5;159m, uid: [38;5;121m[3m<b43e37c>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.MJCF(file='C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\genesis\assets\xml/franka_emika_panda/panda.xml')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [21:08:22] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint1`[0m
+[38;5;226m[Genesis] [21:08:22] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint2`[0m
+[showcase_launcher] IMU sensor registered for per-step telemetry capture
+[38;5;159m[Genesis] [21:08:22] [INFO] pyqtgraph not found, falling back to matplotlib.[0m
+[showcase_launcher] Skipped native plot recorder: MPLLinePlot
+[38;5;159m[Genesis] [21:08:22] [INFO] Building scene [38;5;121m[3m<7cb9af7>[0m[38;5;159m...[0m
+[38;5;226m[Genesis] [21:08:23] [WARNING] Neutral robot position (qpos0) exceeds joint limits.[0m
+[38;5;226m[Genesis] [21:08:24] [WARNING] Constraint solver time constant should be greater than 2*substep_dt. timeconst is changed from `0.005` to `0.02`). Decrease simulation timestep or increase timeconst to avoid altering the original value.[0m
+[38;5;226m[Genesis] [21:08:28] [WARNING] Filtered out geometry pairs causing self-collision for the neutral configuration (qpos0): (6, 11), (7, 11), (14, 21), (15, 20), (16, 23), (17, 22). Consider tuning Morph option 'decompose_robot_error_threshold' or specify dedicated collision meshes. This behavior can be disabled by setting Morph option 'enable_neutral_collision=True'.[0m
+[38;5;159m[Genesis] [21:08:30] [INFO] Compiling simulation kernels...[0m
+[38;5;159m[Genesis] [21:08:38] [INFO] Building visualizer...[0m
+[showcase_launcher] Franka OBJ meshes exported: 11 links
+[showcase_launcher] Transform sample (raw Genesis, upAxis=z): [{"id": "env/floor", "position": [0.0, 0.0, 0.0], "quaternion": [1.0, 0.0, 0.0, 0.0]}, {"id": "franka/link0", "position": [0.0, 0.0, 0.0], "quaternion": [1.0, 0.0, 0.0, 0.0]}, {"id": "franka/link1", "position": [0.0, 0.0, 0.3330000042915344], "quaternion": [1.0, 0.0, 0.0, 0.0]}, {"id": "franka/link2", "position": [0.0, 0.0, 0.3330000042915344], "quaternion": [0.7071068286895752, -0.7071068286895752, 0.0, 0.0]}]
+[showcase_launcher] Scene export: top_level=2 robot_links=11 visual_geoms=81 meshes_exported=11 tracked_objects=12 franka_fallback=False
+[showcase_launcher] Frame 0: link franka/link0 pos delta=0.000000 qpos_keys=2
+[showcase_launcher] Frame 10: link franka/link5 pos delta=0.042538 qpos_keys=2
+[showcase_launcher] Frame 20: link franka/link5 pos delta=0.064906 qpos_keys=2
+[showcase_launcher] Replay diagnostics: 30 frames, 30 unique poses, 25 meaningful keyframes, longest freeze 1 frames, jump at frame none, primary motion=franka/link5, issue=none
+[showcase_launcher] Wrote 30 replay frames (partial, v1) · raw=30 unique_poses=30 preview=30 · 12 objects (11 robot links) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-4d72720514\state_timeseries.json
+[showcase_launcher] Frame 30: link franka/link5 pos delta=0.077014 qpos_keys=2
+[showcase_launcher] Frame 40: link franka/link7 pos delta=0.070008 qpos_keys=2
+[showcase_launcher] Frame 50: link franka/link4 pos delta=0.065540 qpos_keys=2
+[showcase_launcher] Replay diagnostics: 60 frames, 60 unique poses, 53 meaningful keyframes, longest freeze 1 frames, jump at frame none, primary motion=franka/link5, issue=none
+[showcase_launcher] Wrote 60 replay frames (partial, v2) · raw=60 unique_poses=60 preview=60 · 12 objects (11 robot links) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-4d72720514\state_timeseries.json
+[showcase_launcher] Frame 60: link franka/left_finger pos delta=0.040720 qpos_keys=2
+[showcase_launcher] Frame 70: link franka/link7 pos delta=0.048249 qpos_keys=2
+[showcase_launcher] Frame 80: link franka/link7 pos delta=0.058121 qpos_keys=2
+[showcase_launcher] Replay diagnostics: 90 frames, 90 unique poses, 70 meaningful keyframes, longest freeze 1 frames, jump at frame none, primary motion=franka/link7, issue=none
+[showcase_launcher] Wrote 90 replay frames (partial, v3) · raw=90 unique_poses=90 preview=90 · 12 objects (11 robot links) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-4d72720514\state_timeseries.json
+[showcase_launcher] Frame 90: link franka/link7 pos delta=0.041371 qpos_keys=2
+[showcase_launcher] Frame 100: link franka/link6 pos delta=0.021969 qpos_keys=2
+[showcase_launcher] Frame 110: link franka/link3 pos delta=0.020663 qpos_keys=2
+[showcase_launcher] Replay diagnostics: 120 frames, 120 unique poses, 85 meaningful keyframes, longest freeze 1 frames, jump at frame none, primary motion=franka/link7, issue=none
+[showcase_launcher] Wrote 120 replay frames (partial, v4) · raw=120 unique_poses=120 preview=120 · 12 objects (11 robot links) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-4d72720514\state_timeseries.json
+[showcase_launcher] Frame 120: link franka/right_finger pos delta=0.025872 qpos_keys=2
+[showcase_launcher] Frame 130: link franka/right_finger pos delta=0.030966 qpos_keys=2
+[showcase_launcher] Frame 140: link franka/link7 pos delta=0.026655 qpos_keys=2
+[showcase_launcher] Replay diagnostics: 150 frames, 150 unique poses, 100 meaningful keyframes, longest freeze 1 frames, jump at frame none, primary motion=franka/link7, issue=none
+[showcase_launcher] Wrote 150 replay frames (partial, v5) · raw=150 unique_poses=150 preview=150 · 12 objects (11 robot links) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-4d72720514\state_timeseries.json
+[showcase_launcher] Frame 150: link franka/link7 pos delta=0.020077 qpos_keys=2
+[showcase_launcher] Frame 160: link franka/link5 pos delta=0.013112 qpos_keys=2
+[showcase_launcher] Frame 170: link franka/link4 pos delta=0.011882 qpos_keys=2
+[showcase_launcher] Replay diagnostics: 180 frames, 180 unique poses, 112 meaningful keyframes, longest freeze 1 frames, jump at frame none, primary motion=franka/link7, issue=none
+[showcase_launcher] Wrote 180 replay frames (partial, v6) · raw=180 unique_poses=180 preview=180 · 12 objects (11 robot links) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-4d72720514\state_timeseries.json
+[showcase_launcher] Frame 180: link franka/left_finger pos delta=0.013080 qpos_keys=2
+[showcase_launcher] Frame 190: link franka/left_finger pos delta=0.021154 qpos_keys=2
+[showcase_launcher] Frame 200: link franka/right_finger pos delta=0.020460 qpos_keys=2
+[showcase_launcher] Replay diagnostics: 210 frames, 210 unique poses, 127 meaningful keyframes, longest freeze 1 frames, jump at frame none, primary motion=franka/link7, issue=none
+[showcase_launcher] Wrote 210 replay frames (partial, v7) · raw=210 unique_poses=210 preview=210 · 12 objects (11 robot links) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-4d72720514\state_timeseries.json
+[showcase_launcher] Frame 210: link franka/link3 pos delta=0.017038 qpos_keys=2
+[showcase_launcher] Frame 220: link franka/link3 pos delta=0.019352 qpos_keys=2
+[showcase_launcher] Frame 230: link franka/link3 pos delta=0.020353 qpos_keys=2
+[showcase_launcher] Replay diagnostics: 240 frames, 240 unique poses, 142 meaningful keyframes, longest freeze 1 frames, jump at frame none, primary motion=franka/link7, issue=none
+[showcase_launcher] Wrote 240 replay frames (partial, v8) · raw=240 unique_poses=240 preview=240 · 12 objects (11 robot links) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-4d72720514\state_timeseries.json
+[showcase_launcher] Frame 240: link franka/link3 pos delta=0.019695 qpos_keys=2
+[showcase_launcher] Frame 250: link franka/link3 pos delta=0.017179 qpos_keys=2
+[showcase_launcher] Frame 260: link franka/link3 pos delta=0.012923 qpos_keys=2
+[showcase_launcher] Replay diagnostics: 270 frames, 270 unique poses, 157 meaningful keyframes, longest freeze 1 frames, jump at frame none, primary motion=franka/link7, issue=none
+[showcase_launcher] Wrote 270 replay frames (partial, v9) · raw=270 unique_poses=270 preview=270 · 12 objects (11 robot links) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-4d72720514\state_timeseries.json
+[showcase_launcher] Frame 270: link franka/link5 pos delta=0.014152 qpos_keys=2
+[showcase_launcher] Frame 280: link franka/link4 pos delta=0.016170 qpos_keys=2
+[showcase_launcher] Frame 290: link franka/link3 pos delta=0.020215 qpos_keys=2
+[showcase_launcher] Replay diagnostics: 300 frames, 300 unique poses, 169 meaningful keyframes, longest freeze 1 frames, jump at frame none, primary motion=franka/link7, issue=none
+[showcase_launcher] Wrote 300 replay frames (partial, v10) · raw=300 unique_poses=300 preview=300 · 12 objects (11 robot links) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-4d72720514\state_timeseries.json
+[38;5;159m[Genesis] [21:08:58] [INFO] Simulation finished.[0m
+[38;5;159m[Genesis] [21:08:59] [INFO] [NPZFileWriter] Saved data with keys ['timestamp', 'lin_acc', 'ang_vel', 'mag'] to [38;5;121m"imu_data.npz"[0m[38;5;159m.[0m
+Ground truth data:
+IMUData(lin_acc=tensor([ 1.0132, -1.0675, -9.8261]), ang_vel=tensor([-0.0041, -0.0377,  0.0029]), mag=tensor([-4.1387e-03,  2.6341e-04, -4.9998e-01]))
+Measured data:
+IMUData(lin_acc=tensor([ 1.0699, -1.0441, -9.8592]), ang_vel=tensor([ 0.0204, -0.0440, -0.0012]), mag=tensor([-3.9207e-03,  2.2757e-04, -4.9998e-01]))
+[showcase_launcher] Demo finished.
+[showcase_launcher] Replay diagnostics: 300 frames, 300 unique poses, 169 meaningful keyframes, longest freeze 1 frames, jump at frame none, primary motion=franka/link7, issue=none
+[showcase_launcher] Wrote 300 replay frames (final, v11) · raw=300 unique_poses=300 preview=300 · 12 objects (11 robot links) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-4d72720514\state_timeseries.json
+[38;5;159m[Genesis] [21:08:59] [INFO] 💤 Exiting Genesis and caching compiled kernels...[0m

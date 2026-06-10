@@ -1,0 +1,64 @@
+{
+  "launch_id": "showcase-5181223259",
+  "project_id": "genesis-workbench",
+  "scenario_id": "genesis-web-viewer-minimal-cube-motion-start-here",
+  "demo_name": "Minimal: cube motion (start here)",
+  "layer": "web-viewer",
+  "repo": "buildables",
+  "script_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\apps\\api\\app\\scripts\\minimal_web_viewer_demo.py",
+  "repo_root": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables",
+  "argv": [
+    "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\apps\\api\\app\\scripts\\showcase_launcher.py",
+    "--script",
+    "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\apps\\api\\app\\scripts\\minimal_web_viewer_demo.py",
+    "--headless",
+    "--record-web"
+  ],
+  "view_mode": "web",
+  "headless": true,
+  "started_at": "2026-06-05T05:26:24.477440+00:00",
+  "status": "completed",
+  "lifecycle": "completed",
+  "upstream_url": "https://github.com/Genesis-Embodied-AI/genesis-world",
+  "note": "Running physics and recording frames for the web viewer (works on AMD and NVIDIA).",
+  "pid": 12716,
+  "replay_available": true,
+  "replay_frames": 500,
+  "replay_meta": {
+    "diagnostics": {
+      "top_level_entities": 2,
+      "robot_links": 0,
+      "visual_geoms": 0,
+      "meshes_found": 0,
+      "meshes_exported": 0,
+      "mesh_export_failures": 0,
+      "tracked_objects": 2,
+      "franka_fallback": false,
+      "replay_frames": 500
+    },
+    "entities": {
+      "plane_2ff78c3": {
+        "kind": "checker_floor",
+        "size": [
+          4.0,
+          4.0
+        ]
+      },
+      "box_03dcd73": {
+        "kind": "box",
+        "size": [
+          0.18,
+          0.18,
+          0.18
+        ],
+        "color": "#c54b5d"
+      }
+    }
+  },
+  "replay_objects": 2,
+  "replay_robot_links": 0,
+  "replay_tracked_objects": 2,
+  "exit_code": 0,
+  "ended_at": "2026-06-05T05:27:18.477631+00:00"
+}

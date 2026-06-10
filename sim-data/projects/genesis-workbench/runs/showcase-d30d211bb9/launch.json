@@ -1,0 +1,121 @@
+{
+  "launch_id": "showcase-d30d211bb9",
+  "project_id": "genesis-workbench",
+  "scenario_id": "genesis-simulation-interface-controlling-a-robot",
+  "demo_name": "Controlling a robot",
+  "layer": "simulation-interface",
+  "repo": "genesis-world",
+  "script_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\genesis-world\\examples\\tutorials\\control_your_robot.py",
+  "repo_root": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\genesis-world",
+  "argv": [
+    "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\apps\\api\\app\\scripts\\showcase_launcher.py",
+    "--script",
+    "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\genesis-world\\examples\\tutorials\\control_your_robot.py",
+    "--headless",
+    "--record-web"
+  ],
+  "view_mode": "web",
+  "headless": true,
+  "started_at": "2026-06-05T08:04:06.236110+00:00",
+  "status": "completed",
+  "lifecycle": "completed",
+  "upstream_url": "https://github.com/Genesis-Embodied-AI/genesis-world/blob/main/examples/tutorials/control_your_robot.py",
+  "note": "Running physics and recording frames for the web viewer (works on AMD and NVIDIA).",
+  "pid": 2128,
+  "replay_available": true,
+  "replay_frames": 155,
+  "replay_meta": {
+    "diagnostics": {
+      "top_level_entities": 2,
+      "robot_links": 11,
+      "visual_geoms": 81,
+      "meshes_found": 0,
+      "meshes_exported": 11,
+      "mesh_export_failures": 0,
+      "tracked_objects": 12,
+      "franka_fallback": false,
+      "replay_frames": 155
+    },
+    "entities": {
+      "env/floor": {
+        "kind": "checker_floor",
+        "size": [
+          4.0,
+          4.0
+        ]
+      },
+      "franka/link0": {
+        "kind": "robot_link",
+        "color": "#e8e8e8",
+        "meshPath": "meshes/franka/link0.json",
+        "meshSource": "franka_obj_assets"
+      },
+      "franka/link1": {
+        "kind": "robot_link",
+        "color": "#e8e8e8",
+        "meshPath": "meshes/franka/link1.json",
+        "meshSource": "franka_obj_assets"
+      },
+      "franka/link2": {
+        "kind": "robot_link",
+        "color": "#e8e8e8",
+        "meshPath": "meshes/franka/link2.json",
+        "meshSource": "franka_obj_assets"
+      },
+      "franka/link3": {
+        "kind": "robot_link",
+        "color": "#e8e8e8",
+        "meshPath": "meshes/franka/link3.json",
+        "meshSource": "franka_obj_assets"
+      },
+      "franka/link4": {
+        "kind": "robot_link",
+        "color": "#e8e8e8",
+        "meshPath": "meshes/franka/link4.json",
+        "meshSource": "franka_obj_assets"
+      },
+      "franka/link5": {
+        "kind": "robot_link",
+        "color": "#e8e8e8",
+        "meshPath": "meshes/franka/link5.json",
+        "meshSource": "franka_obj_assets"
+      },
+      "franka/link6": {
+        "kind": "robot_link",
+        "color": "#e8e8e8",
+        "meshPath": "meshes/franka/link6.json",
+        "meshSource": "franka_obj_assets"
+      },
+      "franka/link7": {
+        "kind": "robot_link",
+        "color": "#e8e8e8",
+        "meshPath": "meshes/franka/link7.json",
+        "meshSource": "franka_obj_assets"
+      },
+      "franka/hand": {
+        "kind": "robot_link",
+        "color": "#e8e8e8",
+        "meshPath": "meshes/franka/hand.json",
+        "meshSource": "franka_obj_assets"
+      },
+      "franka/left_finger": {
+        "kind": "robot_link",
+        "color": "#e8e8e8",
+        "meshPath": "meshes/franka/left_finger.json",
+        "meshSource": "franka_obj_assets"
+      },
+      "franka/right_finger": {
+        "kind": "robot_link",
+        "color": "#e8e8e8",
+        "meshPath": "meshes/franka/right_finger.json",
+        "meshSource": "franka_obj_assets"
+      }
+    }
+  },
+  "replay_objects": 12,
+  "replay_robot_links": 11,
+  "replay_tracked_objects": 12,
+  "exit_code": 0,
+  "ended_at": "2026-06-05T08:04:52.793776+00:00"
+}

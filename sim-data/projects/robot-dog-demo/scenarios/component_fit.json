@@ -1,0 +1,8 @@
+﻿{
+    "config":  {
+                   "clearance_m":  0.005
+               },
+    "duration_s":  2,
+    "name":  "Component Fit",
+    "id":  "component_fit"
+}

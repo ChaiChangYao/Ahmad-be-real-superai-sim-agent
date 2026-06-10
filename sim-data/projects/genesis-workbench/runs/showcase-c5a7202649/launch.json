@@ -1,0 +1,15 @@
+{
+  "launch_id": "showcase-c5a7202649",
+  "project_id": "genesis-workbench",
+  "scenario_id": "genesis-physics-sph-mpm",
+  "demo_name": "SPH: + MPM",
+  "layer": "physics",
+  "repo": "genesis-world",
+  "script_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\genesis-world\\examples\\coupling\\sph_mpm.py",
+  "repo_root": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\genesis-world",
+  "pid": 9940,
+  "started_at": "2026-06-04T14:38:56.595670+00:00",
+  "status": "running",
+  "upstream_url": "https://github.com/Genesis-Embodied-AI/genesis-world/blob/main/examples/coupling/sph_mpm.py",
+  "note": "Native Genesis/Nyx viewer window should open in a separate process. Close the viewer to finish."
+}

@@ -1,0 +1,28 @@
+{
+  "launch_id": "showcase-90521526c0",
+  "project_id": "genesis-workbench",
+  "scenario_id": "genesis-physics-rigid-franka-cube",
+  "demo_name": "Rigid: franka cube",
+  "layer": "physics",
+  "repo": "genesis-world",
+  "script_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\genesis-world\\examples\\rigid\\franka_cube.py",
+  "repo_root": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\genesis-world",
+  "argv": [
+    "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\apps\\api\\app\\scripts\\showcase_launcher.py",
+    "--script",
+    "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\genesis-world\\examples\\rigid\\franka_cube.py",
+    "--",
+    "--vis"
+  ],
+  "headless": false,
+  "pid": 39100,
+  "started_at": "2026-06-05T02:24:58.690271+00:00",
+  "status": "failed",
+  "upstream_url": "https://github.com/Genesis-Embodied-AI/genesis-world/blob/main/examples/rigid/franka_cube.py",
+  "note": "A Genesis viewer window should open (may take 30\u201360s). If it flashes and closes, relaunch with headless mode.",
+  "error_summary": "uniform not found: material.emissive_factor",
+  "stderr_tail": [],
+  "exit_code": 3221225477,
+  "ended_at": "2026-06-05T02:25:46.317564+00:00"
+}

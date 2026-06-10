@@ -1,0 +1,296 @@
+{
+  "project_id": "default-robot-dog",
+  "test_id": "gravity_stability",
+  "template_id": "gravity_stability",
+  "project_root": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog",
+  "asset_root": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\assets\\imported",
+  "output_root": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\generated\\runs\\script-e522c2561d",
+  "script_id": "script-e522c2561d",
+  "robot_description_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\generated\\robot_description\\default_robot_dog.urdf",
+  "robot_description_type": "urdf",
+  "mesh_assets": [
+    {
+      "id": "asset-30c49853d8f1",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\assets\\imported\\meshes\\collision\\base_link_collision.stl",
+      "relative": "assets/imported/meshes/collision/base_link_collision.stl"
+    },
+    {
+      "id": "asset-5994471e010e",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\assets\\imported\\meshes\\collision\\front_left_foot_collision.stl",
+      "relative": "assets/imported/meshes/collision/front_left_foot_collision.stl"
+    },
+    {
+      "id": "asset-f32c48c9bfaa",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\assets\\imported\\meshes\\collision\\front_left_hip_abduction_collision.stl",
+      "relative": "assets/imported/meshes/collision/front_left_hip_abduction_collision.stl"
+    },
+    {
+      "id": "asset-b9aef2436728",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\assets\\imported\\meshes\\collision\\front_left_hip_pitch_housing_collision.stl",
+      "relative": "assets/imported/meshes/collision/front_left_hip_pitch_housing_collision.stl"
+    },
+    {
+      "id": "asset-7a766959a21c",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\assets\\imported\\meshes\\collision\\front_left_knee_housing_collision.stl",
+      "relative": "assets/imported/meshes/collision/front_left_knee_housing_collision.stl"
+    },
+    {
+      "id": "asset-29c1c0486252",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\assets\\imported\\meshes\\collision\\front_left_lower_leg_collision.stl",
+      "relative": "assets/imported/meshes/collision/front_left_lower_leg_collision.stl"
+    },
+    {
+      "id": "asset-f293aee7886c",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\assets\\imported\\meshes\\collision\\front_left_upper_leg_collision.stl",
+      "relative": "assets/imported/meshes/collision/front_left_upper_leg_collision.stl"
+    },
+    {
+      "id": "asset-7bc86187eb84",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\assets\\imported\\meshes\\collision\\front_right_foot_collision.stl",
+      "relative": "assets/imported/meshes/collision/front_right_foot_collision.stl"
+    },
+    {
+      "id": "asset-025fa0c2f83d",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\assets\\imported\\meshes\\collision\\front_right_hip_abduction_collision.stl",
+      "relative": "assets/imported/meshes/collision/front_right_hip_abduction_collision.stl"
+    },
+    {
+      "id": "asset-41981360d3b7",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\assets\\imported\\meshes\\collision\\front_right_hip_pitch_housing_collision.stl",
+      "relative": "assets/imported/meshes/collision/front_right_hip_pitch_housing_collision.stl"
+    },
+    {
+      "id": "asset-3e8a9d874efd",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\assets\\imported\\meshes\\collision\\front_right_knee_housing_collision.stl",
+      "relative": "assets/imported/meshes/collision/front_right_knee_housing_collision.stl"
+    },
+    {
+      "id": "asset-b6d06a43a83c",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\assets\\imported\\meshes\\collision\\front_right_lower_leg_collision.stl",
+      "relative": "assets/imported/meshes/collision/front_right_lower_leg_collision.stl"
+    },
+    {
+      "id": "asset-ccbcdd33b004",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\assets\\imported\\meshes\\collision\\front_right_upper_leg_collision.stl",
+      "relative": "assets/imported/meshes/collision/front_right_upper_leg_collision.stl"
+    },
+    {
+      "id": "asset-ca517feeae5f",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\assets\\imported\\meshes\\collision\\front_sensor_panel_collision.stl",
+      "relative": "assets/imported/meshes/collision/front_sensor_panel_collision.stl"
+    },
+    {
+      "id": "asset-1e20af80fa63",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\assets\\imported\\meshes\\collision\\internal_electronics_collision.stl",
+      "relative": "assets/imported/meshes/collision/internal_electronics_collision.stl"
+    },
+    {
+      "id": "asset-1605cb7fd7cd",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\assets\\imported\\meshes\\collision\\payload_mount_collision.stl",
+      "relative": "assets/imported/meshes/collision/payload_mount_collision.stl"
+    },
+    {
+      "id": "asset-a39848c62bd8",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\assets\\imported\\meshes\\collision\\rear_left_foot_collision.stl",
+      "relative": "assets/imported/meshes/collision/rear_left_foot_collision.stl"
+    },
+    {
+      "id": "asset-42b689615c12",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\assets\\imported\\meshes\\collision\\rear_left_hip_abduction_collision.stl",
+      "relative": "assets/imported/meshes/collision/rear_left_hip_abduction_collision.stl"
+    },
+    {
+      "id": "asset-8be5d9869700",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\assets\\imported\\meshes\\collision\\rear_left_hip_pitch_housing_collision.stl",
+      "relative": "assets/imported/meshes/collision/rear_left_hip_pitch_housing_collision.stl"
+    },
+    {
+      "id": "asset-88b9cfd74cd4",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\assets\\imported\\meshes\\collision\\rear_left_knee_housing_collision.stl",
+      "relative": "assets/imported/meshes/collision/rear_left_knee_housing_collision.stl"
+    },
+    {
+      "id": "asset-915433a3cf89",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\assets\\imported\\meshes\\collision\\rear_left_lower_leg_collision.stl",
+      "relative": "assets/imported/meshes/collision/rear_left_lower_leg_collision.stl"
+    },
+    {
+      "id": "asset-651c49ff098d",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\assets\\imported\\meshes\\collision\\rear_left_upper_leg_collision.stl",
+      "relative": "assets/imported/meshes/collision/rear_left_upper_leg_collision.stl"
+    },
+    {
+      "id": "asset-f591cc102dcc",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\assets\\imported\\meshes\\collision\\rear_right_foot_collision.stl",
+      "relative": "assets/imported/meshes/collision/rear_right_foot_collision.stl"
+    },
+    {
+      "id": "asset-532246522a79",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\assets\\imported\\meshes\\collision\\rear_right_hip_abduction_collision.stl",
+      "relative": "assets/imported/meshes/collision/rear_right_hip_abduction_collision.stl"
+    },
+    {
+      "id": "asset-a3b7333f8bb6",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\assets\\imported\\meshes\\collision\\rear_right_hip_pitch_housing_collision.stl",
+      "relative": "assets/imported/meshes/collision/rear_right_hip_pitch_housing_collision.stl"
+    },
+    {
+      "id": "asset-925106db7852",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\assets\\imported\\meshes\\collision\\rear_right_knee_housing_collision.stl",
+      "relative": "assets/imported/meshes/collision/rear_right_knee_housing_collision.stl"
+    },
+    {
+      "id": "asset-2a31a33d1f77",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\assets\\imported\\meshes\\collision\\rear_right_lower_leg_collision.stl",
+      "relative": "assets/imported/meshes/collision/rear_right_lower_leg_collision.stl"
+    },
+    {
+      "id": "asset-cc98e3594f1b",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\assets\\imported\\meshes\\collision\\rear_right_upper_leg_collision.stl",
+      "relative": "assets/imported/meshes/collision/rear_right_upper_leg_collision.stl"
+    },
+    {
+      "id": "asset-2c45e8b587a7",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\assets\\imported\\meshes\\collision\\rear_service_panel_collision.stl",
+      "relative": "assets/imported/meshes/collision/rear_service_panel_collision.stl"
+    },
+    {
+      "id": "asset-b80296050c2b",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\assets\\visual\\generated_robot_dog.glb",
+      "relative": "assets/visual/generated_robot_dog.glb"
+    }
+  ],
+  "selected_links": [
+    "base_link",
+    "front_sensor_panel_link",
+    "rear_service_panel_link",
+    "internal_electronics_link",
+    "payload_mount_link",
+    "front_left_hip_abduction_link",
+    "front_left_hip_pitch_housing_link",
+    "front_left_upper_leg_link",
+    "front_left_knee_housing_link",
+    "front_left_lower_leg_link",
+    "front_left_foot_link",
+    "front_right_hip_abduction_link",
+    "front_right_hip_pitch_housing_link",
+    "front_right_upper_leg_link",
+    "front_right_knee_housing_link",
+    "front_right_lower_leg_link",
+    "front_right_foot_link",
+    "rear_left_hip_abduction_link",
+    "rear_left_hip_pitch_housing_link",
+    "rear_left_upper_leg_link",
+    "rear_left_knee_housing_link",
+    "rear_left_lower_leg_link",
+    "rear_left_foot_link",
+    "rear_right_hip_abduction_link",
+    "rear_right_hip_pitch_housing_link",
+    "rear_right_upper_leg_link",
+    "rear_right_knee_housing_link",
+    "rear_right_lower_leg_link",
+    "rear_right_foot_link"
+  ],
+  "selected_joints": [
+    "front_sensor_panel_link_fixed",
+    "rear_service_panel_link_fixed",
+    "internal_electronics_link_fixed",
+    "payload_mount_link_fixed",
+    "front_left_hip_abduction_joint",
+    "front_left_hip_pitch_housing_fixed",
+    "front_left_hip_pitch_joint",
+    "front_left_knee_housing_fixed",
+    "front_left_knee_pitch_joint",
+    "front_left_foot_fixed",
+    "front_right_hip_abduction_joint",
+    "front_right_hip_pitch_housing_fixed"
+  ],
+  "joint_limits": {},
+  "fallback_mode": null,
+  "sensor_config": {
+    "sensor_type": "",
+    "attach_link": "",
+    "pose": {},
+    "sample_rate": 100.0,
+    "channels": [],
+    "resolution": [
+      640,
+      480
+    ],
+    "fov": 60.0,
+    "grid_bounds": [],
+    "grid_resolution": 16,
+    "heat_source": {},
+    "contact_links": [],
+    "defaults_used": [],
+    "missing_fields": []
+  },
+  "physics_config": {
+    "gravity": [
+      0.0,
+      0.0,
+      -9.81
+    ],
+    "timestep": 0.01,
+    "substeps": 1,
+    "duration_seconds": 4.0,
+    "target_fps": 24.0,
+    "friction": 0.5,
+    "restitution": 0.1,
+    "density": 1000.0,
+    "fixed_base": false,
+    "initial_pose": {},
+    "collision_mode": "default"
+  },
+  "render_config": {},
+  "telemetry_config": {},
+  "replay_config": {
+    "record_visual": true,
+    "record_telemetry": false,
+    "output_state_timeseries_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\generated\\runs\\script-e522c2561d\\state_timeseries.json",
+    "output_telemetry_timeseries_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\generated\\runs\\script-e522c2561d\\telemetry_timeseries.json",
+    "target_fps": 24.0,
+    "smooth_preview": true,
+    "preserve_holds": true,
+    "trim_dead_sections": true
+  },
+  "generated_defaults": {},
+  "user_parameters": {},
+  "safety_flags": {
+    "web_mode": true,
+    "no_native_viewer": true
+  },
+  "warnings": [],
+  "link_names": [
+    "base_link",
+    "front_sensor_panel_link",
+    "rear_service_panel_link",
+    "internal_electronics_link",
+    "payload_mount_link",
+    "front_left_hip_abduction_link",
+    "front_left_hip_pitch_housing_link",
+    "front_left_upper_leg_link",
+    "front_left_knee_housing_link",
+    "front_left_lower_leg_link",
+    "front_left_foot_link",
+    "front_right_hip_abduction_link",
+    "front_right_hip_pitch_housing_link",
+    "front_right_upper_leg_link",
+    "front_right_knee_housing_link",
+    "front_right_lower_leg_link",
+    "front_right_foot_link",
+    "rear_left_hip_abduction_link",
+    "rear_left_hip_pitch_housing_link",
+    "rear_left_upper_leg_link",
+    "rear_left_knee_housing_link",
+    "rear_left_lower_leg_link",
+    "rear_left_foot_link",
+    "rear_right_hip_abduction_link",
+    "rear_right_hip_pitch_housing_link",
+    "rear_right_upper_leg_link",
+    "rear_right_knee_housing_link",
+    "rear_right_lower_leg_link",
+    "rear_right_foot_link"
+  ],
+  "missing_mesh_count": 53
+}

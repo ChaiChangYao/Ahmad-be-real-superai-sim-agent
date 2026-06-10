@@ -1,0 +1,4753 @@
+{
+  "schema_version": "0.1.0",
+  "version": 2,
+  "updated_at": "2026-06-09T08:16:52.298049+00:00",
+  "project_id": "imported-6d130d66",
+  "project_name": "My Buildables Robot",
+  "project_mode": "imported_project",
+  "project_type": "imported_cad_assembly",
+  "units": {
+    "length": "m",
+    "mass": "kg",
+    "time": "s",
+    "angle": "rad"
+  },
+  "assets": [
+    {
+      "id": "asset-1b0ff36e",
+      "name": ".robot_dog_buildables_demo.step",
+      "type": "glb",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\.robot_dog_buildables_demo.step.glb",
+      "original_filename": ".robot_dog_buildables_demo.step.glb",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-5e2c52d6",
+      "name": "battery_block",
+      "type": "obj",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\battery_block.obj",
+      "original_filename": "battery_block.obj",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-496121fd",
+      "name": "battery_block",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\battery_block.stl",
+      "original_filename": "battery_block.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-bcde26e8",
+      "name": "bottom_chassis_frame",
+      "type": "obj",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\bottom_chassis_frame.obj",
+      "original_filename": "bottom_chassis_frame.obj",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-0a0103aa",
+      "name": "bottom_chassis_frame",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\bottom_chassis_frame.stl",
+      "original_filename": "bottom_chassis_frame.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-e1aa5a8c",
+      "name": "base_link_collision",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\base_link_collision.stl",
+      "original_filename": "base_link_collision.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-8e0aaa46",
+      "name": "front_left_foot_collision",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\front_left_foot_collision.stl",
+      "original_filename": "front_left_foot_collision.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-f65ad9a4",
+      "name": "front_left_hip_abduction_collision",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\front_left_hip_abduction_collision.stl",
+      "original_filename": "front_left_hip_abduction_collision.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-8d8321a8",
+      "name": "front_left_hip_pitch_housing_collision",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\front_left_hip_pitch_housing_collision.stl",
+      "original_filename": "front_left_hip_pitch_housing_collision.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-40a63ad6",
+      "name": "front_left_knee_housing_collision",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\front_left_knee_housing_collision.stl",
+      "original_filename": "front_left_knee_housing_collision.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-a575c877",
+      "name": "front_left_lower_leg_collision",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\front_left_lower_leg_collision.stl",
+      "original_filename": "front_left_lower_leg_collision.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-7ad529fe",
+      "name": "front_left_upper_leg_collision",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\front_left_upper_leg_collision.stl",
+      "original_filename": "front_left_upper_leg_collision.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-7a0cc689",
+      "name": "front_right_foot_collision",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\front_right_foot_collision.stl",
+      "original_filename": "front_right_foot_collision.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-90787129",
+      "name": "front_right_hip_abduction_collision",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\front_right_hip_abduction_collision.stl",
+      "original_filename": "front_right_hip_abduction_collision.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-d74046f3",
+      "name": "front_right_hip_pitch_housing_collision",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\front_right_hip_pitch_housing_collision.stl",
+      "original_filename": "front_right_hip_pitch_housing_collision.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-b1f3b2af",
+      "name": "front_right_knee_housing_collision",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\front_right_knee_housing_collision.stl",
+      "original_filename": "front_right_knee_housing_collision.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-513c13da",
+      "name": "front_right_lower_leg_collision",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\front_right_lower_leg_collision.stl",
+      "original_filename": "front_right_lower_leg_collision.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-b570c78e",
+      "name": "front_right_upper_leg_collision",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\front_right_upper_leg_collision.stl",
+      "original_filename": "front_right_upper_leg_collision.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-c68ac4e2",
+      "name": "front_sensor_panel_collision",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\front_sensor_panel_collision.stl",
+      "original_filename": "front_sensor_panel_collision.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-cb446e2a",
+      "name": "internal_electronics_collision",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\internal_electronics_collision.stl",
+      "original_filename": "internal_electronics_collision.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-cff13581",
+      "name": "payload_mount_collision",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\payload_mount_collision.stl",
+      "original_filename": "payload_mount_collision.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-f9d2733b",
+      "name": "rear_left_foot_collision",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\rear_left_foot_collision.stl",
+      "original_filename": "rear_left_foot_collision.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-9d200db3",
+      "name": "rear_left_hip_abduction_collision",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\rear_left_hip_abduction_collision.stl",
+      "original_filename": "rear_left_hip_abduction_collision.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-633a1252",
+      "name": "rear_left_hip_pitch_housing_collision",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\rear_left_hip_pitch_housing_collision.stl",
+      "original_filename": "rear_left_hip_pitch_housing_collision.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-4058e2ac",
+      "name": "rear_left_knee_housing_collision",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\rear_left_knee_housing_collision.stl",
+      "original_filename": "rear_left_knee_housing_collision.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-fd1120cb",
+      "name": "rear_left_lower_leg_collision",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\rear_left_lower_leg_collision.stl",
+      "original_filename": "rear_left_lower_leg_collision.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-5f7098e2",
+      "name": "rear_left_upper_leg_collision",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\rear_left_upper_leg_collision.stl",
+      "original_filename": "rear_left_upper_leg_collision.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-02b40c45",
+      "name": "rear_right_foot_collision",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\rear_right_foot_collision.stl",
+      "original_filename": "rear_right_foot_collision.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-a61117de",
+      "name": "rear_right_hip_abduction_collision",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\rear_right_hip_abduction_collision.stl",
+      "original_filename": "rear_right_hip_abduction_collision.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-ef01f375",
+      "name": "rear_right_hip_pitch_housing_collision",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\rear_right_hip_pitch_housing_collision.stl",
+      "original_filename": "rear_right_hip_pitch_housing_collision.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-bd8bb686",
+      "name": "rear_right_knee_housing_collision",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\rear_right_knee_housing_collision.stl",
+      "original_filename": "rear_right_knee_housing_collision.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-f15c22f9",
+      "name": "rear_right_lower_leg_collision",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\rear_right_lower_leg_collision.stl",
+      "original_filename": "rear_right_lower_leg_collision.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-b32543ec",
+      "name": "rear_right_upper_leg_collision",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\rear_right_upper_leg_collision.stl",
+      "original_filename": "rear_right_upper_leg_collision.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-2d222ece",
+      "name": "rear_service_panel_collision",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\rear_service_panel_collision.stl",
+      "original_filename": "rear_service_panel_collision.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-7c8c3877",
+      "name": "controller_board_block",
+      "type": "obj",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\controller_board_block.obj",
+      "original_filename": "controller_board_block.obj",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-4004af35",
+      "name": "controller_board_block",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\controller_board_block.stl",
+      "original_filename": "controller_board_block.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-740889cc",
+      "name": "front_depth_sensor_block",
+      "type": "obj",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_depth_sensor_block.obj",
+      "original_filename": "front_depth_sensor_block.obj",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-a0a98f41",
+      "name": "front_depth_sensor_block",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_depth_sensor_block.stl",
+      "original_filename": "front_depth_sensor_block.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-14acc51c",
+      "name": "front_left_foot",
+      "type": "obj",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_left_foot.obj",
+      "original_filename": "front_left_foot.obj",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-146cdcd1",
+      "name": "front_left_foot",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_left_foot.stl",
+      "original_filename": "front_left_foot.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-3cea3d9d",
+      "name": "front_left_foot_pad",
+      "type": "obj",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_left_foot_pad.obj",
+      "original_filename": "front_left_foot_pad.obj",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-5818804b",
+      "name": "front_left_foot_pad",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_left_foot_pad.stl",
+      "original_filename": "front_left_foot_pad.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-69794b48",
+      "name": "front_left_hip_cable_service_loop",
+      "type": "obj",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_left_hip_cable_service_loop.obj",
+      "original_filename": "front_left_hip_cable_service_loop.obj",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-2af31a63",
+      "name": "front_left_hip_cable_service_loop",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_left_hip_cable_service_loop.stl",
+      "original_filename": "front_left_hip_cable_service_loop.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-f38ce62b",
+      "name": "front_left_hip_pitch_housing",
+      "type": "obj",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_left_hip_pitch_housing.obj",
+      "original_filename": "front_left_hip_pitch_housing.obj",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-f13828fd",
+      "name": "front_left_hip_pitch_housing",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_left_hip_pitch_housing.stl",
+      "original_filename": "front_left_hip_pitch_housing.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-709635ed",
+      "name": "front_left_hip_yaw_housing",
+      "type": "obj",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_left_hip_yaw_housing.obj",
+      "original_filename": "front_left_hip_yaw_housing.obj",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-25f0c346",
+      "name": "front_left_hip_yaw_housing",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_left_hip_yaw_housing.stl",
+      "original_filename": "front_left_hip_yaw_housing.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-e78d47ae",
+      "name": "front_left_knee_housing",
+      "type": "obj",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_left_knee_housing.obj",
+      "original_filename": "front_left_knee_housing.obj",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-644eb768",
+      "name": "front_left_knee_housing",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_left_knee_housing.stl",
+      "original_filename": "front_left_knee_housing.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-d59ff22a",
+      "name": "front_left_lower_leg_link",
+      "type": "obj",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_left_lower_leg_link.obj",
+      "original_filename": "front_left_lower_leg_link.obj",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-369ba23a",
+      "name": "front_left_lower_leg_link",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_left_lower_leg_link.stl",
+      "original_filename": "front_left_lower_leg_link.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-2fa273f1",
+      "name": "front_left_upper_leg_link",
+      "type": "obj",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_left_upper_leg_link.obj",
+      "original_filename": "front_left_upper_leg_link.obj",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-8ff9e398",
+      "name": "front_left_upper_leg_link",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_left_upper_leg_link.stl",
+      "original_filename": "front_left_upper_leg_link.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-840b6489",
+      "name": "front_left_upper_leg_shell",
+      "type": "obj",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_left_upper_leg_shell.obj",
+      "original_filename": "front_left_upper_leg_shell.obj",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-102af6a7",
+      "name": "front_left_upper_leg_shell",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_left_upper_leg_shell.stl",
+      "original_filename": "front_left_upper_leg_shell.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-dbabe9d1",
+      "name": "front_right_foot",
+      "type": "obj",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_right_foot.obj",
+      "original_filename": "front_right_foot.obj",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-d69e1592",
+      "name": "front_right_foot",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_right_foot.stl",
+      "original_filename": "front_right_foot.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-ee535149",
+      "name": "front_right_foot_pad",
+      "type": "obj",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_right_foot_pad.obj",
+      "original_filename": "front_right_foot_pad.obj",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-5d5de5fc",
+      "name": "front_right_foot_pad",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_right_foot_pad.stl",
+      "original_filename": "front_right_foot_pad.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-9e872288",
+      "name": "front_right_hip_cable_service_loop",
+      "type": "obj",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_right_hip_cable_service_loop.obj",
+      "original_filename": "front_right_hip_cable_service_loop.obj",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-a3274347",
+      "name": "front_right_hip_cable_service_loop",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_right_hip_cable_service_loop.stl",
+      "original_filename": "front_right_hip_cable_service_loop.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-a3d11612",
+      "name": "front_right_hip_pitch_housing",
+      "type": "obj",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_right_hip_pitch_housing.obj",
+      "original_filename": "front_right_hip_pitch_housing.obj",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-4a461dd8",
+      "name": "front_right_hip_pitch_housing",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_right_hip_pitch_housing.stl",
+      "original_filename": "front_right_hip_pitch_housing.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-f978cafe",
+      "name": "front_right_hip_yaw_housing",
+      "type": "obj",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_right_hip_yaw_housing.obj",
+      "original_filename": "front_right_hip_yaw_housing.obj",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-51923bf9",
+      "name": "front_right_hip_yaw_housing",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_right_hip_yaw_housing.stl",
+      "original_filename": "front_right_hip_yaw_housing.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-fd11eaba",
+      "name": "front_right_knee_housing",
+      "type": "obj",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_right_knee_housing.obj",
+      "original_filename": "front_right_knee_housing.obj",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-b8b05875",
+      "name": "front_right_knee_housing",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_right_knee_housing.stl",
+      "original_filename": "front_right_knee_housing.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-8497eda4",
+      "name": "front_right_lower_leg_link",
+      "type": "obj",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_right_lower_leg_link.obj",
+      "original_filename": "front_right_lower_leg_link.obj",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-0c9d5e8d",
+      "name": "front_right_lower_leg_link",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_right_lower_leg_link.stl",
+      "original_filename": "front_right_lower_leg_link.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-e5ddd7a2",
+      "name": "front_right_upper_leg_link",
+      "type": "obj",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_right_upper_leg_link.obj",
+      "original_filename": "front_right_upper_leg_link.obj",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-f34be21e",
+      "name": "front_right_upper_leg_link",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_right_upper_leg_link.stl",
+      "original_filename": "front_right_upper_leg_link.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-1f5ee537",
+      "name": "front_right_upper_leg_shell",
+      "type": "obj",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_right_upper_leg_shell.obj",
+      "original_filename": "front_right_upper_leg_shell.obj",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-e3d5c3a6",
+      "name": "front_right_upper_leg_shell",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_right_upper_leg_shell.stl",
+      "original_filename": "front_right_upper_leg_shell.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-c9e4ea90",
+      "name": "imu_sensor_block",
+      "type": "obj",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\imu_sensor_block.obj",
+      "original_filename": "imu_sensor_block.obj",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-415cc74a",
+      "name": "imu_sensor_block",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\imu_sensor_block.stl",
+      "original_filename": "imu_sensor_block.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-35774b15",
+      "name": "internal_battery_tray",
+      "type": "obj",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\internal_battery_tray.obj",
+      "original_filename": "internal_battery_tray.obj",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-0032a016",
+      "name": "internal_battery_tray",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\internal_battery_tray.stl",
+      "original_filename": "internal_battery_tray.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-043a8021",
+      "name": "internal_controller_mount",
+      "type": "obj",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\internal_controller_mount.obj",
+      "original_filename": "internal_controller_mount.obj",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-766a1bbf",
+      "name": "internal_controller_mount",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\internal_controller_mount.stl",
+      "original_filename": "internal_controller_mount.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-32893671",
+      "name": "power_distribution_block",
+      "type": "obj",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\power_distribution_block.obj",
+      "original_filename": "power_distribution_block.obj",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-c37602b1",
+      "name": "power_distribution_block",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\power_distribution_block.stl",
+      "original_filename": "power_distribution_block.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-ba48e3c5",
+      "name": "rear_left_foot",
+      "type": "obj",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_left_foot.obj",
+      "original_filename": "rear_left_foot.obj",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-674a8bd0",
+      "name": "rear_left_foot",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_left_foot.stl",
+      "original_filename": "rear_left_foot.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-c9bde147",
+      "name": "rear_left_foot_pad",
+      "type": "obj",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_left_foot_pad.obj",
+      "original_filename": "rear_left_foot_pad.obj",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-2835ec62",
+      "name": "rear_left_foot_pad",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_left_foot_pad.stl",
+      "original_filename": "rear_left_foot_pad.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-b78d6a66",
+      "name": "rear_left_hip_cable_service_loop",
+      "type": "obj",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_left_hip_cable_service_loop.obj",
+      "original_filename": "rear_left_hip_cable_service_loop.obj",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-f81f0e3a",
+      "name": "rear_left_hip_cable_service_loop",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_left_hip_cable_service_loop.stl",
+      "original_filename": "rear_left_hip_cable_service_loop.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-937bbb0b",
+      "name": "rear_left_hip_pitch_housing",
+      "type": "obj",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_left_hip_pitch_housing.obj",
+      "original_filename": "rear_left_hip_pitch_housing.obj",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-4f456469",
+      "name": "rear_left_hip_pitch_housing",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_left_hip_pitch_housing.stl",
+      "original_filename": "rear_left_hip_pitch_housing.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-cad87e11",
+      "name": "rear_left_hip_yaw_housing",
+      "type": "obj",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_left_hip_yaw_housing.obj",
+      "original_filename": "rear_left_hip_yaw_housing.obj",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-ea9f184e",
+      "name": "rear_left_hip_yaw_housing",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_left_hip_yaw_housing.stl",
+      "original_filename": "rear_left_hip_yaw_housing.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-b52abb5a",
+      "name": "rear_left_knee_housing",
+      "type": "obj",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_left_knee_housing.obj",
+      "original_filename": "rear_left_knee_housing.obj",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-94c114e1",
+      "name": "rear_left_knee_housing",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_left_knee_housing.stl",
+      "original_filename": "rear_left_knee_housing.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-d08138fe",
+      "name": "rear_left_lower_leg_link",
+      "type": "obj",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_left_lower_leg_link.obj",
+      "original_filename": "rear_left_lower_leg_link.obj",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-686a386f",
+      "name": "rear_left_lower_leg_link",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_left_lower_leg_link.stl",
+      "original_filename": "rear_left_lower_leg_link.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-82af2d87",
+      "name": "rear_left_upper_leg_link",
+      "type": "obj",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_left_upper_leg_link.obj",
+      "original_filename": "rear_left_upper_leg_link.obj",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-5dca9c76",
+      "name": "rear_left_upper_leg_link",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_left_upper_leg_link.stl",
+      "original_filename": "rear_left_upper_leg_link.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-fa72abd6",
+      "name": "rear_left_upper_leg_shell",
+      "type": "obj",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_left_upper_leg_shell.obj",
+      "original_filename": "rear_left_upper_leg_shell.obj",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-9a11e94d",
+      "name": "rear_left_upper_leg_shell",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_left_upper_leg_shell.stl",
+      "original_filename": "rear_left_upper_leg_shell.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-8a7e67d2",
+      "name": "rear_right_foot",
+      "type": "obj",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_right_foot.obj",
+      "original_filename": "rear_right_foot.obj",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-14f81c6e",
+      "name": "rear_right_foot",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_right_foot.stl",
+      "original_filename": "rear_right_foot.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-73d44ef6",
+      "name": "rear_right_foot_pad",
+      "type": "obj",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_right_foot_pad.obj",
+      "original_filename": "rear_right_foot_pad.obj",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-7f4ef1b9",
+      "name": "rear_right_foot_pad",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_right_foot_pad.stl",
+      "original_filename": "rear_right_foot_pad.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-f1308ce5",
+      "name": "rear_right_hip_cable_service_loop",
+      "type": "obj",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_right_hip_cable_service_loop.obj",
+      "original_filename": "rear_right_hip_cable_service_loop.obj",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-5d05a8ac",
+      "name": "rear_right_hip_cable_service_loop",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_right_hip_cable_service_loop.stl",
+      "original_filename": "rear_right_hip_cable_service_loop.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-e38620a4",
+      "name": "rear_right_hip_pitch_housing",
+      "type": "obj",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_right_hip_pitch_housing.obj",
+      "original_filename": "rear_right_hip_pitch_housing.obj",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-b93deb99",
+      "name": "rear_right_hip_pitch_housing",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_right_hip_pitch_housing.stl",
+      "original_filename": "rear_right_hip_pitch_housing.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-e8bf0ee1",
+      "name": "rear_right_hip_yaw_housing",
+      "type": "obj",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_right_hip_yaw_housing.obj",
+      "original_filename": "rear_right_hip_yaw_housing.obj",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-c6df7360",
+      "name": "rear_right_hip_yaw_housing",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_right_hip_yaw_housing.stl",
+      "original_filename": "rear_right_hip_yaw_housing.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-b523e843",
+      "name": "rear_right_knee_housing",
+      "type": "obj",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_right_knee_housing.obj",
+      "original_filename": "rear_right_knee_housing.obj",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-6c9b0975",
+      "name": "rear_right_knee_housing",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_right_knee_housing.stl",
+      "original_filename": "rear_right_knee_housing.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-edbe8cb0",
+      "name": "rear_right_lower_leg_link",
+      "type": "obj",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_right_lower_leg_link.obj",
+      "original_filename": "rear_right_lower_leg_link.obj",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-cc9d0891",
+      "name": "rear_right_lower_leg_link",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_right_lower_leg_link.stl",
+      "original_filename": "rear_right_lower_leg_link.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-cec60780",
+      "name": "rear_right_upper_leg_link",
+      "type": "obj",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_right_upper_leg_link.obj",
+      "original_filename": "rear_right_upper_leg_link.obj",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-3e66c2bf",
+      "name": "rear_right_upper_leg_link",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_right_upper_leg_link.stl",
+      "original_filename": "rear_right_upper_leg_link.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-1220dd49",
+      "name": "rear_right_upper_leg_shell",
+      "type": "obj",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_right_upper_leg_shell.obj",
+      "original_filename": "rear_right_upper_leg_shell.obj",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-08c2aa05",
+      "name": "rear_right_upper_leg_shell",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_right_upper_leg_shell.stl",
+      "original_filename": "rear_right_upper_leg_shell.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-388f1e7f",
+      "name": "top_payload_block_placeholder",
+      "type": "obj",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\top_payload_block_placeholder.obj",
+      "original_filename": "top_payload_block_placeholder.obj",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-157932d1",
+      "name": "top_payload_block_placeholder",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\top_payload_block_placeholder.stl",
+      "original_filename": "top_payload_block_placeholder.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-b79c108d",
+      "name": "top_payload_mount_rail_left",
+      "type": "obj",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\top_payload_mount_rail_left.obj",
+      "original_filename": "top_payload_mount_rail_left.obj",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-5f3f69bf",
+      "name": "top_payload_mount_rail_left",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\top_payload_mount_rail_left.stl",
+      "original_filename": "top_payload_mount_rail_left.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-57ec3812",
+      "name": "top_payload_mount_rail_right",
+      "type": "obj",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\top_payload_mount_rail_right.obj",
+      "original_filename": "top_payload_mount_rail_right.obj",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-28b7f8df",
+      "name": "top_payload_mount_rail_right",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\top_payload_mount_rail_right.stl",
+      "original_filename": "top_payload_mount_rail_right.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-d100bd8a",
+      "name": "torso_front_sensor_panel",
+      "type": "obj",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\torso_front_sensor_panel.obj",
+      "original_filename": "torso_front_sensor_panel.obj",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-d0e2d8d7",
+      "name": "torso_front_sensor_panel",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\torso_front_sensor_panel.stl",
+      "original_filename": "torso_front_sensor_panel.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-fc3bdaf2",
+      "name": "torso_rear_service_panel",
+      "type": "obj",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\torso_rear_service_panel.obj",
+      "original_filename": "torso_rear_service_panel.obj",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-85f76274",
+      "name": "torso_rear_service_panel",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\torso_rear_service_panel.stl",
+      "original_filename": "torso_rear_service_panel.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-8eb61f26",
+      "name": "torso_shell_left",
+      "type": "obj",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\torso_shell_left.obj",
+      "original_filename": "torso_shell_left.obj",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-c18af883",
+      "name": "torso_shell_left",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\torso_shell_left.stl",
+      "original_filename": "torso_shell_left.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-68944b63",
+      "name": "torso_shell_right",
+      "type": "obj",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\torso_shell_right.obj",
+      "original_filename": "torso_shell_right.obj",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-b54c7c36",
+      "name": "torso_shell_right",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\torso_shell_right.stl",
+      "original_filename": "torso_shell_right.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-0d738e79",
+      "name": "torso_shell_top",
+      "type": "obj",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\torso_shell_top.obj",
+      "original_filename": "torso_shell_top.obj",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-c3bd1aa4",
+      "name": "torso_shell_top",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\torso_shell_top.stl",
+      "original_filename": "torso_shell_top.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-9efab18e",
+      "name": "wire_harness_routes",
+      "type": "obj",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\wire_harness_routes.obj",
+      "original_filename": "wire_harness_routes.obj",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-2a9f1e7b",
+      "name": "wire_harness_routes",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\meshes\\wire_harness_routes.stl",
+      "original_filename": "wire_harness_routes.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-0e78f5bb",
+      "name": "robot_dog_buildables_demo",
+      "type": "glb",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\robot_dog_buildables_demo.glb",
+      "original_filename": "robot_dog_buildables_demo.glb",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-ae7d8769",
+      "name": "robot_dog_buildables_demo",
+      "type": "other",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\robot_dog_buildables_demo.py",
+      "original_filename": "robot_dog_buildables_demo.py",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-a0e4f5c8",
+      "name": "robot_dog_buildables_demo",
+      "type": "step",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\robot_dog_buildables_demo.step",
+      "original_filename": "robot_dog_buildables_demo.step",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-92e25f9d",
+      "name": "robot_dog_buildables_demo",
+      "type": "urdf",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\robot_dog_buildables_demo.urdf",
+      "original_filename": "robot_dog_buildables_demo.urdf",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-d0ad57de",
+      "name": "robot_dog_buildables_demo_full_assembly",
+      "type": "stl",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\robot_dog_buildables_demo_full_assembly.stl",
+      "original_filename": "robot_dog_buildables_demo_full_assembly.stl",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-c871d83e",
+      "name": "robot_dog_buildables_demo_urdf",
+      "type": "other",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\robot_dog_buildables_demo_urdf.py",
+      "original_filename": "robot_dog_buildables_demo_urdf.py",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-1e0702b6",
+      "name": "robot_dog_parts_manifest",
+      "type": "other",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\robot_dog_parts_manifest.json",
+      "original_filename": "robot_dog_parts_manifest.json",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-5e1f80c4",
+      "name": "battery_block",
+      "type": "step",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\step_parts\\battery_block.step",
+      "original_filename": "battery_block.step",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-5a48e063",
+      "name": "bottom_chassis_frame",
+      "type": "step",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\step_parts\\bottom_chassis_frame.step",
+      "original_filename": "bottom_chassis_frame.step",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-e9b4bbe1",
+      "name": "controller_board_block",
+      "type": "step",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\step_parts\\controller_board_block.step",
+      "original_filename": "controller_board_block.step",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-5a458709",
+      "name": "front_depth_sensor_block",
+      "type": "step",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\step_parts\\front_depth_sensor_block.step",
+      "original_filename": "front_depth_sensor_block.step",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-d7e8b00f",
+      "name": "front_left_foot",
+      "type": "step",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\step_parts\\front_left_foot.step",
+      "original_filename": "front_left_foot.step",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-99f9b2dd",
+      "name": "front_left_foot_pad",
+      "type": "step",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\step_parts\\front_left_foot_pad.step",
+      "original_filename": "front_left_foot_pad.step",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-63c3cf27",
+      "name": "front_left_hip_cable_service_loop",
+      "type": "step",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\step_parts\\front_left_hip_cable_service_loop.step",
+      "original_filename": "front_left_hip_cable_service_loop.step",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-574fc5c1",
+      "name": "front_left_hip_pitch_housing",
+      "type": "step",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\step_parts\\front_left_hip_pitch_housing.step",
+      "original_filename": "front_left_hip_pitch_housing.step",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-a9660abb",
+      "name": "front_left_hip_yaw_housing",
+      "type": "step",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\step_parts\\front_left_hip_yaw_housing.step",
+      "original_filename": "front_left_hip_yaw_housing.step",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-c1638004",
+      "name": "front_left_knee_housing",
+      "type": "step",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\step_parts\\front_left_knee_housing.step",
+      "original_filename": "front_left_knee_housing.step",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-f7da2743",
+      "name": "front_left_lower_leg_link",
+      "type": "step",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\step_parts\\front_left_lower_leg_link.step",
+      "original_filename": "front_left_lower_leg_link.step",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-76f4ec4f",
+      "name": "front_left_upper_leg_link",
+      "type": "step",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\step_parts\\front_left_upper_leg_link.step",
+      "original_filename": "front_left_upper_leg_link.step",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-0cef6396",
+      "name": "front_left_upper_leg_shell",
+      "type": "step",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\step_parts\\front_left_upper_leg_shell.step",
+      "original_filename": "front_left_upper_leg_shell.step",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-2b32bb4d",
+      "name": "front_right_foot",
+      "type": "step",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\step_parts\\front_right_foot.step",
+      "original_filename": "front_right_foot.step",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-25934911",
+      "name": "front_right_foot_pad",
+      "type": "step",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\step_parts\\front_right_foot_pad.step",
+      "original_filename": "front_right_foot_pad.step",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-61f073dc",
+      "name": "front_right_hip_cable_service_loop",
+      "type": "step",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\step_parts\\front_right_hip_cable_service_loop.step",
+      "original_filename": "front_right_hip_cable_service_loop.step",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-22c89d8c",
+      "name": "front_right_hip_pitch_housing",
+      "type": "step",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\step_parts\\front_right_hip_pitch_housing.step",
+      "original_filename": "front_right_hip_pitch_housing.step",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-2a64eb58",
+      "name": "front_right_hip_yaw_housing",
+      "type": "step",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\step_parts\\front_right_hip_yaw_housing.step",
+      "original_filename": "front_right_hip_yaw_housing.step",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-ff140ef6",
+      "name": "front_right_knee_housing",
+      "type": "step",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\step_parts\\front_right_knee_housing.step",
+      "original_filename": "front_right_knee_housing.step",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-64cb4de4",
+      "name": "front_right_lower_leg_link",
+      "type": "step",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\step_parts\\front_right_lower_leg_link.step",
+      "original_filename": "front_right_lower_leg_link.step",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-b3e4e11a",
+      "name": "front_right_upper_leg_link",
+      "type": "step",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\step_parts\\front_right_upper_leg_link.step",
+      "original_filename": "front_right_upper_leg_link.step",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-8eb0f823",
+      "name": "front_right_upper_leg_shell",
+      "type": "step",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\step_parts\\front_right_upper_leg_shell.step",
+      "original_filename": "front_right_upper_leg_shell.step",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-962c1d72",
+      "name": "imu_sensor_block",
+      "type": "step",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\step_parts\\imu_sensor_block.step",
+      "original_filename": "imu_sensor_block.step",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-c652700d",
+      "name": "internal_battery_tray",
+      "type": "step",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\step_parts\\internal_battery_tray.step",
+      "original_filename": "internal_battery_tray.step",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-0d842cdd",
+      "name": "internal_controller_mount",
+      "type": "step",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\step_parts\\internal_controller_mount.step",
+      "original_filename": "internal_controller_mount.step",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-b91bfe53",
+      "name": "power_distribution_block",
+      "type": "step",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\step_parts\\power_distribution_block.step",
+      "original_filename": "power_distribution_block.step",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-8076013b",
+      "name": "rear_left_foot",
+      "type": "step",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\step_parts\\rear_left_foot.step",
+      "original_filename": "rear_left_foot.step",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-7ab90ef8",
+      "name": "rear_left_foot_pad",
+      "type": "step",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\step_parts\\rear_left_foot_pad.step",
+      "original_filename": "rear_left_foot_pad.step",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-beb9bcaa",
+      "name": "rear_left_hip_cable_service_loop",
+      "type": "step",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\step_parts\\rear_left_hip_cable_service_loop.step",
+      "original_filename": "rear_left_hip_cable_service_loop.step",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-34d5c27a",
+      "name": "rear_left_hip_pitch_housing",
+      "type": "step",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\step_parts\\rear_left_hip_pitch_housing.step",
+      "original_filename": "rear_left_hip_pitch_housing.step",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-1dead6ce",
+      "name": "rear_left_hip_yaw_housing",
+      "type": "step",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\step_parts\\rear_left_hip_yaw_housing.step",
+      "original_filename": "rear_left_hip_yaw_housing.step",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-29cdca8f",
+      "name": "rear_left_knee_housing",
+      "type": "step",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\step_parts\\rear_left_knee_housing.step",
+      "original_filename": "rear_left_knee_housing.step",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-ecff9ff5",
+      "name": "rear_left_lower_leg_link",
+      "type": "step",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\step_parts\\rear_left_lower_leg_link.step",
+      "original_filename": "rear_left_lower_leg_link.step",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-782a9be7",
+      "name": "rear_left_upper_leg_link",
+      "type": "step",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\step_parts\\rear_left_upper_leg_link.step",
+      "original_filename": "rear_left_upper_leg_link.step",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-fff2cbdd",
+      "name": "rear_left_upper_leg_shell",
+      "type": "step",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\step_parts\\rear_left_upper_leg_shell.step",
+      "original_filename": "rear_left_upper_leg_shell.step",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-77a27ce0",
+      "name": "rear_right_foot",
+      "type": "step",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\step_parts\\rear_right_foot.step",
+      "original_filename": "rear_right_foot.step",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-c152370b",
+      "name": "rear_right_foot_pad",
+      "type": "step",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\step_parts\\rear_right_foot_pad.step",
+      "original_filename": "rear_right_foot_pad.step",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-fb430c56",
+      "name": "rear_right_hip_cable_service_loop",
+      "type": "step",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\step_parts\\rear_right_hip_cable_service_loop.step",
+      "original_filename": "rear_right_hip_cable_service_loop.step",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-730fbdc0",
+      "name": "rear_right_hip_pitch_housing",
+      "type": "step",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\step_parts\\rear_right_hip_pitch_housing.step",
+      "original_filename": "rear_right_hip_pitch_housing.step",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-b1d3414c",
+      "name": "rear_right_hip_yaw_housing",
+      "type": "step",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\step_parts\\rear_right_hip_yaw_housing.step",
+      "original_filename": "rear_right_hip_yaw_housing.step",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-2380e1b5",
+      "name": "rear_right_knee_housing",
+      "type": "step",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\step_parts\\rear_right_knee_housing.step",
+      "original_filename": "rear_right_knee_housing.step",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-2f7b1bf2",
+      "name": "rear_right_lower_leg_link",
+      "type": "step",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\step_parts\\rear_right_lower_leg_link.step",
+      "original_filename": "rear_right_lower_leg_link.step",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-e5e59cfe",
+      "name": "rear_right_upper_leg_link",
+      "type": "step",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\step_parts\\rear_right_upper_leg_link.step",
+      "original_filename": "rear_right_upper_leg_link.step",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-15fec92f",
+      "name": "rear_right_upper_leg_shell",
+      "type": "step",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\step_parts\\rear_right_upper_leg_shell.step",
+      "original_filename": "rear_right_upper_leg_shell.step",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-71246ab0",
+      "name": "top_payload_block_placeholder",
+      "type": "step",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\step_parts\\top_payload_block_placeholder.step",
+      "original_filename": "top_payload_block_placeholder.step",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-6dcd5f0b",
+      "name": "top_payload_mount_rail_left",
+      "type": "step",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\step_parts\\top_payload_mount_rail_left.step",
+      "original_filename": "top_payload_mount_rail_left.step",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-23327e7f",
+      "name": "top_payload_mount_rail_right",
+      "type": "step",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\step_parts\\top_payload_mount_rail_right.step",
+      "original_filename": "top_payload_mount_rail_right.step",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-0df309d8",
+      "name": "torso_front_sensor_panel",
+      "type": "step",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\step_parts\\torso_front_sensor_panel.step",
+      "original_filename": "torso_front_sensor_panel.step",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-237a0ade",
+      "name": "torso_rear_service_panel",
+      "type": "step",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\step_parts\\torso_rear_service_panel.step",
+      "original_filename": "torso_rear_service_panel.step",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-f1c9753d",
+      "name": "torso_shell_left",
+      "type": "step",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\step_parts\\torso_shell_left.step",
+      "original_filename": "torso_shell_left.step",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-df44157f",
+      "name": "torso_shell_right",
+      "type": "step",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\step_parts\\torso_shell_right.step",
+      "original_filename": "torso_shell_right.step",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-310081a6",
+      "name": "torso_shell_top",
+      "type": "step",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\step_parts\\torso_shell_top.step",
+      "original_filename": "torso_shell_top.step",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-0017032a",
+      "name": "wire_harness_routes",
+      "type": "step",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\step_parts\\wire_harness_routes.step",
+      "original_filename": "wire_harness_routes.step",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-81561441",
+      "name": "robot_dog_buildables_demo",
+      "type": "urdf",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo.urdf",
+      "original_filename": "robot_dog_buildables_demo.urdf",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    }
+  ],
+  "materials": [
+    {
+      "id": "armor_yellow",
+      "name": "armor_yellow",
+      "density_kg_m3": 1500.0,
+      "static_friction": 0.5,
+      "dynamic_friction": 0.4,
+      "restitution": 0.1,
+      "youngs_modulus_pa": null,
+      "yield_strength_pa": null,
+      "melting_point_c": null,
+      "thermal_notes": null,
+      "simulation_notes": "Imported from URDF material tag.",
+      "source_url": null,
+      "confidence": "placeholder"
+    },
+    {
+      "id": "anodized_black",
+      "name": "anodized_black",
+      "density_kg_m3": 1500.0,
+      "static_friction": 0.5,
+      "dynamic_friction": 0.4,
+      "restitution": 0.1,
+      "youngs_modulus_pa": null,
+      "yield_strength_pa": null,
+      "melting_point_c": null,
+      "thermal_notes": null,
+      "simulation_notes": "Imported from URDF material tag.",
+      "source_url": null,
+      "confidence": "placeholder"
+    },
+    {
+      "id": "rubber_black",
+      "name": "rubber_black",
+      "density_kg_m3": 1500.0,
+      "static_friction": 0.5,
+      "dynamic_friction": 0.4,
+      "restitution": 0.1,
+      "youngs_modulus_pa": null,
+      "yield_strength_pa": null,
+      "melting_point_c": null,
+      "thermal_notes": null,
+      "simulation_notes": "Imported from URDF material tag.",
+      "source_url": null,
+      "confidence": "placeholder"
+    },
+    {
+      "id": "sensor_glass",
+      "name": "sensor_glass",
+      "density_kg_m3": 1500.0,
+      "static_friction": 0.5,
+      "dynamic_friction": 0.4,
+      "restitution": 0.1,
+      "youngs_modulus_pa": null,
+      "yield_strength_pa": null,
+      "melting_point_c": null,
+      "thermal_notes": null,
+      "simulation_notes": "Imported from URDF material tag.",
+      "source_url": null,
+      "confidence": "placeholder"
+    },
+    {
+      "id": "pcb_green",
+      "name": "pcb_green",
+      "density_kg_m3": 1500.0,
+      "static_friction": 0.5,
+      "dynamic_friction": 0.4,
+      "restitution": 0.1,
+      "youngs_modulus_pa": null,
+      "yield_strength_pa": null,
+      "melting_point_c": null,
+      "thermal_notes": null,
+      "simulation_notes": "Imported from URDF material tag.",
+      "source_url": null,
+      "confidence": "placeholder"
+    },
+    {
+      "id": "battery_gray",
+      "name": "battery_gray",
+      "density_kg_m3": 1500.0,
+      "static_friction": 0.5,
+      "dynamic_friction": 0.4,
+      "restitution": 0.1,
+      "youngs_modulus_pa": null,
+      "yield_strength_pa": null,
+      "melting_point_c": null,
+      "thermal_notes": null,
+      "simulation_notes": "Imported from URDF material tag.",
+      "source_url": null,
+      "confidence": "placeholder"
+    },
+    {
+      "id": "payload_gray",
+      "name": "payload_gray",
+      "density_kg_m3": 1500.0,
+      "static_friction": 0.5,
+      "dynamic_friction": 0.4,
+      "restitution": 0.1,
+      "youngs_modulus_pa": null,
+      "yield_strength_pa": null,
+      "melting_point_c": null,
+      "thermal_notes": null,
+      "simulation_notes": "Imported from URDF material tag.",
+      "source_url": null,
+      "confidence": "placeholder"
+    }
+  ],
+  "links": [
+    {
+      "id": "base_link",
+      "name": "base_link",
+      "category": "body",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 15.0,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    },
+    {
+      "id": "front_sensor_panel_link",
+      "name": "front_sensor_panel_link",
+      "category": "other",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 0.35,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    },
+    {
+      "id": "rear_service_panel_link",
+      "name": "rear_service_panel_link",
+      "category": "other",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 0.28,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    },
+    {
+      "id": "internal_electronics_link",
+      "name": "internal_electronics_link",
+      "category": "other",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 2.9,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    },
+    {
+      "id": "payload_mount_link",
+      "name": "payload_mount_link",
+      "category": "other",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 1.1,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    },
+    {
+      "id": "front_left_hip_abduction_link",
+      "name": "front_left_hip_abduction_link",
+      "category": "other",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 1.25,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    },
+    {
+      "id": "front_left_hip_pitch_housing_link",
+      "name": "front_left_hip_pitch_housing_link",
+      "category": "other",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 0.65,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    },
+    {
+      "id": "front_left_upper_leg_link",
+      "name": "front_left_upper_leg_link",
+      "category": "other",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 1.15,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    },
+    {
+      "id": "front_left_knee_housing_link",
+      "name": "front_left_knee_housing_link",
+      "category": "other",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 0.55,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    },
+    {
+      "id": "front_left_lower_leg_link",
+      "name": "front_left_lower_leg_link",
+      "category": "other",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 0.75,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    },
+    {
+      "id": "front_left_foot_link",
+      "name": "front_left_foot_link",
+      "category": "other",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 0.32,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    },
+    {
+      "id": "front_right_hip_abduction_link",
+      "name": "front_right_hip_abduction_link",
+      "category": "other",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 1.25,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    },
+    {
+      "id": "front_right_hip_pitch_housing_link",
+      "name": "front_right_hip_pitch_housing_link",
+      "category": "other",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 0.65,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    },
+    {
+      "id": "front_right_upper_leg_link",
+      "name": "front_right_upper_leg_link",
+      "category": "other",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 1.15,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    },
+    {
+      "id": "front_right_knee_housing_link",
+      "name": "front_right_knee_housing_link",
+      "category": "other",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 0.55,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    },
+    {
+      "id": "front_right_lower_leg_link",
+      "name": "front_right_lower_leg_link",
+      "category": "other",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 0.75,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    },
+    {
+      "id": "front_right_foot_link",
+      "name": "front_right_foot_link",
+      "category": "other",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 0.32,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    },
+    {
+      "id": "rear_left_hip_abduction_link",
+      "name": "rear_left_hip_abduction_link",
+      "category": "other",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 1.25,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    },
+    {
+      "id": "rear_left_hip_pitch_housing_link",
+      "name": "rear_left_hip_pitch_housing_link",
+      "category": "other",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 0.65,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    },
+    {
+      "id": "rear_left_upper_leg_link",
+      "name": "rear_left_upper_leg_link",
+      "category": "other",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 1.15,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    },
+    {
+      "id": "rear_left_knee_housing_link",
+      "name": "rear_left_knee_housing_link",
+      "category": "other",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 0.55,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    },
+    {
+      "id": "rear_left_lower_leg_link",
+      "name": "rear_left_lower_leg_link",
+      "category": "other",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 0.75,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    },
+    {
+      "id": "rear_left_foot_link",
+      "name": "rear_left_foot_link",
+      "category": "other",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 0.32,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    },
+    {
+      "id": "rear_right_hip_abduction_link",
+      "name": "rear_right_hip_abduction_link",
+      "category": "other",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 1.25,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    },
+    {
+      "id": "rear_right_hip_pitch_housing_link",
+      "name": "rear_right_hip_pitch_housing_link",
+      "category": "other",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 0.65,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    },
+    {
+      "id": "rear_right_upper_leg_link",
+      "name": "rear_right_upper_leg_link",
+      "category": "other",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 1.15,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    },
+    {
+      "id": "rear_right_knee_housing_link",
+      "name": "rear_right_knee_housing_link",
+      "category": "other",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 0.55,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    },
+    {
+      "id": "rear_right_lower_leg_link",
+      "name": "rear_right_lower_leg_link",
+      "category": "other",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 0.75,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    },
+    {
+      "id": "rear_right_foot_link",
+      "name": "rear_right_foot_link",
+      "category": "other",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 0.32,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    }
+  ],
+  "joints": [
+    {
+      "id": "front_sensor_panel_link_fixed",
+      "name": "front_sensor_panel_link_fixed",
+      "type": "fixed",
+      "parent_link_id": "base_link",
+      "child_link_id": "front_sensor_panel_link",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "limit_lower_rad": -3.14,
+      "limit_upper_rad": 3.14,
+      "effort_limit_nm": 5.0,
+      "velocity_limit_rad_s": 2.0,
+      "damping": 0.05,
+      "friction": 0.01,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": "Imported from URDF"
+    },
+    {
+      "id": "rear_service_panel_link_fixed",
+      "name": "rear_service_panel_link_fixed",
+      "type": "fixed",
+      "parent_link_id": "base_link",
+      "child_link_id": "rear_service_panel_link",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "limit_lower_rad": -3.14,
+      "limit_upper_rad": 3.14,
+      "effort_limit_nm": 5.0,
+      "velocity_limit_rad_s": 2.0,
+      "damping": 0.05,
+      "friction": 0.01,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": "Imported from URDF"
+    },
+    {
+      "id": "internal_electronics_link_fixed",
+      "name": "internal_electronics_link_fixed",
+      "type": "fixed",
+      "parent_link_id": "base_link",
+      "child_link_id": "internal_electronics_link",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "limit_lower_rad": -3.14,
+      "limit_upper_rad": 3.14,
+      "effort_limit_nm": 5.0,
+      "velocity_limit_rad_s": 2.0,
+      "damping": 0.05,
+      "friction": 0.01,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": "Imported from URDF"
+    },
+    {
+      "id": "payload_mount_link_fixed",
+      "name": "payload_mount_link_fixed",
+      "type": "fixed",
+      "parent_link_id": "base_link",
+      "child_link_id": "payload_mount_link",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "limit_lower_rad": -3.14,
+      "limit_upper_rad": 3.14,
+      "effort_limit_nm": 5.0,
+      "velocity_limit_rad_s": 2.0,
+      "damping": 0.05,
+      "friction": 0.01,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": "Imported from URDF"
+    },
+    {
+      "id": "front_left_hip_abduction_joint",
+      "name": "front_left_hip_abduction_joint",
+      "type": "revolute",
+      "parent_link_id": "base_link",
+      "child_link_id": "front_left_hip_abduction_link",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "limit_lower_rad": -0.65,
+      "limit_upper_rad": 0.65,
+      "effort_limit_nm": 70.0,
+      "velocity_limit_rad_s": 7.0,
+      "damping": 0.05,
+      "friction": 0.01,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": "Imported from URDF"
+    },
+    {
+      "id": "front_left_hip_pitch_housing_fixed",
+      "name": "front_left_hip_pitch_housing_fixed",
+      "type": "fixed",
+      "parent_link_id": "front_left_hip_abduction_link",
+      "child_link_id": "front_left_hip_pitch_housing_link",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "limit_lower_rad": -3.14,
+      "limit_upper_rad": 3.14,
+      "effort_limit_nm": 5.0,
+      "velocity_limit_rad_s": 2.0,
+      "damping": 0.05,
+      "friction": 0.01,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": "Imported from URDF"
+    },
+    {
+      "id": "front_left_hip_pitch_joint",
+      "name": "front_left_hip_pitch_joint",
+      "type": "revolute",
+      "parent_link_id": "front_left_hip_abduction_link",
+      "child_link_id": "front_left_upper_leg_link",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "limit_lower_rad": -1.3,
+      "limit_upper_rad": 1.35,
+      "effort_limit_nm": 85.0,
+      "velocity_limit_rad_s": 8.0,
+      "damping": 0.05,
+      "friction": 0.01,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": "Imported from URDF"
+    },
+    {
+      "id": "front_left_knee_housing_fixed",
+      "name": "front_left_knee_housing_fixed",
+      "type": "fixed",
+      "parent_link_id": "front_left_upper_leg_link",
+      "child_link_id": "front_left_knee_housing_link",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "limit_lower_rad": -3.14,
+      "limit_upper_rad": 3.14,
+      "effort_limit_nm": 5.0,
+      "velocity_limit_rad_s": 2.0,
+      "damping": 0.05,
+      "friction": 0.01,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": "Imported from URDF"
+    },
+    {
+      "id": "front_left_knee_pitch_joint",
+      "name": "front_left_knee_pitch_joint",
+      "type": "revolute",
+      "parent_link_id": "front_left_upper_leg_link",
+      "child_link_id": "front_left_lower_leg_link",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "limit_lower_rad": -2.65,
+      "limit_upper_rad": 0.25,
+      "effort_limit_nm": 90.0,
+      "velocity_limit_rad_s": 8.0,
+      "damping": 0.05,
+      "friction": 0.01,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": "Imported from URDF"
+    },
+    {
+      "id": "front_left_foot_fixed",
+      "name": "front_left_foot_fixed",
+      "type": "fixed",
+      "parent_link_id": "front_left_lower_leg_link",
+      "child_link_id": "front_left_foot_link",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "limit_lower_rad": -3.14,
+      "limit_upper_rad": 3.14,
+      "effort_limit_nm": 5.0,
+      "velocity_limit_rad_s": 2.0,
+      "damping": 0.05,
+      "friction": 0.01,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": "Imported from URDF"
+    },
+    {
+      "id": "front_right_hip_abduction_joint",
+      "name": "front_right_hip_abduction_joint",
+      "type": "revolute",
+      "parent_link_id": "base_link",
+      "child_link_id": "front_right_hip_abduction_link",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "limit_lower_rad": -0.65,
+      "limit_upper_rad": 0.65,
+      "effort_limit_nm": 70.0,
+      "velocity_limit_rad_s": 7.0,
+      "damping": 0.05,
+      "friction": 0.01,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": "Imported from URDF"
+    },
+    {
+      "id": "front_right_hip_pitch_housing_fixed",
+      "name": "front_right_hip_pitch_housing_fixed",
+      "type": "fixed",
+      "parent_link_id": "front_right_hip_abduction_link",
+      "child_link_id": "front_right_hip_pitch_housing_link",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "limit_lower_rad": -3.14,
+      "limit_upper_rad": 3.14,
+      "effort_limit_nm": 5.0,
+      "velocity_limit_rad_s": 2.0,
+      "damping": 0.05,
+      "friction": 0.01,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": "Imported from URDF"
+    },
+    {
+      "id": "front_right_hip_pitch_joint",
+      "name": "front_right_hip_pitch_joint",
+      "type": "revolute",
+      "parent_link_id": "front_right_hip_abduction_link",
+      "child_link_id": "front_right_upper_leg_link",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "limit_lower_rad": -1.3,
+      "limit_upper_rad": 1.35,
+      "effort_limit_nm": 85.0,
+      "velocity_limit_rad_s": 8.0,
+      "damping": 0.05,
+      "friction": 0.01,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": "Imported from URDF"
+    },
+    {
+      "id": "front_right_knee_housing_fixed",
+      "name": "front_right_knee_housing_fixed",
+      "type": "fixed",
+      "parent_link_id": "front_right_upper_leg_link",
+      "child_link_id": "front_right_knee_housing_link",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "limit_lower_rad": -3.14,
+      "limit_upper_rad": 3.14,
+      "effort_limit_nm": 5.0,
+      "velocity_limit_rad_s": 2.0,
+      "damping": 0.05,
+      "friction": 0.01,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": "Imported from URDF"
+    },
+    {
+      "id": "front_right_knee_pitch_joint",
+      "name": "front_right_knee_pitch_joint",
+      "type": "revolute",
+      "parent_link_id": "front_right_upper_leg_link",
+      "child_link_id": "front_right_lower_leg_link",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "limit_lower_rad": -2.65,
+      "limit_upper_rad": 0.25,
+      "effort_limit_nm": 90.0,
+      "velocity_limit_rad_s": 8.0,
+      "damping": 0.05,
+      "friction": 0.01,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": "Imported from URDF"
+    },
+    {
+      "id": "front_right_foot_fixed",
+      "name": "front_right_foot_fixed",
+      "type": "fixed",
+      "parent_link_id": "front_right_lower_leg_link",
+      "child_link_id": "front_right_foot_link",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "limit_lower_rad": -3.14,
+      "limit_upper_rad": 3.14,
+      "effort_limit_nm": 5.0,
+      "velocity_limit_rad_s": 2.0,
+      "damping": 0.05,
+      "friction": 0.01,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": "Imported from URDF"
+    },
+    {
+      "id": "rear_left_hip_abduction_joint",
+      "name": "rear_left_hip_abduction_joint",
+      "type": "revolute",
+      "parent_link_id": "base_link",
+      "child_link_id": "rear_left_hip_abduction_link",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "limit_lower_rad": -0.65,
+      "limit_upper_rad": 0.65,
+      "effort_limit_nm": 70.0,
+      "velocity_limit_rad_s": 7.0,
+      "damping": 0.05,
+      "friction": 0.01,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": "Imported from URDF"
+    },
+    {
+      "id": "rear_left_hip_pitch_housing_fixed",
+      "name": "rear_left_hip_pitch_housing_fixed",
+      "type": "fixed",
+      "parent_link_id": "rear_left_hip_abduction_link",
+      "child_link_id": "rear_left_hip_pitch_housing_link",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "limit_lower_rad": -3.14,
+      "limit_upper_rad": 3.14,
+      "effort_limit_nm": 5.0,
+      "velocity_limit_rad_s": 2.0,
+      "damping": 0.05,
+      "friction": 0.01,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": "Imported from URDF"
+    },
+    {
+      "id": "rear_left_hip_pitch_joint",
+      "name": "rear_left_hip_pitch_joint",
+      "type": "revolute",
+      "parent_link_id": "rear_left_hip_abduction_link",
+      "child_link_id": "rear_left_upper_leg_link",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "limit_lower_rad": -1.3,
+      "limit_upper_rad": 1.35,
+      "effort_limit_nm": 85.0,
+      "velocity_limit_rad_s": 8.0,
+      "damping": 0.05,
+      "friction": 0.01,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": "Imported from URDF"
+    },
+    {
+      "id": "rear_left_knee_housing_fixed",
+      "name": "rear_left_knee_housing_fixed",
+      "type": "fixed",
+      "parent_link_id": "rear_left_upper_leg_link",
+      "child_link_id": "rear_left_knee_housing_link",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "limit_lower_rad": -3.14,
+      "limit_upper_rad": 3.14,
+      "effort_limit_nm": 5.0,
+      "velocity_limit_rad_s": 2.0,
+      "damping": 0.05,
+      "friction": 0.01,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": "Imported from URDF"
+    },
+    {
+      "id": "rear_left_knee_pitch_joint",
+      "name": "rear_left_knee_pitch_joint",
+      "type": "revolute",
+      "parent_link_id": "rear_left_upper_leg_link",
+      "child_link_id": "rear_left_lower_leg_link",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "limit_lower_rad": -2.65,
+      "limit_upper_rad": 0.25,
+      "effort_limit_nm": 90.0,
+      "velocity_limit_rad_s": 8.0,
+      "damping": 0.05,
+      "friction": 0.01,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": "Imported from URDF"
+    },
+    {
+      "id": "rear_left_foot_fixed",
+      "name": "rear_left_foot_fixed",
+      "type": "fixed",
+      "parent_link_id": "rear_left_lower_leg_link",
+      "child_link_id": "rear_left_foot_link",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "limit_lower_rad": -3.14,
+      "limit_upper_rad": 3.14,
+      "effort_limit_nm": 5.0,
+      "velocity_limit_rad_s": 2.0,
+      "damping": 0.05,
+      "friction": 0.01,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": "Imported from URDF"
+    },
+    {
+      "id": "rear_right_hip_abduction_joint",
+      "name": "rear_right_hip_abduction_joint",
+      "type": "revolute",
+      "parent_link_id": "base_link",
+      "child_link_id": "rear_right_hip_abduction_link",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "limit_lower_rad": -0.65,
+      "limit_upper_rad": 0.65,
+      "effort_limit_nm": 70.0,
+      "velocity_limit_rad_s": 7.0,
+      "damping": 0.05,
+      "friction": 0.01,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": "Imported from URDF"
+    },
+    {
+      "id": "rear_right_hip_pitch_housing_fixed",
+      "name": "rear_right_hip_pitch_housing_fixed",
+      "type": "fixed",
+      "parent_link_id": "rear_right_hip_abduction_link",
+      "child_link_id": "rear_right_hip_pitch_housing_link",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "limit_lower_rad": -3.14,
+      "limit_upper_rad": 3.14,
+      "effort_limit_nm": 5.0,
+      "velocity_limit_rad_s": 2.0,
+      "damping": 0.05,
+      "friction": 0.01,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": "Imported from URDF"
+    },
+    {
+      "id": "rear_right_hip_pitch_joint",
+      "name": "rear_right_hip_pitch_joint",
+      "type": "revolute",
+      "parent_link_id": "rear_right_hip_abduction_link",
+      "child_link_id": "rear_right_upper_leg_link",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "limit_lower_rad": -1.3,
+      "limit_upper_rad": 1.35,
+      "effort_limit_nm": 85.0,
+      "velocity_limit_rad_s": 8.0,
+      "damping": 0.05,
+      "friction": 0.01,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": "Imported from URDF"
+    },
+    {
+      "id": "rear_right_knee_housing_fixed",
+      "name": "rear_right_knee_housing_fixed",
+      "type": "fixed",
+      "parent_link_id": "rear_right_upper_leg_link",
+      "child_link_id": "rear_right_knee_housing_link",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "limit_lower_rad": -3.14,
+      "limit_upper_rad": 3.14,
+      "effort_limit_nm": 5.0,
+      "velocity_limit_rad_s": 2.0,
+      "damping": 0.05,
+      "friction": 0.01,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": "Imported from URDF"
+    },
+    {
+      "id": "rear_right_knee_pitch_joint",
+      "name": "rear_right_knee_pitch_joint",
+      "type": "revolute",
+      "parent_link_id": "rear_right_upper_leg_link",
+      "child_link_id": "rear_right_lower_leg_link",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "limit_lower_rad": -2.65,
+      "limit_upper_rad": 0.25,
+      "effort_limit_nm": 90.0,
+      "velocity_limit_rad_s": 8.0,
+      "damping": 0.05,
+      "friction": 0.01,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": "Imported from URDF"
+    },
+    {
+      "id": "rear_right_foot_fixed",
+      "name": "rear_right_foot_fixed",
+      "type": "fixed",
+      "parent_link_id": "rear_right_lower_leg_link",
+      "child_link_id": "rear_right_foot_link",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "limit_lower_rad": -3.14,
+      "limit_upper_rad": 3.14,
+      "effort_limit_nm": 5.0,
+      "velocity_limit_rad_s": 2.0,
+      "damping": 0.05,
+      "friction": 0.01,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": "Imported from URDF"
+    }
+  ],
+  "actuators": [
+    {
+      "id": "act-front_left_hip_abduction_joint",
+      "name": "Actuator front_left_hip_abduction_joint",
+      "type": "virtual_motor",
+      "real_component_profile_id": "imported-auto",
+      "joint_id": "front_left_hip_abduction_joint",
+      "control_mode": "position",
+      "max_torque_nm": 70.0,
+      "max_velocity_rad_s": 7.0,
+      "rated_voltage_v": 24.0,
+      "stall_current_a": 3.0,
+      "no_load_current_a": null,
+      "gear_ratio": null,
+      "kp": 20.0,
+      "kd": 1.0,
+      "torque_curve": null,
+      "mass_kg": 0.2,
+      "dimensions_m": [
+        0.05,
+        0.05,
+        0.05
+      ],
+      "mounting_transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "source_url": null,
+      "confidence": "placeholder",
+      "notes": null
+    },
+    {
+      "id": "act-front_left_hip_pitch_joint",
+      "name": "Actuator front_left_hip_pitch_joint",
+      "type": "virtual_motor",
+      "real_component_profile_id": "imported-auto",
+      "joint_id": "front_left_hip_pitch_joint",
+      "control_mode": "position",
+      "max_torque_nm": 85.0,
+      "max_velocity_rad_s": 8.0,
+      "rated_voltage_v": 24.0,
+      "stall_current_a": 3.0,
+      "no_load_current_a": null,
+      "gear_ratio": null,
+      "kp": 20.0,
+      "kd": 1.0,
+      "torque_curve": null,
+      "mass_kg": 0.2,
+      "dimensions_m": [
+        0.05,
+        0.05,
+        0.05
+      ],
+      "mounting_transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "source_url": null,
+      "confidence": "placeholder",
+      "notes": null
+    },
+    {
+      "id": "act-front_left_knee_pitch_joint",
+      "name": "Actuator front_left_knee_pitch_joint",
+      "type": "virtual_motor",
+      "real_component_profile_id": "imported-auto",
+      "joint_id": "front_left_knee_pitch_joint",
+      "control_mode": "position",
+      "max_torque_nm": 90.0,
+      "max_velocity_rad_s": 8.0,
+      "rated_voltage_v": 24.0,
+      "stall_current_a": 3.0,
+      "no_load_current_a": null,
+      "gear_ratio": null,
+      "kp": 20.0,
+      "kd": 1.0,
+      "torque_curve": null,
+      "mass_kg": 0.2,
+      "dimensions_m": [
+        0.05,
+        0.05,
+        0.05
+      ],
+      "mounting_transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "source_url": null,
+      "confidence": "placeholder",
+      "notes": null
+    },
+    {
+      "id": "act-front_right_hip_abduction_joint",
+      "name": "Actuator front_right_hip_abduction_joint",
+      "type": "virtual_motor",
+      "real_component_profile_id": "imported-auto",
+      "joint_id": "front_right_hip_abduction_joint",
+      "control_mode": "position",
+      "max_torque_nm": 70.0,
+      "max_velocity_rad_s": 7.0,
+      "rated_voltage_v": 24.0,
+      "stall_current_a": 3.0,
+      "no_load_current_a": null,
+      "gear_ratio": null,
+      "kp": 20.0,
+      "kd": 1.0,
+      "torque_curve": null,
+      "mass_kg": 0.2,
+      "dimensions_m": [
+        0.05,
+        0.05,
+        0.05
+      ],
+      "mounting_transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "source_url": null,
+      "confidence": "placeholder",
+      "notes": null
+    },
+    {
+      "id": "act-front_right_hip_pitch_joint",
+      "name": "Actuator front_right_hip_pitch_joint",
+      "type": "virtual_motor",
+      "real_component_profile_id": "imported-auto",
+      "joint_id": "front_right_hip_pitch_joint",
+      "control_mode": "position",
+      "max_torque_nm": 85.0,
+      "max_velocity_rad_s": 8.0,
+      "rated_voltage_v": 24.0,
+      "stall_current_a": 3.0,
+      "no_load_current_a": null,
+      "gear_ratio": null,
+      "kp": 20.0,
+      "kd": 1.0,
+      "torque_curve": null,
+      "mass_kg": 0.2,
+      "dimensions_m": [
+        0.05,
+        0.05,
+        0.05
+      ],
+      "mounting_transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "source_url": null,
+      "confidence": "placeholder",
+      "notes": null
+    },
+    {
+      "id": "act-front_right_knee_pitch_joint",
+      "name": "Actuator front_right_knee_pitch_joint",
+      "type": "virtual_motor",
+      "real_component_profile_id": "imported-auto",
+      "joint_id": "front_right_knee_pitch_joint",
+      "control_mode": "position",
+      "max_torque_nm": 90.0,
+      "max_velocity_rad_s": 8.0,
+      "rated_voltage_v": 24.0,
+      "stall_current_a": 3.0,
+      "no_load_current_a": null,
+      "gear_ratio": null,
+      "kp": 20.0,
+      "kd": 1.0,
+      "torque_curve": null,
+      "mass_kg": 0.2,
+      "dimensions_m": [
+        0.05,
+        0.05,
+        0.05
+      ],
+      "mounting_transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "source_url": null,
+      "confidence": "placeholder",
+      "notes": null
+    },
+    {
+      "id": "act-rear_left_hip_abduction_joint",
+      "name": "Actuator rear_left_hip_abduction_joint",
+      "type": "virtual_motor",
+      "real_component_profile_id": "imported-auto",
+      "joint_id": "rear_left_hip_abduction_joint",
+      "control_mode": "position",
+      "max_torque_nm": 70.0,
+      "max_velocity_rad_s": 7.0,
+      "rated_voltage_v": 24.0,
+      "stall_current_a": 3.0,
+      "no_load_current_a": null,
+      "gear_ratio": null,
+      "kp": 20.0,
+      "kd": 1.0,
+      "torque_curve": null,
+      "mass_kg": 0.2,
+      "dimensions_m": [
+        0.05,
+        0.05,
+        0.05
+      ],
+      "mounting_transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "source_url": null,
+      "confidence": "placeholder",
+      "notes": null
+    },
+    {
+      "id": "act-rear_left_hip_pitch_joint",
+      "name": "Actuator rear_left_hip_pitch_joint",
+      "type": "virtual_motor",
+      "real_component_profile_id": "imported-auto",
+      "joint_id": "rear_left_hip_pitch_joint",
+      "control_mode": "position",
+      "max_torque_nm": 85.0,
+      "max_velocity_rad_s": 8.0,
+      "rated_voltage_v": 24.0,
+      "stall_current_a": 3.0,
+      "no_load_current_a": null,
+      "gear_ratio": null,
+      "kp": 20.0,
+      "kd": 1.0,
+      "torque_curve": null,
+      "mass_kg": 0.2,
+      "dimensions_m": [
+        0.05,
+        0.05,
+        0.05
+      ],
+      "mounting_transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "source_url": null,
+      "confidence": "placeholder",
+      "notes": null
+    },
+    {
+      "id": "act-rear_left_knee_pitch_joint",
+      "name": "Actuator rear_left_knee_pitch_joint",
+      "type": "virtual_motor",
+      "real_component_profile_id": "imported-auto",
+      "joint_id": "rear_left_knee_pitch_joint",
+      "control_mode": "position",
+      "max_torque_nm": 90.0,
+      "max_velocity_rad_s": 8.0,
+      "rated_voltage_v": 24.0,
+      "stall_current_a": 3.0,
+      "no_load_current_a": null,
+      "gear_ratio": null,
+      "kp": 20.0,
+      "kd": 1.0,
+      "torque_curve": null,
+      "mass_kg": 0.2,
+      "dimensions_m": [
+        0.05,
+        0.05,
+        0.05
+      ],
+      "mounting_transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "source_url": null,
+      "confidence": "placeholder",
+      "notes": null
+    },
+    {
+      "id": "act-rear_right_hip_abduction_joint",
+      "name": "Actuator rear_right_hip_abduction_joint",
+      "type": "virtual_motor",
+      "real_component_profile_id": "imported-auto",
+      "joint_id": "rear_right_hip_abduction_joint",
+      "control_mode": "position",
+      "max_torque_nm": 70.0,
+      "max_velocity_rad_s": 7.0,
+      "rated_voltage_v": 24.0,
+      "stall_current_a": 3.0,
+      "no_load_current_a": null,
+      "gear_ratio": null,
+      "kp": 20.0,
+      "kd": 1.0,
+      "torque_curve": null,
+      "mass_kg": 0.2,
+      "dimensions_m": [
+        0.05,
+        0.05,
+        0.05
+      ],
+      "mounting_transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "source_url": null,
+      "confidence": "placeholder",
+      "notes": null
+    },
+    {
+      "id": "act-rear_right_hip_pitch_joint",
+      "name": "Actuator rear_right_hip_pitch_joint",
+      "type": "virtual_motor",
+      "real_component_profile_id": "imported-auto",
+      "joint_id": "rear_right_hip_pitch_joint",
+      "control_mode": "position",
+      "max_torque_nm": 85.0,
+      "max_velocity_rad_s": 8.0,
+      "rated_voltage_v": 24.0,
+      "stall_current_a": 3.0,
+      "no_load_current_a": null,
+      "gear_ratio": null,
+      "kp": 20.0,
+      "kd": 1.0,
+      "torque_curve": null,
+      "mass_kg": 0.2,
+      "dimensions_m": [
+        0.05,
+        0.05,
+        0.05
+      ],
+      "mounting_transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "source_url": null,
+      "confidence": "placeholder",
+      "notes": null
+    },
+    {
+      "id": "act-rear_right_knee_pitch_joint",
+      "name": "Actuator rear_right_knee_pitch_joint",
+      "type": "virtual_motor",
+      "real_component_profile_id": "imported-auto",
+      "joint_id": "rear_right_knee_pitch_joint",
+      "control_mode": "position",
+      "max_torque_nm": 90.0,
+      "max_velocity_rad_s": 8.0,
+      "rated_voltage_v": 24.0,
+      "stall_current_a": 3.0,
+      "no_load_current_a": null,
+      "gear_ratio": null,
+      "kp": 20.0,
+      "kd": 1.0,
+      "torque_curve": null,
+      "mass_kg": 0.2,
+      "dimensions_m": [
+        0.05,
+        0.05,
+        0.05
+      ],
+      "mounting_transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "source_url": null,
+      "confidence": "placeholder",
+      "notes": null
+    }
+  ],
+  "electronics": [],
+  "sensors": [],
+  "wires": [],
+  "collision_primitives": [],
+  "robot_description": {
+    "preferred_format": "urdf",
+    "urdf_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\robot_dog_buildables_demo.urdf",
+    "mjcf_path": null,
+    "generated_from_manifest": false
+  },
+  "environment": {},
+  "control": {
+    "script_path": null,
+    "built_in_controller": "robot_dog_default"
+  },
+  "scenarios": [
+    {
+      "id": "passive_gravity",
+      "name": "Passive Gravity",
+      "description": "Passive gravity stability test",
+      "duration_s": 4.0,
+      "config": {
+        "command_hint": "stand"
+      }
+    },
+    {
+      "id": "joint_sweep_collision",
+      "name": "Joint Sweep",
+      "description": "Sweep all detected joints",
+      "duration_s": 6.0,
+      "config": {
+        "command_hint": "walk_forward"
+      }
+    },
+    {
+      "id": "mechanism_motion",
+      "name": "Mechanism Motion",
+      "description": "Simple mechanism motion command",
+      "duration_s": 5.0,
+      "config": {
+        "command_hint": "walk_forward"
+      }
+    }
+  ],
+  "payloads": [],
+  "environments": {
+    "default": "flat"
+  },
+  "controls": {
+    "mode": "joint_command_table",
+    "control_script_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-6d130d66\\assets\\imported\\robot_dog_buildables_demo\\robot_dog_buildables_demo.py"
+  },
+  "tests": [],
+  "render_cameras": [],
+  "generated_robot_descriptions": {},
+  "metadata_status": {
+    "missing_mass": false,
+    "missing_material": false,
+    "missing_joint": false,
+    "missing_actuator": false,
+    "missing_sensor": true,
+    "missing_collision_mesh": false,
+    "missing_control_script": false,
+    "missing_environment": false
+  }
+}

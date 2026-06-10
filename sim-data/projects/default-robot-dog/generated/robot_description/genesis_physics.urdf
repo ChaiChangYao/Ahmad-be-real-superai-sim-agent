@@ -1,0 +1,121 @@
+<robot name="default-robot-dog">
+  <link name="body">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.01" ixy="0" ixz="0" iyy="0.01" iyz="0" izz="0.01"/>
+    </inertial>
+  </link>
+  <link name="fl_upper">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.01" ixy="0" ixz="0" iyy="0.01" iyz="0" izz="0.01"/>
+    </inertial>
+  </link>
+  <link name="fl_lower">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.01" ixy="0" ixz="0" iyy="0.01" iyz="0" izz="0.01"/>
+    </inertial>
+  </link>
+  <link name="fr_upper">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.01" ixy="0" ixz="0" iyy="0.01" iyz="0" izz="0.01"/>
+    </inertial>
+  </link>
+  <link name="fr_lower">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.01" ixy="0" ixz="0" iyy="0.01" iyz="0" izz="0.01"/>
+    </inertial>
+  </link>
+  <link name="rl_upper">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.01" ixy="0" ixz="0" iyy="0.01" iyz="0" izz="0.01"/>
+    </inertial>
+  </link>
+  <link name="rl_lower">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.01" ixy="0" ixz="0" iyy="0.01" iyz="0" izz="0.01"/>
+    </inertial>
+  </link>
+  <link name="rr_upper">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.01" ixy="0" ixz="0" iyy="0.01" iyz="0" izz="0.01"/>
+    </inertial>
+  </link>
+  <link name="rr_lower">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.01" ixy="0" ixz="0" iyy="0.01" iyz="0" izz="0.01"/>
+    </inertial>
+  </link>
+  <joint name="j-hip-fl" type="revolute">
+    <parent link="body"/>
+    <child link="fl_upper"/>
+    <origin xyz="0.28 0.16 0.27" rpy="0.0 0.0 0.0"/>
+    <axis xyz="1.0 0.0 0.0"/>
+    <limit lower="-1.2" upper="1.0" effort="42.0" velocity="6.0"/>
+  </joint>
+  <joint name="j-knee-fl" type="revolute">
+    <parent link="fl_upper"/>
+    <child link="fl_lower"/>
+    <origin xyz="0.0 0.0 -0.13" rpy="0.0 0.0 0.0"/>
+    <axis xyz="1.0 0.0 0.0"/>
+    <limit lower="-1.8" upper="0.2" effort="42.0" velocity="6.0"/>
+  </joint>
+  <joint name="j-hip-fr" type="revolute">
+    <parent link="body"/>
+    <child link="fr_upper"/>
+    <origin xyz="0.28 -0.16 0.27" rpy="0.0 0.0 0.0"/>
+    <axis xyz="1.0 0.0 0.0"/>
+    <limit lower="-1.2" upper="1.0" effort="42.0" velocity="6.0"/>
+  </joint>
+  <joint name="j-knee-fr" type="revolute">
+    <parent link="fr_upper"/>
+    <child link="fr_lower"/>
+    <origin xyz="0.0 0.0 -0.13" rpy="0.0 0.0 0.0"/>
+    <axis xyz="1.0 0.0 0.0"/>
+    <limit lower="-1.8" upper="0.2" effort="42.0" velocity="6.0"/>
+  </joint>
+  <joint name="j-hip-rl" type="revolute">
+    <parent link="body"/>
+    <child link="rl_upper"/>
+    <origin xyz="-0.28 0.16 0.27" rpy="0.0 0.0 0.0"/>
+    <axis xyz="1.0 0.0 0.0"/>
+    <limit lower="-1.2" upper="1.0" effort="42.0" velocity="6.0"/>
+  </joint>
+  <joint name="j-knee-rl" type="revolute">
+    <parent link="rl_upper"/>
+    <child link="rl_lower"/>
+    <origin xyz="0.0 0.0 -0.13" rpy="0.0 0.0 0.0"/>
+    <axis xyz="1.0 0.0 0.0"/>
+    <limit lower="-1.8" upper="0.2" effort="42.0" velocity="6.0"/>
+  </joint>
+  <joint name="j-hip-rr" type="revolute">
+    <parent link="body"/>
+    <child link="rr_upper"/>
+    <origin xyz="-0.28 -0.16 0.27" rpy="0.0 0.0 0.0"/>
+    <axis xyz="1.0 0.0 0.0"/>
+    <limit lower="-1.2" upper="1.0" effort="42.0" velocity="6.0"/>
+  </joint>
+  <joint name="j-knee-rr" type="revolute">
+    <parent link="rr_upper"/>
+    <child link="rr_lower"/>
+    <origin xyz="0.0 0.0 -0.13" rpy="0.0 0.0 0.0"/>
+    <axis xyz="1.0 0.0 0.0"/>
+    <limit lower="-1.8" upper="0.2" effort="42.0" velocity="6.0"/>
+  </joint>
+</robot>

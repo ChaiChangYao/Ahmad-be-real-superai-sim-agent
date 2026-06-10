@@ -1,0 +1,14 @@
+{
+  "project_id": "default-robot-dog",
+  "links": 9,
+  "joints": 8,
+  "actuators": 8,
+  "sensors": 4,
+  "wires": 2,
+  "terrain": "flat",
+  "payload_kg": 0.0,
+  "robot_description": {
+    "urdf_path": "sim-data/projects/default-robot-dog/generated/robot_description/default_robot_dog.urdf",
+    "mjcf_path": "sim-data/projects/default-robot-dog/generated/robot_description/default_robot_dog.mjcf"
+  }
+}

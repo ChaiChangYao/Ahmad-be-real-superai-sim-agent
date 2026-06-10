@@ -1,0 +1,3 @@
+[showcase_launcher] Running script: C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\genesis-world\examples\rigid\franka_cube.py
+[showcase_launcher] Headless: True · Web record: True
+[showcase_launcher] Record path: C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-6fd8b7f430\state_timeseries.json

@@ -1,0 +1,8 @@
+﻿{
+    "config":  {
+                   "terrain":  "flat"
+               },
+    "duration_s":  10,
+    "name":  "Free Drive / WASD",
+    "id":  "free_drive"
+}

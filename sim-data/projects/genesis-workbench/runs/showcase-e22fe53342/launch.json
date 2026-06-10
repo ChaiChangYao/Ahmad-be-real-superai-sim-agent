@@ -1,0 +1,20 @@
+{
+  "launch_id": "showcase-e22fe53342",
+  "project_id": "genesis-workbench",
+  "scenario_id": "genesis-physics-rigid-franka-cube",
+  "demo_name": "Rigid: franka cube",
+  "layer": "physics",
+  "repo": "genesis-world",
+  "script_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\genesis-world\\examples\\rigid\\franka_cube.py",
+  "repo_root": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\genesis-world",
+  "argv": [
+    "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\genesis-world\\examples\\rigid\\franka_cube.py",
+    "--vis"
+  ],
+  "pid": 42272,
+  "started_at": "2026-06-04T14:59:32.257427+00:00",
+  "status": "running",
+  "upstream_url": "https://github.com/Genesis-Embodied-AI/genesis-world/blob/main/examples/rigid/franka_cube.py",
+  "note": "Native Genesis viewer window should open (--vis passed when the script supports it). First launch may take 30\u201360s. Check the taskbar if you do not see it."
+}

@@ -1,0 +1,11 @@
+{
+  "started_at": "2026-06-09T08:44:28.637939+00:00",
+  "test_id": "imu_sensor",
+  "template_id": "imu_sensor",
+  "project_id": "imported-f7996be4",
+  "fallback_mode": null,
+  "status": "completed",
+  "sensor": "imu",
+  "attach_link": "base_link",
+  "completed_at": "2026-06-09T08:45:44.591843+00:00"
+}

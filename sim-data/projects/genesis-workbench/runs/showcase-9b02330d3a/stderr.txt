@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\apps\api\.venv\Lib\site-packages\genesis\__init__.py", line 21, in <module>
+    import torch
+ModuleNotFoundError: No module named 'torch'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\apps\api\app\scripts\showcase_launcher.py", line 130, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\apps\api\app\scripts\showcase_launcher.py", line 88, in main
+    _install_headless_patch()
+  File "C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\apps\api\app\scripts\showcase_launcher.py", line 15, in _install_headless_patch
+    import genesis as gs
+  File "C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\apps\api\.venv\Lib\site-packages\genesis\__init__.py", line 23, in <module>
+    raise ImportError(
+ImportError: 'torch' module not available. Please install pytorch manually: https://pytorch.org/get-started/locally/

@@ -1,0 +1,9 @@
+{
+  "w": "forward",
+  "a": "left",
+  "s": "backward",
+  "d": "right",
+  "space": "jump",
+  "r": "reset",
+  "escape": "emergency_stop"
+}

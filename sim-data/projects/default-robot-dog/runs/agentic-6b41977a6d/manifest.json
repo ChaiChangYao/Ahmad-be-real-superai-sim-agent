@@ -1,0 +1,29 @@
+{
+  "runId": "agentic-6b41977a6d",
+  "projectId": "default-robot-dog",
+  "testId": "gravity_stability",
+  "scriptId": "script-817497c3f9",
+  "templateId": "gravity_stability",
+  "status": "failed",
+  "startedAt": "2026-06-08T03:39:59.552836+00:00",
+  "completedAt": "2026-06-08T03:40:21.835660+00:00",
+  "backend": "ExecutionBackend.local",
+  "visual": {
+    "hasReplay": false,
+    "frameCount": 0,
+    "fps": 24.0,
+    "path": "state_timeseries.json"
+  },
+  "telemetry": {
+    "hasTelemetry": false,
+    "sampleCount": 0,
+    "sensorTypes": [],
+    "path": ""
+  },
+  "errors": [
+    "    self._load_model()\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\genesis\\engine\\entities\\rigid_entity\\rigid_entity.py\", line 2163, in _load_model\n    super()._load_model()\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\genesis\\engine\\entities\\rigid_entity\\rigid_entity.py\", line 284, in _load_model\n    self._load_morph(self._morph)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\genesis\\engine\\entities\\rigid_entity\\rigid_entity.py\", line 133, in _load_morph\n    self._load_scene(morph, self._surface)\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\genesis\\engine\\entities\\rigid_entity\\rigid_entity.py\", line 2168, in _load_scene\n    l_infos, links_j_infos, links_g_infos, eqs_info = self._parse_scene(morph, surface)\n                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\genesis\\engine\\entities\\rigid_entity\\rigid_entity.py\", line 526, in _parse_scene\n    l_infos, links_j_infos, links_g_infos, eqs_info = uu.parse_urdf(morph, surface)\n                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\genesis\\utils\\urdf.py\", line 135, in parse_urdf\n    robot = urdfpy.URDF.load(path)\n            ^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\genesis\\ext\\urdfpy\\urdf.py\", line 3751, in load\n    return URDF._from_xml(node, node, path)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\genesis\\ext\\urdfpy\\urdf.py\", line 3937, in _from_xml\n    kwargs = cls._parse(node, root, path)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\genesis\\ext\\urdf",
+    "[agentic_runtime] Run failed: Require joint limit for prismatic and revolute joints"
+  ],
+  "warnings": [],
+  "exitCode": 1
+}

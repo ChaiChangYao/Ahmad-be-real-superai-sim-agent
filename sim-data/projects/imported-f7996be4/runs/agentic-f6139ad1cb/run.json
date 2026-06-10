@@ -1,0 +1,106 @@
+{
+  "run_id": "agentic-f6139ad1cb",
+  "project_id": "imported-f7996be4",
+  "script_id": "script-127c9f31d8",
+  "test_id": "imu_sensor",
+  "template_id": "imu_sensor",
+  "backend": "local",
+  "status": "failed",
+  "created_at": "2026-06-09T08:27:30.918143+00:00",
+  "started_at": "2026-06-09T08:27:30.966858+00:00",
+  "completed_at": "2026-06-09T08:27:56.975235+00:00",
+  "run_dir": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-f7996be4\\runs\\agentic-f6139ad1cb",
+  "command": [
+    "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\apps\\api\\.venv\\Scripts\\python.exe",
+    "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\apps\\api\\app\\scripts\\showcase_launcher.py",
+    "--script",
+    "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-f7996be4\\runs\\agentic-f6139ad1cb\\generated\\script.py",
+    "--headless",
+    "--record-web"
+  ],
+  "pid": 38408,
+  "exit_code": 1,
+  "timeout_seconds": 300,
+  "stdout_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-f7996be4\\runs\\agentic-f6139ad1cb\\stdout.log",
+  "stderr_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-f7996be4\\runs\\agentic-f6139ad1cb\\stderr.log",
+  "combined_log_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-f7996be4\\runs\\agentic-f6139ad1cb\\combined.log",
+  "manifest_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-f7996be4\\runs\\agentic-f6139ad1cb\\manifest.json",
+  "replay_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-f7996be4\\runs\\agentic-f6139ad1cb\\state_timeseries.json",
+  "telemetry_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-f7996be4\\runs\\agentic-f6139ad1cb\\telemetry_timeseries.json",
+  "report_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-f7996be4\\runs\\agentic-f6139ad1cb\\report.json",
+  "error_summary": "[showcase_launcher] Demo crashed:\nTraceback (most recent call last):\n  File \"C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\apps\\api\\app\\scripts\\showcase_launcher.py\", line 116, in main\n    runpy.run_path(script_path, run_name=\"__main__\")\n  File \"<frozen runpy>\", line 291, in run_path\n  File \"<frozen runpy>\", line 98, in _run_module_code\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-f7996be4\\runs\\agentic-f6139ad1cb\\generated\\script.py\", line 90, in <module>\n    main()\n  File \"C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-f7996be4\\runs\\agentic-f6139ad1cb\\generated\\script.py\", line 58, in main\n    attach_imu_sensor(\n  File \"C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\apps\\api\\app\\services\\agentic\\runtime\\sensor_helpers.py\", line 28, in attach_imu_sensor\n    return scene.add_sensor(\n           ^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\apps\\api\\app\\services\\genesis_showcase\\scene_replay_exporter.py\", line 729, in patched_add_sensor\n    sensor = original_add_sensor(self, sensor_options, *args, **kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\apps\\api\\.venv\\Lib\\site-packages\\genesis\\utils\\misc.py\", line 132, in wrapper\n    return method(self, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: Scene.add_sensor() got an unexpected keyword argument 'update_rate'\n[showcase_launcher] Running script: C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-f7996be4\\runs\\agentic-f6139ad1cb\\generated\\script.py\n[showcase_launcher] Headless: True \u00b7 Web record: True\n[showcase_launcher] Record path: C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-f7996be4\\runs\\agentic-f6139ad1cb\\state_timeseries.json\n[showcas",
+  "warning_summary": "",
+  "artifacts": [
+    {
+      "artifact_id": "agentic-f6139ad1cb:manifest",
+      "run_id": "agentic-f6139ad1cb",
+      "kind": "manifest",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-f7996be4\\runs\\agentic-f6139ad1cb\\run.json",
+      "url": "",
+      "size_bytes": 4558,
+      "content_type": "application/json",
+      "created_at": ""
+    },
+    {
+      "artifact_id": "agentic-f6139ad1cb:manifest",
+      "run_id": "agentic-f6139ad1cb",
+      "kind": "manifest",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-f7996be4\\runs\\agentic-f6139ad1cb\\manifest.json",
+      "url": "",
+      "size_bytes": 2881,
+      "content_type": "application/json",
+      "created_at": ""
+    },
+    {
+      "artifact_id": "agentic-f6139ad1cb:stdout",
+      "run_id": "agentic-f6139ad1cb",
+      "kind": "stdout",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-f7996be4\\runs\\agentic-f6139ad1cb\\stdout.log",
+      "url": "",
+      "size_bytes": 548,
+      "content_type": "text/plain",
+      "created_at": ""
+    },
+    {
+      "artifact_id": "agentic-f6139ad1cb:stderr",
+      "run_id": "agentic-f6139ad1cb",
+      "kind": "stderr",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-f7996be4\\runs\\agentic-f6139ad1cb\\stderr.log",
+      "url": "",
+      "size_bytes": 1612,
+      "content_type": "text/plain",
+      "created_at": ""
+    },
+    {
+      "artifact_id": "agentic-f6139ad1cb:log",
+      "run_id": "agentic-f6139ad1cb",
+      "kind": "log",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-f7996be4\\runs\\agentic-f6139ad1cb\\combined.log",
+      "url": "",
+      "size_bytes": 3278,
+      "content_type": "text/plain",
+      "created_at": ""
+    },
+    {
+      "artifact_id": "agentic-f6139ad1cb:generated_script",
+      "run_id": "agentic-f6139ad1cb",
+      "kind": "generated_script",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-f7996be4\\runs\\agentic-f6139ad1cb\\generated\\script.py",
+      "url": "",
+      "size_bytes": 2740,
+      "content_type": "text/plain",
+      "created_at": ""
+    },
+    {
+      "artifact_id": "agentic-f6139ad1cb:context",
+      "run_id": "agentic-f6139ad1cb",
+      "kind": "context",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-f7996be4\\runs\\agentic-f6139ad1cb\\generated\\script.context.json",
+      "url": "",
+      "size_bytes": 54375,
+      "content_type": "application/json",
+      "created_at": ""
+    }
+  ],
+  "failure": null
+}

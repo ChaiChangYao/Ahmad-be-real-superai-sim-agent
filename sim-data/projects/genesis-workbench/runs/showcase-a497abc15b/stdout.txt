@@ -1,0 +1,83 @@
+[showcase_launcher] Running script: C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\genesis-world\examples\tutorials\control_your_robot.py
+[showcase_launcher] Headless: True · Web record: True
+[showcase_launcher] Record path: C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-a497abc15b\state_timeseries.json
+[38;5;159m[Genesis] [16:44:39] [INFO] [38;5;121m╭───────────────────────────────────────────────╮[0m[38;5;159m[0m
+[38;5;159m[Genesis] [16:44:39] [INFO] [38;5;121m│┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈[0m[38;5;159m [38;5;121m[1m[3mGenesis[0m[38;5;159m [38;5;121m┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈│[0m[38;5;159m[0m
+[38;5;159m[Genesis] [16:44:39] [INFO] [38;5;121m╰───────────────────────────────────────────────╯[0m[38;5;159m[0m
+[38;5;226m[Genesis] [16:44:41] [WARNING] Backend [38;5;121m[4mgs.gpu[0m[38;5;226m not available on this machine. Falling back to CPU.[0m
+[38;5;159m[Genesis] [16:44:41] [INFO] Running on [38;5;121m[4m[AMD Ryzen 7 6800H with Radeon Graphics][0m[38;5;159m with backend [38;5;121m[4mgs.cpu[0m[38;5;159m. Device memory: [38;5;121m[4m15.25[0m[38;5;159m GB.[0m
+[38;5;159m[Genesis] [16:44:41] [INFO] 🚀 Genesis initialized. 🔖 version: [38;5;121m[4m1.0.0[0m[38;5;159m, 🎨 theme: [38;5;121m[4mdark[0m[38;5;159m, 🌱 seed: [38;5;121m[4mNone[0m[38;5;159m, 🐛 debug: [38;5;121m[4mFalse[0m[38;5;159m, 📏 precision: [38;5;121m[4m32[0m[38;5;159m, 🔥 performance: [38;5;121m[4mFalse[0m[38;5;159m, 💬 verbose: [38;5;121m[4mINFO[0m[38;5;159m[0m
+[38;5;159m[Genesis] [16:44:47] [INFO] Scene [38;5;121m[3m<9d49c2e>[0m[38;5;159m created.[0m
+[38;5;159m[Genesis] [16:44:47] [INFO] Adding [38;5;121m<gs.engine.entities.RigidEntity>[0m[38;5;159m. idx: [38;5;121m0[0m[38;5;159m, uid: [38;5;121m[3m<5986f19>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Plane>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [16:44:47] [INFO] Adding [38;5;121m<gs.engine.entities.RigidEntity>[0m[38;5;159m. idx: [38;5;121m1[0m[38;5;159m, uid: [38;5;121m[3m<237397b>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.MJCF(file='C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\genesis\assets\xml/franka_emika_panda/panda.xml')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [16:44:48] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint1`[0m
+[38;5;226m[Genesis] [16:44:48] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint2`[0m
+[38;5;159m[Genesis] [16:44:48] [INFO] Building scene [38;5;121m[3m<9d49c2e>[0m[38;5;159m...[0m
+[38;5;226m[Genesis] [16:44:49] [WARNING] Neutral robot position (qpos0) exceeds joint limits.[0m
+[38;5;226m[Genesis] [16:44:50] [WARNING] Constraint solver time constant should be greater than 2*substep_dt. timeconst is changed from `0.005` to `0.02`). Decrease simulation timestep or increase timeconst to avoid altering the original value.[0m
+[38;5;226m[Genesis] [16:44:54] [WARNING] Filtered out geometry pairs causing self-collision for the neutral configuration (qpos0): (6, 11), (7, 11), (14, 21), (15, 20), (16, 23), (17, 22). Consider tuning Morph option 'decompose_robot_error_threshold' or specify dedicated collision meshes. This behavior can be disabled by setting Morph option 'enable_neutral_collision=True'.[0m
+[38;5;159m[Genesis] [16:44:56] [INFO] Compiling simulation kernels...[0m
+[38;5;159m[Genesis] [16:45:03] [INFO] Building visualizer...[0m
+[showcase_launcher] Franka OBJ meshes exported: 11 links
+[showcase_launcher] Transform sample (raw Genesis, upAxis=z): [{"id": "env/floor", "position": [0.0, 0.0, 0.0], "quaternion": [1.0, 0.0, 0.0, 0.0]}, {"id": "franka/link0", "position": [0.0, 0.0, 0.0], "quaternion": [1.0, 0.0, 0.0, 0.0]}, {"id": "franka/link1", "position": [0.0, 0.0, 0.3330000042915344], "quaternion": [1.0, 0.0, 0.0, 0.0]}, {"id": "franka/link2", "position": [0.0, 0.0, 0.3330000042915344], "quaternion": [0.7071068286895752, -0.7071068286895752, 0.0, 0.0]}]
+[showcase_launcher] Scene export: top_level=2 robot_links=11 visual_geoms=81 meshes_exported=11 tracked_objects=12 franka_fallback=False
+[38;5;159m[Genesis] [16:45:09] [INFO] Running at [38;5;121m106.93[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [16:45:09] [INFO] Running at [38;5;121m106.93[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [16:45:09] [INFO] Running at [38;5;121m106.95[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [16:45:09] [INFO] Running at [38;5;121m106.73[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [16:45:09] [INFO] Running at [38;5;121m71.20[0m[38;5;159m FPS.[0m
+[showcase_launcher] Wrote 30 replay frames (partial, v1) · 12 objects (11 robot links, 11 meshes exported) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-a497abc15b\state_timeseries.json
+[38;5;159m[Genesis] [16:45:09] [INFO] Running at [38;5;121m53.44[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [16:45:09] [INFO] Running at [38;5;121m71.52[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [16:45:09] [INFO] Running at [38;5;121m89.24[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [16:45:09] [INFO] Running at [38;5;121m88.83[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [16:45:09] [INFO] Running at [38;5;121m89.30[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [16:45:09] [INFO] Running at [38;5;121m107.14[0m[38;5;159m FPS.[0m
+[showcase_launcher] Wrote 60 replay frames (partial, v2) · 12 objects (11 robot links, 11 meshes exported) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-a497abc15b\state_timeseries.json
+[38;5;159m[Genesis] [16:45:09] [INFO] Running at [38;5;121m71.05[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [16:45:09] [INFO] Running at [38;5;121m89.09[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [16:45:09] [INFO] Running at [38;5;121m89.54[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [16:45:10] [INFO] Running at [38;5;121m89.62[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [16:45:10] [INFO] Running at [38;5;121m107.68[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [16:45:10] [INFO] Running at [38;5;121m108.00[0m[38;5;159m FPS.[0m
+[showcase_launcher] Wrote 90 replay frames (partial, v3) · 12 objects (11 robot links, 11 meshes exported) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-a497abc15b\state_timeseries.json
+[38;5;159m[Genesis] [16:45:10] [INFO] Running at [38;5;121m54.14[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [16:45:10] [INFO] Running at [38;5;121m107.53[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [16:45:10] [INFO] Running at [38;5;121m71.89[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [16:45:10] [INFO] Running at [38;5;121m90.18[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [16:45:10] [INFO] Running at [38;5;121m90.24[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [16:45:10] [INFO] Running at [38;5;121m108.03[0m[38;5;159m FPS.[0m
+[showcase_launcher] Wrote 120 replay frames (partial, v4) · 12 objects (11 robot links, 11 meshes exported) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-a497abc15b\state_timeseries.json
+[38;5;159m[Genesis] [16:45:10] [INFO] Running at [38;5;121m71.67[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [16:45:10] [INFO] Running at [38;5;121m71.39[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [16:45:10] [INFO] Running at [38;5;121m71.61[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [16:45:10] [INFO] Running at [38;5;121m71.17[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [16:45:10] [INFO] Running at [38;5;121m71.22[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [16:45:10] [INFO] Running at [38;5;121m106.92[0m[38;5;159m FPS.[0m
+[38;5;159m[Genesis] [16:45:10] [INFO] Running at [38;5;121m107.04[0m[38;5;159m FPS.[0m
+[showcase_launcher] Wrote 150 replay frames (partial, v5) · 12 objects (11 robot links, 11 meshes exported) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-a497abc15b\state_timeseries.json
+control force: tensor([ 87.0000,  87.0000,   2.5026,  87.0000, -12.0000,  12.0000,   1.3468,
+          3.9989,   4.0011])
+internal force: tensor([ 0.0000e+00,  4.0399e+00,  0.0000e+00, -4.7939e+01,  0.0000e+00,
+        -2.2997e+00,  0.0000e+00, -2.2137e-02,  2.2137e-02])
+[38;5;159m[Genesis] [16:45:11] [INFO] Running at [38;5;121m13.89[0m[38;5;159m FPS.[0m
+control force: tensor([ 8.7000e+01,  8.7000e+01,  1.1393e+00,  8.7000e+01, -7.3107e+00,
+         1.2000e+01, -5.2068e-02,  2.0458e+00,  2.0431e+00])
+internal force: tensor([ 87.0123,  91.5943,   2.5145,  91.6631, -12.0871,  10.0558,   1.3531,
+          4.0237,   3.9763])
+control force: tensor([87.0000, 87.0000,  1.1690, 87.0000,  0.3706, 12.0000, -0.1400,  0.9552,
+         0.9529])
+internal force: tensor([ 8.6822e+01,  9.1422e+01,  1.1478e+00,  9.1288e+01, -7.3578e+00,
+         9.9988e+00, -5.3174e-02,  1.8948e+00,  1.8386e+00])
+control force: tensor([87.0000, 87.0000,  1.3522, 87.0000,  0.9197, 12.0000, -0.1671,  0.3551,
+         0.3536])
+internal force: tensor([86.6212, 91.3107,  1.1624, 90.9089,  0.3394,  9.9474, -0.1418,  0.7186,
+         0.6681])
+control force: tensor([ 8.7000e+01,  8.7000e+01,  1.4175e+00,  8.7000e+01,  9.6437e-01,
+         1.2000e+01, -1.6771e-01,  3.2640e-02,  3.1478e-02])
+internal force: tensor([ 8.6410e+01,  9.1265e+01,  1.3143e+00,  9.0524e+01,  8.6534e-01,
+         9.9017e+00, -1.6909e-01,  8.7432e-02,  3.8281e-02])
+[showcase_launcher] Demo finished.
+[showcase_launcher] Wrote 155 replay frames (final, v6) · 12 objects (11 robot links, 11 meshes exported) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-a497abc15b\state_timeseries.json
+[38;5;159m[Genesis] [16:45:11] [INFO] 💤 Exiting Genesis and caching compiled kernels...[0m
+[showcase_launcher] Wrote 155 replay frames (final, v7) · 12 objects (11 robot links, 11 meshes exported) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-a497abc15b\state_timeseries.json

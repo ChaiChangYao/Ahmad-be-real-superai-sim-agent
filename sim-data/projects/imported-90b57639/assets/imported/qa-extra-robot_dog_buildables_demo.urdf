@@ -1,0 +1,1157 @@
+<?xml version="1.0"?>
+<robot name="robot_dog_buildables_demo">
+  <material name="armor_yellow">
+    <color rgba="0.95 0.67 0.06 1" />
+  </material>
+  <material name="anodized_black">
+    <color rgba="0.02 0.023 0.025 1" />
+  </material>
+  <material name="rubber_black">
+    <color rgba="0.006 0.006 0.005 1" />
+  </material>
+  <material name="sensor_glass">
+    <color rgba="0.015 0.024 0.032 1" />
+  </material>
+  <material name="pcb_green">
+    <color rgba="0.02 0.28 0.12 1" />
+  </material>
+  <material name="battery_gray">
+    <color rgba="0.12 0.12 0.12 1" />
+  </material>
+  <material name="payload_gray">
+    <color rgba="0.42 0.44 0.43 1" />
+  </material>
+  <link name="base_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="15" />
+      <inertia ixx="0.2225" ixy="0" ixz="0" iyy="1.1185" iyz="0" izz="1.22" />
+    </inertial>
+    <visual name="torso_shell_top_visual">
+      <origin xyz="-0 -0 -0.52" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/torso_shell_top.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="armor_yellow" />
+    </visual>
+    <visual name="torso_shell_left_visual">
+      <origin xyz="-0 -0 -0.52" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/torso_shell_left.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="armor_yellow" />
+    </visual>
+    <visual name="torso_shell_right_visual">
+      <origin xyz="-0 -0 -0.52" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/torso_shell_right.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="armor_yellow" />
+    </visual>
+    <visual name="bottom_chassis_frame_visual">
+      <origin xyz="-0 -0 -0.52" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/bottom_chassis_frame.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="anodized_black" />
+    </visual>
+    <collision name="base_link_collision">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/base_link_collision.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="front_sensor_panel_link">
+    <inertial>
+      <origin xyz="0.477 0 0.002" rpy="0 0 0" />
+      <mass value="0.35" />
+      <inertia ixx="0.0021729167" ixy="0" ixz="0" iyy="0.00059791667" iyz="0" izz="0.001785" />
+    </inertial>
+    <visual name="torso_front_sensor_panel_visual">
+      <origin xyz="-0 -0 -0.52" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/torso_front_sensor_panel.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="sensor_glass" />
+    </visual>
+    <visual name="front_depth_sensor_block_visual">
+      <origin xyz="-0 -0 -0.52" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/front_depth_sensor_block.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="sensor_glass" />
+    </visual>
+    <collision name="front_sensor_panel_link_collision">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/front_sensor_panel_collision.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="rear_service_panel_link">
+    <inertial>
+      <origin xyz="-0.477 0 -0.002" rpy="0 0 0" />
+      <mass value="0.28" />
+      <inertia ixx="0.0017383333" ixy="0" ixz="0" iyy="0.00045266667" iyz="0" izz="0.0014023333" />
+    </inertial>
+    <visual name="torso_rear_service_panel_visual">
+      <origin xyz="-0 -0 -0.52" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/torso_rear_service_panel.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="anodized_black" />
+    </visual>
+    <collision name="rear_service_panel_link_collision">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/rear_service_panel_collision.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="internal_electronics_link">
+    <inertial>
+      <origin xyz="-0.04 0 -0.03" rpy="0 0 0" />
+      <mass value="2.9" />
+      <inertia ixx="0.015176667" ixy="0" ixz="0" iyy="0.048164167" iyz="0" izz="0.056380833" />
+    </inertial>
+    <visual name="internal_battery_tray_visual">
+      <origin xyz="-0 -0 -0.52" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/internal_battery_tray.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="anodized_black" />
+    </visual>
+    <visual name="internal_controller_mount_visual">
+      <origin xyz="-0 -0 -0.52" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/internal_controller_mount.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="anodized_black" />
+    </visual>
+    <visual name="battery_block_visual">
+      <origin xyz="-0 -0 -0.52" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/battery_block.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="battery_gray" />
+    </visual>
+    <visual name="controller_board_block_visual">
+      <origin xyz="-0 -0 -0.52" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/controller_board_block.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="pcb_green" />
+    </visual>
+    <visual name="imu_sensor_block_visual">
+      <origin xyz="-0 -0 -0.52" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/imu_sensor_block.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="pcb_green" />
+    </visual>
+    <visual name="power_distribution_block_visual">
+      <origin xyz="-0 -0 -0.52" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/power_distribution_block.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="pcb_green" />
+    </visual>
+    <visual name="wire_harness_routes_visual">
+      <origin xyz="-0 -0 -0.52" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/wire_harness_routes.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="anodized_black" />
+    </visual>
+    <collision name="internal_electronics_link_collision">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/internal_electronics_collision.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="payload_mount_link">
+    <inertial>
+      <origin xyz="0.03 0 0.155" rpy="0 0 0" />
+      <mass value="1.1" />
+      <inertia ixx="0.0034191667" ixy="0" ixz="0" iyy="0.034558333" iyz="0" izz="0.037079167" />
+    </inertial>
+    <visual name="top_payload_mount_rail_left_visual">
+      <origin xyz="-0 -0 -0.52" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/top_payload_mount_rail_left.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="anodized_black" />
+    </visual>
+    <visual name="top_payload_mount_rail_right_visual">
+      <origin xyz="-0 -0 -0.52" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/top_payload_mount_rail_right.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="anodized_black" />
+    </visual>
+    <visual name="top_payload_block_placeholder_visual">
+      <origin xyz="-0 -0 -0.52" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/top_payload_block_placeholder.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="payload_gray" />
+    </visual>
+    <collision name="payload_mount_link_collision">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/payload_mount_collision.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="front_left_hip_abduction_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="1.25" />
+      <inertia ixx="0.0013333333" ixy="0" ixz="0" iyy="0.0019270833" iyz="0" izz="0.0019270833" />
+    </inertial>
+    <visual name="front_left_hip_yaw_housing_visual">
+      <origin xyz="-0.33 -0.185 -0.43" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/front_left_hip_yaw_housing.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="anodized_black" />
+    </visual>
+    <collision name="front_left_hip_abduction_link_collision">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/front_left_hip_abduction_collision.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="front_left_hip_pitch_housing_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="0.65" />
+      <inertia ixx="0.0010833333" ixy="0" ixz="0" iyy="0.00088833333" iyz="0" izz="0.00088833333" />
+    </inertial>
+    <visual name="front_left_hip_pitch_housing_visual">
+      <origin xyz="-0.33 -0.233 -0.43" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/front_left_hip_pitch_housing.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="anodized_black" />
+    </visual>
+    <visual name="front_left_hip_cable_service_loop_visual">
+      <origin xyz="-0.33 -0.233 -0.43" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/front_left_hip_cable_service_loop.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="anodized_black" />
+    </visual>
+    <collision name="front_left_hip_pitch_housing_link_collision">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/front_left_hip_pitch_housing_collision.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="front_left_upper_leg_link">
+    <inertial>
+      <origin xyz="-0.029 0 -0.096" rpy="0 0 0" />
+      <mass value="1.15" />
+      <inertia ixx="0.0051079167" ixy="0" ixz="0" iyy="0.0062579167" iyz="0" izz="0.0020891667" />
+    </inertial>
+    <visual name="front_left_upper_leg_link_visual">
+      <origin xyz="-0.33 -0.233 -0.43" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/front_left_upper_leg_link.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="anodized_black" />
+    </visual>
+    <visual name="front_left_upper_leg_shell_visual">
+      <origin xyz="-0.33 -0.233 -0.43" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/front_left_upper_leg_shell.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="armor_yellow" />
+    </visual>
+    <collision name="front_left_upper_leg_link_collision">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/front_left_upper_leg_collision.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="front_left_knee_housing_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="0.55" />
+      <inertia ixx="0.00066458333" ixy="0" ixz="0" iyy="0.00058666667" iyz="0" izz="0.00066458333" />
+    </inertial>
+    <visual name="front_left_knee_housing_visual">
+      <origin xyz="-0.272 -0.233 -0.238" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/front_left_knee_housing.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="anodized_black" />
+    </visual>
+    <collision name="front_left_knee_housing_link_collision">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/front_left_knee_housing_collision.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="front_left_lower_leg_link">
+    <inertial>
+      <origin xyz="0.036 0 -0.083" rpy="0 0 0" />
+      <mass value="0.75" />
+      <inertia ixx="0.0026265625" ixy="0" ixz="0" iyy="0.003125" iyz="0" izz="0.0007515625" />
+    </inertial>
+    <visual name="front_left_lower_leg_link_visual">
+      <origin xyz="-0.272 -0.233 -0.238" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/front_left_lower_leg_link.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="anodized_black" />
+    </visual>
+    <collision name="front_left_lower_leg_link_collision">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/front_left_lower_leg_collision.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="front_left_foot_link">
+    <inertial>
+      <origin xyz="0.025 0 -0.045" rpy="0 0 0" />
+      <mass value="0.32" />
+      <inertia ixx="0.00021333333" ixy="0" ixz="0" iyy="0.00072533333" iyz="0" izz="0.00085333333" />
+    </inertial>
+    <visual name="front_left_foot_visual">
+      <origin xyz="-0.344 -0.233 -0.072" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/front_left_foot.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="anodized_black" />
+    </visual>
+    <visual name="front_left_foot_pad_visual">
+      <origin xyz="-0.344 -0.233 -0.072" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/front_left_foot_pad.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="rubber_black" />
+    </visual>
+    <collision name="front_left_foot_link_collision">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/front_left_foot_collision.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="front_right_hip_abduction_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="1.25" />
+      <inertia ixx="0.0013333333" ixy="0" ixz="0" iyy="0.0019270833" iyz="0" izz="0.0019270833" />
+    </inertial>
+    <visual name="front_right_hip_yaw_housing_visual">
+      <origin xyz="-0.33 0.185 -0.43" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/front_right_hip_yaw_housing.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="anodized_black" />
+    </visual>
+    <collision name="front_right_hip_abduction_link_collision">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/front_right_hip_abduction_collision.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="front_right_hip_pitch_housing_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="0.65" />
+      <inertia ixx="0.0010833333" ixy="0" ixz="0" iyy="0.00088833333" iyz="0" izz="0.00088833333" />
+    </inertial>
+    <visual name="front_right_hip_pitch_housing_visual">
+      <origin xyz="-0.33 0.233 -0.43" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/front_right_hip_pitch_housing.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="anodized_black" />
+    </visual>
+    <visual name="front_right_hip_cable_service_loop_visual">
+      <origin xyz="-0.33 0.233 -0.43" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/front_right_hip_cable_service_loop.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="anodized_black" />
+    </visual>
+    <collision name="front_right_hip_pitch_housing_link_collision">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/front_right_hip_pitch_housing_collision.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="front_right_upper_leg_link">
+    <inertial>
+      <origin xyz="-0.029 0 -0.096" rpy="0 0 0" />
+      <mass value="1.15" />
+      <inertia ixx="0.0051079167" ixy="0" ixz="0" iyy="0.0062579167" iyz="0" izz="0.0020891667" />
+    </inertial>
+    <visual name="front_right_upper_leg_link_visual">
+      <origin xyz="-0.33 0.233 -0.43" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/front_right_upper_leg_link.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="anodized_black" />
+    </visual>
+    <visual name="front_right_upper_leg_shell_visual">
+      <origin xyz="-0.33 0.233 -0.43" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/front_right_upper_leg_shell.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="armor_yellow" />
+    </visual>
+    <collision name="front_right_upper_leg_link_collision">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/front_right_upper_leg_collision.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="front_right_knee_housing_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="0.55" />
+      <inertia ixx="0.00066458333" ixy="0" ixz="0" iyy="0.00058666667" iyz="0" izz="0.00066458333" />
+    </inertial>
+    <visual name="front_right_knee_housing_visual">
+      <origin xyz="-0.272 0.233 -0.238" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/front_right_knee_housing.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="anodized_black" />
+    </visual>
+    <collision name="front_right_knee_housing_link_collision">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/front_right_knee_housing_collision.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="front_right_lower_leg_link">
+    <inertial>
+      <origin xyz="0.036 0 -0.083" rpy="0 0 0" />
+      <mass value="0.75" />
+      <inertia ixx="0.0026265625" ixy="0" ixz="0" iyy="0.003125" iyz="0" izz="0.0007515625" />
+    </inertial>
+    <visual name="front_right_lower_leg_link_visual">
+      <origin xyz="-0.272 0.233 -0.238" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/front_right_lower_leg_link.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="anodized_black" />
+    </visual>
+    <collision name="front_right_lower_leg_link_collision">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/front_right_lower_leg_collision.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="front_right_foot_link">
+    <inertial>
+      <origin xyz="0.025 0 -0.045" rpy="0 0 0" />
+      <mass value="0.32" />
+      <inertia ixx="0.00021333333" ixy="0" ixz="0" iyy="0.00072533333" iyz="0" izz="0.00085333333" />
+    </inertial>
+    <visual name="front_right_foot_visual">
+      <origin xyz="-0.344 0.233 -0.072" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/front_right_foot.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="anodized_black" />
+    </visual>
+    <visual name="front_right_foot_pad_visual">
+      <origin xyz="-0.344 0.233 -0.072" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/front_right_foot_pad.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="rubber_black" />
+    </visual>
+    <collision name="front_right_foot_link_collision">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/front_right_foot_collision.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="rear_left_hip_abduction_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="1.25" />
+      <inertia ixx="0.0013333333" ixy="0" ixz="0" iyy="0.0019270833" iyz="0" izz="0.0019270833" />
+    </inertial>
+    <visual name="rear_left_hip_yaw_housing_visual">
+      <origin xyz="0.33 -0.185 -0.43" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/rear_left_hip_yaw_housing.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="anodized_black" />
+    </visual>
+    <collision name="rear_left_hip_abduction_link_collision">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/rear_left_hip_abduction_collision.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="rear_left_hip_pitch_housing_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="0.65" />
+      <inertia ixx="0.0010833333" ixy="0" ixz="0" iyy="0.00088833333" iyz="0" izz="0.00088833333" />
+    </inertial>
+    <visual name="rear_left_hip_pitch_housing_visual">
+      <origin xyz="0.33 -0.233 -0.43" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/rear_left_hip_pitch_housing.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="anodized_black" />
+    </visual>
+    <visual name="rear_left_hip_cable_service_loop_visual">
+      <origin xyz="0.33 -0.233 -0.43" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/rear_left_hip_cable_service_loop.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="anodized_black" />
+    </visual>
+    <collision name="rear_left_hip_pitch_housing_link_collision">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/rear_left_hip_pitch_housing_collision.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="rear_left_upper_leg_link">
+    <inertial>
+      <origin xyz="0.029 0 -0.096" rpy="0 0 0" />
+      <mass value="1.15" />
+      <inertia ixx="0.0051079167" ixy="0" ixz="0" iyy="0.0062579167" iyz="0" izz="0.0020891667" />
+    </inertial>
+    <visual name="rear_left_upper_leg_link_visual">
+      <origin xyz="0.33 -0.233 -0.43" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/rear_left_upper_leg_link.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="anodized_black" />
+    </visual>
+    <visual name="rear_left_upper_leg_shell_visual">
+      <origin xyz="0.33 -0.233 -0.43" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/rear_left_upper_leg_shell.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="armor_yellow" />
+    </visual>
+    <collision name="rear_left_upper_leg_link_collision">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/rear_left_upper_leg_collision.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="rear_left_knee_housing_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="0.55" />
+      <inertia ixx="0.00066458333" ixy="0" ixz="0" iyy="0.00058666667" iyz="0" izz="0.00066458333" />
+    </inertial>
+    <visual name="rear_left_knee_housing_visual">
+      <origin xyz="0.272 -0.233 -0.238" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/rear_left_knee_housing.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="anodized_black" />
+    </visual>
+    <collision name="rear_left_knee_housing_link_collision">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/rear_left_knee_housing_collision.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="rear_left_lower_leg_link">
+    <inertial>
+      <origin xyz="-0.036 0 -0.083" rpy="0 0 0" />
+      <mass value="0.75" />
+      <inertia ixx="0.0026265625" ixy="0" ixz="0" iyy="0.003125" iyz="0" izz="0.0007515625" />
+    </inertial>
+    <visual name="rear_left_lower_leg_link_visual">
+      <origin xyz="0.272 -0.233 -0.238" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/rear_left_lower_leg_link.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="anodized_black" />
+    </visual>
+    <collision name="rear_left_lower_leg_link_collision">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/rear_left_lower_leg_collision.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="rear_left_foot_link">
+    <inertial>
+      <origin xyz="-0.025 0 -0.045" rpy="0 0 0" />
+      <mass value="0.32" />
+      <inertia ixx="0.00021333333" ixy="0" ixz="0" iyy="0.00072533333" iyz="0" izz="0.00085333333" />
+    </inertial>
+    <visual name="rear_left_foot_visual">
+      <origin xyz="0.344 -0.233 -0.072" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/rear_left_foot.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="anodized_black" />
+    </visual>
+    <visual name="rear_left_foot_pad_visual">
+      <origin xyz="0.344 -0.233 -0.072" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/rear_left_foot_pad.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="rubber_black" />
+    </visual>
+    <collision name="rear_left_foot_link_collision">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/rear_left_foot_collision.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="rear_right_hip_abduction_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="1.25" />
+      <inertia ixx="0.0013333333" ixy="0" ixz="0" iyy="0.0019270833" iyz="0" izz="0.0019270833" />
+    </inertial>
+    <visual name="rear_right_hip_yaw_housing_visual">
+      <origin xyz="0.33 0.185 -0.43" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/rear_right_hip_yaw_housing.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="anodized_black" />
+    </visual>
+    <collision name="rear_right_hip_abduction_link_collision">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/rear_right_hip_abduction_collision.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="rear_right_hip_pitch_housing_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="0.65" />
+      <inertia ixx="0.0010833333" ixy="0" ixz="0" iyy="0.00088833333" iyz="0" izz="0.00088833333" />
+    </inertial>
+    <visual name="rear_right_hip_pitch_housing_visual">
+      <origin xyz="0.33 0.233 -0.43" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/rear_right_hip_pitch_housing.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="anodized_black" />
+    </visual>
+    <visual name="rear_right_hip_cable_service_loop_visual">
+      <origin xyz="0.33 0.233 -0.43" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/rear_right_hip_cable_service_loop.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="anodized_black" />
+    </visual>
+    <collision name="rear_right_hip_pitch_housing_link_collision">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/rear_right_hip_pitch_housing_collision.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="rear_right_upper_leg_link">
+    <inertial>
+      <origin xyz="0.029 0 -0.096" rpy="0 0 0" />
+      <mass value="1.15" />
+      <inertia ixx="0.0051079167" ixy="0" ixz="0" iyy="0.0062579167" iyz="0" izz="0.0020891667" />
+    </inertial>
+    <visual name="rear_right_upper_leg_link_visual">
+      <origin xyz="0.33 0.233 -0.43" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/rear_right_upper_leg_link.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="anodized_black" />
+    </visual>
+    <visual name="rear_right_upper_leg_shell_visual">
+      <origin xyz="0.33 0.233 -0.43" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/rear_right_upper_leg_shell.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="armor_yellow" />
+    </visual>
+    <collision name="rear_right_upper_leg_link_collision">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/rear_right_upper_leg_collision.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="rear_right_knee_housing_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="0.55" />
+      <inertia ixx="0.00066458333" ixy="0" ixz="0" iyy="0.00058666667" iyz="0" izz="0.00066458333" />
+    </inertial>
+    <visual name="rear_right_knee_housing_visual">
+      <origin xyz="0.272 0.233 -0.238" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/rear_right_knee_housing.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="anodized_black" />
+    </visual>
+    <collision name="rear_right_knee_housing_link_collision">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/rear_right_knee_housing_collision.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="rear_right_lower_leg_link">
+    <inertial>
+      <origin xyz="-0.036 0 -0.083" rpy="0 0 0" />
+      <mass value="0.75" />
+      <inertia ixx="0.0026265625" ixy="0" ixz="0" iyy="0.003125" iyz="0" izz="0.0007515625" />
+    </inertial>
+    <visual name="rear_right_lower_leg_link_visual">
+      <origin xyz="0.272 0.233 -0.238" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/rear_right_lower_leg_link.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="anodized_black" />
+    </visual>
+    <collision name="rear_right_lower_leg_link_collision">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/rear_right_lower_leg_collision.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="rear_right_foot_link">
+    <inertial>
+      <origin xyz="-0.025 0 -0.045" rpy="0 0 0" />
+      <mass value="0.32" />
+      <inertia ixx="0.00021333333" ixy="0" ixz="0" iyy="0.00072533333" iyz="0" izz="0.00085333333" />
+    </inertial>
+    <visual name="rear_right_foot_visual">
+      <origin xyz="0.344 0.233 -0.072" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/rear_right_foot.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="anodized_black" />
+    </visual>
+    <visual name="rear_right_foot_pad_visual">
+      <origin xyz="0.344 0.233 -0.072" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/rear_right_foot_pad.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="rubber_black" />
+    </visual>
+    <collision name="rear_right_foot_link_collision">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/rear_right_foot_collision.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="front_sensor_panel_link_fixed" type="fixed">
+    <parent link="base_link" />
+    <child link="front_sensor_panel_link" />
+    <origin xyz="0 0 0" rpy="0 0 0" />
+  </joint>
+  <joint name="rear_service_panel_link_fixed" type="fixed">
+    <parent link="base_link" />
+    <child link="rear_service_panel_link" />
+    <origin xyz="0 0 0" rpy="0 0 0" />
+  </joint>
+  <joint name="internal_electronics_link_fixed" type="fixed">
+    <parent link="base_link" />
+    <child link="internal_electronics_link" />
+    <origin xyz="0 0 0" rpy="0 0 0" />
+  </joint>
+  <joint name="payload_mount_link_fixed" type="fixed">
+    <parent link="base_link" />
+    <child link="payload_mount_link" />
+    <origin xyz="0 0 0" rpy="0 0 0" />
+  </joint>
+  <joint name="front_left_hip_abduction_joint" type="revolute">
+    <parent link="base_link" />
+    <child link="front_left_hip_abduction_link" />
+    <origin xyz="0.33 0.185 -0.09" rpy="0 0 0" />
+    <axis xyz="1 0 0" />
+    <limit lower="-0.65" upper="0.65" effort="70" velocity="7" />
+    <dynamics damping="0.08" friction="0.02" />
+  </joint>
+  <joint name="front_left_hip_pitch_housing_fixed" type="fixed">
+    <parent link="front_left_hip_abduction_link" />
+    <child link="front_left_hip_pitch_housing_link" />
+    <origin xyz="0 0.048 0" rpy="0 0 0" />
+  </joint>
+  <joint name="front_left_hip_pitch_joint" type="revolute">
+    <parent link="front_left_hip_abduction_link" />
+    <child link="front_left_upper_leg_link" />
+    <origin xyz="0 0.048 0" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="-1.3" upper="1.35" effort="85" velocity="8" />
+    <dynamics damping="0.08" friction="0.02" />
+  </joint>
+  <joint name="front_left_knee_housing_fixed" type="fixed">
+    <parent link="front_left_upper_leg_link" />
+    <child link="front_left_knee_housing_link" />
+    <origin xyz="-0.058 0 -0.192" rpy="0 0 0" />
+  </joint>
+  <joint name="front_left_knee_pitch_joint" type="revolute">
+    <parent link="front_left_upper_leg_link" />
+    <child link="front_left_lower_leg_link" />
+    <origin xyz="-0.058 0 -0.192" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="-2.65" upper="-0.25" effort="90" velocity="8" />
+    <dynamics damping="0.08" friction="0.02" />
+  </joint>
+  <joint name="front_left_foot_fixed" type="fixed">
+    <parent link="front_left_lower_leg_link" />
+    <child link="front_left_foot_link" />
+    <origin xyz="0.072 0 -0.166" rpy="0 0 0" />
+  </joint>
+  <joint name="front_right_hip_abduction_joint" type="revolute">
+    <parent link="base_link" />
+    <child link="front_right_hip_abduction_link" />
+    <origin xyz="0.33 -0.185 -0.09" rpy="0 0 0" />
+    <axis xyz="1 0 0" />
+    <limit lower="-0.65" upper="0.65" effort="70" velocity="7" />
+    <dynamics damping="0.08" friction="0.02" />
+  </joint>
+  <joint name="front_right_hip_pitch_housing_fixed" type="fixed">
+    <parent link="front_right_hip_abduction_link" />
+    <child link="front_right_hip_pitch_housing_link" />
+    <origin xyz="0 -0.048 0" rpy="0 0 0" />
+  </joint>
+  <joint name="front_right_hip_pitch_joint" type="revolute">
+    <parent link="front_right_hip_abduction_link" />
+    <child link="front_right_upper_leg_link" />
+    <origin xyz="0 -0.048 0" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="-1.3" upper="1.35" effort="85" velocity="8" />
+    <dynamics damping="0.08" friction="0.02" />
+  </joint>
+  <joint name="front_right_knee_housing_fixed" type="fixed">
+    <parent link="front_right_upper_leg_link" />
+    <child link="front_right_knee_housing_link" />
+    <origin xyz="-0.058 0 -0.192" rpy="0 0 0" />
+  </joint>
+  <joint name="front_right_knee_pitch_joint" type="revolute">
+    <parent link="front_right_upper_leg_link" />
+    <child link="front_right_lower_leg_link" />
+    <origin xyz="-0.058 0 -0.192" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="-2.65" upper="-0.25" effort="90" velocity="8" />
+    <dynamics damping="0.08" friction="0.02" />
+  </joint>
+  <joint name="front_right_foot_fixed" type="fixed">
+    <parent link="front_right_lower_leg_link" />
+    <child link="front_right_foot_link" />
+    <origin xyz="0.072 0 -0.166" rpy="0 0 0" />
+  </joint>
+  <joint name="rear_left_hip_abduction_joint" type="revolute">
+    <parent link="base_link" />
+    <child link="rear_left_hip_abduction_link" />
+    <origin xyz="-0.33 0.185 -0.09" rpy="0 0 0" />
+    <axis xyz="1 0 0" />
+    <limit lower="-0.65" upper="0.65" effort="70" velocity="7" />
+    <dynamics damping="0.08" friction="0.02" />
+  </joint>
+  <joint name="rear_left_hip_pitch_housing_fixed" type="fixed">
+    <parent link="rear_left_hip_abduction_link" />
+    <child link="rear_left_hip_pitch_housing_link" />
+    <origin xyz="0 0.048 0" rpy="0 0 0" />
+  </joint>
+  <joint name="rear_left_hip_pitch_joint" type="revolute">
+    <parent link="rear_left_hip_abduction_link" />
+    <child link="rear_left_upper_leg_link" />
+    <origin xyz="0 0.048 0" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="-1.3" upper="1.35" effort="85" velocity="8" />
+    <dynamics damping="0.08" friction="0.02" />
+  </joint>
+  <joint name="rear_left_knee_housing_fixed" type="fixed">
+    <parent link="rear_left_upper_leg_link" />
+    <child link="rear_left_knee_housing_link" />
+    <origin xyz="0.058 0 -0.192" rpy="0 0 0" />
+  </joint>
+  <joint name="rear_left_knee_pitch_joint" type="revolute">
+    <parent link="rear_left_upper_leg_link" />
+    <child link="rear_left_lower_leg_link" />
+    <origin xyz="0.058 0 -0.192" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="-2.65" upper="-0.25" effort="90" velocity="8" />
+    <dynamics damping="0.08" friction="0.02" />
+  </joint>
+  <joint name="rear_left_foot_fixed" type="fixed">
+    <parent link="rear_left_lower_leg_link" />
+    <child link="rear_left_foot_link" />
+    <origin xyz="-0.072 0 -0.166" rpy="0 0 0" />
+  </joint>
+  <joint name="rear_right_hip_abduction_joint" type="revolute">
+    <parent link="base_link" />
+    <child link="rear_right_hip_abduction_link" />
+    <origin xyz="-0.33 -0.185 -0.09" rpy="0 0 0" />
+    <axis xyz="1 0 0" />
+    <limit lower="-0.65" upper="0.65" effort="70" velocity="7" />
+    <dynamics damping="0.08" friction="0.02" />
+  </joint>
+  <joint name="rear_right_hip_pitch_housing_fixed" type="fixed">
+    <parent link="rear_right_hip_abduction_link" />
+    <child link="rear_right_hip_pitch_housing_link" />
+    <origin xyz="0 -0.048 0" rpy="0 0 0" />
+  </joint>
+  <joint name="rear_right_hip_pitch_joint" type="revolute">
+    <parent link="rear_right_hip_abduction_link" />
+    <child link="rear_right_upper_leg_link" />
+    <origin xyz="0 -0.048 0" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="-1.3" upper="1.35" effort="85" velocity="8" />
+    <dynamics damping="0.08" friction="0.02" />
+  </joint>
+  <joint name="rear_right_knee_housing_fixed" type="fixed">
+    <parent link="rear_right_upper_leg_link" />
+    <child link="rear_right_knee_housing_link" />
+    <origin xyz="0.058 0 -0.192" rpy="0 0 0" />
+  </joint>
+  <joint name="rear_right_knee_pitch_joint" type="revolute">
+    <parent link="rear_right_upper_leg_link" />
+    <child link="rear_right_lower_leg_link" />
+    <origin xyz="0.058 0 -0.192" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit lower="-2.65" upper="-0.25" effort="90" velocity="8" />
+    <dynamics damping="0.08" friction="0.02" />
+  </joint>
+  <joint name="rear_right_foot_fixed" type="fixed">
+    <parent link="rear_right_lower_leg_link" />
+    <child link="rear_right_foot_link" />
+    <origin xyz="-0.072 0 -0.166" rpy="0 0 0" />
+  </joint>
+  <transmission name="front_left_hip_abduction_joint_transmission">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="front_left_hip_abduction_joint">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="front_left_hip_abduction_joint_motor">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  <transmission name="front_left_hip_pitch_joint_transmission">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="front_left_hip_pitch_joint">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="front_left_hip_pitch_joint_motor">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  <transmission name="front_left_knee_pitch_joint_transmission">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="front_left_knee_pitch_joint">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="front_left_knee_pitch_joint_motor">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  <transmission name="front_right_hip_abduction_joint_transmission">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="front_right_hip_abduction_joint">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="front_right_hip_abduction_joint_motor">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  <transmission name="front_right_hip_pitch_joint_transmission">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="front_right_hip_pitch_joint">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="front_right_hip_pitch_joint_motor">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  <transmission name="front_right_knee_pitch_joint_transmission">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="front_right_knee_pitch_joint">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="front_right_knee_pitch_joint_motor">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  <transmission name="rear_left_hip_abduction_joint_transmission">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="rear_left_hip_abduction_joint">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="rear_left_hip_abduction_joint_motor">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  <transmission name="rear_left_hip_pitch_joint_transmission">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="rear_left_hip_pitch_joint">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="rear_left_hip_pitch_joint_motor">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  <transmission name="rear_left_knee_pitch_joint_transmission">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="rear_left_knee_pitch_joint">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="rear_left_knee_pitch_joint_motor">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  <transmission name="rear_right_hip_abduction_joint_transmission">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="rear_right_hip_abduction_joint">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="rear_right_hip_abduction_joint_motor">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  <transmission name="rear_right_hip_pitch_joint_transmission">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="rear_right_hip_pitch_joint">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="rear_right_hip_pitch_joint_motor">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  <transmission name="rear_right_knee_pitch_joint_transmission">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="rear_right_knee_pitch_joint">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="rear_right_knee_pitch_joint_motor">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  <ros2_control name="robot_dog_buildables_demo_system" type="system">
+    <hardware>
+      <plugin>mock_components/GenericSystem</plugin>
+    </hardware>
+    <joint name="front_left_hip_abduction_joint">
+      <command_interface name="position" />
+      <command_interface name="velocity" />
+      <command_interface name="effort" />
+      <state_interface name="position" />
+      <state_interface name="velocity" />
+    </joint>
+    <joint name="front_left_hip_pitch_joint">
+      <command_interface name="position" />
+      <command_interface name="velocity" />
+      <command_interface name="effort" />
+      <state_interface name="position" />
+      <state_interface name="velocity" />
+    </joint>
+    <joint name="front_left_knee_pitch_joint">
+      <command_interface name="position" />
+      <command_interface name="velocity" />
+      <command_interface name="effort" />
+      <state_interface name="position" />
+      <state_interface name="velocity" />
+    </joint>
+    <joint name="front_right_hip_abduction_joint">
+      <command_interface name="position" />
+      <command_interface name="velocity" />
+      <command_interface name="effort" />
+      <state_interface name="position" />
+      <state_interface name="velocity" />
+    </joint>
+    <joint name="front_right_hip_pitch_joint">
+      <command_interface name="position" />
+      <command_interface name="velocity" />
+      <command_interface name="effort" />
+      <state_interface name="position" />
+      <state_interface name="velocity" />
+    </joint>
+    <joint name="front_right_knee_pitch_joint">
+      <command_interface name="position" />
+      <command_interface name="velocity" />
+      <command_interface name="effort" />
+      <state_interface name="position" />
+      <state_interface name="velocity" />
+    </joint>
+    <joint name="rear_left_hip_abduction_joint">
+      <command_interface name="position" />
+      <command_interface name="velocity" />
+      <command_interface name="effort" />
+      <state_interface name="position" />
+      <state_interface name="velocity" />
+    </joint>
+    <joint name="rear_left_hip_pitch_joint">
+      <command_interface name="position" />
+      <command_interface name="velocity" />
+      <command_interface name="effort" />
+      <state_interface name="position" />
+      <state_interface name="velocity" />
+    </joint>
+    <joint name="rear_left_knee_pitch_joint">
+      <command_interface name="position" />
+      <command_interface name="velocity" />
+      <command_interface name="effort" />
+      <state_interface name="position" />
+      <state_interface name="velocity" />
+    </joint>
+    <joint name="rear_right_hip_abduction_joint">
+      <command_interface name="position" />
+      <command_interface name="velocity" />
+      <command_interface name="effort" />
+      <state_interface name="position" />
+      <state_interface name="velocity" />
+    </joint>
+    <joint name="rear_right_hip_pitch_joint">
+      <command_interface name="position" />
+      <command_interface name="velocity" />
+      <command_interface name="effort" />
+      <state_interface name="position" />
+      <state_interface name="velocity" />
+    </joint>
+    <joint name="rear_right_knee_pitch_joint">
+      <command_interface name="position" />
+      <command_interface name="velocity" />
+      <command_interface name="effort" />
+      <state_interface name="position" />
+      <state_interface name="velocity" />
+    </joint>
+  </ros2_control>
+</robot>

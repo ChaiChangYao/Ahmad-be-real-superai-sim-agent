@@ -1,0 +1,1559 @@
+{
+  "launch_summary": {
+    "urdfParsed": true,
+    "links": 29,
+    "joints": 28,
+    "meshReferencesFound": 82,
+    "meshesFound": 0,
+    "meshesMissing": 82,
+    "unsupportedFormats": 0,
+    "stepUploaded": false,
+    "launchable": false,
+    "launchable_web": false,
+    "launchable_native": false,
+    "reason": "Cannot launch full model because 82 mesh file(s) are missing. Upload the full meshes/ folder, a robot zip bundle, or generate meshes from STEP.",
+    "actions": [
+      "upload_robot_zip",
+      "upload_missing_meshes",
+      "upload_zip_bundle",
+      "preview_skeleton"
+    ],
+    "meshReferences": [
+      {
+        "source": "visual",
+        "path": "meshes/torso_shell_top.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\torso_shell_top.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "visual",
+        "path": "meshes/torso_shell_left.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\torso_shell_left.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "visual",
+        "path": "meshes/torso_shell_right.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\torso_shell_right.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "visual",
+        "path": "meshes/bottom_chassis_frame.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\bottom_chassis_frame.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "collision",
+        "path": "meshes/collision/base_link_collision.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\base_link_collision.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "visual",
+        "path": "meshes/torso_front_sensor_panel.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\torso_front_sensor_panel.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "visual",
+        "path": "meshes/front_depth_sensor_block.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\front_depth_sensor_block.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "collision",
+        "path": "meshes/collision/front_sensor_panel_collision.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\front_sensor_panel_collision.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "visual",
+        "path": "meshes/torso_rear_service_panel.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\torso_rear_service_panel.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "collision",
+        "path": "meshes/collision/rear_service_panel_collision.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\rear_service_panel_collision.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "visual",
+        "path": "meshes/internal_battery_tray.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\internal_battery_tray.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "visual",
+        "path": "meshes/internal_controller_mount.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\internal_controller_mount.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "visual",
+        "path": "meshes/battery_block.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\battery_block.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "visual",
+        "path": "meshes/controller_board_block.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\controller_board_block.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "visual",
+        "path": "meshes/imu_sensor_block.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\imu_sensor_block.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "visual",
+        "path": "meshes/power_distribution_block.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\power_distribution_block.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "visual",
+        "path": "meshes/wire_harness_routes.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\wire_harness_routes.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "collision",
+        "path": "meshes/collision/internal_electronics_collision.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\internal_electronics_collision.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "visual",
+        "path": "meshes/top_payload_mount_rail_left.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\top_payload_mount_rail_left.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "visual",
+        "path": "meshes/top_payload_mount_rail_right.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\top_payload_mount_rail_right.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "visual",
+        "path": "meshes/top_payload_block_placeholder.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\top_payload_block_placeholder.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "collision",
+        "path": "meshes/collision/payload_mount_collision.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\payload_mount_collision.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "visual",
+        "path": "meshes/front_left_hip_yaw_housing.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\front_left_hip_yaw_housing.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "collision",
+        "path": "meshes/collision/front_left_hip_abduction_collision.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\front_left_hip_abduction_collision.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "visual",
+        "path": "meshes/front_left_hip_pitch_housing.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\front_left_hip_pitch_housing.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "visual",
+        "path": "meshes/front_left_hip_cable_service_loop.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\front_left_hip_cable_service_loop.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "collision",
+        "path": "meshes/collision/front_left_hip_pitch_housing_collision.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\front_left_hip_pitch_housing_collision.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "visual",
+        "path": "meshes/front_left_upper_leg_link.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\front_left_upper_leg_link.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "visual",
+        "path": "meshes/front_left_upper_leg_shell.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\front_left_upper_leg_shell.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "collision",
+        "path": "meshes/collision/front_left_upper_leg_collision.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\front_left_upper_leg_collision.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "visual",
+        "path": "meshes/front_left_knee_housing.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\front_left_knee_housing.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "collision",
+        "path": "meshes/collision/front_left_knee_housing_collision.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\front_left_knee_housing_collision.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "visual",
+        "path": "meshes/front_left_lower_leg_link.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\front_left_lower_leg_link.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "collision",
+        "path": "meshes/collision/front_left_lower_leg_collision.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\front_left_lower_leg_collision.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "visual",
+        "path": "meshes/front_left_foot.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\front_left_foot.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "visual",
+        "path": "meshes/front_left_foot_pad.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\front_left_foot_pad.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "collision",
+        "path": "meshes/collision/front_left_foot_collision.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\front_left_foot_collision.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "visual",
+        "path": "meshes/front_right_hip_yaw_housing.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\front_right_hip_yaw_housing.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "collision",
+        "path": "meshes/collision/front_right_hip_abduction_collision.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\front_right_hip_abduction_collision.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "visual",
+        "path": "meshes/front_right_hip_pitch_housing.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\front_right_hip_pitch_housing.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "visual",
+        "path": "meshes/front_right_hip_cable_service_loop.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\front_right_hip_cable_service_loop.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "collision",
+        "path": "meshes/collision/front_right_hip_pitch_housing_collision.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\front_right_hip_pitch_housing_collision.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "visual",
+        "path": "meshes/front_right_upper_leg_link.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\front_right_upper_leg_link.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "visual",
+        "path": "meshes/front_right_upper_leg_shell.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\front_right_upper_leg_shell.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "collision",
+        "path": "meshes/collision/front_right_upper_leg_collision.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\front_right_upper_leg_collision.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "visual",
+        "path": "meshes/front_right_knee_housing.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\front_right_knee_housing.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "collision",
+        "path": "meshes/collision/front_right_knee_housing_collision.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\front_right_knee_housing_collision.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "visual",
+        "path": "meshes/front_right_lower_leg_link.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\front_right_lower_leg_link.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "collision",
+        "path": "meshes/collision/front_right_lower_leg_collision.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\front_right_lower_leg_collision.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "visual",
+        "path": "meshes/front_right_foot.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\front_right_foot.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "visual",
+        "path": "meshes/front_right_foot_pad.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\front_right_foot_pad.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "collision",
+        "path": "meshes/collision/front_right_foot_collision.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\front_right_foot_collision.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "visual",
+        "path": "meshes/rear_left_hip_yaw_housing.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\rear_left_hip_yaw_housing.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "collision",
+        "path": "meshes/collision/rear_left_hip_abduction_collision.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\rear_left_hip_abduction_collision.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "visual",
+        "path": "meshes/rear_left_hip_pitch_housing.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\rear_left_hip_pitch_housing.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "visual",
+        "path": "meshes/rear_left_hip_cable_service_loop.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\rear_left_hip_cable_service_loop.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "collision",
+        "path": "meshes/collision/rear_left_hip_pitch_housing_collision.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\rear_left_hip_pitch_housing_collision.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "visual",
+        "path": "meshes/rear_left_upper_leg_link.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\rear_left_upper_leg_link.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "visual",
+        "path": "meshes/rear_left_upper_leg_shell.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\rear_left_upper_leg_shell.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "collision",
+        "path": "meshes/collision/rear_left_upper_leg_collision.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\rear_left_upper_leg_collision.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "visual",
+        "path": "meshes/rear_left_knee_housing.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\rear_left_knee_housing.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "collision",
+        "path": "meshes/collision/rear_left_knee_housing_collision.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\rear_left_knee_housing_collision.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "visual",
+        "path": "meshes/rear_left_lower_leg_link.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\rear_left_lower_leg_link.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "collision",
+        "path": "meshes/collision/rear_left_lower_leg_collision.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\rear_left_lower_leg_collision.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "visual",
+        "path": "meshes/rear_left_foot.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\rear_left_foot.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "visual",
+        "path": "meshes/rear_left_foot_pad.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\rear_left_foot_pad.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "collision",
+        "path": "meshes/collision/rear_left_foot_collision.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\rear_left_foot_collision.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "visual",
+        "path": "meshes/rear_right_hip_yaw_housing.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\rear_right_hip_yaw_housing.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "collision",
+        "path": "meshes/collision/rear_right_hip_abduction_collision.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\rear_right_hip_abduction_collision.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "visual",
+        "path": "meshes/rear_right_hip_pitch_housing.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\rear_right_hip_pitch_housing.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "visual",
+        "path": "meshes/rear_right_hip_cable_service_loop.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\rear_right_hip_cable_service_loop.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "collision",
+        "path": "meshes/collision/rear_right_hip_pitch_housing_collision.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\rear_right_hip_pitch_housing_collision.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "visual",
+        "path": "meshes/rear_right_upper_leg_link.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\rear_right_upper_leg_link.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "visual",
+        "path": "meshes/rear_right_upper_leg_shell.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\rear_right_upper_leg_shell.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "collision",
+        "path": "meshes/collision/rear_right_upper_leg_collision.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\rear_right_upper_leg_collision.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "visual",
+        "path": "meshes/rear_right_knee_housing.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\rear_right_knee_housing.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "collision",
+        "path": "meshes/collision/rear_right_knee_housing_collision.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\rear_right_knee_housing_collision.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "visual",
+        "path": "meshes/rear_right_lower_leg_link.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\rear_right_lower_leg_link.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "collision",
+        "path": "meshes/collision/rear_right_lower_leg_collision.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\rear_right_lower_leg_collision.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "visual",
+        "path": "meshes/rear_right_foot.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\rear_right_foot.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "visual",
+        "path": "meshes/rear_right_foot_pad.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\rear_right_foot_pad.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "source": "collision",
+        "path": "meshes/collision/rear_right_foot_collision.stl",
+        "resolvedPath": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\rear_right_foot_collision.stl",
+        "status": "missing",
+        "fileType": "stl",
+        "actionNeeded": "Upload mesh file or zip bundle with meshes/ folder"
+      }
+    ],
+    "autoMapLog": []
+  },
+  "robot_description": {
+    "urdf_found": true,
+    "mjcf_found": false,
+    "links_count": 29,
+    "joints_count": 28,
+    "movable_joints_count": 12,
+    "fixed_joints_count": 16
+  },
+  "geometry": {
+    "visual_mesh_references": 82,
+    "resolved_meshes": {},
+    "missing_mesh_references": [
+      "meshes/torso_shell_top.stl",
+      "meshes/torso_shell_left.stl",
+      "meshes/torso_shell_right.stl",
+      "meshes/bottom_chassis_frame.stl",
+      "meshes/collision/base_link_collision.stl",
+      "meshes/torso_front_sensor_panel.stl",
+      "meshes/front_depth_sensor_block.stl",
+      "meshes/collision/front_sensor_panel_collision.stl",
+      "meshes/torso_rear_service_panel.stl",
+      "meshes/collision/rear_service_panel_collision.stl",
+      "meshes/internal_battery_tray.stl",
+      "meshes/internal_controller_mount.stl",
+      "meshes/battery_block.stl",
+      "meshes/controller_board_block.stl",
+      "meshes/imu_sensor_block.stl",
+      "meshes/power_distribution_block.stl",
+      "meshes/wire_harness_routes.stl",
+      "meshes/collision/internal_electronics_collision.stl",
+      "meshes/top_payload_mount_rail_left.stl",
+      "meshes/top_payload_mount_rail_right.stl",
+      "meshes/top_payload_block_placeholder.stl",
+      "meshes/collision/payload_mount_collision.stl",
+      "meshes/front_left_hip_yaw_housing.stl",
+      "meshes/collision/front_left_hip_abduction_collision.stl",
+      "meshes/front_left_hip_pitch_housing.stl",
+      "meshes/front_left_hip_cable_service_loop.stl",
+      "meshes/collision/front_left_hip_pitch_housing_collision.stl",
+      "meshes/front_left_upper_leg_link.stl",
+      "meshes/front_left_upper_leg_shell.stl",
+      "meshes/collision/front_left_upper_leg_collision.stl",
+      "meshes/front_left_knee_housing.stl",
+      "meshes/collision/front_left_knee_housing_collision.stl",
+      "meshes/front_left_lower_leg_link.stl",
+      "meshes/collision/front_left_lower_leg_collision.stl",
+      "meshes/front_left_foot.stl",
+      "meshes/front_left_foot_pad.stl",
+      "meshes/collision/front_left_foot_collision.stl",
+      "meshes/front_right_hip_yaw_housing.stl",
+      "meshes/collision/front_right_hip_abduction_collision.stl",
+      "meshes/front_right_hip_pitch_housing.stl",
+      "meshes/front_right_hip_cable_service_loop.stl",
+      "meshes/collision/front_right_hip_pitch_housing_collision.stl",
+      "meshes/front_right_upper_leg_link.stl",
+      "meshes/front_right_upper_leg_shell.stl",
+      "meshes/collision/front_right_upper_leg_collision.stl",
+      "meshes/front_right_knee_housing.stl",
+      "meshes/collision/front_right_knee_housing_collision.stl",
+      "meshes/front_right_lower_leg_link.stl",
+      "meshes/collision/front_right_lower_leg_collision.stl",
+      "meshes/front_right_foot.stl",
+      "meshes/front_right_foot_pad.stl",
+      "meshes/collision/front_right_foot_collision.stl",
+      "meshes/rear_left_hip_yaw_housing.stl",
+      "meshes/collision/rear_left_hip_abduction_collision.stl",
+      "meshes/rear_left_hip_pitch_housing.stl",
+      "meshes/rear_left_hip_cable_service_loop.stl",
+      "meshes/collision/rear_left_hip_pitch_housing_collision.stl",
+      "meshes/rear_left_upper_leg_link.stl",
+      "meshes/rear_left_upper_leg_shell.stl",
+      "meshes/collision/rear_left_upper_leg_collision.stl",
+      "meshes/rear_left_knee_housing.stl",
+      "meshes/collision/rear_left_knee_housing_collision.stl",
+      "meshes/rear_left_lower_leg_link.stl",
+      "meshes/collision/rear_left_lower_leg_collision.stl",
+      "meshes/rear_left_foot.stl",
+      "meshes/rear_left_foot_pad.stl",
+      "meshes/collision/rear_left_foot_collision.stl",
+      "meshes/rear_right_hip_yaw_housing.stl",
+      "meshes/collision/rear_right_hip_abduction_collision.stl",
+      "meshes/rear_right_hip_pitch_housing.stl",
+      "meshes/rear_right_hip_cable_service_loop.stl",
+      "meshes/collision/rear_right_hip_pitch_housing_collision.stl",
+      "meshes/rear_right_upper_leg_link.stl",
+      "meshes/rear_right_upper_leg_shell.stl",
+      "meshes/collision/rear_right_upper_leg_collision.stl",
+      "meshes/rear_right_knee_housing.stl",
+      "meshes/collision/rear_right_knee_housing_collision.stl",
+      "meshes/rear_right_lower_leg_link.stl",
+      "meshes/collision/rear_right_lower_leg_collision.stl",
+      "meshes/rear_right_foot.stl",
+      "meshes/rear_right_foot_pad.stl",
+      "meshes/collision/rear_right_foot_collision.stl"
+    ],
+    "mesh_table": [
+      {
+        "urdf_path": "meshes/torso_shell_top.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\torso_shell_top.stl",
+        "usage": "visual",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/torso_shell_left.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\torso_shell_left.stl",
+        "usage": "visual",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/torso_shell_right.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\torso_shell_right.stl",
+        "usage": "visual",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/bottom_chassis_frame.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\bottom_chassis_frame.stl",
+        "usage": "visual",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/collision/base_link_collision.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\base_link_collision.stl",
+        "usage": "collision",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/torso_front_sensor_panel.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\torso_front_sensor_panel.stl",
+        "usage": "visual",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/front_depth_sensor_block.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\front_depth_sensor_block.stl",
+        "usage": "visual",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/collision/front_sensor_panel_collision.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\front_sensor_panel_collision.stl",
+        "usage": "collision",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/torso_rear_service_panel.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\torso_rear_service_panel.stl",
+        "usage": "visual",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/collision/rear_service_panel_collision.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\rear_service_panel_collision.stl",
+        "usage": "collision",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/internal_battery_tray.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\internal_battery_tray.stl",
+        "usage": "visual",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/internal_controller_mount.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\internal_controller_mount.stl",
+        "usage": "visual",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/battery_block.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\battery_block.stl",
+        "usage": "visual",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/controller_board_block.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\controller_board_block.stl",
+        "usage": "visual",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/imu_sensor_block.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\imu_sensor_block.stl",
+        "usage": "visual",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/power_distribution_block.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\power_distribution_block.stl",
+        "usage": "visual",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/wire_harness_routes.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\wire_harness_routes.stl",
+        "usage": "visual",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/collision/internal_electronics_collision.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\internal_electronics_collision.stl",
+        "usage": "collision",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/top_payload_mount_rail_left.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\top_payload_mount_rail_left.stl",
+        "usage": "visual",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/top_payload_mount_rail_right.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\top_payload_mount_rail_right.stl",
+        "usage": "visual",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/top_payload_block_placeholder.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\top_payload_block_placeholder.stl",
+        "usage": "visual",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/collision/payload_mount_collision.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\payload_mount_collision.stl",
+        "usage": "collision",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/front_left_hip_yaw_housing.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\front_left_hip_yaw_housing.stl",
+        "usage": "visual",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/collision/front_left_hip_abduction_collision.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\front_left_hip_abduction_collision.stl",
+        "usage": "collision",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/front_left_hip_pitch_housing.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\front_left_hip_pitch_housing.stl",
+        "usage": "visual",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/front_left_hip_cable_service_loop.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\front_left_hip_cable_service_loop.stl",
+        "usage": "visual",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/collision/front_left_hip_pitch_housing_collision.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\front_left_hip_pitch_housing_collision.stl",
+        "usage": "collision",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/front_left_upper_leg_link.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\front_left_upper_leg_link.stl",
+        "usage": "visual",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/front_left_upper_leg_shell.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\front_left_upper_leg_shell.stl",
+        "usage": "visual",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/collision/front_left_upper_leg_collision.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\front_left_upper_leg_collision.stl",
+        "usage": "collision",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/front_left_knee_housing.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\front_left_knee_housing.stl",
+        "usage": "visual",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/collision/front_left_knee_housing_collision.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\front_left_knee_housing_collision.stl",
+        "usage": "collision",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/front_left_lower_leg_link.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\front_left_lower_leg_link.stl",
+        "usage": "visual",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/collision/front_left_lower_leg_collision.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\front_left_lower_leg_collision.stl",
+        "usage": "collision",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/front_left_foot.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\front_left_foot.stl",
+        "usage": "visual",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/front_left_foot_pad.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\front_left_foot_pad.stl",
+        "usage": "visual",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/collision/front_left_foot_collision.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\front_left_foot_collision.stl",
+        "usage": "collision",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/front_right_hip_yaw_housing.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\front_right_hip_yaw_housing.stl",
+        "usage": "visual",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/collision/front_right_hip_abduction_collision.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\front_right_hip_abduction_collision.stl",
+        "usage": "collision",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/front_right_hip_pitch_housing.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\front_right_hip_pitch_housing.stl",
+        "usage": "visual",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/front_right_hip_cable_service_loop.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\front_right_hip_cable_service_loop.stl",
+        "usage": "visual",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/collision/front_right_hip_pitch_housing_collision.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\front_right_hip_pitch_housing_collision.stl",
+        "usage": "collision",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/front_right_upper_leg_link.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\front_right_upper_leg_link.stl",
+        "usage": "visual",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/front_right_upper_leg_shell.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\front_right_upper_leg_shell.stl",
+        "usage": "visual",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/collision/front_right_upper_leg_collision.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\front_right_upper_leg_collision.stl",
+        "usage": "collision",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/front_right_knee_housing.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\front_right_knee_housing.stl",
+        "usage": "visual",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/collision/front_right_knee_housing_collision.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\front_right_knee_housing_collision.stl",
+        "usage": "collision",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/front_right_lower_leg_link.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\front_right_lower_leg_link.stl",
+        "usage": "visual",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/collision/front_right_lower_leg_collision.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\front_right_lower_leg_collision.stl",
+        "usage": "collision",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/front_right_foot.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\front_right_foot.stl",
+        "usage": "visual",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/front_right_foot_pad.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\front_right_foot_pad.stl",
+        "usage": "visual",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/collision/front_right_foot_collision.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\front_right_foot_collision.stl",
+        "usage": "collision",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/rear_left_hip_yaw_housing.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\rear_left_hip_yaw_housing.stl",
+        "usage": "visual",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/collision/rear_left_hip_abduction_collision.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\rear_left_hip_abduction_collision.stl",
+        "usage": "collision",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/rear_left_hip_pitch_housing.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\rear_left_hip_pitch_housing.stl",
+        "usage": "visual",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/rear_left_hip_cable_service_loop.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\rear_left_hip_cable_service_loop.stl",
+        "usage": "visual",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/collision/rear_left_hip_pitch_housing_collision.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\rear_left_hip_pitch_housing_collision.stl",
+        "usage": "collision",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/rear_left_upper_leg_link.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\rear_left_upper_leg_link.stl",
+        "usage": "visual",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/rear_left_upper_leg_shell.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\rear_left_upper_leg_shell.stl",
+        "usage": "visual",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/collision/rear_left_upper_leg_collision.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\rear_left_upper_leg_collision.stl",
+        "usage": "collision",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/rear_left_knee_housing.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\rear_left_knee_housing.stl",
+        "usage": "visual",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/collision/rear_left_knee_housing_collision.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\rear_left_knee_housing_collision.stl",
+        "usage": "collision",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/rear_left_lower_leg_link.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\rear_left_lower_leg_link.stl",
+        "usage": "visual",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/collision/rear_left_lower_leg_collision.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\rear_left_lower_leg_collision.stl",
+        "usage": "collision",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/rear_left_foot.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\rear_left_foot.stl",
+        "usage": "visual",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/rear_left_foot_pad.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\rear_left_foot_pad.stl",
+        "usage": "visual",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/collision/rear_left_foot_collision.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\rear_left_foot_collision.stl",
+        "usage": "collision",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/rear_right_hip_yaw_housing.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\rear_right_hip_yaw_housing.stl",
+        "usage": "visual",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/collision/rear_right_hip_abduction_collision.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\rear_right_hip_abduction_collision.stl",
+        "usage": "collision",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/rear_right_hip_pitch_housing.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\rear_right_hip_pitch_housing.stl",
+        "usage": "visual",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/rear_right_hip_cable_service_loop.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\rear_right_hip_cable_service_loop.stl",
+        "usage": "visual",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/collision/rear_right_hip_pitch_housing_collision.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\rear_right_hip_pitch_housing_collision.stl",
+        "usage": "collision",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/rear_right_upper_leg_link.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\rear_right_upper_leg_link.stl",
+        "usage": "visual",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/rear_right_upper_leg_shell.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\rear_right_upper_leg_shell.stl",
+        "usage": "visual",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/collision/rear_right_upper_leg_collision.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\rear_right_upper_leg_collision.stl",
+        "usage": "collision",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/rear_right_knee_housing.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\rear_right_knee_housing.stl",
+        "usage": "visual",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/collision/rear_right_knee_housing_collision.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\rear_right_knee_housing_collision.stl",
+        "usage": "collision",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/rear_right_lower_leg_link.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\rear_right_lower_leg_link.stl",
+        "usage": "visual",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/collision/rear_right_lower_leg_collision.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\rear_right_lower_leg_collision.stl",
+        "usage": "collision",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/rear_right_foot.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\rear_right_foot.stl",
+        "usage": "visual",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/rear_right_foot_pad.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\rear_right_foot_pad.stl",
+        "usage": "visual",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      },
+      {
+        "urdf_path": "meshes/collision/rear_right_foot_collision.stl",
+        "resolved_local_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\assets\\imported\\meshes\\collision\\rear_right_foot_collision.stl",
+        "usage": "collision",
+        "file_type": "stl",
+        "status": "missing",
+        "action_needed": "Upload mesh file or zip bundle with meshes/ folder"
+      }
+    ],
+    "step_source_found": false,
+    "step_note": "STEP is stored as an optional asset and does not replace missing URDF STL/OBJ mesh files. Convert or map STEP bodies to URDF mesh paths before full launch.",
+    "unit_scale": "meters"
+  },
+  "physics_metadata": {
+    "links_with_mass": 29,
+    "links_missing_mass": [],
+    "links_with_inertia": 29,
+    "links_missing_inertia": [],
+    "materials_found": 7,
+    "collision_geometry_missing": [
+      "base_link",
+      "front_sensor_panel_link",
+      "rear_service_panel_link",
+      "internal_electronics_link",
+      "payload_mount_link",
+      "front_left_hip_abduction_link",
+      "front_left_hip_pitch_housing_link",
+      "front_left_upper_leg_link",
+      "front_left_knee_housing_link",
+      "front_left_lower_leg_link",
+      "front_left_foot_link",
+      "front_right_hip_abduction_link",
+      "front_right_hip_pitch_housing_link",
+      "front_right_upper_leg_link",
+      "front_right_knee_housing_link",
+      "front_right_lower_leg_link",
+      "front_right_foot_link",
+      "rear_left_hip_abduction_link",
+      "rear_left_hip_pitch_housing_link",
+      "rear_left_upper_leg_link",
+      "rear_left_knee_housing_link",
+      "rear_left_lower_leg_link",
+      "rear_left_foot_link",
+      "rear_right_hip_abduction_link",
+      "rear_right_hip_pitch_housing_link",
+      "rear_right_upper_leg_link",
+      "rear_right_knee_housing_link",
+      "rear_right_lower_leg_link",
+      "rear_right_foot_link"
+    ]
+  },
+  "motion": {
+    "revolute_joints": 12,
+    "prismatic_joints": 0,
+    "continuous_joints": 0,
+    "joint_limits_missing": [],
+    "actuators_found": 12
+  },
+  "sensors_control": {
+    "sensors_found": 0,
+    "control_script_found": false,
+    "message": "No control script found. You can still run passive gravity, joint sweep, and collision tests.",
+    "enabled_features": [],
+    "requirements": []
+  },
+  "simulation_readiness": {
+    "status": "mechanism_imported",
+    "passive": false,
+    "joint": true,
+    "controlled": true,
+    "missing_metadata": true
+  },
+  "user_messages": [
+    {
+      "severity": "error",
+      "issue": "Missing mesh file referenced by URDF: meshes/torso_shell_top.stl",
+      "fix": "Upload the mesh folder preserving paths (e.g. meshes/link.stl), or upload a zip that includes the URDF and all mesh files."
+    },
+    {
+      "severity": "error",
+      "issue": "Missing mesh file referenced by URDF: meshes/torso_shell_left.stl",
+      "fix": "Upload the mesh folder preserving paths (e.g. meshes/link.stl), or upload a zip that includes the URDF and all mesh files."
+    },
+    {
+      "severity": "error",
+      "issue": "Missing mesh file referenced by URDF: meshes/torso_shell_right.stl",
+      "fix": "Upload the mesh folder preserving paths (e.g. meshes/link.stl), or upload a zip that includes the URDF and all mesh files."
+    },
+    {
+      "severity": "error",
+      "issue": "Missing mesh file referenced by URDF: meshes/bottom_chassis_frame.stl",
+      "fix": "Upload the mesh folder preserving paths (e.g. meshes/link.stl), or upload a zip that includes the URDF and all mesh files."
+    },
+    {
+      "severity": "error",
+      "issue": "Missing mesh file referenced by URDF: meshes/collision/base_link_collision.stl",
+      "fix": "Upload the mesh folder preserving paths (e.g. meshes/link.stl), or upload a zip that includes the URDF and all mesh files."
+    },
+    {
+      "severity": "error",
+      "issue": "Missing mesh file referenced by URDF: meshes/torso_front_sensor_panel.stl",
+      "fix": "Upload the mesh folder preserving paths (e.g. meshes/link.stl), or upload a zip that includes the URDF and all mesh files."
+    },
+    {
+      "severity": "error",
+      "issue": "Missing mesh file referenced by URDF: meshes/front_depth_sensor_block.stl",
+      "fix": "Upload the mesh folder preserving paths (e.g. meshes/link.stl), or upload a zip that includes the URDF and all mesh files."
+    },
+    {
+      "severity": "error",
+      "issue": "Missing mesh file referenced by URDF: meshes/collision/front_sensor_panel_collision.stl",
+      "fix": "Upload the mesh folder preserving paths (e.g. meshes/link.stl), or upload a zip that includes the URDF and all mesh files."
+    },
+    {
+      "severity": "error",
+      "issue": "Missing mesh file referenced by URDF: meshes/torso_rear_service_panel.stl",
+      "fix": "Upload the mesh folder preserving paths (e.g. meshes/link.stl), or upload a zip that includes the URDF and all mesh files."
+    },
+    {
+      "severity": "error",
+      "issue": "Missing mesh file referenced by URDF: meshes/collision/rear_service_panel_collision.stl",
+      "fix": "Upload the mesh folder preserving paths (e.g. meshes/link.stl), or upload a zip that includes the URDF and all mesh files."
+    },
+    {
+      "severity": "error",
+      "issue": "Missing mesh file referenced by URDF: meshes/internal_battery_tray.stl",
+      "fix": "Upload the mesh folder preserving paths (e.g. meshes/link.stl), or upload a zip that includes the URDF and all mesh files."
+    },
+    {
+      "severity": "error",
+      "issue": "Missing mesh file referenced by URDF: meshes/internal_controller_mount.stl",
+      "fix": "Upload the mesh folder preserving paths (e.g. meshes/link.stl), or upload a zip that includes the URDF and all mesh files."
+    }
+  ]
+}

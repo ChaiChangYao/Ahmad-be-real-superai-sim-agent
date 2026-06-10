@@ -1,0 +1,599 @@
+[showcase_launcher] Running script: C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\genesis-world\examples\rigid\franka_cube.py
+[showcase_launcher] Headless: True · Web record: True
+[showcase_launcher] Record path: C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-012bb6c5b6\state_timeseries.json
+[showcase_launcher] Forwarded args: (none)
+[38;5;159m[Genesis] [13:16:06] [INFO] [38;5;121m╭───────────────────────────────────────────────╮[0m[38;5;159m[0m
+[38;5;159m[Genesis] [13:16:06] [INFO] [38;5;121m│┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈[0m[38;5;159m [38;5;121m[1m[3mGenesis[0m[38;5;159m [38;5;121m┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈│[0m[38;5;159m[0m
+[38;5;159m[Genesis] [13:16:06] [INFO] [38;5;121m╰───────────────────────────────────────────────╯[0m[38;5;159m[0m
+[38;5;226m[Genesis] [13:16:08] [WARNING] Backend [38;5;121m[4mgs.gpu[0m[38;5;226m not available on this machine. Falling back to CPU.[0m
+[38;5;159m[Genesis] [13:16:08] [INFO] Running on [38;5;121m[4m[AMD Ryzen 7 6800H with Radeon Graphics][0m[38;5;159m with backend [38;5;121m[4mgs.cpu[0m[38;5;159m. Device memory: [38;5;121m[4m15.25[0m[38;5;159m GB.[0m
+[38;5;159m[Genesis] [13:16:08] [INFO] 🚀 Genesis initialized. 🔖 version: [38;5;121m[4m1.0.0[0m[38;5;159m, 🎨 theme: [38;5;121m[4mdark[0m[38;5;159m, 🌱 seed: [38;5;121m[4mNone[0m[38;5;159m, 🐛 debug: [38;5;121m[4mFalse[0m[38;5;159m, 📏 precision: [38;5;121m[4m32[0m[38;5;159m, 🔥 performance: [38;5;121m[4mFalse[0m[38;5;159m, 💬 verbose: [38;5;121m[4mINFO[0m[38;5;159m[0m
+[38;5;159m[Genesis] [13:16:14] [INFO] Scene [38;5;121m[3m<5b8a492>[0m[38;5;159m created.[0m
+[38;5;159m[Genesis] [13:16:14] [INFO] Adding [38;5;121m<gs.engine.entities.RigidEntity>[0m[38;5;159m. idx: [38;5;121m0[0m[38;5;159m, uid: [38;5;121m[3m<443b10f>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Plane>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [13:16:14] [INFO] Adding [38;5;121m<gs.engine.entities.RigidEntity>[0m[38;5;159m. idx: [38;5;121m1[0m[38;5;159m, uid: [38;5;121m[3m<01567c2>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.MJCF(file='C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\apps\api\.venv\Lib\site-packages\genesis\assets\xml/franka_emika_panda/panda.xml')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [13:16:15] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint1`[0m
+[38;5;226m[Genesis] [13:16:15] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint2`[0m
+[38;5;159m[Genesis] [13:16:15] [INFO] Adding [38;5;121m<gs.engine.entities.RigidEntity>[0m[38;5;159m. idx: [38;5;121m2[0m[38;5;159m, uid: [38;5;121m[3m<f53da0a>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [13:16:15] [INFO] Building scene [38;5;121m[3m<5b8a492>[0m[38;5;159m...[0m
+[38;5;226m[Genesis] [13:16:17] [WARNING] Neutral robot position (qpos0) exceeds joint limits.[0m
+[38;5;226m[Genesis] [13:16:17] [WARNING] Constraint solver time constant should be greater than 2*substep_dt. timeconst is changed from `0.005` to `0.02`). Decrease simulation timestep or increase timeconst to avoid altering the original value.[0m
+[38;5;226m[Genesis] [13:16:23] [WARNING] Filtered out geometry pairs causing self-collision for the neutral configuration (qpos0): (6, 11), (7, 11), (14, 21), (15, 20), (16, 23), (17, 22). Consider tuning Morph option 'decompose_robot_error_threshold' or specify dedicated collision meshes. This behavior can be disabled by setting Morph option 'enable_neutral_collision=True'.[0m
+[38;5;159m[Genesis] [13:16:24] [INFO] Compiling simulation kernels...[0m
+[38;5;159m[Genesis] [13:16:33] [INFO] Building visualizer...[0m
+[showcase_launcher] Franka OBJ meshes exported: 11 links
+[showcase_launcher] Transform sample (raw Genesis, upAxis=z): [{"id": "env/floor", "position": [0.0, 0.0, 0.0], "quaternion": [1.0, 0.0, 0.0, 0.0]}, {"id": "franka/link0", "position": [0.0, 0.0, 0.0], "quaternion": [1.0, 0.0, 0.0, 0.0]}, {"id": "franka/link1", "position": [0.0, 0.0, 0.3330000042915344], "quaternion": [1.0, 0.0, 0.0, 0.0]}, {"id": "franka/link2", "position": [0.0, 0.0, 0.3330000042915344], "quaternion": [0.7071068286895752, -0.7071068286895752, 0.0, 0.0]}]
+[showcase_launcher] Scene export: top_level=3 robot_links=11 visual_geoms=81 meshes_exported=11 tracked_objects=13 franka_fallback=False
+[showcase_launcher] Frame 0: link franka/link0 pos delta=0.000000 qpos_keys=3
+hold 0
+[38;5;159m[Genesis] [13:16:48] [INFO] Running at [38;5;121m0.11[0m[38;5;159m FPS.[0m
+hold 1
+hold 2
+hold 3
+hold 4
+hold 5
+hold 6
+[38;5;159m[Genesis] [13:16:48] [INFO] Running at [38;5;121m110.70[0m[38;5;159m FPS.[0m
+hold 7
+hold 8
+hold 9
+[showcase_launcher] Frame 10: link franka/link7 pos delta=0.000892 qpos_keys=3
+hold 10
+hold 11
+hold 12
+hold 13
+[38;5;159m[Genesis] [13:16:48] [INFO] Running at [38;5;121m129.02[0m[38;5;159m FPS.[0m
+hold 14
+hold 15
+hold 16
+hold 17
+hold 18
+hold 19
+[showcase_launcher] Frame 20: link franka/link7 pos delta=0.000337 qpos_keys=3
+hold 20
+[38;5;159m[Genesis] [13:16:48] [INFO] Running at [38;5;121m128.80[0m[38;5;159m FPS.[0m
+hold 21
+hold 22
+hold 23
+hold 24
+hold 25
+hold 26
+[38;5;159m[Genesis] [13:16:48] [INFO] Running at [38;5;121m110.71[0m[38;5;159m FPS.[0m
+hold 27
+hold 28
+[showcase_launcher] Replay diagnostics: 30 frames, 30 unique poses, 1 meaningful keyframes, longest freeze 1 frames, jump at frame none, primary motion=franka/hand, issue=sparse_motion_phases
+[showcase_launcher] Demo has dense micro-motion; preview will preserve per-step finger/object motion.
+[showcase_launcher] Wrote 30 replay frames (partial, v1) · raw=30 unique_poses=30 preview=30 · 13 objects (11 robot links) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-012bb6c5b6\state_timeseries.json
+hold 29
+[38;5;159m[Genesis] [13:16:48] [INFO] Running at [38;5;121m36.16[0m[38;5;159m FPS.[0m
+[showcase_launcher] Frame 30: link franka/link1 pos delta=0.000287 qpos_keys=3
+hold 30
+hold 31
+hold 32
+hold 33
+hold 34
+hold 35
+[38;5;159m[Genesis] [13:16:48] [INFO] Running at [38;5;121m111.50[0m[38;5;159m FPS.[0m
+hold 36
+hold 37
+hold 38
+hold 39
+[showcase_launcher] Frame 40: link franka/link7 pos delta=0.000216 qpos_keys=3
+hold 40
+hold 41
+hold 42
+[38;5;159m[Genesis] [13:16:48] [INFO] Running at [38;5;121m129.81[0m[38;5;159m FPS.[0m
+hold 43
+hold 44
+hold 45
+hold 46
+hold 47
+hold 48
+hold 49
+[showcase_launcher] Frame 50: link franka/link1 pos delta=0.000231 qpos_keys=3
+hold 50
+[38;5;159m[Genesis] [13:16:48] [INFO] Running at [38;5;121m148.05[0m[38;5;159m FPS.[0m
+hold 51
+hold 52
+hold 53
+hold 54
+hold 55
+hold 56
+hold 57
+[38;5;159m[Genesis] [13:16:48] [INFO] Running at [38;5;121m129.50[0m[38;5;159m FPS.[0m
+hold 58
+[showcase_launcher] Replay diagnostics: 60 frames, 60 unique poses, 1 meaningful keyframes, longest freeze 1 frames, jump at frame none, primary motion=franka/link7, issue=sparse_motion_phases
+[showcase_launcher] Demo has dense micro-motion; preview will preserve per-step finger/object motion.
+[showcase_launcher] Wrote 60 replay frames (partial, v2) · raw=60 unique_poses=60 preview=60 · 13 objects (11 robot links) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-012bb6c5b6\state_timeseries.json
+hold 59
+[38;5;159m[Genesis] [13:16:48] [INFO] Running at [38;5;121m21.16[0m[38;5;159m FPS.[0m
+[showcase_launcher] Frame 60: link franka/link2 pos delta=0.000361 qpos_keys=3
+hold 60
+hold 61
+hold 62
+hold 63
+hold 64
+hold 65
+[38;5;159m[Genesis] [13:16:48] [INFO] Running at [38;5;121m117.27[0m[38;5;159m FPS.[0m
+hold 66
+hold 67
+hold 68
+hold 69
+[38;5;159m[Genesis] [13:16:48] [INFO] Running at [38;5;121m77.13[0m[38;5;159m FPS.[0m
+[showcase_launcher] Frame 70: link franka/link6 pos delta=0.000398 qpos_keys=3
+hold 70
+hold 71
+hold 72
+hold 73
+[38;5;159m[Genesis] [13:16:49] [INFO] Running at [38;5;121m76.58[0m[38;5;159m FPS.[0m
+hold 74
+hold 75
+hold 76
+hold 77
+hold 78
+[38;5;159m[Genesis] [13:16:49] [INFO] Running at [38;5;121m95.31[0m[38;5;159m FPS.[0m
+hold 79
+[showcase_launcher] Frame 80: link franka/link3 pos delta=0.000282 qpos_keys=3
+hold 80
+hold 81
+hold 82
+hold 83
+hold 84
+[38;5;159m[Genesis] [13:16:49] [INFO] Running at [38;5;121m113.84[0m[38;5;159m FPS.[0m
+hold 85
+hold 86
+hold 87
+hold 88
+[showcase_launcher] Replay diagnostics: 90 frames, 90 unique poses, 1 meaningful keyframes, longest freeze 1 frames, jump at frame none, primary motion=franka/link7, issue=sparse_motion_phases
+[showcase_launcher] Demo has dense micro-motion; preview will preserve per-step finger/object motion.
+[showcase_launcher] Wrote 90 replay frames (partial, v3) · raw=90 unique_poses=90 preview=90 · 13 objects (11 robot links) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-012bb6c5b6\state_timeseries.json
+hold 89
+[38;5;159m[Genesis] [13:16:49] [INFO] Running at [38;5;121m36.41[0m[38;5;159m FPS.[0m
+[showcase_launcher] Frame 90: link franka/link4 pos delta=0.000524 qpos_keys=3
+hold 90
+hold 91
+hold 92
+hold 93
+hold 94
+hold 95
+hold 96
+[38;5;159m[Genesis] [13:16:49] [INFO] Running at [38;5;121m119.30[0m[38;5;159m FPS.[0m
+hold 97
+hold 98
+hold 99
+[showcase_launcher] Frame 100: link franka/link4 pos delta=0.000524 qpos_keys=3
+grasp 0
+grasp 1
+grasp 2
+[38;5;159m[Genesis] [13:16:49] [INFO] Running at [38;5;121m102.31[0m[38;5;159m FPS.[0m
+grasp 3
+grasp 4
+grasp 5
+grasp 6
+[38;5;159m[Genesis] [13:16:49] [INFO] Running at [38;5;121m68.62[0m[38;5;159m FPS.[0m
+grasp 7
+grasp 8
+grasp 9
+[showcase_launcher] Frame 110: link franka/link1 pos delta=0.000243 qpos_keys=3
+grasp 10
+grasp 11
+[38;5;159m[Genesis] [13:16:49] [INFO] Running at [38;5;121m85.80[0m[38;5;159m FPS.[0m
+grasp 12
+grasp 13
+grasp 14
+grasp 15
+[38;5;159m[Genesis] [13:16:49] [INFO] Running at [38;5;121m68.35[0m[38;5;159m FPS.[0m
+grasp 16
+grasp 17
+grasp 18
+[showcase_launcher] Replay diagnostics: 120 frames, 120 unique poses, 3 meaningful keyframes, longest freeze 1 frames, jump at frame none, primary motion=franka/right_finger, issue=sparse_motion_phases
+[showcase_launcher] Demo has dense micro-motion; preview will preserve per-step finger/object motion.
+[showcase_launcher] Wrote 120 replay frames (partial, v4) · raw=120 unique_poses=120 preview=120 · 13 objects (11 robot links) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-012bb6c5b6\state_timeseries.json
+grasp 19
+[38;5;159m[Genesis] [13:16:49] [INFO] Running at [38;5;121m22.70[0m[38;5;159m FPS.[0m
+[showcase_launcher] Frame 120: link franka/right_finger pos delta=0.000015 qpos_keys=3
+grasp 20
+grasp 21
+grasp 22
+grasp 23
+grasp 24
+[38;5;159m[Genesis] [13:16:49] [INFO] Running at [38;5;121m87.07[0m[38;5;159m FPS.[0m
+grasp 25
+grasp 26
+grasp 27
+grasp 28
+grasp 29
+[showcase_launcher] Frame 130: link franka/right_finger pos delta=0.000002 qpos_keys=3
+grasp 30
+[38;5;159m[Genesis] [13:16:49] [INFO] Running at [38;5;121m104.38[0m[38;5;159m FPS.[0m
+grasp 31
+grasp 32
+grasp 33
+grasp 34
+grasp 35
+[38;5;159m[Genesis] [13:16:49] [INFO] Running at [38;5;121m86.95[0m[38;5;159m FPS.[0m
+grasp 36
+grasp 37
+grasp 38
+grasp 39
+[showcase_launcher] Frame 140: link franka/link6 pos delta=0.000483 qpos_keys=3
+grasp 40
+[38;5;159m[Genesis] [13:16:49] [INFO] Running at [38;5;121m86.99[0m[38;5;159m FPS.[0m
+grasp 41
+grasp 42
+grasp 43
+grasp 44
+grasp 45
+[38;5;159m[Genesis] [13:16:50] [INFO] Running at [38;5;121m87.48[0m[38;5;159m FPS.[0m
+grasp 46
+grasp 47
+grasp 48
+[showcase_launcher] Replay diagnostics: 150 frames, 150 unique poses, 3 meaningful keyframes, longest freeze 1 frames, jump at frame none, primary motion=franka/right_finger, issue=sparse_motion_phases
+[showcase_launcher] Demo has dense micro-motion; preview will preserve per-step finger/object motion.
+[showcase_launcher] Wrote 150 replay frames (partial, v5) · raw=150 unique_poses=150 preview=150 · 13 objects (11 robot links) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-012bb6c5b6\state_timeseries.json
+grasp 49
+[38;5;159m[Genesis] [13:16:50] [INFO] Running at [38;5;121m20.53[0m[38;5;159m FPS.[0m
+[showcase_launcher] Frame 150: link franka/link1 pos delta=0.000420 qpos_keys=3
+grasp 50
+grasp 51
+grasp 52
+grasp 53
+grasp 54
+[38;5;159m[Genesis] [13:16:50] [INFO] Running at [38;5;121m92.61[0m[38;5;159m FPS.[0m
+grasp 55
+grasp 56
+grasp 57
+grasp 58
+grasp 59
+[38;5;159m[Genesis] [13:16:50] [INFO] Running at [38;5;121m92.01[0m[38;5;159m FPS.[0m
+[showcase_launcher] Frame 160: link franka/link6 pos delta=0.000231 qpos_keys=3
+grasp 60
+grasp 61
+grasp 62
+grasp 63
+grasp 64
+[38;5;159m[Genesis] [13:16:50] [INFO] Running at [38;5;121m91.73[0m[38;5;159m FPS.[0m
+grasp 65
+grasp 66
+grasp 67
+grasp 68
+grasp 69
+[38;5;159m[Genesis] [13:16:50] [INFO] Running at [38;5;121m91.42[0m[38;5;159m FPS.[0m
+[showcase_launcher] Frame 170: link franka/link1 pos delta=0.000516 qpos_keys=3
+grasp 70
+grasp 71
+grasp 72
+grasp 73
+grasp 74
+[38;5;159m[Genesis] [13:16:50] [INFO] Running at [38;5;121m90.65[0m[38;5;159m FPS.[0m
+grasp 75
+grasp 76
+grasp 77
+grasp 78
+[38;5;159m[Genesis] [13:16:50] [INFO] Running at [38;5;121m72.59[0m[38;5;159m FPS.[0m
+[showcase_launcher] Replay diagnostics: 180 frames, 180 unique poses, 3 meaningful keyframes, longest freeze 1 frames, jump at frame none, primary motion=franka/right_finger, issue=sparse_motion_phases
+[showcase_launcher] Demo has dense micro-motion; preview will preserve per-step finger/object motion.
+[showcase_launcher] Wrote 180 replay frames (partial, v6) · raw=180 unique_poses=180 preview=180 · 13 objects (11 robot links) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-012bb6c5b6\state_timeseries.json
+grasp 79
+[38;5;159m[Genesis] [13:16:50] [INFO] Running at [38;5;121m4.66[0m[38;5;159m FPS.[0m
+[showcase_launcher] Frame 180: link franka/link1 pos delta=0.000516 qpos_keys=3
+grasp 80
+grasp 81
+grasp 82
+grasp 83
+grasp 84
+[38;5;159m[Genesis] [13:16:50] [INFO] Running at [38;5;121m91.45[0m[38;5;159m FPS.[0m
+grasp 85
+grasp 86
+grasp 87
+grasp 88
+[38;5;159m[Genesis] [13:16:50] [INFO] Running at [38;5;121m73.24[0m[38;5;159m FPS.[0m
+grasp 89
+[showcase_launcher] Frame 190: link franka/link1 pos delta=0.000516 qpos_keys=3
+grasp 90
+grasp 91
+grasp 92
+grasp 93
+[38;5;159m[Genesis] [13:16:50] [INFO] Running at [38;5;121m91.82[0m[38;5;159m FPS.[0m
+grasp 94
+grasp 95
+grasp 96
+grasp 97
+grasp 98
+[38;5;159m[Genesis] [13:16:51] [INFO] Running at [38;5;121m91.93[0m[38;5;159m FPS.[0m
+grasp 99
+[showcase_launcher] Frame 200: link franka/link1 pos delta=0.000516 qpos_keys=3
+lift 0
+lift 1
+lift 2
+lift 3
+[38;5;159m[Genesis] [13:16:51] [INFO] Running at [38;5;121m92.17[0m[38;5;159m FPS.[0m
+lift 4
+lift 5
+lift 6
+lift 7
+lift 8
+[38;5;159m[Genesis] [13:16:51] [INFO] Running at [38;5;121m92.50[0m[38;5;159m FPS.[0m
+[showcase_launcher] Replay diagnostics: 210 frames, 210 unique poses, 5 meaningful keyframes, longest freeze 1 frames, jump at frame none, primary motion=franka/link4, issue=sparse_motion_phases
+[showcase_launcher] Demo has dense micro-motion; preview will preserve per-step finger/object motion.
+[showcase_launcher] Wrote 210 replay frames (partial, v7) · raw=210 unique_poses=210 preview=210 · 13 objects (11 robot links) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-012bb6c5b6\state_timeseries.json
+lift 9
+[38;5;159m[Genesis] [13:16:51] [INFO] Running at [38;5;121m4.37[0m[38;5;159m FPS.[0m
+[showcase_launcher] Frame 210: link franka/link5 pos delta=0.017018 qpos_keys=3
+lift 10
+lift 11
+lift 12
+lift 13
+[38;5;159m[Genesis] [13:16:51] [INFO] Running at [38;5;121m67.41[0m[38;5;159m FPS.[0m
+lift 14
+lift 15
+lift 16
+lift 17
+[38;5;159m[Genesis] [13:16:51] [INFO] Running at [38;5;121m66.75[0m[38;5;159m FPS.[0m
+lift 18
+lift 19
+[showcase_launcher] Frame 220: link franka/link5 pos delta=0.012509 qpos_keys=3
+lift 20
+lift 21
+[38;5;159m[Genesis] [13:16:51] [INFO] Running at [38;5;121m66.61[0m[38;5;159m FPS.[0m
+lift 22
+lift 23
+lift 24
+[38;5;159m[Genesis] [13:16:51] [INFO] Running at [38;5;121m50.23[0m[38;5;159m FPS.[0m
+lift 25
+lift 26
+lift 27
+[38;5;159m[Genesis] [13:16:51] [INFO] Running at [38;5;121m50.60[0m[38;5;159m FPS.[0m
+lift 28
+lift 29
+[38;5;159m[Genesis] [13:16:51] [INFO] Running at [38;5;121m33.93[0m[38;5;159m FPS.[0m
+[showcase_launcher] Frame 230: link franka/link5 pos delta=0.004149 qpos_keys=3
+lift 30
+lift 31
+lift 32
+lift 33
+[38;5;159m[Genesis] [13:16:51] [INFO] Running at [38;5;121m67.47[0m[38;5;159m FPS.[0m
+lift 34
+lift 35
+lift 36
+lift 37
+[38;5;159m[Genesis] [13:16:51] [INFO] Running at [38;5;121m67.87[0m[38;5;159m FPS.[0m
+lift 38
+[showcase_launcher] Replay diagnostics: 240 frames, 240 unique poses, 14 meaningful keyframes, longest freeze 1 frames, jump at frame none, primary motion=franka/link5, issue=sparse_motion_phases
+[showcase_launcher] Demo has dense micro-motion; preview will preserve per-step finger/object motion.
+[showcase_launcher] Wrote 240 replay frames (partial, v8) · raw=240 unique_poses=240 preview=240 · 13 objects (11 robot links) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-012bb6c5b6\state_timeseries.json
+lift 39
+[38;5;159m[Genesis] [13:16:52] [INFO] Running at [38;5;121m7.77[0m[38;5;159m FPS.[0m
+[showcase_launcher] Frame 240: link franka/link4 pos delta=0.001131 qpos_keys=3
+lift 40
+lift 41
+lift 42
+lift 43
+lift 44
+[38;5;159m[Genesis] [13:16:52] [INFO] Running at [38;5;121m91.46[0m[38;5;159m FPS.[0m
+lift 45
+lift 46
+lift 47
+lift 48
+lift 49
+[38;5;159m[Genesis] [13:16:52] [INFO] Running at [38;5;121m91.55[0m[38;5;159m FPS.[0m
+[showcase_launcher] Frame 250: link franka/link1 pos delta=0.000506 qpos_keys=3
+lift 50
+lift 51
+lift 52
+lift 53
+lift 54
+[38;5;159m[Genesis] [13:16:52] [INFO] Running at [38;5;121m91.44[0m[38;5;159m FPS.[0m
+lift 55
+lift 56
+lift 57
+lift 58
+lift 59
+[38;5;159m[Genesis] [13:16:52] [INFO] Running at [38;5;121m90.83[0m[38;5;159m FPS.[0m
+[showcase_launcher] Frame 260: link franka/right_finger pos delta=0.000067 qpos_keys=3
+lift 60
+lift 61
+lift 62
+lift 63
+lift 64
+[38;5;159m[Genesis] [13:16:52] [INFO] Running at [38;5;121m90.40[0m[38;5;159m FPS.[0m
+lift 65
+lift 66
+lift 67
+lift 68
+[showcase_launcher] Replay diagnostics: 270 frames, 270 unique poses, 15 meaningful keyframes, longest freeze 1 frames, jump at frame none, primary motion=franka/link5, issue=sparse_motion_phases
+[showcase_launcher] Demo has dense micro-motion; preview will preserve per-step finger/object motion.
+[showcase_launcher] Wrote 270 replay frames (partial, v9) · raw=270 unique_poses=270 preview=270 · 13 objects (11 robot links) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-012bb6c5b6\state_timeseries.json
+lift 69
+[38;5;159m[Genesis] [13:16:52] [INFO] Running at [38;5;121m16.85[0m[38;5;159m FPS.[0m
+[showcase_launcher] Frame 270: link franka/link4 pos delta=0.000543 qpos_keys=3
+lift 70
+lift 71
+lift 72
+lift 73
+lift 74
+[38;5;159m[Genesis] [13:16:52] [INFO] Running at [38;5;121m99.51[0m[38;5;159m FPS.[0m
+lift 75
+lift 76
+lift 77
+lift 78
+lift 79
+[38;5;159m[Genesis] [13:16:52] [INFO] Running at [38;5;121m98.71[0m[38;5;159m FPS.[0m
+[showcase_launcher] Frame 280: link franka/hand pos delta=0.000625 qpos_keys=3
+lift 80
+lift 81
+lift 82
+lift 83
+[38;5;159m[Genesis] [13:16:52] [INFO] Running at [38;5;121m78.93[0m[38;5;159m FPS.[0m
+lift 84
+lift 85
+lift 86
+lift 87
+lift 88
+[38;5;159m[Genesis] [13:16:52] [INFO] Running at [38;5;121m98.50[0m[38;5;159m FPS.[0m
+lift 89
+[showcase_launcher] Frame 290: link franka/hand pos delta=0.000678 qpos_keys=3
+lift 90
+lift 91
+lift 92
+lift 93
+lift 94
+[38;5;159m[Genesis] [13:16:52] [INFO] Running at [38;5;121m117.05[0m[38;5;159m FPS.[0m
+lift 95
+lift 96
+lift 97
+lift 98
+[showcase_launcher] Replay diagnostics: 300 frames, 300 unique poses, 15 meaningful keyframes, longest freeze 1 frames, jump at frame none, primary motion=franka/link5, issue=sparse_motion_phases
+[showcase_launcher] Demo has dense micro-motion; preview will preserve per-step finger/object motion.
+[showcase_launcher] Wrote 300 replay frames (partial, v10) · raw=300 unique_poses=300 preview=300 · 13 objects (11 robot links) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-012bb6c5b6\state_timeseries.json
+lift 99
+[38;5;159m[Genesis] [13:16:53] [INFO] Running at [38;5;121m14.68[0m[38;5;159m FPS.[0m
+[showcase_launcher] Frame 300: link franka/link7 pos delta=0.000271 qpos_keys=3
+lift 100
+lift 101
+lift 102
+lift 103
+lift 104
+[38;5;159m[Genesis] [13:16:53] [INFO] Running at [38;5;121m99.67[0m[38;5;159m FPS.[0m
+lift 105
+lift 106
+lift 107
+lift 108
+lift 109
+[showcase_launcher] Frame 310: link franka/left_finger pos delta=0.000592 qpos_keys=3
+lift 110
+[38;5;159m[Genesis] [13:16:53] [INFO] Running at [38;5;121m118.61[0m[38;5;159m FPS.[0m
+lift 111
+lift 112
+lift 113
+lift 114
+lift 115
+[38;5;159m[Genesis] [13:16:53] [INFO] Running at [38;5;121m98.13[0m[38;5;159m FPS.[0m
+lift 116
+lift 117
+lift 118
+lift 119
+[showcase_launcher] Frame 320: link franka/left_finger pos delta=0.000577 qpos_keys=3
+lift 120
+[38;5;159m[Genesis] [13:16:53] [INFO] Running at [38;5;121m98.15[0m[38;5;159m FPS.[0m
+lift 121
+lift 122
+lift 123
+lift 124
+lift 125
+[38;5;159m[Genesis] [13:16:53] [INFO] Running at [38;5;121m97.64[0m[38;5;159m FPS.[0m
+lift 126
+lift 127
+lift 128
+[showcase_launcher] Replay diagnostics: 330 frames, 330 unique poses, 15 meaningful keyframes, longest freeze 1 frames, jump at frame none, primary motion=franka/link5, issue=sparse_motion_phases
+[showcase_launcher] Demo has dense micro-motion; preview will preserve per-step finger/object motion.
+[showcase_launcher] Wrote 330 replay frames (partial, v11) · raw=330 unique_poses=330 preview=330 · 13 objects (11 robot links) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-012bb6c5b6\state_timeseries.json
+lift 129
+[38;5;159m[Genesis] [13:16:53] [INFO] Running at [38;5;121m11.15[0m[38;5;159m FPS.[0m
+[showcase_launcher] Frame 330: link franka/left_finger pos delta=0.000552 qpos_keys=3
+lift 130
+lift 131
+lift 132
+lift 133
+lift 134
+[38;5;159m[Genesis] [13:16:53] [INFO] Running at [38;5;121m81.90[0m[38;5;159m FPS.[0m
+lift 135
+lift 136
+lift 137
+lift 138
+lift 139
+[38;5;159m[Genesis] [13:16:54] [INFO] Running at [38;5;121m82.41[0m[38;5;159m FPS.[0m
+[showcase_launcher] Frame 340: link franka/hand pos delta=0.000551 qpos_keys=3
+lift 140
+lift 141
+lift 142
+lift 143
+lift 144
+lift 145
+[38;5;159m[Genesis] [13:16:54] [INFO] Running at [38;5;121m99.17[0m[38;5;159m FPS.[0m
+lift 146
+lift 147
+lift 148
+lift 149
+[38;5;159m[Genesis] [13:16:54] [INFO] Running at [38;5;121m66.68[0m[38;5;159m FPS.[0m
+[showcase_launcher] Frame 350: link franka/hand pos delta=0.000551 qpos_keys=3
+lift 150
+lift 151
+lift 152
+lift 153
+lift 154
+[38;5;159m[Genesis] [13:16:54] [INFO] Running at [38;5;121m83.22[0m[38;5;159m FPS.[0m
+lift 155
+lift 156
+lift 157
+lift 158
+[showcase_launcher] Replay diagnostics: 360 frames, 360 unique poses, 16 meaningful keyframes, longest freeze 1 frames, jump at frame none, primary motion=franka/link5, issue=sparse_motion_phases
+[showcase_launcher] Demo has dense micro-motion; preview will preserve per-step finger/object motion.
+[showcase_launcher] Wrote 360 replay frames (partial, v12) · raw=360 unique_poses=360 preview=360 · 13 objects (11 robot links) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-012bb6c5b6\state_timeseries.json
+lift 159
+[38;5;159m[Genesis] [13:16:54] [INFO] Running at [38;5;121m7.10[0m[38;5;159m FPS.[0m
+[showcase_launcher] Frame 360: link franka/hand pos delta=0.000551 qpos_keys=3
+lift 160
+lift 161
+lift 162
+lift 163
+lift 164
+lift 165
+[38;5;159m[Genesis] [13:16:54] [INFO] Running at [38;5;121m109.98[0m[38;5;159m FPS.[0m
+lift 166
+lift 167
+lift 168
+lift 169
+[38;5;159m[Genesis] [13:16:54] [INFO] Running at [38;5;121m73.55[0m[38;5;159m FPS.[0m
+[showcase_launcher] Frame 370: link franka/hand pos delta=0.000551 qpos_keys=3
+lift 170
+lift 171
+lift 172
+lift 173
+lift 174
+[38;5;159m[Genesis] [13:16:55] [INFO] Running at [38;5;121m91.78[0m[38;5;159m FPS.[0m
+lift 175
+lift 176
+lift 177
+lift 178
+lift 179
+[38;5;159m[Genesis] [13:16:55] [INFO] Running at [38;5;121m91.88[0m[38;5;159m FPS.[0m
+[showcase_launcher] Frame 380: link franka/hand pos delta=0.000551 qpos_keys=3
+lift 180
+lift 181
+lift 182
+lift 183
+lift 184
+[38;5;159m[Genesis] [13:16:55] [INFO] Running at [38;5;121m92.25[0m[38;5;159m FPS.[0m
+lift 185
+lift 186
+lift 187
+lift 188
+[showcase_launcher] Replay diagnostics: 390 frames, 390 unique poses, 16 meaningful keyframes, longest freeze 1 frames, jump at frame none, primary motion=franka/link5, issue=sparse_motion_phases
+[showcase_launcher] Demo has dense micro-motion; preview will preserve per-step finger/object motion.
+[showcase_launcher] Wrote 390 replay frames (partial, v13) · raw=390 unique_poses=390 preview=390 · 13 objects (11 robot links) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-012bb6c5b6\state_timeseries.json
+lift 189
+[38;5;159m[Genesis] [13:16:55] [INFO] Running at [38;5;121m11.60[0m[38;5;159m FPS.[0m
+[showcase_launcher] Frame 390: link franka/hand pos delta=0.000551 qpos_keys=3
+lift 190
+lift 191
+lift 192
+lift 193
+lift 194
+[38;5;159m[Genesis] [13:16:55] [INFO] Running at [38;5;121m87.58[0m[38;5;159m FPS.[0m
+lift 195
+lift 196
+lift 197
+lift 198
+[38;5;159m[Genesis] [13:16:55] [INFO] Running at [38;5;121m70.16[0m[38;5;159m FPS.[0m
+lift 199
+[showcase_launcher] Frame 400: link franka/hand pos delta=0.000551 qpos_keys=3
+[showcase_launcher] Demo finished.
+[showcase_launcher] Replay diagnostics: 401 frames, 401 unique poses, 16 meaningful keyframes, longest freeze 1 frames, jump at frame none, primary motion=franka/link5, issue=sparse_motion_phases
+[showcase_launcher] Demo has dense micro-motion; preview will preserve per-step finger/object motion.
+[showcase_launcher] Trimmed frozen head: 101 frames
+[showcase_launcher] Trimmed frozen tail: 165 frames
+[showcase_launcher] Collapsed 92 interior frozen frames across 1 hold run(s).
+[showcase_launcher] Dense trim preview: 401 raw -> 43 preview frames (head=101, tail=165, collapsed=92, moving=43)
+[showcase_launcher] Preview (dense_trim): 401 raw frames -> 43 preview frames (head=101, tail=165, longest_freeze=1, max_jump=0.009772)
+[showcase_launcher] Wrote 43 replay frames (final, v14) · raw=401 unique_poses=401 preview=43 · 13 objects (11 robot links) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-012bb6c5b6\state_timeseries.json
+[38;5;159m[Genesis] [13:16:56] [INFO] 💤 Exiting Genesis and caching compiled kernels...[0m

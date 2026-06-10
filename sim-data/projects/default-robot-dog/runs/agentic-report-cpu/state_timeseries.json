@@ -1,0 +1,1 @@
+{"state_timeseries": [{"t": 0, "step": 0, "transforms": {"b": {"position": [0, 0, 0]}}}, {"t": 1, "step": 1, "transforms": {"b": {"position": [0, 0, 0.05]}}}], "objects": [{"id": "b", "type": "robot_link"}]}

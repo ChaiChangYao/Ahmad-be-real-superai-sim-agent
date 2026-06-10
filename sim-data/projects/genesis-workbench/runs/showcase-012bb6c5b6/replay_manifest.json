@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "frameCount": 43,
+  "fps": 24.0,
+  "upAxis": "Z",
+  "version": 14,
+  "ready": true,
+  "createdAt": "2026-06-08T05:16:48.523474+00:00",
+  "updatedAt": "2026-06-08T05:16:56.123394+00:00",
+  "sourceFrameCount": 401,
+  "previewFrameCount": 43,
+  "uniquePoseCount": 401,
+  "replayMode": "dense_trim",
+  "completedAt": "2026-06-08T05:16:56.123394+00:00"
+}

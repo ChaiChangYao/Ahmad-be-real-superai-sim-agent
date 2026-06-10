@@ -1,0 +1,5 @@
+[Genesis] Native scenario executor started.
+[Genesis] profile=passive_gravity base_mode=free_floating
+[Genesis] scene.build() complete, stepped=150
+[Scenario] verify_passive duration=2.5s
+[Result] FAIL

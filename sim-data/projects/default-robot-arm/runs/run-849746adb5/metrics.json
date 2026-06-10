@@ -1,0 +1,36 @@
+{
+  "body_height_m": 0.0,
+  "max_pitch_deg": 0.0,
+  "max_roll_deg": 0.0,
+  "max_yaw_deg": 0.0,
+  "forward_distance_m": 0.0,
+  "fall_detected": true,
+  "joint_position_ranges": {
+    "arm_shoulder_yaw": [
+      0.0,
+      0.0
+    ],
+    "arm_shoulder_pitch": [
+      0.0,
+      0.0
+    ],
+    "arm_elbow_pitch": [
+      0.0,
+      0.0
+    ],
+    "arm_wrist_roll": [
+      0.0,
+      0.0
+    ]
+  },
+  "foot_contact_ratio": 1.0,
+  "collision_count": 3240,
+  "min_torque_margin": 130.5556,
+  "center_of_mass": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "sensor_clearance": 1.0,
+  "battery_com_height_m": 0.0
+}

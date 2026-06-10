@@ -1,0 +1,17 @@
+[showcase_launcher] Running script: C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\genesis-world\examples\sensors\imu_franka.py
+[showcase_launcher] Headless: True · Web record: True
+[showcase_launcher] Record path: C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-f06e5e2da8\state_timeseries.json
+[38;5;159m[Genesis] [19:39:10] [INFO] [38;5;121m╭───────────────────────────────────────────────╮[0m[38;5;159m[0m
+[38;5;159m[Genesis] [19:39:10] [INFO] [38;5;121m│┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈[0m[38;5;159m [38;5;121m[1m[3mGenesis[0m[38;5;159m [38;5;121m┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈│[0m[38;5;159m[0m
+[38;5;159m[Genesis] [19:39:10] [INFO] [38;5;121m╰───────────────────────────────────────────────╯[0m[38;5;159m[0m
+[38;5;226m[Genesis] [19:39:12] [WARNING] Backend [38;5;121m[4mgs.gpu[0m[38;5;226m not available on this machine. Falling back to CPU.[0m
+[38;5;159m[Genesis] [19:39:12] [INFO] Running on [38;5;121m[4m[AMD Ryzen 7 6800H with Radeon Graphics][0m[38;5;159m with backend [38;5;121m[4mgs.cpu[0m[38;5;159m. Device memory: [38;5;121m[4m15.25[0m[38;5;159m GB.[0m
+[38;5;159m[Genesis] [19:39:12] [INFO] 🚀 Genesis initialized. 🔖 version: [38;5;121m[4m1.0.0[0m[38;5;159m, 🎨 theme: [38;5;121m[4mdark[0m[38;5;159m, 🌱 seed: [38;5;121m[4mNone[0m[38;5;159m, 🐛 debug: [38;5;121m[4mFalse[0m[38;5;159m, 📏 precision: [38;5;121m[4m32[0m[38;5;159m, 🔥 performance: [38;5;121m[4mFalse[0m[38;5;159m, 💬 verbose: [38;5;121m[4mINFO[0m[38;5;159m[0m
+[38;5;159m[Genesis] [19:39:17] [INFO] Scene [38;5;121m[3m<82f2dc9>[0m[38;5;159m created.[0m
+[38;5;159m[Genesis] [19:39:17] [INFO] Adding [38;5;121m<gs.engine.entities.RigidEntity>[0m[38;5;159m. idx: [38;5;121m0[0m[38;5;159m, uid: [38;5;121m[3m<f27fb48>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Plane>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [19:39:17] [INFO] Adding [38;5;121m<gs.engine.entities.RigidEntity>[0m[38;5;159m. idx: [38;5;121m1[0m[38;5;159m, uid: [38;5;121m[3m<e5936d9>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.MJCF(file='C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\genesis\assets\xml/franka_emika_panda/panda.xml')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [19:39:17] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint1`[0m
+[38;5;226m[Genesis] [19:39:17] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint2`[0m
+[38;5;159m[Genesis] [19:39:18] [INFO] pyqtgraph not found, falling back to matplotlib.[0m
+[showcase_launcher] Skipped native plot recorder: MPLLinePlot
+[38;5;159m[Genesis] [19:39:18] [INFO] 💤 Exiting Genesis and caching compiled kernels...[0m

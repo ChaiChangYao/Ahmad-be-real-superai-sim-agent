@@ -1,0 +1,4667 @@
+{
+  "run_id": "run-3941a1384b",
+  "project_id": "default-robot-dog",
+  "scenario_id": "component_fit",
+  "status": "pass",
+  "started_at": "2026-06-01T02:33:02.978299+00:00",
+  "ended_at": "2026-06-01T02:33:05.648862+00:00",
+  "duration_s": 2.670563,
+  "genesis_used": true,
+  "mocked": false,
+  "manifest_version_used": 3,
+  "step_count": 120,
+  "metrics": {
+    "body_height_m": 0.296,
+    "max_pitch_deg": 2.784,
+    "max_roll_deg": 1.908,
+    "max_yaw_deg": 0.0,
+    "forward_distance_m": 0.0,
+    "fall_detected": false,
+    "joint_position_ranges": {
+      "j-hip-fl": [
+        0.2,
+        0.2
+      ],
+      "j-knee-fl": [
+        -0.8,
+        -0.8
+      ],
+      "j-hip-fr": [
+        0.2,
+        0.2
+      ],
+      "j-knee-fr": [
+        -0.8,
+        -0.8
+      ],
+      "j-hip-rl": [
+        0.2,
+        0.2
+      ],
+      "j-knee-rl": [
+        -0.8,
+        -0.8
+      ],
+      "j-hip-rr": [
+        0.2,
+        0.2
+      ],
+      "j-knee-rr": [
+        -0.8,
+        -0.8
+      ]
+    },
+    "foot_contact_ratio": 0.9326,
+    "collision_count": 0,
+    "min_torque_margin": 85.4076,
+    "center_of_mass": [
+      0.0,
+      0.0,
+      0.296
+    ],
+    "sensor_clearance": 0.9691,
+    "battery_com_height_m": 0.26
+  },
+  "metric_sources": {
+    "body_height_m": "genesis_state",
+    "max_pitch_deg": "genesis_state",
+    "max_roll_deg": "genesis_state",
+    "max_yaw_deg": "genesis_state",
+    "forward_distance_m": "genesis_state",
+    "fall_detected": "derived_from_genesis_state",
+    "joint_position_ranges": "genesis_state",
+    "foot_contact_ratio": "genesis_state",
+    "collision_count": "genesis_state",
+    "min_torque_margin": "derived_from_manifest_and_genesis_state",
+    "center_of_mass": "derived_from_genesis_state",
+    "sensor_clearance": "derived_from_genesis_state",
+    "battery_com_height_m": "derived_from_manifest_and_genesis_state"
+  },
+  "events": [
+    {
+      "kind": "scenario",
+      "payload": {
+        "scenario_id": "component_fit",
+        "command": "stand"
+      }
+    }
+  ],
+  "logs": [
+    "[Genesis] Checking installation...",
+    "[Genesis] Scene created.",
+    "[Genesis] Loading robot description...",
+    "[Genesis] Building scene...",
+    "[Scenario] Running component_fit for 2.0s",
+    "[Metrics] max_pitch=2.784deg max_roll=1.908deg forward=0.0m",
+    "[Result] PASS component_fit",
+    "[Warning] This is a pre-procurement simulation result, not certified final validation."
+  ],
+  "artifacts": {
+    "video_path": null,
+    "frames_path": null,
+    "urdf_path": "C:\\Users\\user\\Downloads\\robot_dog_buildables_demo.xacro",
+    "mjcf_path": "sim-data/projects/default-robot-dog/generated/robot_description/default_robot_dog.mjcf"
+  },
+  "state_timeseries": [
+    {
+      "t": 0.0,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999861,
+            0.01665,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 0.0,
+        "roll_deg": 1.9080000000000004,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9393999999999999
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.0167,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999861,
+            0.016639,
+            0.001012,
+            -1.7e-05
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 0.11596643809867713,
+        "roll_deg": 1.9068314692948165,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9387622338478139
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.0333,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.99986,
+            0.016609,
+            0.002022,
+            -3.4e-05
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 0.23173157470166372,
+        "roll_deg": 1.9033273084832576,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9381385617600837
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.05,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999858,
+            0.016558,
+            0.003029,
+            -5e-05
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 0.3470944577444739,
+        "roll_deg": 1.8974918097241333,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.937530076291841
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.0667,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999856,
+            0.016487,
+            0.00403,
+            -6.6e-05
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 0.46185483341846745,
+        "roll_deg": 1.8893321207737117,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9369378502544878
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.0833,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999853,
+            0.016395,
+            0.005024,
+            -8.2e-05
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 0.5758134937834166,
+        "roll_deg": 1.8788582362306134,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9363629348332554
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.1,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999849,
+            0.016284,
+            0.00601,
+            -9.8e-05
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 0.6887726225645919,
+        "roll_deg": 1.8660829852936751,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9358063577341207
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.1167,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999845,
+            0.016152,
+            0.006985,
+            -0.000113
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 0.8005361385341104,
+        "roll_deg": 1.8510220160477886,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9352691213634339
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.1333,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.99984,
+            0.016001,
+            0.007948,
+            -0.000127
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 0.9109100358804878,
+        "roll_deg": 1.833693776296951,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9347522010434586
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.15,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999835,
+            0.01583,
+            0.008897,
+            -0.000141
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 1.0197027209755565,
+        "roll_deg": 1.8141194909680138,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9342565432669802
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.1667,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999829,
+            0.01564,
+            0.009831,
+            -0.000154
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 1.1267253449541712,
+        "roll_deg": 1.792323136112799,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9337830639940723
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.1833,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999823,
+            0.01543,
+            0.010748,
+            -0.000166
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 1.2317921315293923,
+        "roll_deg": 1.7683314095404368,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9333326469940565
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.2,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999817,
+            0.015202,
+            0.011646,
+            -0.000177
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 1.3347206994741012,
+        "roll_deg": 1.7421736981158844,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9329061422356112
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.2167,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.99981,
+            0.014955,
+            0.012524,
+            -0.000187
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 1.4353323792092691,
+        "roll_deg": 1.7138820417646947,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9325043643279224
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.2333,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999803,
+            0.014689,
+            0.01338,
+            -0.000197
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 1.533452522949324,
+        "roll_deg": 1.683491094228112,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9321280910156808
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.25,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999795,
+            0.014406,
+            0.014213,
+            -0.000205
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 1.628910807866247,
+        "roll_deg": 1.651038080616572,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9317780617306509
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.2667,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999788,
+            0.014105,
+            0.015021,
+            -0.000212
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 1.7215415317461478,
+        "roll_deg": 1.616562751813598,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9314549762024458
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.2833,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.99978,
+            0.013787,
+            0.015803,
+            -0.000218
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 1.8111839006251043,
+        "roll_deg": 1.580107335785938,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9311594931310497
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.3,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999772,
+            0.013452,
+            0.016558,
+            -0.000223
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 1.8976823079049625,
+        "roll_deg": 1.541716485859586,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9308922289235302
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.3167,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999765,
+            0.0131,
+            0.017284,
+            -0.000226
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 1.9808866044645985,
+        "roll_deg": 1.5014372260250421,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9306537564972798
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.3333,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999757,
+            0.012733,
+            0.01798,
+            -0.000229
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 2.0606523592977672,
+        "roll_deg": 1.4593188933388044,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.930444604152019
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.35,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.99975,
+            0.012349,
+            0.018645,
+            -0.00023
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 2.1368411102250997,
+        "roll_deg": 1.4154130774916425,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9302652545126847
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.3667,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999743,
+            0.011951,
+            0.019277,
+            -0.00023
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 2.209320604245055,
+        "roll_deg": 1.3697735576176804,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.930116143545207
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.3833,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999736,
+            0.011538,
+            0.019876,
+            -0.000229
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 2.277965027106611,
+        "roll_deg": 1.322456236421679,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.929997659647065
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.4,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999729,
+            0.011111,
+            0.020441,
+            -0.000227
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 2.342655221705184,
+        "roll_deg": 1.2735190717052158,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9299101428143867
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.4167,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999723,
+            0.01067,
+            0.02097,
+            -0.000224
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 2.4032788949226713,
+        "roll_deg": 1.2230220053756244,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9298538838872317
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.4333,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999717,
+            0.010217,
+            0.021462,
+            -0.000219
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 2.459730812552583,
+        "roll_deg": 1.1710268900246525,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9298291238745708
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.45,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999712,
+            0.00975,
+            0.021918,
+            -0.000214
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 2.5119129819718813,
+        "roll_deg": 1.1175974131667732,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9298360533603408
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.4667,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999708,
+            0.009272,
+            0.022335,
+            -0.000207
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 2.5597348222424543,
+        "roll_deg": 1.0627990192299426,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.92987481199182
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.4833,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999703,
+            0.008783,
+            0.022714,
+            -0.0002
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 2.603113321346938,
+        "roll_deg": 1.0066988293943602,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9299454880514372
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.5,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.9997,
+            0.008282,
+            0.023053,
+            -0.000191
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 2.641973180285952,
+        "roll_deg": 0.9493655593774153,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9300481181129813
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.5167,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999697,
+            0.007772,
+            0.023352,
+            -0.000182
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 2.676246943786617,
+        "roll_deg": 0.8908694352655262,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9301826867830436
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.5333,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999695,
+            0.007252,
+            0.02361,
+            -0.000171
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 2.705875117395463,
+        "roll_deg": 0.8312821074959669,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9303491265283809
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.55,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999693,
+            0.006723,
+            0.023828,
+            -0.00016
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 2.730806270752465,
+        "roll_deg": 0.7706765630940393,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9305473175897416
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.5667,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999693,
+            0.006186,
+            0.024004,
+            -0.000149
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 2.7509971268669515,
+        "roll_deg": 0.709127036273097,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9307770879825552
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.5833,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999693,
+            0.005642,
+            0.024139,
+            -0.000136
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 2.7664126372403923,
+        "roll_deg": 0.6467089175069117,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9310382135847372
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.6,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999693,
+            0.00509,
+            0.024231,
+            -0.000123
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 2.7770260427056876,
+        "roll_deg": 0.5834986611857762,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.931330418311714
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.6167,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999695,
+            0.004533,
+            0.024282,
+            -0.00011
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 2.782818919877335,
+        "roll_deg": 0.5195736919694313,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.931653374378629
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.6333,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999697,
+            0.00397,
+            0.02429,
+            -9.6e-05
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 2.783781213131844,
+        "roll_deg": 0.4550123099515438,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9320067026495367
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.65,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.9997,
+            0.003401,
+            0.024257,
+            -8.3e-05
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 2.7799112520628917,
+        "roll_deg": 0.3898935947518793,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9323899730732512
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.6667,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999704,
+            0.002829,
+            0.024181,
+            -6.8e-05
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 2.7712157543809135,
+        "roll_deg": 0.32429730865365997,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9328027052053635
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.6833,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999708,
+            0.002253,
+            0.024063,
+            -5.4e-05
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 2.7577098142521015,
+        "roll_deg": 0.25830379890473715,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9332443688157953
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.7,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999713,
+            0.001675,
+            0.023904,
+            -4e-05
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 2.7394168760970405,
+        "roll_deg": 0.19199389930226576,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9337143845811149
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.7167,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999718,
+            0.001094,
+            0.023703,
+            -2.6e-05
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 2.716368693894481,
+        "roll_deg": 0.1254488311814054,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9342121248606895
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.7333,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999725,
+            0.000513,
+            0.02346,
+            -1.2e-05
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 2.68860527606088,
+        "roll_deg": 0.05875010392934537,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9347369145556098
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.75,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999731,
+            -7e-05,
+            0.023177,
+            2e-06
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 2.656174816001388,
+        "roll_deg": -0.008020584853505631,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9351989144396949
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.7667,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999739,
+            -0.000652,
+            0.022854,
+            1.5e-05
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 2.619133608452854,
+        "roll_deg": -0.07478144942286014,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9350338052340238
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.7833,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999746,
+            -0.001234,
+            0.022491,
+            2.8e-05
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 2.57754595176404,
+        "roll_deg": -0.14145071606786666,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9348944629564894
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.8,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999754,
+            -0.001814,
+            0.02209,
+            4e-05
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 2.531484036282698,
+        "roll_deg": -0.20794672327367453,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9347809402246868
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.8167,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999763,
+            -0.002392,
+            0.021649,
+            5.2e-05
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 2.481027819043231,
+        "roll_deg": -0.27418802174658086,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9346932453289455
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.8333,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999771,
+            -0.002967,
+            0.021171,
+            6.3e-05
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 2.426264884972483,
+        "roll_deg": -0.3400934741792314,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9346313424491571
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.85,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.99978,
+            -0.003539,
+            0.020657,
+            7.3e-05
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 2.3672902948545707,
+        "roll_deg": -0.40558235463367237,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9345951519472875
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.8667,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999789,
+            -0.004106,
+            0.020106,
+            8.3e-05
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 2.304206420318674,
+        "roll_deg": -0.47057444742053545,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9345845507347821
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.8833,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999799,
+            -0.004668,
+            0.019521,
+            9.1e-05
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 2.2371227661362285,
+        "roll_deg": -0.53499014535322,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9345993727139474
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.9,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999808,
+            -0.005224,
+            0.018902,
+            9.9e-05
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 2.166155780135973,
+        "roll_deg": -0.5987505472567478,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9346394092922626
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.9167,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999817,
+            -0.005774,
+            0.01825,
+            0.000105
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 2.091428651066832,
+        "roll_deg": -0.6617775546118317,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9347044099684518
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.9333,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999826,
+            -0.006317,
+            0.017566,
+            0.000111
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 2.013071094759496,
+        "roll_deg": -0.7239939672157992,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9347940829890261
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.95,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999835,
+            -0.006852,
+            0.016852,
+            0.000115
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 1.9312191289579088,
+        "roll_deg": -0.7853235777431837,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9349080960738828
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.9667,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999843,
+            -0.007379,
+            0.016108,
+            0.000119
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 1.8460148372115115,
+        "roll_deg": -0.8456912650901736,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.935046077209435
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 0.9833,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999851,
+            -0.007897,
+            0.015337,
+            0.000121
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 1.757606122238099,
+        "roll_deg": -0.9050230863885629,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9352076155076297
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.0,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999859,
+            -0.008405,
+            0.014539,
+            0.000122
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 1.6661464491854148,
+        "roll_deg": -0.9632463675765284,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9353922621291003
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.0167,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999866,
+            -0.008903,
+            0.013716,
+            0.000122
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 1.571794579237151,
+        "roll_deg": -1.0202897924152583,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9355995312685976
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.0333,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999873,
+            -0.00939,
+            0.012868,
+            0.000121
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 1.4747142940257616,
+        "roll_deg": -1.0760834898424345,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9358289012007321
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.05,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999879,
+            -0.009865,
+            0.011999,
+            0.000118
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 1.3750741113304885,
+        "roll_deg": -1.1305591195555413,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9360798153839665
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.0667,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999885,
+            -0.010328,
+            0.011109,
+            0.000115
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 1.2730469925541006,
+        "roll_deg": -1.1836499557201934,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9363516836206983
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.0833,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.99989,
+            -0.010779,
+            0.010199,
+            0.00011
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 1.1688100424861156,
+        "roll_deg": -1.235290968700936,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.936643883271183
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.1,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999894,
+            -0.011217,
+            0.009272,
+            0.000104
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 1.0625442018736917,
+        "roll_deg": -1.285418904714423,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9369557605189549
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.1167,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999898,
+            -0.01164,
+            0.008328,
+            9.7e-05
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 0.954433933333831,
+        "roll_deg": -1.333972363307382,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9372866316853266
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.1333,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.9999,
+            -0.01205,
+            0.007371,
+            8.9e-05
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 0.8446669011521126,
+        "roll_deg": -1.380891872564501,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9376357845904633
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.15,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999902,
+            -0.012445,
+            0.0064,
+            8e-05
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 0.7334336455237637,
+        "roll_deg": -1.4261199619540836,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9380024799584563
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.1667,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999903,
+            -0.012824,
+            0.005418,
+            6.9e-05
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 0.6209272518025806,
+        "roll_deg": -1.4696012327222627,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9383859528637508
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.1833,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999903,
+            -0.013188,
+            0.004427,
+            5.8e-05
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 0.5073430153317877,
+        "roll_deg": -1.511282425749549,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9387854142162148
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.2,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999903,
+            -0.013536,
+            0.003428,
+            4.6e-05
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 0.39287810243867033,
+        "roll_deg": -1.5511124867865904,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9392000522820818
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.2167,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999901,
+            -0.013867,
+            0.002423,
+            3.4e-05
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 0.2777312081814477,
+        "roll_deg": -1.5890426289892459,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9396290342379405
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.2333,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999898,
+            -0.014181,
+            0.001414,
+            2e-05
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 0.1621022114424756,
+        "roll_deg": -1.625026392676368,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9400715077548952
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.25,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999895,
+            -0.014477,
+            0.000403,
+            6e-06
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": 0.04619182796650457,
+        "roll_deg": -1.6590197022370985,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9405266026099799
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.2667,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999891,
+            -0.014756,
+            -0.000609,
+            -9e-06
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": -0.06979873805375074,
+        "roll_deg": -1.690980920117988,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9402178907879347
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.2833,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999886,
+            -0.015017,
+            -0.00162,
+            -2.4e-05
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": -0.185668143239907,
+        "roll_deg": -1.7208708978237848,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9394081164385351
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.3,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.99988,
+            -0.015259,
+            -0.002628,
+            -4e-05
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": -0.30121525453182174,
+        "roll_deg": -1.7486530238694524,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9386118428977707
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.3167,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999874,
+            -0.015483,
+            -0.003632,
+            -5.6e-05
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": -0.4162394983264127,
+        "roll_deg": -1.7742932686246538,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9378303735169384
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.3333,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999866,
+            -0.015688,
+            -0.004629,
+            -7.3e-05
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": -0.5305412086453501,
+        "roll_deg": -1.7977602259957999,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9370649920297713
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.35,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999858,
+            -0.015873,
+            -0.005619,
+            -8.9e-05
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": -0.6439219737272288,
+        "roll_deg": -1.8190251518945837,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9363169604132121
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.3667,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.99985,
+            -0.016039,
+            -0.006598,
+            -0.000106
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": -0.7561849804425962,
+        "roll_deg": -1.8380619994458922,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9355875167783972
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.3833,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.99984,
+            -0.016185,
+            -0.007566,
+            -0.000122
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": -0.8671353559339834,
+        "roll_deg": -1.8548474508919772,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9348778732954113
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.4,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999831,
+            -0.016312,
+            -0.008521,
+            -0.000139
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": -0.9765805058879016,
+        "roll_deg": -1.869360946153786,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.934189214155324
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.4167,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.99982,
+            -0.016418,
+            -0.009461,
+            -0.000155
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": -1.0843304488515855,
+        "roll_deg": -1.8815847080144916,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9335226935729662
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.4333,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.99981,
+            -0.016505,
+            -0.010385,
+            -0.000171
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": -1.1901981460141953,
+        "roll_deg": -1.89150376389436,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9328794338338413
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.45,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999799,
+            -0.016571,
+            -0.01129,
+            -0.000187
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": -1.2939998258799994,
+        "roll_deg": -1.8991059641902854,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9322605233884984
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.4667,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999788,
+            -0.016617,
+            -0.012177,
+            -0.000202
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": -1.395555303269952,
+        "roll_deg": -1.9043819971575382,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.931667014997625
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.4833,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999776,
+            -0.016642,
+            -0.013041,
+            -0.000217
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": -1.4946882920979292,
+        "roll_deg": -1.907325400315485,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9310999239310366
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.5,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999765,
+            -0.016647,
+            -0.013884,
+            -0.000231
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": -1.591226711378685,
+        "roll_deg": -1.9079325683633208,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9305602262236555
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.5167,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999754,
+            -0.016632,
+            -0.014702,
+            -0.000245
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": -1.6850029839363456,
+        "roll_deg": -1.9062027575961118,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9300488569914863
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.5333,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999742,
+            -0.016597,
+            -0.015494,
+            -0.000257
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": -1.7758543272949148,
+        "roll_deg": -1.9021380868157405,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9295667088104963
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.55,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999731,
+            -0.016541,
+            -0.01626,
+            -0.000269
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": -1.863623036245857,
+        "roll_deg": -1.8957435347356377,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9291146301612139
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.5667,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.99972,
+            -0.016464,
+            -0.016998,
+            -0.00028
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": -1.9481567566022495,
+        "roll_deg": -1.887026933882482,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9286934239417515
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.5833,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999709,
+            -0.016368,
+            -0.017706,
+            -0.00029
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": -2.0293087496643194,
+        "roll_deg": -1.8759989610023344,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9283038460518519
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.6,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999699,
+            -0.016251,
+            -0.018383,
+            -0.000299
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": -2.106938146937272,
+        "roll_deg": -1.8626731239829581,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9279466040504432
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.6167,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999689,
+            -0.016115,
+            -0.019028,
+            -0.000307
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": -2.180910194659271,
+        "roll_deg": -1.8470657453083466,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9276223558890687
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.6333,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.99968,
+            -0.015959,
+            -0.019641,
+            -0.000314
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": -2.2510964877150936,
+        "roll_deg": -1.8291959420657198,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9273317087234398
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.65,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999671,
+            -0.015783,
+            -0.020219,
+            -0.000319
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": -2.3173751925294366,
+        "roll_deg": -1.8090856025294864,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9270752178052282
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.6667,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999663,
+            -0.015588,
+            -0.020762,
+            -0.000324
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": -2.3796312585529305,
+        "roll_deg": -1.7867593593508393,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9268533854560901
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.6833,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999656,
+            -0.015374,
+            -0.021269,
+            -0.000327
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": -2.4377566179737844,
+        "roll_deg": -1.762244559385845,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9266666601257798
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.7,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999649,
+            -0.015142,
+            -0.02174,
+            -0.000329
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": -2.4916503733083766,
+        "roll_deg": -1.7355712301989585,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9265154355360703
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.7167,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999643,
+            -0.01489,
+            -0.022172,
+            -0.00033
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": -2.5412189725451486,
+        "roll_deg": -1.7067720432830136,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9264000499120657
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.7333,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999638,
+            -0.014621,
+            -0.022566,
+            -0.00033
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": -2.5863763715378023,
+        "roll_deg": -1.675882274040732,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9263207853023414
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.75,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999634,
+            -0.014333,
+            -0.022921,
+            -0.000329
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": -2.6270441833658795,
+        "roll_deg": -1.6429397585767624,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9262778669892076
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.7667,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999632,
+            -0.014028,
+            -0.023236,
+            -0.000326
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": -2.663151814403488,
+        "roll_deg": -1.6079848473531877,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9262714629902407
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.7833,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.99963,
+            -0.013706,
+            -0.023511,
+            -0.000322
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": -2.6946365868599416,
+        "roll_deg": -1.5710603557652487,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9263016836520822
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.8,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999629,
+            -0.013367,
+            -0.023745,
+            -0.000318
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": -2.7214438475796303,
+        "roll_deg": -1.532211511697846,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9263685813373473
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.8167,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999629,
+            -0.013012,
+            -0.023937,
+            -0.000312
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": -2.7435270629122432,
+        "roll_deg": -1.4914859001270322,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9264721502053374
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.8333,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.99963,
+            -0.01264,
+            -0.024089,
+            -0.000305
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": -2.76084789948867,
+        "roll_deg": -1.4489334048343654,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9266123260870942
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.85,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999632,
+            -0.012254,
+            -0.024198,
+            -0.000297
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": -2.7733762907623585,
+        "roll_deg": -1.4046061473055191,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9267889864551784
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.8667,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999635,
+            -0.011852,
+            -0.024266,
+            -0.000288
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": -2.7810904892006327,
+        "roll_deg": -1.3585584228879755,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9270019504883966
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.8833,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999639,
+            -0.011436,
+            -0.024291,
+            -0.000278
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": -2.78397710403536,
+        "roll_deg": -1.3108466342860192,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9272509792315479
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.9,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999645,
+            -0.011005,
+            -0.024274,
+            -0.000267
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": -2.7820311245074527,
+        "roll_deg": -1.2615292224744716,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9275357758501004
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.9167,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999651,
+            -0.010562,
+            -0.024215,
+            -0.000256
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": -2.775255928564839,
+        "roll_deg": -1.2106665951158075,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9278559859795519
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.9333,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999658,
+            -0.010105,
+            -0.024114,
+            -0.000244
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": -2.7636632769988254,
+        "roll_deg": -1.1583210525683254,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9282111981690714
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.95,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999666,
+            -0.009636,
+            -0.023971,
+            -0.000231
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": -2.7472732930290045,
+        "roll_deg": -1.1045567115759944,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9286009444188611
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.9667,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999675,
+            -0.009155,
+            -0.023787,
+            -0.000218
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": -2.726114427372165,
+        "roll_deg": -1.0494394267334592,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9290247008105242
+      },
+      "collisions": 0,
+      "events": []
+    },
+    {
+      "t": 1.9833,
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.296
+          ],
+          "rotation_quat": [
+            0.999685,
+            -0.008663,
+            -0.023561,
+            -0.000204
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.2,
+        "j-knee-fl": -0.8,
+        "j-hip-fr": 0.2,
+        "j-knee-fr": -0.8,
+        "j-hip-rl": 0.2,
+        "j-knee-rl": -0.8,
+        "j-hip-rr": 0.2,
+        "j-knee-rr": -0.8
+      },
+      "pose": {
+        "pitch_deg": -2.700223408855835,
+        "roll_deg": -0.9930367098224038,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 0.9294818882295653
+      },
+      "collisions": 0,
+      "events": []
+    }
+  ]
+}

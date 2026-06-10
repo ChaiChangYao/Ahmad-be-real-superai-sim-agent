@@ -1,0 +1,5 @@
+<mujoco model="robot_dog_demo">
+  <worldbody>
+    <body name="body" />
+  </worldbody>
+</mujoco>

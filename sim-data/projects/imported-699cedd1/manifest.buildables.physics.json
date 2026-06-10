@@ -1,0 +1,385 @@
+{
+  "schema_version": "0.1.0",
+  "version": 2,
+  "updated_at": "2026-06-09T09:21:43.731248+00:00",
+  "project_id": "imported-699cedd1",
+  "project_name": "My Buildables Robot",
+  "project_mode": "imported_project",
+  "project_type": "imported_cad_assembly",
+  "units": {
+    "length": "m",
+    "mass": "kg",
+    "time": "s",
+    "angle": "rad"
+  },
+  "assets": [
+    {
+      "id": "asset-3d810f6b",
+      "name": ".pre-commit-config",
+      "type": "other",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\.pre-commit-config.yaml",
+      "original_filename": ".pre-commit-config.yaml",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-018bf501",
+      "name": "LICENSE",
+      "type": "other",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\LICENSE",
+      "original_filename": "LICENSE",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-0e95b5b4",
+      "name": "flexible",
+      "type": "other",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\images\\flexible.png",
+      "original_filename": "flexible.png",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-8c5dcbda",
+      "name": "materials",
+      "type": "other",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\images\\materials.png",
+      "original_filename": "materials.png",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-c4ce295a",
+      "name": "multipleshapes",
+      "type": "other",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\images\\multipleshapes.png",
+      "original_filename": "multipleshapes.png",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-9922ada0",
+      "name": "myfirst",
+      "type": "other",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\images\\myfirst.png",
+      "original_filename": "myfirst.png",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-a21a91d2",
+      "name": "origins",
+      "type": "other",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\images\\origins.png",
+      "original_filename": "origins.png",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-c7fc1a28",
+      "name": "visual",
+      "type": "other",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\images\\visual.png",
+      "original_filename": "visual.png",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-99e7f6be",
+      "name": "display.launch",
+      "type": "other",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\launch\\display.launch.py",
+      "original_filename": "display.launch.py",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-511e2039",
+      "name": "l_finger",
+      "type": "other",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\meshes\\l_finger.dae",
+      "original_filename": "l_finger.dae",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-7b75b733",
+      "name": "l_finger_color",
+      "type": "other",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\meshes\\l_finger_color.png",
+      "original_filename": "l_finger_color.png",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-b8590f72",
+      "name": "l_finger_tip",
+      "type": "other",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\meshes\\l_finger_tip.dae",
+      "original_filename": "l_finger_tip.dae",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-6cc12999",
+      "name": "l_finger_tip_color",
+      "type": "other",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\meshes\\l_finger_tip_color.png",
+      "original_filename": "l_finger_tip_color.png",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-b803e7ba",
+      "name": "package",
+      "type": "mjcf",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\package.xml",
+      "original_filename": "package.xml",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-df1ed176",
+      "name": "01-myfirst",
+      "type": "urdf",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\01-myfirst.urdf",
+      "original_filename": "01-myfirst.urdf",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-414bb166",
+      "name": "02-multipleshapes",
+      "type": "urdf",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\02-multipleshapes.urdf",
+      "original_filename": "02-multipleshapes.urdf",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-e2f639e1",
+      "name": "03-origins",
+      "type": "urdf",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\03-origins.urdf",
+      "original_filename": "03-origins.urdf",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-94613c9e",
+      "name": "04-materials",
+      "type": "urdf",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\04-materials.urdf",
+      "original_filename": "04-materials.urdf",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-58fb7980",
+      "name": "05-visual",
+      "type": "urdf",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\05-visual.urdf",
+      "original_filename": "05-visual.urdf",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-9bf7f08f",
+      "name": "06-flexible",
+      "type": "urdf",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\06-flexible.urdf",
+      "original_filename": "06-flexible.urdf",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    },
+    {
+      "id": "asset-24b41090",
+      "name": "07-physics",
+      "type": "urdf",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\07-physics.urdf",
+      "original_filename": "07-physics.urdf",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    }
+  ],
+  "materials": [
+    {
+      "id": "imported-default-material",
+      "name": "Imported Default Material",
+      "density_kg_m3": 1600.0,
+      "static_friction": 0.5,
+      "dynamic_friction": 0.4,
+      "restitution": 0.1,
+      "youngs_modulus_pa": null,
+      "yield_strength_pa": null,
+      "melting_point_c": null,
+      "thermal_notes": null,
+      "simulation_notes": "Fallback material for imported project.",
+      "source_url": null,
+      "confidence": "placeholder"
+    }
+  ],
+  "links": [
+    {
+      "id": "base_link",
+      "name": "base_link",
+      "category": "body",
+      "visual_asset_id": null,
+      "material_id": "imported-default-material",
+      "mass_kg": 1.0,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    }
+  ],
+  "joints": [],
+  "actuators": [],
+  "electronics": [],
+  "sensors": [],
+  "wires": [],
+  "collision_primitives": [],
+  "robot_description": {
+    "preferred_format": "urdf",
+    "urdf_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\01-myfirst.urdf",
+    "mjcf_path": null,
+    "generated_from_manifest": false
+  },
+  "environment": {},
+  "control": {
+    "script_path": null,
+    "built_in_controller": "robot_dog_default"
+  },
+  "scenarios": [
+    {
+      "id": "passive_gravity",
+      "name": "Passive Gravity",
+      "description": "Passive gravity stability test",
+      "duration_s": 4.0,
+      "config": {
+        "command_hint": "stand"
+      }
+    },
+    {
+      "id": "joint_sweep_collision",
+      "name": "Joint Sweep",
+      "description": "Sweep all detected joints",
+      "duration_s": 6.0,
+      "config": {
+        "command_hint": "walk_forward"
+      }
+    },
+    {
+      "id": "mechanism_motion",
+      "name": "Mechanism Motion",
+      "description": "Simple mechanism motion command",
+      "duration_s": 5.0,
+      "config": {
+        "command_hint": "walk_forward"
+      }
+    }
+  ],
+  "payloads": [],
+  "environments": {
+    "default": "flat"
+  },
+  "controls": {
+    "mode": "joint_command_table",
+    "control_script_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\launch\\display.launch.py"
+  },
+  "tests": [],
+  "render_cameras": [],
+  "generated_robot_descriptions": {},
+  "metadata_status": {
+    "missing_mass": false,
+    "missing_material": false,
+    "missing_joint": true,
+    "missing_actuator": true,
+    "missing_sensor": true,
+    "missing_collision_mesh": false,
+    "missing_control_script": false,
+    "missing_environment": false
+  }
+}

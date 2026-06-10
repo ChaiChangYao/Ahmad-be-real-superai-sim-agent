@@ -1,0 +1,5 @@
+[Genesis] Native scenario executor started.
+[Genesis] profile=plane_and_box_drop base_mode=ground_contact
+[Genesis] scene.build() complete, stepped=180
+[Scenario] verify_box_drop duration=2.0s
+[Result] FAIL

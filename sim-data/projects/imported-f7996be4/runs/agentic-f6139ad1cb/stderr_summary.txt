@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\imported-f7996be4\runs\agentic-f6139ad1cb\generated\script.py", line 58, in main
+    attach_imu_sensor(
+  File "C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\apps\api\app\services\agentic\runtime\sensor_helpers.py", line 28, in attach_imu_sensor
+    return scene.add_sensor(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\apps\api\app\services\genesis_showcase\scene_replay_exporter.py", line 729, in patched_add_sensor
+    sensor = original_add_sensor(self, sensor_options, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\apps\api\.venv\Lib\site-packages\genesis\utils\misc.py", line 132, in wrapper
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Scene.add_sensor() got an unexpected keyword argument 'update_rate'

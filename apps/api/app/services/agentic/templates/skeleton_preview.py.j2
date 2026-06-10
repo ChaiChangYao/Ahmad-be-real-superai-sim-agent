@@ -1,0 +1,45 @@
+"""Skeleton fallback preview — mesh assets missing. Not full visual simulation."""
+{% include 'base_scene.py.j2' %}
+from app.services.agentic.runtime.scene_helpers import add_fallback_skeleton_robot
+from app.services.agentic.runtime.telemetry import create_telemetry_schema, summarize_telemetry
+
+SELECTED_JOINTS = {{ ctx.selected_joints | tojson }}
+SKELETON_WARNING = "Skeleton fallback preview. Mesh assets missing."
+
+
+def main() -> None:
+    config = load_sidecar_config()
+    config["warnings"] = list(config.get("warnings") or []) + [SKELETON_WARNING]
+    start_run_metadata(config)
+    write_manifest(config, {"fallback_mode": "skeleton", "warnings": config["warnings"]})
+    samples: list[dict] = []
+    frames: list[dict] = []
+
+    try:
+        init_genesis_web_mode(config)
+        scene = create_basic_scene(config)
+        add_floor(scene, config)
+        add_fallback_skeleton_robot(scene, config["robot_description_path"])
+        scene.build()
+
+        physics = config.get("physics_config", {})
+        dt = float(physics.get("timestep", 0.01))
+        t = 0.0
+        for step_idx in range(40):
+            scene.step()
+            t += dt
+            if step_idx % 4 == 0:
+                frames.append({"step": step_idx, "mode": "skeleton"})
+                samples.append({"t": t, "step": step_idx, "joint_positions": []})
+
+        schema = create_telemetry_schema("joint")
+        write_telemetry_timeseries(config, summarize_telemetry(samples, schema))
+        write_state_timeseries(config, frames)
+        finalize_run(config)
+    except Exception as exc:
+        fail_run(config, exc)
+        raise
+
+
+if __name__ == "__main__":
+    main()

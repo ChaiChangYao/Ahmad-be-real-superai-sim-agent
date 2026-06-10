@@ -1,0 +1,184 @@
+{
+  "report_id": "report-db89443c7f",
+  "run_id": "agentic-62b18afa25",
+  "project_id": "imported-87a5c6e5",
+  "test_id": "joint_sweep",
+  "test_name": "Joint Sweep",
+  "generated_at": "2026-06-09T09:32:16.481813+00:00",
+  "executive_summary": "Joint Sweep finished with outcome Passed (passed). Replay captured 2275 frames. Telemetry recorded 240 samples. 1 issue(s) noted in logs.",
+  "plain_language_summary": "I finished Joint Sweep. Outcome: passed.\n\nKey results:\n- Run status: completed\n- Replay frames: 2275\n- Telemetry samples: 240\n\nLimitations:\n- No stress, buckling, or fatigue analysis was performed.\n- Results reflect Genesis rigid-body simulation fidelity \u2014 not manufacturing tolerances or real-world wear.\n\nRecommended next step:\n- Try Gravity Stability: Drop or settle model under gravity; report stability and contact summary.",
+  "outcome": {
+    "status": "passed",
+    "label": "Passed",
+    "summary": "Motion replay recorded with meaningful movement.",
+    "run_status": "completed",
+    "exit_code": 0
+  },
+  "key_metrics": [
+    {
+      "id": "manifest_status",
+      "label": "Manifest status",
+      "value": "complete",
+      "unit": "",
+      "category": "general"
+    },
+    {
+      "id": "has_replay",
+      "label": "Replay recorded",
+      "value": true,
+      "unit": "",
+      "category": "visual"
+    },
+    {
+      "id": "frame_count",
+      "label": "Replay frames",
+      "value": 2275,
+      "unit": "",
+      "category": "visual"
+    },
+    {
+      "id": "has_telemetry",
+      "label": "Telemetry recorded",
+      "value": true,
+      "unit": "",
+      "category": "telemetry"
+    },
+    {
+      "id": "telemetry_samples",
+      "label": "Telemetry samples",
+      "value": 240,
+      "unit": "",
+      "category": "telemetry"
+    },
+    {
+      "id": "replay_frames",
+      "label": "Replay frames",
+      "value": 2275,
+      "unit": "",
+      "category": "replay"
+    },
+    {
+      "id": "unique_poses",
+      "label": "Unique poses",
+      "value": 2275,
+      "unit": "",
+      "category": "replay"
+    },
+    {
+      "id": "moving_frames",
+      "label": "Moving frames",
+      "value": 1831,
+      "unit": "",
+      "category": "replay"
+    },
+    {
+      "id": "longest_freeze",
+      "label": "Longest freeze run",
+      "value": 165,
+      "unit": "",
+      "category": "replay"
+    },
+    {
+      "id": "object_count",
+      "label": "Tracked objects",
+      "value": 14,
+      "unit": "",
+      "category": "replay"
+    },
+    {
+      "id": "recorder_issue",
+      "label": "Recorder note",
+      "value": "sparse_motion_phases",
+      "unit": "",
+      "category": "replay"
+    },
+    {
+      "id": "joints_tested",
+      "label": "Joints tested",
+      "value": 12,
+      "unit": "",
+      "category": "joint"
+    }
+  ],
+  "time_series_metrics": [],
+  "detected_issues": [
+    {
+      "issue_id": "failure_unknown",
+      "severity": "error",
+      "code": "unknown",
+      "title": "Run failure",
+      "explanation": "[showcase_launcher] Wrote 2275 replay frames (final, v9) \u00b7 raw=240 unique_poses=240 preview=2275 \u00b7 14 objects (13 robot links) to C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\runs\\agentic-62b18afa25\\state_timeseries.json",
+      "suggested_fix": "Review run logs and verify project assets.",
+      "source": "logs"
+    }
+  ],
+  "limitations": [
+    {
+      "limitation_id": "no_structural",
+      "category": "structural",
+      "text": "No stress, buckling, or fatigue analysis was performed.",
+      "test_id": "joint_sweep"
+    },
+    {
+      "limitation_id": "genesis_physics",
+      "category": "general",
+      "text": "Results reflect Genesis rigid-body simulation fidelity \u2014 not manufacturing tolerances or real-world wear.",
+      "test_id": "joint_sweep"
+    }
+  ],
+  "recommendations": [
+    {
+      "recommendation_id": "next_gravity_stability",
+      "title": "Try Gravity Stability",
+      "description": "Drop or settle model under gravity; report stability and contact summary.",
+      "priority": "low",
+      "next_step_type": "run_another_test",
+      "action_id": "select_test",
+      "test_id": "gravity_stability"
+    },
+    {
+      "recommendation_id": "next_imu_sensor",
+      "title": "Try IMU Sensor",
+      "description": "Simulate IMU on attach link; record linear acceleration and angular velocity.",
+      "priority": "low",
+      "next_step_type": "run_another_test",
+      "action_id": "select_test",
+      "test_id": "imu_sensor"
+    }
+  ],
+  "next_tests": [
+    "gravity_stability",
+    "imu_sensor",
+    "contact_force",
+    "depth_camera",
+    "thermal_grid_readiness"
+  ],
+  "disclaimer": "This report is generated from recorded simulation artifacts. It describes what was observed in the run \u2014 not guaranteed real-world performance.",
+  "artifacts_used": [
+    "manifest.json",
+    "state_timeseries.json",
+    "telemetry_timeseries.json",
+    "combined.log"
+  ],
+  "logs_used": [
+    "stdout.log",
+    "stderr.log",
+    "combined.log"
+  ],
+  "raw_data_refs": {
+    "run_dir": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\runs\\agentic-62b18afa25",
+    "manifest": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\runs\\agentic-62b18afa25\\manifest.json"
+  },
+  "confidence": 1.0,
+  "pass_fail": "pass",
+  "summary": "Joint Sweep finished with outcome Passed (passed). Replay captured 2275 frames. Telemetry recorded 240 samples. 1 issue(s) noted in logs.",
+  "observed_issues": [
+    "Run failure: [showcase_launcher] Wrote 2275 replay frames (final, v9) \u00b7 raw=240 unique_poses=240 preview=2275 \u00b7 14 objects (13 robot links) to C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\runs\\agentic-62b18afa25\\state_timeseries.json"
+  ],
+  "engineering_explanation": "I finished Joint Sweep. Outcome: passed.\n\nKey results:\n- Run status: completed\n- Replay frames: 2275\n- Telemetry samples: 240\n\nLimitations:\n- No stress, buckling, or fatigue analysis was performed.\n- Results reflect Genesis rigid-body simulation fidelity \u2014 not manufacturing tolerances or real-world wear.\n\nRecommended next step:\n- Try Gravity Stability: Drop or settle model under gravity; report stability and contact summary.",
+  "suggested_design_changes": [],
+  "missing_data_limitations": [
+    "No stress, buckling, or fatigue analysis was performed.",
+    "Results reflect Genesis rigid-body simulation fidelity \u2014 not manufacturing tolerances or real-world wear."
+  ]
+}

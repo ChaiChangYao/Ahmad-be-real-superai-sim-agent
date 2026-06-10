@@ -1,0 +1,136 @@
+{
+  "report_id": "report-e469b8d095",
+  "run_id": "agentic-report-cfd",
+  "project_id": "default-robot-dog",
+  "test_id": "cfd_readiness",
+  "test_name": "CFD Readiness",
+  "generated_at": "2026-06-08T09:01:47.946235+00:00",
+  "executive_summary": "CFD Readiness finished with outcome Readiness check (readiness_only).",
+  "plain_language_summary": "I finished CFD Readiness. Outcome: readiness_only.\n\nKey results:\n- Run status: completed\n- Replay frames: 0\n\nLimitations:\n- This is a readiness checklist only \u2014 no FEA/CFD solver was run and no stress or flow numbers are reported.\n- Results reflect Genesis rigid-body simulation fidelity \u2014 not manufacturing tolerances or real-world wear.\n\nRecommended next step:\n- Upload missing mesh files: URDF references meshes that were not found. Upload STL/OBJ files or export from STEP.",
+  "outcome": {
+    "status": "readiness_only",
+    "label": "Readiness check",
+    "summary": "Input readiness evaluated \u2014 no solver execution. 53 mesh reference(s) still missing.",
+    "run_status": "completed",
+    "exit_code": 0
+  },
+  "key_metrics": [
+    {
+      "id": "manifest_status",
+      "label": "Manifest status",
+      "value": "complete",
+      "unit": "",
+      "category": "general"
+    },
+    {
+      "id": "has_replay",
+      "label": "Replay recorded",
+      "value": false,
+      "unit": "",
+      "category": "visual"
+    },
+    {
+      "id": "frame_count",
+      "label": "Replay frames",
+      "value": 0,
+      "unit": "",
+      "category": "visual"
+    },
+    {
+      "id": "has_telemetry",
+      "label": "Telemetry recorded",
+      "value": false,
+      "unit": "",
+      "category": "telemetry"
+    },
+    {
+      "id": "replay_frames",
+      "label": "Replay frames",
+      "value": 0,
+      "unit": "",
+      "category": "general"
+    }
+  ],
+  "time_series_metrics": [],
+  "detected_issues": [],
+  "limitations": [
+    {
+      "limitation_id": "readiness_only",
+      "category": "solver",
+      "text": "This is a readiness checklist only \u2014 no FEA/CFD solver was run and no stress or flow numbers are reported.",
+      "test_id": "cfd_readiness"
+    },
+    {
+      "limitation_id": "genesis_physics",
+      "category": "general",
+      "text": "Results reflect Genesis rigid-body simulation fidelity \u2014 not manufacturing tolerances or real-world wear.",
+      "test_id": "cfd_readiness"
+    }
+  ],
+  "recommendations": [
+    {
+      "recommendation_id": "upload_meshes",
+      "title": "Upload missing mesh files",
+      "description": "URDF references meshes that were not found. Upload STL/OBJ files or export from STEP.",
+      "priority": "high",
+      "next_step_type": "upload_file",
+      "action_id": "upload_assets",
+      "test_id": null
+    },
+    {
+      "recommendation_id": "cad_bridge_meshes",
+      "title": "Ask Buildables CAD (not connected)",
+      "description": "Buildables CAD generation bridge is not connected yet. For now, upload a robot zip with meshes/, use STEP recovery, or accept skeleton fallback.",
+      "priority": "low",
+      "next_step_type": "change_design",
+      "action_id": "cad_bridge",
+      "test_id": null
+    },
+    {
+      "recommendation_id": "next_gravity_stability",
+      "title": "Try Gravity Stability",
+      "description": "Drop or settle model under gravity; report stability and contact summary.",
+      "priority": "low",
+      "next_step_type": "run_another_test",
+      "action_id": "select_test",
+      "test_id": "gravity_stability"
+    },
+    {
+      "recommendation_id": "next_joint_sweep",
+      "title": "Try Joint Sweep",
+      "description": "Sweep movable joints through limits; detect collisions and range issues.",
+      "priority": "low",
+      "next_step_type": "run_another_test",
+      "action_id": "select_test",
+      "test_id": "joint_sweep"
+    }
+  ],
+  "next_tests": [
+    "gravity_stability",
+    "joint_sweep",
+    "imu_sensor",
+    "contact_force",
+    "depth_camera"
+  ],
+  "disclaimer": "This report summarizes input readiness only. It does not contain finite-element or CFD solver results. Upload complete geometry and boundary conditions before running external analysis tools.",
+  "artifacts_used": [
+    "manifest.json"
+  ],
+  "logs_used": [],
+  "raw_data_refs": {
+    "run_dir": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\runs\\agentic-report-cfd",
+    "manifest": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\runs\\agentic-report-cfd\\manifest.json"
+  },
+  "confidence": 0.55,
+  "pass_fail": "readiness_only",
+  "summary": "CFD Readiness finished with outcome Readiness check (readiness_only).",
+  "observed_issues": [],
+  "engineering_explanation": "I finished CFD Readiness. Outcome: readiness_only.\n\nKey results:\n- Run status: completed\n- Replay frames: 0\n\nLimitations:\n- This is a readiness checklist only \u2014 no FEA/CFD solver was run and no stress or flow numbers are reported.\n- Results reflect Genesis rigid-body simulation fidelity \u2014 not manufacturing tolerances or real-world wear.\n\nRecommended next step:\n- Upload missing mesh files: URDF references meshes that were not found. Upload STL/OBJ files or export from STEP.",
+  "suggested_design_changes": [
+    "Ask Buildables CAD (not connected)"
+  ],
+  "missing_data_limitations": [
+    "This is a readiness checklist only \u2014 no FEA/CFD solver was run and no stress or flow numbers are reported.",
+    "Results reflect Genesis rigid-body simulation fidelity \u2014 not manufacturing tolerances or real-world wear."
+  ]
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "servo-industrial-01",
+    "brand": "Generic",
+    "model": "BLDC Servo 42Nm",
+    "component_type": "servo",
+    "dimensions_m": [0.08, 0.06, 0.12],
+    "mass_kg": 1.1,
+    "voltage_range_v": [18.0, 28.0],
+    "current_draw_a": 2.5,
+    "peak_current_a": 7.0,
+    "max_torque_nm": 42.0,
+    "max_velocity_rad_s": 6.0,
+    "communication_interface": "CAN",
+    "source_url": null,
+    "datasheet_url": null,
+    "confidence": "placeholder",
+    "notes": "Actuator torque affects torque margin and jump behavior."
+  }
+]

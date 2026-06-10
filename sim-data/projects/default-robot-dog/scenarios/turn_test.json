@@ -1,0 +1,1 @@
+{"id":"turn_test","name":"Turn Test","description":"Yaw response","duration_s":5.0,"config":{"yaw_threshold_deg":15.0}}

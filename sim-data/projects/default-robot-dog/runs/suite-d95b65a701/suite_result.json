@@ -1,0 +1,1059 @@
+{
+  "suite_run_id": "suite-d95b65a701",
+  "project_id": "default-robot-dog",
+  "started_at": "2026-06-01T02:33:05.665933+00:00",
+  "results": [
+    {
+      "test_id": "joint_sweep",
+      "test_name": "Joint Sweep Test",
+      "category": "Motion / Kinematics",
+      "status": "pass",
+      "run_id": "run-2c97352bdb",
+      "project_id": "default-robot-dog",
+      "metrics": {
+        "body_height_m": 0.296,
+        "max_pitch_deg": 2.784,
+        "max_roll_deg": 1.908,
+        "max_yaw_deg": 0.0,
+        "forward_distance_m": 0.0,
+        "fall_detected": false,
+        "joint_position_ranges": {
+          "j-hip-fl": [
+            0.2,
+            0.2
+          ],
+          "j-knee-fl": [
+            -0.8,
+            -0.8
+          ],
+          "j-hip-fr": [
+            0.2,
+            0.2
+          ],
+          "j-knee-fr": [
+            -0.8,
+            -0.8
+          ],
+          "j-hip-rl": [
+            0.2,
+            0.2
+          ],
+          "j-knee-rl": [
+            -0.8,
+            -0.8
+          ],
+          "j-hip-rr": [
+            0.2,
+            0.2
+          ],
+          "j-knee-rr": [
+            -0.8,
+            -0.8
+          ]
+        },
+        "foot_contact_ratio": 0.934,
+        "collision_count": 0,
+        "min_torque_margin": 85.4076,
+        "center_of_mass": [
+          0.0,
+          0.0,
+          0.296
+        ],
+        "sensor_clearance": 0.9691,
+        "battery_com_height_m": 0.26
+      },
+      "logs": [
+        "[Genesis] Checking installation...",
+        "[Genesis] Scene created.",
+        "[Genesis] Loading robot description...",
+        "[Genesis] Building scene...",
+        "[Scenario] Running joint_sweep_collision for 4.0s",
+        "[Metrics] max_pitch=2.784deg max_roll=1.908deg forward=0.0m",
+        "[Result] PASS joint_sweep_collision",
+        "[Warning] This is a pre-procurement simulation result, not certified final validation."
+      ],
+      "artifacts": {
+        "video_path": null,
+        "frames_path": null,
+        "urdf_path": "C:\\Users\\user\\Downloads\\robot_dog_buildables_demo.xacro",
+        "mjcf_path": "sim-data/projects/default-robot-dog/generated/robot_description/default_robot_dog.mjcf"
+      },
+      "sensor_output": {
+        "imu": {
+          "max_pitch_deg": 2.784,
+          "max_roll_deg": 1.908
+        },
+        "contacts": 0.934
+      },
+      "render_output": {
+        "frontend_preview": true,
+        "genesis_render_artifact_available": false
+      }
+    },
+    {
+      "test_id": "mechanism_motion",
+      "test_name": "Mechanism Motion Test",
+      "category": "Motion / Kinematics",
+      "status": "pass",
+      "run_id": "run-412296dea8",
+      "project_id": "default-robot-dog",
+      "metrics": {
+        "body_height_m": 0.296,
+        "max_pitch_deg": 2.784,
+        "max_roll_deg": 1.908,
+        "max_yaw_deg": 0.0,
+        "forward_distance_m": 0.897,
+        "fall_detected": false,
+        "joint_position_ranges": {
+          "j-hip-fl": [
+            -0.31999686609622513,
+            0.31999764855505214
+          ],
+          "j-knee-fl": [
+            -1.0499897676025034,
+            -0.45
+          ],
+          "j-hip-fr": [
+            -0.31999764855505214,
+            0.31999686609622513
+          ],
+          "j-knee-fr": [
+            -1.0499897676025034,
+            -0.45
+          ],
+          "j-hip-rl": [
+            -0.31999764855505214,
+            0.31999686609622513
+          ],
+          "j-knee-rl": [
+            -1.0499897676025034,
+            -0.45
+          ],
+          "j-hip-rr": [
+            -0.31999686609622513,
+            0.31999764855505214
+          ],
+          "j-knee-rr": [
+            -1.0499897676025034,
+            -0.45
+          ]
+        },
+        "foot_contact_ratio": 0.8799,
+        "collision_count": 0,
+        "min_torque_margin": 85.4076,
+        "center_of_mass": [
+          0.897,
+          0.0,
+          0.296
+        ],
+        "sensor_clearance": 0.9691,
+        "battery_com_height_m": 0.26
+      },
+      "logs": [
+        "[Genesis] Checking installation...",
+        "[Genesis] Scene created.",
+        "[Genesis] Loading robot description...",
+        "[Genesis] Building scene...",
+        "[Scenario] Running walk_forward for 5.0s",
+        "[Metrics] max_pitch=2.784deg max_roll=1.908deg forward=0.897m",
+        "[Result] PASS walk_forward",
+        "[Warning] This is a pre-procurement simulation result, not certified final validation."
+      ],
+      "artifacts": {
+        "video_path": null,
+        "frames_path": null,
+        "urdf_path": "C:\\Users\\user\\Downloads\\robot_dog_buildables_demo.xacro",
+        "mjcf_path": "sim-data/projects/default-robot-dog/generated/robot_description/default_robot_dog.mjcf"
+      },
+      "sensor_output": {
+        "imu": {
+          "max_pitch_deg": 2.784,
+          "max_roll_deg": 1.908
+        },
+        "contacts": 0.8799
+      },
+      "render_output": {
+        "frontend_preview": true,
+        "genesis_render_artifact_available": false
+      }
+    },
+    {
+      "test_id": "gait_motion",
+      "test_name": "Gait Motion Test",
+      "category": "Motion / Kinematics",
+      "status": "pass",
+      "run_id": "run-f18a912457",
+      "project_id": "default-robot-dog",
+      "metrics": {
+        "body_height_m": 0.296,
+        "max_pitch_deg": 2.784,
+        "max_roll_deg": 1.908,
+        "max_yaw_deg": 0.0,
+        "forward_distance_m": 0.897,
+        "fall_detected": false,
+        "joint_position_ranges": {
+          "j-hip-fl": [
+            -0.31999686609622513,
+            0.31999764855505214
+          ],
+          "j-knee-fl": [
+            -1.0499897676025034,
+            -0.45
+          ],
+          "j-hip-fr": [
+            -0.31999764855505214,
+            0.31999686609622513
+          ],
+          "j-knee-fr": [
+            -1.0499897676025034,
+            -0.45
+          ],
+          "j-hip-rl": [
+            -0.31999764855505214,
+            0.31999686609622513
+          ],
+          "j-knee-rl": [
+            -1.0499897676025034,
+            -0.45
+          ],
+          "j-hip-rr": [
+            -0.31999686609622513,
+            0.31999764855505214
+          ],
+          "j-knee-rr": [
+            -1.0499897676025034,
+            -0.45
+          ]
+        },
+        "foot_contact_ratio": 0.8799,
+        "collision_count": 0,
+        "min_torque_margin": 85.4076,
+        "center_of_mass": [
+          0.897,
+          0.0,
+          0.296
+        ],
+        "sensor_clearance": 0.9691,
+        "battery_com_height_m": 0.26
+      },
+      "logs": [
+        "[Genesis] Checking installation...",
+        "[Genesis] Scene created.",
+        "[Genesis] Loading robot description...",
+        "[Genesis] Building scene...",
+        "[Scenario] Running walk_forward for 5.0s",
+        "[Metrics] max_pitch=2.784deg max_roll=1.908deg forward=0.897m",
+        "[Result] PASS walk_forward",
+        "[Warning] This is a pre-procurement simulation result, not certified final validation."
+      ],
+      "artifacts": {
+        "video_path": null,
+        "frames_path": null,
+        "urdf_path": "C:\\Users\\user\\Downloads\\robot_dog_buildables_demo.xacro",
+        "mjcf_path": "sim-data/projects/default-robot-dog/generated/robot_description/default_robot_dog.mjcf"
+      },
+      "sensor_output": {
+        "imu": {
+          "max_pitch_deg": 2.784,
+          "max_roll_deg": 1.908
+        },
+        "contacts": 0.8799
+      },
+      "render_output": {
+        "frontend_preview": true,
+        "genesis_render_artifact_available": false
+      }
+    },
+    {
+      "test_id": "stand_balance",
+      "test_name": "Stand Balance",
+      "category": "Dynamics / Balance / Torque",
+      "status": "pass",
+      "run_id": "run-824c6a2174",
+      "project_id": "default-robot-dog",
+      "metrics": {
+        "body_height_m": 0.296,
+        "max_pitch_deg": 2.784,
+        "max_roll_deg": 1.908,
+        "max_yaw_deg": 0.0,
+        "forward_distance_m": 0.0,
+        "fall_detected": false,
+        "joint_position_ranges": {
+          "j-hip-fl": [
+            0.2,
+            0.2
+          ],
+          "j-knee-fl": [
+            -0.8,
+            -0.8
+          ],
+          "j-hip-fr": [
+            0.2,
+            0.2
+          ],
+          "j-knee-fr": [
+            -0.8,
+            -0.8
+          ],
+          "j-hip-rl": [
+            0.2,
+            0.2
+          ],
+          "j-knee-rl": [
+            -0.8,
+            -0.8
+          ],
+          "j-hip-rr": [
+            0.2,
+            0.2
+          ],
+          "j-knee-rr": [
+            -0.8,
+            -0.8
+          ]
+        },
+        "foot_contact_ratio": 0.9332,
+        "collision_count": 0,
+        "min_torque_margin": 85.4076,
+        "center_of_mass": [
+          0.0,
+          0.0,
+          0.296
+        ],
+        "sensor_clearance": 0.9691,
+        "battery_com_height_m": 0.26
+      },
+      "logs": [
+        "[Genesis] Checking installation...",
+        "[Genesis] Scene created.",
+        "[Genesis] Loading robot description...",
+        "[Genesis] Building scene...",
+        "[Scenario] Running stand_balance for 5.0s",
+        "[Metrics] max_pitch=2.784deg max_roll=1.908deg forward=0.0m",
+        "[Result] PASS stand_balance",
+        "[Warning] This is a pre-procurement simulation result, not certified final validation."
+      ],
+      "artifacts": {
+        "video_path": null,
+        "frames_path": null,
+        "urdf_path": "C:\\Users\\user\\Downloads\\robot_dog_buildables_demo.xacro",
+        "mjcf_path": "sim-data/projects/default-robot-dog/generated/robot_description/default_robot_dog.mjcf"
+      },
+      "sensor_output": {
+        "imu": {
+          "max_pitch_deg": 2.784,
+          "max_roll_deg": 1.908
+        },
+        "contacts": 0.9332
+      },
+      "render_output": {
+        "frontend_preview": true,
+        "genesis_render_artifact_available": false
+      }
+    },
+    {
+      "test_id": "torque_margin",
+      "test_name": "Torque Margin",
+      "category": "Dynamics / Balance / Torque",
+      "status": "pass",
+      "run_id": "run-9ab876fab6",
+      "project_id": "default-robot-dog",
+      "metrics": {
+        "body_height_m": 0.296,
+        "max_pitch_deg": 2.784,
+        "max_roll_deg": 1.908,
+        "max_yaw_deg": 0.0,
+        "forward_distance_m": 0.717,
+        "fall_detected": false,
+        "joint_position_ranges": {
+          "j-hip-fl": [
+            -0.31999686609622513,
+            0.31999764855505214
+          ],
+          "j-knee-fl": [
+            -1.0499897676025034,
+            -0.45
+          ],
+          "j-hip-fr": [
+            -0.31999764855505214,
+            0.31999686609622513
+          ],
+          "j-knee-fr": [
+            -1.0499897676025034,
+            -0.45
+          ],
+          "j-hip-rl": [
+            -0.31999764855505214,
+            0.31999686609622513
+          ],
+          "j-knee-rl": [
+            -1.0499897676025034,
+            -0.45
+          ],
+          "j-hip-rr": [
+            -0.31999686609622513,
+            0.31999764855505214
+          ],
+          "j-knee-rr": [
+            -1.0499897676025034,
+            -0.45
+          ]
+        },
+        "foot_contact_ratio": 0.8793,
+        "collision_count": 0,
+        "min_torque_margin": 85.4076,
+        "center_of_mass": [
+          0.717,
+          0.0,
+          0.296
+        ],
+        "sensor_clearance": 0.9691,
+        "battery_com_height_m": 0.26
+      },
+      "logs": [
+        "[Genesis] Checking installation...",
+        "[Genesis] Scene created.",
+        "[Genesis] Loading robot description...",
+        "[Genesis] Building scene...",
+        "[Scenario] Running torque_margin for 4.0s",
+        "[Metrics] max_pitch=2.784deg max_roll=1.908deg forward=0.717m",
+        "[Result] PASS torque_margin",
+        "[Warning] This is a pre-procurement simulation result, not certified final validation."
+      ],
+      "artifacts": {
+        "video_path": null,
+        "frames_path": null,
+        "urdf_path": "C:\\Users\\user\\Downloads\\robot_dog_buildables_demo.xacro",
+        "mjcf_path": "sim-data/projects/default-robot-dog/generated/robot_description/default_robot_dog.mjcf"
+      },
+      "sensor_output": {
+        "imu": {
+          "max_pitch_deg": 2.784,
+          "max_roll_deg": 1.908
+        },
+        "contacts": 0.8793
+      },
+      "render_output": {
+        "frontend_preview": true,
+        "genesis_render_artifact_available": false
+      }
+    },
+    {
+      "test_id": "collision_check",
+      "test_name": "Collision Check",
+      "category": "Contact / Collision",
+      "status": "pass",
+      "run_id": "run-0d3b6a0b57",
+      "project_id": "default-robot-dog",
+      "metrics": {
+        "body_height_m": 0.296,
+        "max_pitch_deg": 2.784,
+        "max_roll_deg": 1.908,
+        "max_yaw_deg": 0.0,
+        "forward_distance_m": 0.0,
+        "fall_detected": false,
+        "joint_position_ranges": {
+          "j-hip-fl": [
+            0.2,
+            0.2
+          ],
+          "j-knee-fl": [
+            -0.8,
+            -0.8
+          ],
+          "j-hip-fr": [
+            0.2,
+            0.2
+          ],
+          "j-knee-fr": [
+            -0.8,
+            -0.8
+          ],
+          "j-hip-rl": [
+            0.2,
+            0.2
+          ],
+          "j-knee-rl": [
+            -0.8,
+            -0.8
+          ],
+          "j-hip-rr": [
+            0.2,
+            0.2
+          ],
+          "j-knee-rr": [
+            -0.8,
+            -0.8
+          ]
+        },
+        "foot_contact_ratio": 0.934,
+        "collision_count": 0,
+        "min_torque_margin": 85.4076,
+        "center_of_mass": [
+          0.0,
+          0.0,
+          0.296
+        ],
+        "sensor_clearance": 0.9691,
+        "battery_com_height_m": 0.26
+      },
+      "logs": [
+        "[Genesis] Checking installation...",
+        "[Genesis] Scene created.",
+        "[Genesis] Loading robot description...",
+        "[Genesis] Building scene...",
+        "[Scenario] Running joint_sweep_collision for 4.0s",
+        "[Metrics] max_pitch=2.784deg max_roll=1.908deg forward=0.0m",
+        "[Result] PASS joint_sweep_collision",
+        "[Warning] This is a pre-procurement simulation result, not certified final validation."
+      ],
+      "artifacts": {
+        "video_path": null,
+        "frames_path": null,
+        "urdf_path": "C:\\Users\\user\\Downloads\\robot_dog_buildables_demo.xacro",
+        "mjcf_path": "sim-data/projects/default-robot-dog/generated/robot_description/default_robot_dog.mjcf"
+      },
+      "sensor_output": {
+        "imu": {
+          "max_pitch_deg": 2.784,
+          "max_roll_deg": 1.908
+        },
+        "contacts": 0.934
+      },
+      "render_output": {
+        "frontend_preview": true,
+        "genesis_render_artifact_available": false
+      }
+    },
+    {
+      "test_id": "component_fit",
+      "test_name": "Component Interference Test",
+      "category": "Contact / Collision",
+      "status": "pass",
+      "run_id": "run-e569c11693",
+      "project_id": "default-robot-dog",
+      "metrics": {
+        "body_height_m": 0.296,
+        "max_pitch_deg": 2.784,
+        "max_roll_deg": 1.908,
+        "max_yaw_deg": 0.0,
+        "forward_distance_m": 0.0,
+        "fall_detected": false,
+        "joint_position_ranges": {
+          "j-hip-fl": [
+            0.2,
+            0.2
+          ],
+          "j-knee-fl": [
+            -0.8,
+            -0.8
+          ],
+          "j-hip-fr": [
+            0.2,
+            0.2
+          ],
+          "j-knee-fr": [
+            -0.8,
+            -0.8
+          ],
+          "j-hip-rl": [
+            0.2,
+            0.2
+          ],
+          "j-knee-rl": [
+            -0.8,
+            -0.8
+          ],
+          "j-hip-rr": [
+            0.2,
+            0.2
+          ],
+          "j-knee-rr": [
+            -0.8,
+            -0.8
+          ]
+        },
+        "foot_contact_ratio": 0.9326,
+        "collision_count": 0,
+        "min_torque_margin": 85.4076,
+        "center_of_mass": [
+          0.0,
+          0.0,
+          0.296
+        ],
+        "sensor_clearance": 0.9691,
+        "battery_com_height_m": 0.26
+      },
+      "logs": [
+        "[Genesis] Checking installation...",
+        "[Genesis] Scene created.",
+        "[Genesis] Loading robot description...",
+        "[Genesis] Building scene...",
+        "[Scenario] Running component_fit for 2.0s",
+        "[Metrics] max_pitch=2.784deg max_roll=1.908deg forward=0.0m",
+        "[Result] PASS component_fit",
+        "[Warning] This is a pre-procurement simulation result, not certified final validation."
+      ],
+      "artifacts": {
+        "video_path": null,
+        "frames_path": null,
+        "urdf_path": "C:\\Users\\user\\Downloads\\robot_dog_buildables_demo.xacro",
+        "mjcf_path": "sim-data/projects/default-robot-dog/generated/robot_description/default_robot_dog.mjcf"
+      },
+      "sensor_output": {
+        "imu": {
+          "max_pitch_deg": 2.784,
+          "max_roll_deg": 1.908
+        },
+        "contacts": 0.9326
+      },
+      "render_output": {
+        "frontend_preview": true,
+        "genesis_render_artifact_available": false
+      }
+    },
+    {
+      "test_id": "sensor_visibility",
+      "test_name": "Sensor Visibility Test",
+      "category": "Sensors / Perception",
+      "status": "pass",
+      "run_id": "run-20776d384d",
+      "project_id": "default-robot-dog",
+      "metrics": {
+        "body_height_m": 0.296,
+        "max_pitch_deg": 2.784,
+        "max_roll_deg": 1.908,
+        "max_yaw_deg": 0.0,
+        "forward_distance_m": 0.0,
+        "fall_detected": false,
+        "joint_position_ranges": {
+          "j-hip-fl": [
+            0.2,
+            0.2
+          ],
+          "j-knee-fl": [
+            -0.8,
+            -0.8
+          ],
+          "j-hip-fr": [
+            0.2,
+            0.2
+          ],
+          "j-knee-fr": [
+            -0.8,
+            -0.8
+          ],
+          "j-hip-rl": [
+            0.2,
+            0.2
+          ],
+          "j-knee-rl": [
+            -0.8,
+            -0.8
+          ],
+          "j-hip-rr": [
+            0.2,
+            0.2
+          ],
+          "j-knee-rr": [
+            -0.8,
+            -0.8
+          ]
+        },
+        "foot_contact_ratio": 0.934,
+        "collision_count": 0,
+        "min_torque_margin": 85.4076,
+        "center_of_mass": [
+          0.0,
+          0.0,
+          0.296
+        ],
+        "sensor_clearance": 0.9691,
+        "battery_com_height_m": 0.26
+      },
+      "logs": [
+        "[Genesis] Checking installation...",
+        "[Genesis] Scene created.",
+        "[Genesis] Loading robot description...",
+        "[Genesis] Building scene...",
+        "[Scenario] Running sensor_visibility for 4.0s",
+        "[Metrics] max_pitch=2.784deg max_roll=1.908deg forward=0.0m",
+        "[Result] PASS sensor_visibility",
+        "[Warning] This is a pre-procurement simulation result, not certified final validation."
+      ],
+      "artifacts": {
+        "video_path": null,
+        "frames_path": null,
+        "urdf_path": "C:\\Users\\user\\Downloads\\robot_dog_buildables_demo.xacro",
+        "mjcf_path": "sim-data/projects/default-robot-dog/generated/robot_description/default_robot_dog.mjcf"
+      },
+      "sensor_output": {
+        "imu": {
+          "max_pitch_deg": 2.784,
+          "max_roll_deg": 1.908
+        },
+        "contacts": 0.934
+      },
+      "render_output": {
+        "frontend_preview": true,
+        "genesis_render_artifact_available": false
+      }
+    },
+    {
+      "test_id": "imu_output",
+      "test_name": "IMU Stability Test",
+      "category": "Sensors / Perception",
+      "status": "pass",
+      "run_id": "run-be7a47f976",
+      "project_id": "default-robot-dog",
+      "metrics": {
+        "body_height_m": 0.296,
+        "max_pitch_deg": 2.784,
+        "max_roll_deg": 1.908,
+        "max_yaw_deg": 0.0,
+        "forward_distance_m": 0.0,
+        "fall_detected": false,
+        "joint_position_ranges": {
+          "j-hip-fl": [
+            0.2,
+            0.2
+          ],
+          "j-knee-fl": [
+            -0.8,
+            -0.8
+          ],
+          "j-hip-fr": [
+            0.2,
+            0.2
+          ],
+          "j-knee-fr": [
+            -0.8,
+            -0.8
+          ],
+          "j-hip-rl": [
+            0.2,
+            0.2
+          ],
+          "j-knee-rl": [
+            -0.8,
+            -0.8
+          ],
+          "j-hip-rr": [
+            0.2,
+            0.2
+          ],
+          "j-knee-rr": [
+            -0.8,
+            -0.8
+          ]
+        },
+        "foot_contact_ratio": 0.9332,
+        "collision_count": 0,
+        "min_torque_margin": 85.4076,
+        "center_of_mass": [
+          0.0,
+          0.0,
+          0.296
+        ],
+        "sensor_clearance": 0.9691,
+        "battery_com_height_m": 0.26
+      },
+      "logs": [
+        "[Genesis] Checking installation...",
+        "[Genesis] Scene created.",
+        "[Genesis] Loading robot description...",
+        "[Genesis] Building scene...",
+        "[Scenario] Running stand_balance for 5.0s",
+        "[Metrics] max_pitch=2.784deg max_roll=1.908deg forward=0.0m",
+        "[Result] PASS stand_balance",
+        "[Warning] This is a pre-procurement simulation result, not certified final validation."
+      ],
+      "artifacts": {
+        "video_path": null,
+        "frames_path": null,
+        "urdf_path": "C:\\Users\\user\\Downloads\\robot_dog_buildables_demo.xacro",
+        "mjcf_path": "sim-data/projects/default-robot-dog/generated/robot_description/default_robot_dog.mjcf"
+      },
+      "sensor_output": {
+        "imu": {
+          "max_pitch_deg": 2.784,
+          "max_roll_deg": 1.908
+        },
+        "contacts": 0.9332
+      },
+      "render_output": {
+        "frontend_preview": true,
+        "genesis_render_artifact_available": false
+      }
+    },
+    {
+      "test_id": "material_mass_friction",
+      "test_name": "Material/Mass/Friction Test",
+      "category": "Materials / Mass / Friction",
+      "status": "pass",
+      "run_id": "run-b895aef3b9",
+      "project_id": "default-robot-dog",
+      "metrics": {
+        "body_height_m": 0.296,
+        "max_pitch_deg": 2.784,
+        "max_roll_deg": 1.908,
+        "max_yaw_deg": 0.0,
+        "forward_distance_m": 0.0,
+        "fall_detected": false,
+        "joint_position_ranges": {
+          "j-hip-fl": [
+            0.2,
+            0.2
+          ],
+          "j-knee-fl": [
+            -0.8,
+            -0.8
+          ],
+          "j-hip-fr": [
+            0.2,
+            0.2
+          ],
+          "j-knee-fr": [
+            -0.8,
+            -0.8
+          ],
+          "j-hip-rl": [
+            0.2,
+            0.2
+          ],
+          "j-knee-rl": [
+            -0.8,
+            -0.8
+          ],
+          "j-hip-rr": [
+            0.2,
+            0.2
+          ],
+          "j-knee-rr": [
+            -0.8,
+            -0.8
+          ]
+        },
+        "foot_contact_ratio": 0.9332,
+        "collision_count": 0,
+        "min_torque_margin": 85.4076,
+        "center_of_mass": [
+          0.0,
+          0.0,
+          0.296
+        ],
+        "sensor_clearance": 0.9691,
+        "battery_com_height_m": 0.26
+      },
+      "logs": [
+        "[Genesis] Checking installation...",
+        "[Genesis] Scene created.",
+        "[Genesis] Loading robot description...",
+        "[Genesis] Building scene...",
+        "[Scenario] Running stand_balance for 5.0s",
+        "[Metrics] max_pitch=2.784deg max_roll=1.908deg forward=0.0m",
+        "[Result] PASS stand_balance",
+        "[Warning] This is a pre-procurement simulation result, not certified final validation."
+      ],
+      "artifacts": {
+        "video_path": null,
+        "frames_path": null,
+        "urdf_path": "C:\\Users\\user\\Downloads\\robot_dog_buildables_demo.xacro",
+        "mjcf_path": "sim-data/projects/default-robot-dog/generated/robot_description/default_robot_dog.mjcf"
+      },
+      "sensor_output": {
+        "imu": {
+          "max_pitch_deg": 2.784,
+          "max_roll_deg": 1.908
+        },
+        "contacts": 0.9332
+      },
+      "render_output": {
+        "frontend_preview": true,
+        "genesis_render_artifact_available": false
+      }
+    },
+    {
+      "test_id": "wire_route",
+      "test_name": "Wire Route Sanity",
+      "category": "Soft / Wires / Cables",
+      "status": "pass",
+      "run_id": "run-7fa09eb084",
+      "project_id": "default-robot-dog",
+      "metrics": {
+        "body_height_m": 0.296,
+        "max_pitch_deg": 2.784,
+        "max_roll_deg": 1.908,
+        "max_yaw_deg": 0.0,
+        "forward_distance_m": 0.0,
+        "fall_detected": false,
+        "joint_position_ranges": {
+          "j-hip-fl": [
+            0.2,
+            0.2
+          ],
+          "j-knee-fl": [
+            -0.8,
+            -0.8
+          ],
+          "j-hip-fr": [
+            0.2,
+            0.2
+          ],
+          "j-knee-fr": [
+            -0.8,
+            -0.8
+          ],
+          "j-hip-rl": [
+            0.2,
+            0.2
+          ],
+          "j-knee-rl": [
+            -0.8,
+            -0.8
+          ],
+          "j-hip-rr": [
+            0.2,
+            0.2
+          ],
+          "j-knee-rr": [
+            -0.8,
+            -0.8
+          ]
+        },
+        "foot_contact_ratio": 0.9326,
+        "collision_count": 0,
+        "min_torque_margin": 85.4076,
+        "center_of_mass": [
+          0.0,
+          0.0,
+          0.296
+        ],
+        "sensor_clearance": 0.9691,
+        "battery_com_height_m": 0.26
+      },
+      "logs": [
+        "[Genesis] Checking installation...",
+        "[Genesis] Scene created.",
+        "[Genesis] Loading robot description...",
+        "[Genesis] Building scene...",
+        "[Scenario] Running wire_route for 2.0s",
+        "[Metrics] max_pitch=2.784deg max_roll=1.908deg forward=0.0m",
+        "[Result] PASS wire_route",
+        "[Warning] This is a pre-procurement simulation result, not certified final validation."
+      ],
+      "artifacts": {
+        "video_path": null,
+        "frames_path": null,
+        "urdf_path": "C:\\Users\\user\\Downloads\\robot_dog_buildables_demo.xacro",
+        "mjcf_path": "sim-data/projects/default-robot-dog/generated/robot_description/default_robot_dog.mjcf"
+      },
+      "sensor_output": {
+        "imu": {
+          "max_pitch_deg": 2.784,
+          "max_roll_deg": 1.908
+        },
+        "contacts": 0.9326
+      },
+      "render_output": {
+        "frontend_preview": true,
+        "genesis_render_artifact_available": false
+      }
+    },
+    {
+      "test_id": "imported_cad_validation",
+      "test_name": "Imported STEP Collision Test",
+      "category": "Imported CAD Validation",
+      "status": "pass",
+      "run_id": "run-3941a1384b",
+      "project_id": "default-robot-dog",
+      "metrics": {
+        "body_height_m": 0.296,
+        "max_pitch_deg": 2.784,
+        "max_roll_deg": 1.908,
+        "max_yaw_deg": 0.0,
+        "forward_distance_m": 0.0,
+        "fall_detected": false,
+        "joint_position_ranges": {
+          "j-hip-fl": [
+            0.2,
+            0.2
+          ],
+          "j-knee-fl": [
+            -0.8,
+            -0.8
+          ],
+          "j-hip-fr": [
+            0.2,
+            0.2
+          ],
+          "j-knee-fr": [
+            -0.8,
+            -0.8
+          ],
+          "j-hip-rl": [
+            0.2,
+            0.2
+          ],
+          "j-knee-rl": [
+            -0.8,
+            -0.8
+          ],
+          "j-hip-rr": [
+            0.2,
+            0.2
+          ],
+          "j-knee-rr": [
+            -0.8,
+            -0.8
+          ]
+        },
+        "foot_contact_ratio": 0.9326,
+        "collision_count": 0,
+        "min_torque_margin": 85.4076,
+        "center_of_mass": [
+          0.0,
+          0.0,
+          0.296
+        ],
+        "sensor_clearance": 0.9691,
+        "battery_com_height_m": 0.26
+      },
+      "logs": [
+        "[Genesis] Checking installation...",
+        "[Genesis] Scene created.",
+        "[Genesis] Loading robot description...",
+        "[Genesis] Building scene...",
+        "[Scenario] Running component_fit for 2.0s",
+        "[Metrics] max_pitch=2.784deg max_roll=1.908deg forward=0.0m",
+        "[Result] PASS component_fit",
+        "[Warning] This is a pre-procurement simulation result, not certified final validation."
+      ],
+      "artifacts": {
+        "video_path": null,
+        "frames_path": null,
+        "urdf_path": "C:\\Users\\user\\Downloads\\robot_dog_buildables_demo.xacro",
+        "mjcf_path": "sim-data/projects/default-robot-dog/generated/robot_description/default_robot_dog.mjcf"
+      },
+      "sensor_output": {
+        "imu": {
+          "max_pitch_deg": 2.784,
+          "max_roll_deg": 1.908
+        },
+        "contacts": 0.9326
+      },
+      "render_output": {
+        "frontend_preview": true,
+        "genesis_render_artifact_available": false
+      }
+    }
+  ],
+  "summary": {
+    "total": 12,
+    "pass": 12,
+    "fail": 0,
+    "warning": 0,
+    "error": 0,
+    "suite_pass_rate": 100.0
+  }
+}

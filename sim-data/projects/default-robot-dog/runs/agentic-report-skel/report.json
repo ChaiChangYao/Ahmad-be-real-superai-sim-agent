@@ -1,0 +1,181 @@
+{
+  "report_id": "report-4b967b5b58",
+  "run_id": "agentic-report-skel",
+  "project_id": "default-robot-dog",
+  "test_id": "joint_sweep",
+  "test_name": "Joint Sweep",
+  "generated_at": "2026-06-08T09:01:23.684290+00:00",
+  "executive_summary": "Joint Sweep finished with outcome Passed (skeleton) (passed). Replay captured 10 frames. Skeleton fallback was active \u2014 visual validation is limited.",
+  "plain_language_summary": "I finished Joint Sweep. Outcome: passed.\n\nKey results:\n- Run status: completed\n- Replay frames: 10\n\nLimitations:\n- Skeleton/fallback collision was used \u2014 this is not full visual mesh validation.\n- No stress, buckling, or fatigue analysis was performed.\n- Results reflect Genesis rigid-body simulation fidelity \u2014 not manufacturing tolerances or real-world wear.\n\nRecommended next step:\n- Upload missing mesh files: URDF references meshes that were not found. Upload STL/OBJ files or export from STEP.",
+  "outcome": {
+    "status": "passed",
+    "label": "Passed (skeleton)",
+    "summary": "Joint motion observed under skeleton fallback \u2014 not full visual validation.",
+    "run_status": "completed",
+    "exit_code": 0
+  },
+  "key_metrics": [
+    {
+      "id": "manifest_status",
+      "label": "Manifest status",
+      "value": "complete",
+      "unit": "",
+      "category": "general"
+    },
+    {
+      "id": "has_replay",
+      "label": "Replay recorded",
+      "value": true,
+      "unit": "",
+      "category": "visual"
+    },
+    {
+      "id": "frame_count",
+      "label": "Replay frames",
+      "value": 10,
+      "unit": "",
+      "category": "visual"
+    },
+    {
+      "id": "has_telemetry",
+      "label": "Telemetry recorded",
+      "value": false,
+      "unit": "",
+      "category": "telemetry"
+    },
+    {
+      "id": "replay_frames",
+      "label": "Replay frames",
+      "value": 10,
+      "unit": "",
+      "category": "replay"
+    },
+    {
+      "id": "unique_poses",
+      "label": "Unique poses",
+      "value": 10,
+      "unit": "",
+      "category": "replay"
+    },
+    {
+      "id": "moving_frames",
+      "label": "Moving frames",
+      "value": 10,
+      "unit": "",
+      "category": "replay"
+    },
+    {
+      "id": "longest_freeze",
+      "label": "Longest freeze run",
+      "value": 1,
+      "unit": "",
+      "category": "replay"
+    },
+    {
+      "id": "object_count",
+      "label": "Tracked objects",
+      "value": 1,
+      "unit": "",
+      "category": "replay"
+    }
+  ],
+  "time_series_metrics": [],
+  "detected_issues": [],
+  "limitations": [
+    {
+      "limitation_id": "skeleton_fallback",
+      "category": "visual",
+      "text": "Skeleton/fallback collision was used \u2014 this is not full visual mesh validation.",
+      "test_id": "joint_sweep"
+    },
+    {
+      "limitation_id": "no_structural",
+      "category": "structural",
+      "text": "No stress, buckling, or fatigue analysis was performed.",
+      "test_id": "joint_sweep"
+    },
+    {
+      "limitation_id": "genesis_physics",
+      "category": "general",
+      "text": "Results reflect Genesis rigid-body simulation fidelity \u2014 not manufacturing tolerances or real-world wear.",
+      "test_id": "joint_sweep"
+    }
+  ],
+  "recommendations": [
+    {
+      "recommendation_id": "upload_meshes",
+      "title": "Upload missing mesh files",
+      "description": "URDF references meshes that were not found. Upload STL/OBJ files or export from STEP.",
+      "priority": "high",
+      "next_step_type": "upload_file",
+      "action_id": "upload_assets",
+      "test_id": null
+    },
+    {
+      "recommendation_id": "cad_bridge_meshes",
+      "title": "Ask Buildables CAD (not connected)",
+      "description": "Buildables CAD generation bridge is not connected yet. For now, upload a robot zip with meshes/, use STEP recovery, or accept skeleton fallback.",
+      "priority": "low",
+      "next_step_type": "change_design",
+      "action_id": "cad_bridge",
+      "test_id": null
+    },
+    {
+      "recommendation_id": "add_meshes",
+      "title": "Add visual meshes for full validation",
+      "description": "Skeleton preview ran without full visuals \u2014 upload meshes before claiming visual fidelity.",
+      "priority": "medium",
+      "next_step_type": "upload_file",
+      "action_id": "upload_assets",
+      "test_id": null
+    },
+    {
+      "recommendation_id": "next_gravity_stability",
+      "title": "Try Gravity Stability",
+      "description": "Drop or settle model under gravity; report stability and contact summary.",
+      "priority": "low",
+      "next_step_type": "run_another_test",
+      "action_id": "select_test",
+      "test_id": "gravity_stability"
+    },
+    {
+      "recommendation_id": "next_imu_sensor",
+      "title": "Try IMU Sensor",
+      "description": "Simulate IMU on attach link; record linear acceleration and angular velocity.",
+      "priority": "low",
+      "next_step_type": "run_another_test",
+      "action_id": "select_test",
+      "test_id": "imu_sensor"
+    }
+  ],
+  "next_tests": [
+    "gravity_stability",
+    "imu_sensor",
+    "contact_force",
+    "depth_camera",
+    "thermal_grid_readiness"
+  ],
+  "disclaimer": "This report is generated from recorded simulation artifacts. It describes what was observed in the run \u2014 not guaranteed real-world performance.",
+  "artifacts_used": [
+    "manifest.json",
+    "state_timeseries.json"
+  ],
+  "logs_used": [],
+  "raw_data_refs": {
+    "run_dir": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\runs\\agentic-report-skel",
+    "manifest": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\runs\\agentic-report-skel\\manifest.json"
+  },
+  "confidence": 0.85,
+  "pass_fail": "pass",
+  "summary": "Joint Sweep finished with outcome Passed (skeleton) (passed). Replay captured 10 frames. Skeleton fallback was active \u2014 visual validation is limited.",
+  "observed_issues": [],
+  "engineering_explanation": "I finished Joint Sweep. Outcome: passed.\n\nKey results:\n- Run status: completed\n- Replay frames: 10\n\nLimitations:\n- Skeleton/fallback collision was used \u2014 this is not full visual mesh validation.\n- No stress, buckling, or fatigue analysis was performed.\n- Results reflect Genesis rigid-body simulation fidelity \u2014 not manufacturing tolerances or real-world wear.\n\nRecommended next step:\n- Upload missing mesh files: URDF references meshes that were not found. Upload STL/OBJ files or export from STEP.",
+  "suggested_design_changes": [
+    "Ask Buildables CAD (not connected)"
+  ],
+  "missing_data_limitations": [
+    "Skeleton/fallback collision was used \u2014 this is not full visual mesh validation.",
+    "No stress, buckling, or fatigue analysis was performed.",
+    "Results reflect Genesis rigid-body simulation fidelity \u2014 not manufacturing tolerances or real-world wear."
+  ]
+}

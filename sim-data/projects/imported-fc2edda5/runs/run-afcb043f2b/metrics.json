@@ -1,0 +1,132 @@
+{
+  "body_height_m": 0.32,
+  "max_pitch_deg": 2.4,
+  "max_roll_deg": 1.6,
+  "max_yaw_deg": 0.0,
+  "forward_distance_m": 0.897,
+  "fall_detected": false,
+  "joint_position_ranges": {
+    "front_sensor_panel_link_fixed": [
+      0.0,
+      0.0
+    ],
+    "rear_service_panel_link_fixed": [
+      0.0,
+      0.0
+    ],
+    "internal_electronics_link_fixed": [
+      0.0,
+      0.0
+    ],
+    "payload_mount_link_fixed": [
+      0.0,
+      0.0
+    ],
+    "front_left_hip_abduction_joint": [
+      0.0,
+      0.0
+    ],
+    "front_left_hip_pitch_housing_fixed": [
+      0.0,
+      0.0
+    ],
+    "front_left_hip_pitch_joint": [
+      0.0,
+      0.0
+    ],
+    "front_left_knee_housing_fixed": [
+      0.0,
+      0.0
+    ],
+    "front_left_knee_pitch_joint": [
+      0.0,
+      0.0
+    ],
+    "front_left_foot_fixed": [
+      0.0,
+      0.0
+    ],
+    "front_right_hip_abduction_joint": [
+      0.0,
+      0.0
+    ],
+    "front_right_hip_pitch_housing_fixed": [
+      0.0,
+      0.0
+    ],
+    "front_right_hip_pitch_joint": [
+      0.0,
+      0.0
+    ],
+    "front_right_knee_housing_fixed": [
+      0.0,
+      0.0
+    ],
+    "front_right_knee_pitch_joint": [
+      0.0,
+      0.0
+    ],
+    "front_right_foot_fixed": [
+      0.0,
+      0.0
+    ],
+    "rear_left_hip_abduction_joint": [
+      0.0,
+      0.0
+    ],
+    "rear_left_hip_pitch_housing_fixed": [
+      0.0,
+      0.0
+    ],
+    "rear_left_hip_pitch_joint": [
+      0.0,
+      0.0
+    ],
+    "rear_left_knee_housing_fixed": [
+      0.0,
+      0.0
+    ],
+    "rear_left_knee_pitch_joint": [
+      0.0,
+      0.0
+    ],
+    "rear_left_foot_fixed": [
+      0.0,
+      0.0
+    ],
+    "rear_right_hip_abduction_joint": [
+      0.0,
+      0.0
+    ],
+    "rear_right_hip_pitch_housing_fixed": [
+      0.0,
+      0.0
+    ],
+    "rear_right_hip_pitch_joint": [
+      0.0,
+      0.0
+    ],
+    "rear_right_knee_housing_fixed": [
+      0.0,
+      0.0
+    ],
+    "rear_right_knee_pitch_joint": [
+      0.0,
+      0.0
+    ],
+    "rear_right_foot_fixed": [
+      0.0,
+      0.0
+    ]
+  },
+  "foot_contact_ratio": 0.8824,
+  "collision_count": 0,
+  "min_torque_margin": 168.0385,
+  "center_of_mass": [
+    0.897,
+    0.0,
+    0.32
+  ],
+  "sensor_clearance": 0.9733,
+  "battery_com_height_m": 0.0
+}

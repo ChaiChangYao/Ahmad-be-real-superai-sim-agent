@@ -1,0 +1,30 @@
+{
+  "runId": "agentic-ae69df4ace",
+  "projectId": "imported-f7996be4",
+  "testId": "imu_sensor",
+  "scriptId": "script-fd1d6c4267",
+  "templateId": "imu_sensor",
+  "status": "complete",
+  "startedAt": "2026-06-09T08:46:50.304572+00:00",
+  "completedAt": "2026-06-09T08:47:33.995319+00:00",
+  "backend": "ExecutionBackend.local",
+  "visual": {
+    "hasReplay": true,
+    "frameCount": 2095,
+    "fps": 24.0,
+    "path": "state_timeseries.json"
+  },
+  "telemetry": {
+    "hasTelemetry": true,
+    "sampleCount": 400,
+    "sensorTypes": [
+      "imu"
+    ],
+    "path": "telemetry_timeseries.json"
+  },
+  "errors": [
+    "[showcase_launcher] Wrote 2095 replay frames (final, v14) \u00b7 raw=400 unique_poses=400 preview=2095 \u00b7 14 objects (13 robot links) to C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-f7996be4\\runs\\agentic-ae69df4ace\\state_timeseries.json"
+  ],
+  "warnings": [],
+  "exitCode": 0
+}

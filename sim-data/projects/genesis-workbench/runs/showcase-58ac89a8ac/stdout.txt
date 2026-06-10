@@ -1,0 +1,422 @@
+[showcase_launcher] Running script: C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\genesis-world\examples\sensors\tactile_sandbox.py
+[showcase_launcher] Headless: True · Web record: True
+[showcase_launcher] Record path: C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-58ac89a8ac\state_timeseries.json
+[showcase_launcher] Forwarded args: (none)
+[38;5;159m[Genesis] [13:19:24] [INFO] [38;5;121m╭───────────────────────────────────────────────╮[0m[38;5;159m[0m
+[38;5;159m[Genesis] [13:19:24] [INFO] [38;5;121m│┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈[0m[38;5;159m [38;5;121m[1m[3mGenesis[0m[38;5;159m [38;5;121m┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈│[0m[38;5;159m[0m
+[38;5;159m[Genesis] [13:19:24] [INFO] [38;5;121m╰───────────────────────────────────────────────╯[0m[38;5;159m[0m
+[38;5;159m[Genesis] [13:19:26] [INFO] Running on [38;5;121m[4m[AMD Ryzen 7 6800H with Radeon Graphics][0m[38;5;159m with backend [38;5;121m[4mgs.cpu[0m[38;5;159m. Device memory: [38;5;121m[4m15.25[0m[38;5;159m GB.[0m
+[38;5;159m[Genesis] [13:19:26] [INFO] 🚀 Genesis initialized. 🔖 version: [38;5;121m[4m1.0.0[0m[38;5;159m, 🎨 theme: [38;5;121m[4mdark[0m[38;5;159m, 🌱 seed: [38;5;121m[4mNone[0m[38;5;159m, 🐛 debug: [38;5;121m[4mFalse[0m[38;5;159m, 📏 precision: [38;5;121m[4m32[0m[38;5;159m, 🔥 performance: [38;5;121m[4mFalse[0m[38;5;159m, 💬 verbose: [38;5;121m[4mINFO[0m[38;5;159m[0m
+[38;5;159m[Genesis] [13:19:28] [INFO] Scene [38;5;121m[3m<3b39f14>[0m[38;5;159m created.[0m
+[38;5;159m[Genesis] [13:19:28] [INFO] Adding [38;5;121m<gs.engine.entities.RigidEntity>[0m[38;5;159m. idx: [38;5;121m0[0m[38;5;159m, uid: [38;5;121m[3m<9018651>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Plane>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [13:19:28] [INFO] Adding [38;5;121m<gs.engine.entities.RigidEntity>[0m[38;5;159m. idx: [38;5;121m1[0m[38;5;159m, uid: [38;5;121m[3m<861d0ac>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [13:19:36] [INFO] Adding [38;5;121m<gs.engine.entities.RigidEntity>[0m[38;5;159m. idx: [38;5;121m2[0m[38;5;159m, uid: [38;5;121m[3m<6465e59>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='C:\Users\user\AppData\Local\Temp\tactile_sandbox_torus.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [13:19:36] [INFO] Convex hull is not accurate enough for collision detection (0.532). Falling back to more expensive convex decomposition (see FileMorph options).[0m
+[38;5;159m[Genesis] [13:19:36] [INFO] Running convex decomposition.[0m
+[2026-06-07 13:19:36.296] [CoACD] [info] threshold               0.1
+[2026-06-07 13:19:36.297] [CoACD] [info] max # convex hull       -1
+[2026-06-07 13:19:36.297] [CoACD] [info] preprocess mode         auto
+[2026-06-07 13:19:36.297] [CoACD] [info] preprocess resolution   30
+[2026-06-07 13:19:36.297] [CoACD] [info] pca                     false
+[2026-06-07 13:19:36.297] [CoACD] [info] mcts max depth          3
+[2026-06-07 13:19:36.297] [CoACD] [info] mcts nodes              20
+[2026-06-07 13:19:36.297] [CoACD] [info] mcts iterations         100
+[2026-06-07 13:19:36.297] [CoACD] [info] merge                   true
+[2026-06-07 13:19:36.297] [CoACD] [info] decimate                false
+[2026-06-07 13:19:36.297] [CoACD] [info] max_ch_vertex           256
+[2026-06-07 13:19:36.297] [CoACD] [info] extrude                 false
+[2026-06-07 13:19:36.297] [CoACD] [info] extrude margin          0.1
+[2026-06-07 13:19:36.297] [CoACD] [info] approximate mode        ch
+[2026-06-07 13:19:36.297] [CoACD] [info] seed                    0
+[2026-06-07 13:19:36.297] [CoACD] [info]  - Manifold Check
+[2026-06-07 13:19:36.307] [CoACD] [info] [1/3] Edge check finish
+[2026-06-07 13:19:36.327] [CoACD] [info] [2/3] Self-intersection check finish
+[2026-06-07 13:19:36.327] [CoACD] [info] [3/3] Triangle orientation check finish. Reversed: false
+[2026-06-07 13:19:36.327] [CoACD] [info] Manifold Check Time: 0.03s
+[2026-06-07 13:19:36.327] [CoACD] [info] Mesh Manifoldness: true
+[2026-06-07 13:19:36.327] [CoACD] [info] # Points: 1024
+[2026-06-07 13:19:36.327] [CoACD] [info] # Triangles: 2048
+[2026-06-07 13:19:36.327] [CoACD] [info]  - Decomposition (MCTS)
+[2026-06-07 13:19:36.327] [CoACD] [info] iter 0 ---- waiting pool: 1
+[2026-06-07 13:19:36.328] [CoACD] [info] Processing [0.0%]
+[2026-06-07 13:19:40.183] [CoACD] [info] Processing [100.0%]
+[2026-06-07 13:19:40.183] [CoACD] [info] iter 1 ---- waiting pool: 2
+[2026-06-07 13:19:40.183] [CoACD] [info] Processing [0.0%]
+[2026-06-07 13:19:40.183] [CoACD] [info] Processing [50.0%]
+[2026-06-07 13:19:42.889] [CoACD] [info] Processing [100.0%]
+[2026-06-07 13:19:42.889] [CoACD] [info] iter 2 ---- waiting pool: 4
+[2026-06-07 13:19:42.889] [CoACD] [info] Processing [25.0%]
+[2026-06-07 13:19:42.889] [CoACD] [info] Processing [0.0%]
+[2026-06-07 13:19:42.889] [CoACD] [info] Processing [50.0%]
+[2026-06-07 13:19:42.889] [CoACD] [info] Processing [75.0%]
+[2026-06-07 13:19:45.092] [CoACD] [info] Processing [100.0%]
+[2026-06-07 13:19:45.092] [CoACD] [info] iter 3 ---- waiting pool: 8
+[2026-06-07 13:19:45.092] [CoACD] [info] Processing [37.5%]
+[2026-06-07 13:19:45.092] [CoACD] [info] Processing [0.0%]
+[2026-06-07 13:19:45.092] [CoACD] [info] Processing [25.0%]
+[2026-06-07 13:19:45.092] [CoACD] [info] Processing [50.0%]
+[2026-06-07 13:19:45.092] [CoACD] [info] Processing [87.5%]
+[2026-06-07 13:19:45.092] [CoACD] [info] Processing [12.5%]
+[2026-06-07 13:19:45.092] [CoACD] [info] Processing [62.5%]
+[2026-06-07 13:19:45.092] [CoACD] [info] Processing [75.0%]
+[2026-06-07 13:19:45.202] [CoACD] [info] Processing [100.0%]
+[2026-06-07 13:19:45.202] [CoACD] [info]  - Merge Convex Hulls
+[2026-06-07 13:19:46.188] [CoACD] [info] Compute Time: 9.860895100000107s
+[2026-06-07 13:19:46.188] [CoACD] [info] # Convex Hulls: 8
+[38;5;159m[Genesis] [13:19:49] [INFO] Convex hull is not accurate enough for collision detection (0.461). Falling back to more expensive convex decomposition (see FileMorph options).[0m
+[38;5;159m[Genesis] [13:19:49] [INFO] Running convex decomposition.[0m
+[2026-06-07 13:19:49.513] [CoACD] [info] threshold               0.1
+[2026-06-07 13:19:49.513] [CoACD] [info] max # convex hull       -1
+[2026-06-07 13:19:49.513] [CoACD] [info] preprocess mode         auto
+[2026-06-07 13:19:49.513] [CoACD] [info] preprocess resolution   30
+[2026-06-07 13:19:49.514] [CoACD] [info] pca                     false
+[2026-06-07 13:19:49.514] [CoACD] [info] mcts max depth          3
+[2026-06-07 13:19:49.514] [CoACD] [info] mcts nodes              20
+[2026-06-07 13:19:49.514] [CoACD] [info] mcts iterations         100
+[2026-06-07 13:19:49.514] [CoACD] [info] merge                   true
+[2026-06-07 13:19:49.514] [CoACD] [info] decimate                false
+[2026-06-07 13:19:49.514] [CoACD] [info] max_ch_vertex           256
+[2026-06-07 13:19:49.514] [CoACD] [info] extrude                 false
+[2026-06-07 13:19:49.514] [CoACD] [info] extrude margin          0.1
+[2026-06-07 13:19:49.514] [CoACD] [info] approximate mode        ch
+[2026-06-07 13:19:49.514] [CoACD] [info] seed                    0
+[2026-06-07 13:19:49.515] [CoACD] [info]  - Manifold Check
+[2026-06-07 13:19:49.654] [CoACD] [info] 	Unclosed mesh
+[2026-06-07 13:19:49.654] [CoACD] [info] Manifold Check Time: 0.139s
+[2026-06-07 13:19:49.658] [CoACD] [info] Mesh Manifoldness: false
+[2026-06-07 13:19:49.658] [CoACD] [info]  - Preprocess
+[2026-06-07 13:19:49.658] [CoACD] [info] Preprocess resolution: 30
+[2026-06-07 13:19:49.951] [CoACD] [info] Preprocess Time: 0.293s
+[2026-06-07 13:19:49.952] [CoACD] [info] # Points: 9020
+[2026-06-07 13:19:49.952] [CoACD] [info] # Triangles: 18036
+[2026-06-07 13:19:49.952] [CoACD] [info]  - Decomposition (MCTS)
+[2026-06-07 13:19:49.952] [CoACD] [info] iter 0 ---- waiting pool: 1
+[2026-06-07 13:19:49.952] [CoACD] [info] Processing [0.0%]
+[2026-06-07 13:20:07.711] [CoACD] [info] Processing [100.0%]
+[2026-06-07 13:20:07.711] [CoACD] [info] iter 1 ---- waiting pool: 2
+[2026-06-07 13:20:07.711] [CoACD] [info] Processing [0.0%]
+[2026-06-07 13:20:07.712] [CoACD] [info] Processing [50.0%]
+[2026-06-07 13:20:19.150] [CoACD] [info] Processing [100.0%]
+[2026-06-07 13:20:19.151] [CoACD] [info] iter 2 ---- waiting pool: 4
+[2026-06-07 13:20:19.151] [CoACD] [info] Processing [25.0%]
+[2026-06-07 13:20:19.151] [CoACD] [info] Processing [0.0%]
+[2026-06-07 13:20:19.151] [CoACD] [info] Processing [75.0%]
+[2026-06-07 13:20:19.151] [CoACD] [info] Processing [50.0%]
+[2026-06-07 13:20:27.023] [CoACD] [info] Processing [100.0%]
+[2026-06-07 13:20:27.023] [CoACD] [info] iter 3 ---- waiting pool: 8
+[2026-06-07 13:20:27.023] [CoACD] [info] Processing [0.0%]
+[2026-06-07 13:20:27.023] [CoACD] [info] Processing [75.0%]
+[2026-06-07 13:20:27.023] [CoACD] [info] Processing [37.5%]
+[2026-06-07 13:20:27.023] [CoACD] [info] Processing [87.5%]
+[2026-06-07 13:20:27.023] [CoACD] [info] Processing [12.5%]
+[2026-06-07 13:20:27.023] [CoACD] [info] Processing [25.0%]
+[2026-06-07 13:20:27.023] [CoACD] [info] Processing [50.0%]
+[2026-06-07 13:20:27.023] [CoACD] [info] Processing [62.5%]
+[2026-06-07 13:20:32.366] [CoACD] [info] Processing [100.0%]
+[2026-06-07 13:20:32.366] [CoACD] [info] iter 4 ---- waiting pool: 4
+[2026-06-07 13:20:32.366] [CoACD] [info] Processing [0.0%]
+[2026-06-07 13:20:32.366] [CoACD] [info] Processing [25.0%]
+[2026-06-07 13:20:32.366] [CoACD] [info] Processing [75.0%]
+[2026-06-07 13:20:32.366] [CoACD] [info] Processing [50.0%]
+[2026-06-07 13:20:37.386] [CoACD] [info] Processing [100.0%]
+[2026-06-07 13:20:37.386] [CoACD] [info] iter 5 ---- waiting pool: 2
+[2026-06-07 13:20:37.387] [CoACD] [info] Processing [0.0%]
+[2026-06-07 13:20:37.387] [CoACD] [info] Processing [50.0%]
+[2026-06-07 13:20:37.497] [CoACD] [info] Processing [100.0%]
+[2026-06-07 13:20:37.497] [CoACD] [info]  - Merge Convex Hulls
+[2026-06-07 13:20:40.428] [CoACD] [info] Compute Time: 50.475441000000046s
+[2026-06-07 13:20:40.428] [CoACD] [info] # Convex Hulls: 10
+[38;5;159m[Genesis] [13:20:40] [INFO] Convex hull is not accurate enough for collision detection (1.682). Falling back to more expensive convex decomposition (see FileMorph options).[0m
+[38;5;159m[Genesis] [13:20:40] [INFO] Running convex decomposition.[0m
+[2026-06-07 13:20:40.729] [CoACD] [info] threshold               0.1
+[2026-06-07 13:20:40.729] [CoACD] [info] max # convex hull       -1
+[2026-06-07 13:20:40.729] [CoACD] [info] preprocess mode         auto
+[2026-06-07 13:20:40.729] [CoACD] [info] preprocess resolution   30
+[2026-06-07 13:20:40.729] [CoACD] [info] pca                     false
+[2026-06-07 13:20:40.729] [CoACD] [info] mcts max depth          3
+[2026-06-07 13:20:40.729] [CoACD] [info] mcts nodes              20
+[2026-06-07 13:20:40.729] [CoACD] [info] mcts iterations         100
+[2026-06-07 13:20:40.729] [CoACD] [info] merge                   true
+[2026-06-07 13:20:40.729] [CoACD] [info] decimate                false
+[2026-06-07 13:20:40.729] [CoACD] [info] max_ch_vertex           256
+[2026-06-07 13:20:40.729] [CoACD] [info] extrude                 false
+[2026-06-07 13:20:40.729] [CoACD] [info] extrude margin          0.1
+[2026-06-07 13:20:40.729] [CoACD] [info] approximate mode        ch
+[2026-06-07 13:20:40.729] [CoACD] [info] seed                    0
+[2026-06-07 13:20:40.730] [CoACD] [info]  - Manifold Check
+[2026-06-07 13:20:40.810] [CoACD] [info] 	Unclosed mesh
+[2026-06-07 13:20:40.810] [CoACD] [info] Manifold Check Time: 0.08s
+[2026-06-07 13:20:40.813] [CoACD] [info] Mesh Manifoldness: false
+[2026-06-07 13:20:40.813] [CoACD] [info]  - Preprocess
+[2026-06-07 13:20:40.813] [CoACD] [info] Preprocess resolution: 30
+[2026-06-07 13:20:41.047] [CoACD] [info] Preprocess Time: 0.234s
+[2026-06-07 13:20:41.051] [CoACD] [info] # Points: 9756
+[2026-06-07 13:20:41.051] [CoACD] [info] # Triangles: 19516
+[2026-06-07 13:20:41.051] [CoACD] [info]  - Decomposition (MCTS)
+[2026-06-07 13:20:41.051] [CoACD] [info] iter 0 ---- waiting pool: 1
+[2026-06-07 13:20:41.051] [CoACD] [info] Processing [0.0%]
+[2026-06-07 13:20:54.852] [CoACD] [info] Processing [100.0%]
+[2026-06-07 13:20:54.852] [CoACD] [info] iter 1 ---- waiting pool: 2
+[2026-06-07 13:20:54.852] [CoACD] [info] Processing [0.0%]
+[2026-06-07 13:20:54.853] [CoACD] [info] Processing [50.0%]
+[2026-06-07 13:21:04.172] [CoACD] [info] Processing [100.0%]
+[2026-06-07 13:21:04.172] [CoACD] [info] iter 2 ---- waiting pool: 4
+[2026-06-07 13:21:04.172] [CoACD] [info] Processing [25.0%]
+[2026-06-07 13:21:04.172] [CoACD] [info] Processing [0.0%]
+[2026-06-07 13:21:04.172] [CoACD] [info] Processing [50.0%]
+[2026-06-07 13:21:04.172] [CoACD] [info] Processing [75.0%]
+[2026-06-07 13:21:11.550] [CoACD] [info] Processing [100.0%]
+[2026-06-07 13:21:11.550] [CoACD] [info] iter 3 ---- waiting pool: 8
+[2026-06-07 13:21:11.550] [CoACD] [info] Processing [37.5%]
+[2026-06-07 13:21:11.550] [CoACD] [info] Processing [12.5%]
+[2026-06-07 13:21:11.550] [CoACD] [info] Processing [50.0%]
+[2026-06-07 13:21:11.550] [CoACD] [info] Processing [75.0%]
+[2026-06-07 13:21:11.550] [CoACD] [info] Processing [25.0%]
+[2026-06-07 13:21:11.550] [CoACD] [info] Processing [62.5%]
+[2026-06-07 13:21:11.550] [CoACD] [info] Processing [87.5%]
+[2026-06-07 13:21:11.550] [CoACD] [info] Processing [0.0%]
+[2026-06-07 13:21:17.711] [CoACD] [info] Processing [100.0%]
+[2026-06-07 13:21:17.712] [CoACD] [info] iter 4 ---- waiting pool: 16
+[2026-06-07 13:21:17.712] [CoACD] [info] Processing [12.5%]
+[2026-06-07 13:21:17.712] [CoACD] [info] Processing [0.0%]
+[2026-06-07 13:21:17.712] [CoACD] [info] Processing [50.0%]
+[2026-06-07 13:21:17.712] [CoACD] [info] Processing [87.5%]
+[2026-06-07 13:21:17.712] [CoACD] [info] Processing [37.5%]
+[2026-06-07 13:21:17.712] [CoACD] [info] Processing [25.0%]
+[2026-06-07 13:21:17.712] [CoACD] [info] Processing [62.5%]
+[2026-06-07 13:21:17.712] [CoACD] [info] Processing [75.0%]
+[2026-06-07 13:21:24.251] [CoACD] [info] Processing [100.0%]
+[2026-06-07 13:21:24.251] [CoACD] [info] iter 5 ---- waiting pool: 14
+[2026-06-07 13:21:24.251] [CoACD] [info] Processing [0.0%]
+[2026-06-07 13:21:24.251] [CoACD] [info] Processing [71.4%]
+[2026-06-07 13:21:24.251] [CoACD] [info] Processing [57.1%]
+[2026-06-07 13:21:24.251] [CoACD] [info] Processing [42.9%]
+[2026-06-07 13:21:24.251] [CoACD] [info] Processing [28.6%]
+[2026-06-07 13:21:24.251] [CoACD] [info] Processing [85.7%]
+[2026-06-07 13:21:24.251] [CoACD] [info] Processing [14.3%]
+[2026-06-07 13:21:29.277] [CoACD] [info] Processing [100.0%]
+[2026-06-07 13:21:29.277] [CoACD] [info] iter 6 ---- waiting pool: 12
+[2026-06-07 13:21:29.277] [CoACD] [info] Processing [0.0%]
+[2026-06-07 13:21:29.277] [CoACD] [info] Processing [50.0%]
+[2026-06-07 13:21:29.277] [CoACD] [info] Processing [66.7%]
+[2026-06-07 13:21:29.277] [CoACD] [info] Processing [83.3%]
+[2026-06-07 13:21:29.277] [CoACD] [info] Processing [16.7%]
+[2026-06-07 13:21:29.277] [CoACD] [info] Processing [33.3%]
+[2026-06-07 13:21:29.383] [CoACD] [info] Processing [100.0%]
+[2026-06-07 13:21:29.383] [CoACD] [info]  - Merge Convex Hulls
+[2026-06-07 13:21:31.742] [CoACD] [info] Compute Time: 50.69095779999998s
+[2026-06-07 13:21:31.742] [CoACD] [info] # Convex Hulls: 27
+[showcase_launcher] IMU sensor registered for per-step telemetry capture
+[38;5;159m[Genesis] [13:21:31] [INFO] Building scene [38;5;121m[3m<3b39f14>[0m[38;5;159m...[0m
+[38;5;159m[Genesis] [13:21:41] [INFO] Preprocessing geom idx [38;5;121m[4m1[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [13:21:41] [INFO] Preprocessing geom idx [38;5;121m[4m2[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [13:21:41] [INFO] Preprocessing geom idx [38;5;121m[4m3[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [13:21:41] [INFO] Preprocessing geom idx [38;5;121m[4m4[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [13:21:41] [INFO] Preprocessing geom idx [38;5;121m[4m5[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [13:21:42] [INFO] Preprocessing geom idx [38;5;121m[4m6[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [13:21:42] [INFO] Preprocessing geom idx [38;5;121m[4m7[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [13:21:42] [INFO] Preprocessing geom idx [38;5;121m[4m8[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [13:21:42] [INFO] Preprocessing geom idx [38;5;121m[4m9[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [13:21:43] [INFO] Preprocessing geom idx [38;5;121m[4m10[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [13:21:43] [INFO] Preprocessing geom idx [38;5;121m[4m11[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [13:21:43] [INFO] Preprocessing geom idx [38;5;121m[4m12[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [13:21:44] [INFO] Preprocessing geom idx [38;5;121m[4m13[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [13:21:44] [INFO] Preprocessing geom idx [38;5;121m[4m14[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [13:21:44] [INFO] Preprocessing geom idx [38;5;121m[4m15[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [13:21:44] [INFO] Preprocessing geom idx [38;5;121m[4m16[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [13:21:45] [INFO] Preprocessing geom idx [38;5;121m[4m17[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [13:21:45] [INFO] Preprocessing geom idx [38;5;121m[4m18[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [13:21:45] [INFO] Preprocessing geom idx [38;5;121m[4m19[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [13:21:45] [INFO] Preprocessing geom idx [38;5;121m[4m20[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [13:21:46] [INFO] Preprocessing geom idx [38;5;121m[4m21[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [13:21:46] [INFO] Preprocessing geom idx [38;5;121m[4m22[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [13:21:46] [INFO] Preprocessing geom idx [38;5;121m[4m23[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [13:21:47] [INFO] Preprocessing geom idx [38;5;121m[4m24[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [13:21:47] [INFO] Preprocessing geom idx [38;5;121m[4m25[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [13:21:47] [INFO] Preprocessing geom idx [38;5;121m[4m26[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [13:21:47] [INFO] Preprocessing geom idx [38;5;121m[4m27[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [13:21:47] [INFO] Preprocessing geom idx [38;5;121m[4m28[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [13:21:48] [INFO] Preprocessing geom idx [38;5;121m[4m29[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [13:21:48] [INFO] Preprocessing geom idx [38;5;121m[4m30[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [13:21:48] [INFO] Preprocessing geom idx [38;5;121m[4m31[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [13:21:48] [INFO] Preprocessing geom idx [38;5;121m[4m32[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [13:21:48] [INFO] Preprocessing geom idx [38;5;121m[4m33[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [13:21:49] [INFO] Preprocessing geom idx [38;5;121m[4m34[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [13:21:49] [INFO] Preprocessing geom idx [38;5;121m[4m35[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [13:21:49] [INFO] Preprocessing geom idx [38;5;121m[4m36[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [13:21:50] [INFO] Preprocessing geom idx [38;5;121m[4m37[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [13:21:50] [INFO] Preprocessing geom idx [38;5;121m[4m38[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [13:21:50] [INFO] Preprocessing geom idx [38;5;121m[4m39[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [13:21:50] [INFO] Preprocessing geom idx [38;5;121m[4m40[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [13:21:50] [INFO] Preprocessing geom idx [38;5;121m[4m41[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [13:21:51] [INFO] Preprocessing geom idx [38;5;121m[4m42[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [13:21:51] [INFO] Preprocessing geom idx [38;5;121m[4m43[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [13:21:51] [INFO] Preprocessing geom idx [38;5;121m[4m44[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [13:21:51] [INFO] Preprocessing geom idx [38;5;121m[4m45[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [13:21:52] [INFO] Preprocessing geom idx [38;5;121m[4m46[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [13:21:52] [INFO] Preprocessing geom idx [38;5;121m[4m47[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [13:21:52] [INFO] Compiling simulation kernels...[0m
+[38;5;159m[Genesis] [13:22:24] [INFO] Building visualizer...[0m
+[showcase_launcher] Transform sample (raw Genesis, upAxis=z): [{"id": "env/floor", "position": [0.0, 0.0, 0.0], "quaternion": [1.0, 0.0, 0.0, 0.0]}, {"id": "manipuland/cube", "position": [0.0, 0.0, 0.02500000037252903], "quaternion": [1.0, 0.0, 0.0, 0.0]}, {"id": "mesh", "position": [6.629960353166098e-06, 3.3287357315003874e-09, -7.194535282906145e-05], "quaternion": [0.654706597328186, 0.6547064185142517, -0.2671317756175995, 0.2671317756175995]}]
+[showcase_launcher] Scene export: top_level=3 robot_links=0 visual_geoms=0 meshes_exported=0 tracked_objects=3 franka_fallback=False
+
+=== Tactile Sensor Sandbox ===
+sensor=elastomer; taxels=400; plane grid (20, 20)
+Running headless for 3.0s ...
+
+t=0.01s  max|displacement|=0.00040
+t=0.02s  max|displacement|=0.00017
+t=0.03s  max|displacement|=0.00001
+[38;5;159m[Genesis] [13:22:28] [INFO] Running at [38;5;121m193.25[0m[38;5;159m FPS ([38;5;121m48.31[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:28] [INFO] Running at [38;5;121m193.31[0m[38;5;159m FPS ([38;5;121m48.33[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:28] [INFO] Running at [38;5;121m129.66[0m[38;5;159m FPS ([38;5;121m32.42[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:28] [INFO] Running at [38;5;121m195.25[0m[38;5;159m FPS ([38;5;121m48.81[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:28] [INFO] Running at [38;5;121m195.68[0m[38;5;159m FPS ([38;5;121m48.92[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:28] [INFO] Running at [38;5;121m196.09[0m[38;5;159m FPS ([38;5;121m49.02[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:28] [INFO] Running at [38;5;121m197.13[0m[38;5;159m FPS ([38;5;121m49.28[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:28] [INFO] Running at [38;5;121m198.22[0m[38;5;159m FPS ([38;5;121m49.56[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:28] [INFO] Running at [38;5;121m199.32[0m[38;5;159m FPS ([38;5;121m49.83[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:28] [INFO] Running at [38;5;121m200.16[0m[38;5;159m FPS ([38;5;121m50.04[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[showcase_launcher] Replay diagnostics: 30 frames, 30 unique poses, 2 meaningful keyframes, longest freeze 1 frames, jump at frame none, primary motion=mesh, issue=sparse_motion_phases
+[showcase_launcher] Demo has dense micro-motion; preview will preserve per-step finger/object motion.
+[showcase_launcher] Wrote 30 replay frames (partial, v1) · raw=30 unique_poses=30 preview=30 · 3 objects (0 robot links) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-58ac89a8ac\state_timeseries.json
+[38;5;159m[Genesis] [13:22:28] [INFO] Running at [38;5;121m199.03[0m[38;5;159m FPS ([38;5;121m49.76[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:28] [INFO] Running at [38;5;121m198.72[0m[38;5;159m FPS ([38;5;121m49.68[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:28] [INFO] Running at [38;5;121m198.40[0m[38;5;159m FPS ([38;5;121m49.60[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:28] [INFO] Running at [38;5;121m198.02[0m[38;5;159m FPS ([38;5;121m49.51[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:28] [INFO] Running at [38;5;121m197.50[0m[38;5;159m FPS ([38;5;121m49.37[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:29] [INFO] Running at [38;5;121m197.33[0m[38;5;159m FPS ([38;5;121m49.33[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:29] [INFO] Running at [38;5;121m196.71[0m[38;5;159m FPS ([38;5;121m49.18[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:29] [INFO] Running at [38;5;121m196.90[0m[38;5;159m FPS ([38;5;121m49.22[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:29] [INFO] Running at [38;5;121m196.64[0m[38;5;159m FPS ([38;5;121m49.16[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:29] [INFO] Running at [38;5;121m197.01[0m[38;5;159m FPS ([38;5;121m49.25[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[showcase_launcher] Replay diagnostics: 60 frames, 60 unique poses, 3 meaningful keyframes, longest freeze 1 frames, jump at frame none, primary motion=mesh, issue=sparse_motion_phases
+[showcase_launcher] Demo has dense micro-motion; preview will preserve per-step finger/object motion.
+[showcase_launcher] Wrote 60 replay frames (partial, v2) · raw=60 unique_poses=60 preview=60 · 3 objects (0 robot links) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-58ac89a8ac\state_timeseries.json
+[38;5;159m[Genesis] [13:22:29] [INFO] Running at [38;5;121m131.92[0m[38;5;159m FPS ([38;5;121m32.98[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:29] [INFO] Running at [38;5;121m196.56[0m[38;5;159m FPS ([38;5;121m49.14[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:29] [INFO] Running at [38;5;121m194.61[0m[38;5;159m FPS ([38;5;121m48.65[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:29] [INFO] Running at [38;5;121m130.55[0m[38;5;159m FPS ([38;5;121m32.64[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:29] [INFO] Running at [38;5;121m194.63[0m[38;5;159m FPS ([38;5;121m48.66[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:29] [INFO] Running at [38;5;121m193.18[0m[38;5;159m FPS ([38;5;121m48.30[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:29] [INFO] Running at [38;5;121m129.87[0m[38;5;159m FPS ([38;5;121m32.47[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:29] [INFO] Running at [38;5;121m193.74[0m[38;5;159m FPS ([38;5;121m48.44[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:29] [INFO] Running at [38;5;121m193.35[0m[38;5;159m FPS ([38;5;121m48.34[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:29] [INFO] Running at [38;5;121m193.83[0m[38;5;159m FPS ([38;5;121m48.46[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:29] [INFO] Running at [38;5;121m193.57[0m[38;5;159m FPS ([38;5;121m48.39[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[showcase_launcher] Replay diagnostics: 90 frames, 90 unique poses, 5 meaningful keyframes, longest freeze 1 frames, jump at frame none, primary motion=mesh, issue=sparse_motion_phases
+[showcase_launcher] Demo has dense micro-motion; preview will preserve per-step finger/object motion.
+[showcase_launcher] Wrote 90 replay frames (partial, v3) · raw=90 unique_poses=90 preview=90 · 3 objects (0 robot links) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-58ac89a8ac\state_timeseries.json
+[38;5;159m[Genesis] [13:22:30] [INFO] Running at [38;5;121m129.61[0m[38;5;159m FPS ([38;5;121m32.40[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:30] [INFO] Running at [38;5;121m130.43[0m[38;5;159m FPS ([38;5;121m32.61[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:30] [INFO] Running at [38;5;121m130.61[0m[38;5;159m FPS ([38;5;121m32.65[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:30] [INFO] Running at [38;5;121m130.79[0m[38;5;159m FPS ([38;5;121m32.70[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:30] [INFO] Running at [38;5;121m131.04[0m[38;5;159m FPS ([38;5;121m32.76[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:30] [INFO] Running at [38;5;121m132.10[0m[38;5;159m FPS ([38;5;121m33.02[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:30] [INFO] Running at [38;5;121m133.16[0m[38;5;159m FPS ([38;5;121m33.29[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:30] [INFO] Running at [38;5;121m198.01[0m[38;5;159m FPS ([38;5;121m49.50[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:30] [INFO] Running at [38;5;121m132.99[0m[38;5;159m FPS ([38;5;121m33.25[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:30] [INFO] Running at [38;5;121m197.56[0m[38;5;159m FPS ([38;5;121m49.39[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:30] [INFO] Running at [38;5;121m196.08[0m[38;5;159m FPS ([38;5;121m49.02[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:30] [INFO] Running at [38;5;121m194.50[0m[38;5;159m FPS ([38;5;121m48.63[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:30] [INFO] Running at [38;5;121m130.82[0m[38;5;159m FPS ([38;5;121m32.71[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[showcase_launcher] Replay diagnostics: 120 frames, 120 unique poses, 6 meaningful keyframes, longest freeze 1 frames, jump at frame none, primary motion=mesh, issue=sparse_motion_phases
+[showcase_launcher] Demo has dense micro-motion; preview will preserve per-step finger/object motion.
+[showcase_launcher] Wrote 120 replay frames (partial, v4) · raw=120 unique_poses=120 preview=120 · 3 objects (0 robot links) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-58ac89a8ac\state_timeseries.json
+[38;5;159m[Genesis] [13:22:30] [INFO] Running at [38;5;121m129.56[0m[38;5;159m FPS ([38;5;121m32.39[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:30] [INFO] Running at [38;5;121m130.17[0m[38;5;159m FPS ([38;5;121m32.54[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:30] [INFO] Running at [38;5;121m195.45[0m[38;5;159m FPS ([38;5;121m48.86[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:30] [INFO] Running at [38;5;121m195.11[0m[38;5;159m FPS ([38;5;121m48.78[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:31] [INFO] Running at [38;5;121m194.51[0m[38;5;159m FPS ([38;5;121m48.63[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:31] [INFO] Running at [38;5;121m194.13[0m[38;5;159m FPS ([38;5;121m48.53[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:31] [INFO] Running at [38;5;121m192.70[0m[38;5;159m FPS ([38;5;121m48.17[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:31] [INFO] Running at [38;5;121m191.66[0m[38;5;159m FPS ([38;5;121m47.91[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:31] [INFO] Running at [38;5;121m191.64[0m[38;5;159m FPS ([38;5;121m47.91[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:31] [INFO] Running at [38;5;121m189.90[0m[38;5;159m FPS ([38;5;121m47.47[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[showcase_launcher] Replay diagnostics: 150 frames, 150 unique poses, 8 meaningful keyframes, longest freeze 1 frames, jump at frame none, primary motion=mesh, issue=sparse_motion_phases
+[showcase_launcher] Demo has dense micro-motion; preview will preserve per-step finger/object motion.
+[showcase_launcher] Wrote 150 replay frames (partial, v5) · raw=150 unique_poses=150 preview=150 · 3 objects (0 robot links) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-58ac89a8ac\state_timeseries.json
+[38;5;159m[Genesis] [13:22:31] [INFO] Running at [38;5;121m186.50[0m[38;5;159m FPS ([38;5;121m46.62[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:31] [INFO] Running at [38;5;121m186.38[0m[38;5;159m FPS ([38;5;121m46.59[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:31] [INFO] Running at [38;5;121m185.97[0m[38;5;159m FPS ([38;5;121m46.49[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:31] [INFO] Running at [38;5;121m185.59[0m[38;5;159m FPS ([38;5;121m46.40[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:31] [INFO] Running at [38;5;121m185.02[0m[38;5;159m FPS ([38;5;121m46.26[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:31] [INFO] Running at [38;5;121m123.92[0m[38;5;159m FPS ([38;5;121m30.98[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:31] [INFO] Running at [38;5;121m123.37[0m[38;5;159m FPS ([38;5;121m30.84[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:31] [INFO] Running at [38;5;121m123.92[0m[38;5;159m FPS ([38;5;121m30.98[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:31] [INFO] Running at [38;5;121m123.90[0m[38;5;159m FPS ([38;5;121m30.97[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:32] [INFO] Running at [38;5;121m122.96[0m[38;5;159m FPS ([38;5;121m30.74[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:32] [INFO] Running at [38;5;121m123.12[0m[38;5;159m FPS ([38;5;121m30.78[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:32] [INFO] Running at [38;5;121m124.17[0m[38;5;159m FPS ([38;5;121m31.04[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:32] [INFO] Running at [38;5;121m186.04[0m[38;5;159m FPS ([38;5;121m46.51[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[showcase_launcher] Replay diagnostics: 180 frames, 180 unique poses, 9 meaningful keyframes, longest freeze 1 frames, jump at frame none, primary motion=mesh, issue=sparse_motion_phases
+[showcase_launcher] Demo has dense micro-motion; preview will preserve per-step finger/object motion.
+[showcase_launcher] Wrote 180 replay frames (partial, v6) · raw=180 unique_poses=180 preview=180 · 3 objects (0 robot links) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-58ac89a8ac\state_timeseries.json
+[38;5;159m[Genesis] [13:22:32] [INFO] Running at [38;5;121m62.26[0m[38;5;159m FPS ([38;5;121m15.57[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:32] [INFO] Running at [38;5;121m185.20[0m[38;5;159m FPS ([38;5;121m46.30[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:32] [INFO] Running at [38;5;121m124.75[0m[38;5;159m FPS ([38;5;121m31.19[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:32] [INFO] Running at [38;5;121m186.95[0m[38;5;159m FPS ([38;5;121m46.74[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:32] [INFO] Running at [38;5;121m186.60[0m[38;5;159m FPS ([38;5;121m46.65[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:32] [INFO] Running at [38;5;121m186.84[0m[38;5;159m FPS ([38;5;121m46.71[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:32] [INFO] Running at [38;5;121m125.42[0m[38;5;159m FPS ([38;5;121m31.36[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:32] [INFO] Running at [38;5;121m125.92[0m[38;5;159m FPS ([38;5;121m31.48[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:32] [INFO] Running at [38;5;121m127.14[0m[38;5;159m FPS ([38;5;121m31.78[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:32] [INFO] Running at [38;5;121m128.32[0m[38;5;159m FPS ([38;5;121m32.08[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:32] [INFO] Running at [38;5;121m129.56[0m[38;5;159m FPS ([38;5;121m32.39[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:32] [INFO] Running at [38;5;121m192.11[0m[38;5;159m FPS ([38;5;121m48.03[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[showcase_launcher] Replay diagnostics: 210 frames, 210 unique poses, 10 meaningful keyframes, longest freeze 1 frames, jump at frame none, primary motion=mesh, issue=sparse_motion_phases
+[showcase_launcher] Demo has dense micro-motion; preview will preserve per-step finger/object motion.
+[showcase_launcher] Wrote 210 replay frames (partial, v7) · raw=210 unique_poses=210 preview=210 · 3 objects (0 robot links) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-58ac89a8ac\state_timeseries.json
+[38;5;159m[Genesis] [13:22:33] [INFO] Running at [38;5;121m107.59[0m[38;5;159m FPS ([38;5;121m26.90[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:33] [INFO] Running at [38;5;121m182.50[0m[38;5;159m FPS ([38;5;121m45.62[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:33] [INFO] Running at [38;5;121m181.97[0m[38;5;159m FPS ([38;5;121m45.49[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:33] [INFO] Running at [38;5;121m181.13[0m[38;5;159m FPS ([38;5;121m45.28[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:33] [INFO] Running at [38;5;121m121.36[0m[38;5;159m FPS ([38;5;121m30.34[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:33] [INFO] Running at [38;5;121m122.00[0m[38;5;159m FPS ([38;5;121m30.50[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:33] [INFO] Running at [38;5;121m123.08[0m[38;5;159m FPS ([38;5;121m30.77[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:33] [INFO] Running at [38;5;121m183.72[0m[38;5;159m FPS ([38;5;121m45.93[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:33] [INFO] Running at [38;5;121m182.67[0m[38;5;159m FPS ([38;5;121m45.67[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:33] [INFO] Running at [38;5;121m182.20[0m[38;5;159m FPS ([38;5;121m45.55[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:33] [INFO] Running at [38;5;121m181.94[0m[38;5;159m FPS ([38;5;121m45.49[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[showcase_launcher] Replay diagnostics: 240 frames, 240 unique poses, 12 meaningful keyframes, longest freeze 1 frames, jump at frame none, primary motion=mesh, issue=sparse_motion_phases
+[showcase_launcher] Demo has dense micro-motion; preview will preserve per-step finger/object motion.
+[showcase_launcher] Wrote 240 replay frames (partial, v8) · raw=240 unique_poses=240 preview=240 · 3 objects (0 robot links) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-58ac89a8ac\state_timeseries.json
+[38;5;159m[Genesis] [13:22:33] [INFO] Running at [38;5;121m178.10[0m[38;5;159m FPS ([38;5;121m44.52[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:33] [INFO] Running at [38;5;121m178.21[0m[38;5;159m FPS ([38;5;121m44.55[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:33] [INFO] Running at [38;5;121m177.65[0m[38;5;159m FPS ([38;5;121m44.41[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:34] [INFO] Running at [38;5;121m177.30[0m[38;5;159m FPS ([38;5;121m44.33[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:34] [INFO] Running at [38;5;121m119.69[0m[38;5;159m FPS ([38;5;121m29.92[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:34] [INFO] Running at [38;5;121m179.18[0m[38;5;159m FPS ([38;5;121m44.80[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:34] [INFO] Running at [38;5;121m178.28[0m[38;5;159m FPS ([38;5;121m44.57[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:34] [INFO] Running at [38;5;121m177.32[0m[38;5;159m FPS ([38;5;121m44.33[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:34] [INFO] Running at [38;5;121m177.21[0m[38;5;159m FPS ([38;5;121m44.30[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:34] [INFO] Running at [38;5;121m177.78[0m[38;5;159m FPS ([38;5;121m44.45[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:34] [INFO] Running at [38;5;121m177.16[0m[38;5;159m FPS ([38;5;121m44.29[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[showcase_launcher] Replay diagnostics: 270 frames, 270 unique poses, 13 meaningful keyframes, longest freeze 1 frames, jump at frame none, primary motion=mesh, issue=sparse_motion_phases
+[showcase_launcher] Demo has dense micro-motion; preview will preserve per-step finger/object motion.
+[showcase_launcher] Wrote 270 replay frames (partial, v9) · raw=270 unique_poses=270 preview=270 · 3 objects (0 robot links) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-58ac89a8ac\state_timeseries.json
+[38;5;159m[Genesis] [13:22:34] [INFO] Running at [38;5;121m58.89[0m[38;5;159m FPS ([38;5;121m14.72[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:34] [INFO] Running at [38;5;121m119.18[0m[38;5;159m FPS ([38;5;121m29.80[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:34] [INFO] Running at [38;5;121m120.20[0m[38;5;159m FPS ([38;5;121m30.05[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:34] [INFO] Running at [38;5;121m120.57[0m[38;5;159m FPS ([38;5;121m30.14[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:34] [INFO] Running at [38;5;121m121.47[0m[38;5;159m FPS ([38;5;121m30.37[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:34] [INFO] Running at [38;5;121m121.39[0m[38;5;159m FPS ([38;5;121m30.35[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:34] [INFO] Running at [38;5;121m121.84[0m[38;5;159m FPS ([38;5;121m30.46[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:35] [INFO] Running at [38;5;121m121.50[0m[38;5;159m FPS ([38;5;121m30.37[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:35] [INFO] Running at [38;5;121m121.38[0m[38;5;159m FPS ([38;5;121m30.34[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:35] [INFO] Running at [38;5;121m122.49[0m[38;5;159m FPS ([38;5;121m30.62[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:35] [INFO] Running at [38;5;121m123.68[0m[38;5;159m FPS ([38;5;121m30.92[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:35] [INFO] Running at [38;5;121m124.09[0m[38;5;159m FPS ([38;5;121m31.02[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:35] [INFO] Running at [38;5;121m123.47[0m[38;5;159m FPS ([38;5;121m30.87[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:35] [INFO] Running at [38;5;121m121.23[0m[38;5;159m FPS ([38;5;121m30.31[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:35] [INFO] Running at [38;5;121m119.17[0m[38;5;159m FPS ([38;5;121m29.79[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[showcase_launcher] Replay diagnostics: 300 frames, 300 unique poses, 15 meaningful keyframes, longest freeze 1 frames, jump at frame none, primary motion=mesh, issue=sparse_motion_phases
+[showcase_launcher] Demo has dense micro-motion; preview will preserve per-step finger/object motion.
+[showcase_launcher] Wrote 300 replay frames (partial, v10) · raw=300 unique_poses=300 preview=300 · 3 objects (0 robot links) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-58ac89a8ac\state_timeseries.json
+[38;5;159m[Genesis] [13:22:35] [INFO] Running at [38;5;121m63.40[0m[38;5;159m FPS ([38;5;121m15.85[0m[38;5;159m FPS per env, [38;5;121m4[0m[38;5;159m envs).[0m
+[38;5;159m[Genesis] [13:22:35] [INFO] Simulation finished.[0m
+[showcase_launcher] Demo finished.
+[showcase_launcher] Replay diagnostics: 301 frames, 301 unique poses, 15 meaningful keyframes, longest freeze 1 frames, jump at frame none, primary motion=mesh, issue=sparse_motion_phases
+[showcase_launcher] Demo has dense micro-motion; preview will preserve per-step finger/object motion.
+[showcase_launcher] Wrote 301 replay frames (final, v11) · raw=301 unique_poses=301 preview=301 · 3 objects (0 robot links) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-58ac89a8ac\state_timeseries.json
+[38;5;159m[Genesis] [13:22:35] [INFO] 💤 Exiting Genesis and caching compiled kernels...[0m

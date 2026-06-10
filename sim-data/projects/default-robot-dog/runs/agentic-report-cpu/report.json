@@ -1,0 +1,206 @@
+{
+  "report_id": "report-a7c6304082",
+  "run_id": "agentic-report-cpu",
+  "project_id": "default-robot-dog",
+  "test_id": "gravity_stability",
+  "test_name": "Gravity Stability",
+  "generated_at": "2026-06-08T09:01:53.887927+00:00",
+  "executive_summary": "Gravity Stability finished with outcome Passed (passed). Replay captured 2 frames. 2 issue(s) noted in logs.",
+  "plain_language_summary": "I finished Gravity Stability. Outcome: passed.\n\nKey results:\n- Run status: completed\n- Replay frames: 2\n\nLimitations:\n- No stress, buckling, or fatigue analysis was performed.\n- Results reflect Genesis rigid-body simulation fidelity \u2014 not manufacturing tolerances or real-world wear.\n\nRecommended next step:\n- Upload missing mesh files: URDF references meshes that were not found. Upload STL/OBJ files or export from STEP.",
+  "outcome": {
+    "status": "passed",
+    "label": "Passed",
+    "summary": "Motion replay recorded with meaningful movement.",
+    "run_status": "completed",
+    "exit_code": 0
+  },
+  "key_metrics": [
+    {
+      "id": "manifest_status",
+      "label": "Manifest status",
+      "value": "complete",
+      "unit": "",
+      "category": "general"
+    },
+    {
+      "id": "has_replay",
+      "label": "Replay recorded",
+      "value": true,
+      "unit": "",
+      "category": "visual"
+    },
+    {
+      "id": "frame_count",
+      "label": "Replay frames",
+      "value": 8,
+      "unit": "",
+      "category": "visual"
+    },
+    {
+      "id": "has_telemetry",
+      "label": "Telemetry recorded",
+      "value": false,
+      "unit": "",
+      "category": "telemetry"
+    },
+    {
+      "id": "replay_frames",
+      "label": "Replay frames",
+      "value": 2,
+      "unit": "",
+      "category": "replay"
+    },
+    {
+      "id": "unique_poses",
+      "label": "Unique poses",
+      "value": 2,
+      "unit": "",
+      "category": "replay"
+    },
+    {
+      "id": "moving_frames",
+      "label": "Moving frames",
+      "value": 2,
+      "unit": "",
+      "category": "replay"
+    },
+    {
+      "id": "longest_freeze",
+      "label": "Longest freeze run",
+      "value": 1,
+      "unit": "",
+      "category": "replay"
+    },
+    {
+      "id": "object_count",
+      "label": "Tracked objects",
+      "value": 1,
+      "unit": "",
+      "category": "replay"
+    },
+    {
+      "id": "recorder_issue",
+      "label": "Recorder note",
+      "value": "repeated_transforms",
+      "unit": "",
+      "category": "replay"
+    }
+  ],
+  "time_series_metrics": [],
+  "detected_issues": [
+    {
+      "issue_id": "log_cpu_fallback",
+      "severity": "warning",
+      "code": "cpu_fallback",
+      "title": "CPU fallback in use",
+      "explanation": "Log pattern detected: cpu fallback.",
+      "suggested_fix": "Simulation ran on CPU \u2014 slower but not necessarily a physics failure.",
+      "source": "logs"
+    },
+    {
+      "issue_id": "failure_unknown",
+      "severity": "error",
+      "code": "unknown",
+      "title": "Run failure",
+      "explanation": "Genesis using CPU fallback \u2014 no CUDA device found",
+      "suggested_fix": "Review run logs and verify project assets.",
+      "source": "logs"
+    }
+  ],
+  "limitations": [
+    {
+      "limitation_id": "no_structural",
+      "category": "structural",
+      "text": "No stress, buckling, or fatigue analysis was performed.",
+      "test_id": "gravity_stability"
+    },
+    {
+      "limitation_id": "genesis_physics",
+      "category": "general",
+      "text": "Results reflect Genesis rigid-body simulation fidelity \u2014 not manufacturing tolerances or real-world wear.",
+      "test_id": "gravity_stability"
+    }
+  ],
+  "recommendations": [
+    {
+      "recommendation_id": "upload_meshes",
+      "title": "Upload missing mesh files",
+      "description": "URDF references meshes that were not found. Upload STL/OBJ files or export from STEP.",
+      "priority": "high",
+      "next_step_type": "upload_file",
+      "action_id": "upload_assets",
+      "test_id": null
+    },
+    {
+      "recommendation_id": "cad_bridge_meshes",
+      "title": "Ask Buildables CAD (not connected)",
+      "description": "Buildables CAD generation bridge is not connected yet. For now, upload a robot zip with meshes/, use STEP recovery, or accept skeleton fallback.",
+      "priority": "low",
+      "next_step_type": "change_design",
+      "action_id": "cad_bridge",
+      "test_id": null
+    },
+    {
+      "recommendation_id": "cpu_note",
+      "title": "CPU execution note",
+      "description": "Run used CPU fallback \u2014 expect slower performance, not necessarily incorrect physics.",
+      "priority": "low",
+      "next_step_type": "change_design",
+      "action_id": "",
+      "test_id": null
+    },
+    {
+      "recommendation_id": "next_joint_sweep",
+      "title": "Try Joint Sweep",
+      "description": "Sweep movable joints through limits; detect collisions and range issues.",
+      "priority": "low",
+      "next_step_type": "run_another_test",
+      "action_id": "select_test",
+      "test_id": "joint_sweep"
+    },
+    {
+      "recommendation_id": "next_imu_sensor",
+      "title": "Try IMU Sensor",
+      "description": "Simulate IMU on attach link; record linear acceleration and angular velocity.",
+      "priority": "low",
+      "next_step_type": "run_another_test",
+      "action_id": "select_test",
+      "test_id": "imu_sensor"
+    }
+  ],
+  "next_tests": [
+    "joint_sweep",
+    "imu_sensor",
+    "contact_force",
+    "depth_camera",
+    "thermal_grid_readiness"
+  ],
+  "disclaimer": "This report is generated from recorded simulation artifacts. It describes what was observed in the run \u2014 not guaranteed real-world performance.",
+  "artifacts_used": [
+    "manifest.json",
+    "state_timeseries.json"
+  ],
+  "logs_used": [
+    "stdout.log"
+  ],
+  "raw_data_refs": {
+    "run_dir": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\runs\\agentic-report-cpu",
+    "manifest": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\runs\\agentic-report-cpu\\manifest.json"
+  },
+  "confidence": 0.85,
+  "pass_fail": "pass",
+  "summary": "Gravity Stability finished with outcome Passed (passed). Replay captured 2 frames. 2 issue(s) noted in logs.",
+  "observed_issues": [
+    "CPU fallback in use: Log pattern detected: cpu fallback.",
+    "Run failure: Genesis using CPU fallback \u2014 no CUDA device found"
+  ],
+  "engineering_explanation": "I finished Gravity Stability. Outcome: passed.\n\nKey results:\n- Run status: completed\n- Replay frames: 2\n\nLimitations:\n- No stress, buckling, or fatigue analysis was performed.\n- Results reflect Genesis rigid-body simulation fidelity \u2014 not manufacturing tolerances or real-world wear.\n\nRecommended next step:\n- Upload missing mesh files: URDF references meshes that were not found. Upload STL/OBJ files or export from STEP.",
+  "suggested_design_changes": [
+    "Ask Buildables CAD (not connected)",
+    "CPU execution note"
+  ],
+  "missing_data_limitations": [
+    "No stress, buckling, or fatigue analysis was performed.",
+    "Results reflect Genesis rigid-body simulation fidelity \u2014 not manufacturing tolerances or real-world wear."
+  ]
+}

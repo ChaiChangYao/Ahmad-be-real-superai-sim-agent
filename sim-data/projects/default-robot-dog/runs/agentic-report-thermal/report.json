@@ -1,0 +1,137 @@
+{
+  "report_id": "report-3a2a9ad5a9",
+  "run_id": "agentic-report-thermal",
+  "project_id": "default-robot-dog",
+  "test_id": "thermal_grid_readiness",
+  "test_name": "Thermal Grid Readiness",
+  "generated_at": "2026-06-08T09:01:35.885847+00:00",
+  "executive_summary": "Thermal Grid Readiness finished with outcome Passed (passed).",
+  "plain_language_summary": "I finished Thermal Grid Readiness. Outcome: passed.\n\nKey results:\n- Run status: completed\n- Replay frames: 0\n- Telemetry samples: recorded\n\nLimitations:\n- Temperature grid values may be demo/placeholder fields \u2014 not validated against real material properties.\n- Results reflect Genesis rigid-body simulation fidelity \u2014 not manufacturing tolerances or real-world wear.\n\nRecommended next step:\n- Upload missing mesh files: URDF references meshes that were not found. Upload STL/OBJ files or export from STEP.",
+  "outcome": {
+    "status": "passed",
+    "label": "Passed",
+    "summary": "Telemetry samples recorded for sensor test.",
+    "run_status": "completed",
+    "exit_code": 0
+  },
+  "key_metrics": [
+    {
+      "id": "manifest_status",
+      "label": "Manifest status",
+      "value": "complete",
+      "unit": "",
+      "category": "general"
+    },
+    {
+      "id": "has_replay",
+      "label": "Replay recorded",
+      "value": false,
+      "unit": "",
+      "category": "visual"
+    },
+    {
+      "id": "frame_count",
+      "label": "Replay frames",
+      "value": 0,
+      "unit": "",
+      "category": "visual"
+    },
+    {
+      "id": "has_telemetry",
+      "label": "Telemetry recorded",
+      "value": true,
+      "unit": "",
+      "category": "telemetry"
+    },
+    {
+      "id": "replay_frames",
+      "label": "Replay frames",
+      "value": 0,
+      "unit": "",
+      "category": "general"
+    }
+  ],
+  "time_series_metrics": [],
+  "detected_issues": [],
+  "limitations": [
+    {
+      "limitation_id": "thermal_demo",
+      "category": "thermal",
+      "text": "Temperature grid values may be demo/placeholder fields \u2014 not validated against real material properties.",
+      "test_id": "thermal_grid_readiness"
+    },
+    {
+      "limitation_id": "genesis_physics",
+      "category": "general",
+      "text": "Results reflect Genesis rigid-body simulation fidelity \u2014 not manufacturing tolerances or real-world wear.",
+      "test_id": "thermal_grid_readiness"
+    }
+  ],
+  "recommendations": [
+    {
+      "recommendation_id": "upload_meshes",
+      "title": "Upload missing mesh files",
+      "description": "URDF references meshes that were not found. Upload STL/OBJ files or export from STEP.",
+      "priority": "high",
+      "next_step_type": "upload_file",
+      "action_id": "upload_assets",
+      "test_id": null
+    },
+    {
+      "recommendation_id": "cad_bridge_meshes",
+      "title": "Ask Buildables CAD (not connected)",
+      "description": "Buildables CAD generation bridge is not connected yet. For now, upload a robot zip with meshes/, use STEP recovery, or accept skeleton fallback.",
+      "priority": "low",
+      "next_step_type": "change_design",
+      "action_id": "cad_bridge",
+      "test_id": null
+    },
+    {
+      "recommendation_id": "next_gravity_stability",
+      "title": "Try Gravity Stability",
+      "description": "Drop or settle model under gravity; report stability and contact summary.",
+      "priority": "low",
+      "next_step_type": "run_another_test",
+      "action_id": "select_test",
+      "test_id": "gravity_stability"
+    },
+    {
+      "recommendation_id": "next_joint_sweep",
+      "title": "Try Joint Sweep",
+      "description": "Sweep movable joints through limits; detect collisions and range issues.",
+      "priority": "low",
+      "next_step_type": "run_another_test",
+      "action_id": "select_test",
+      "test_id": "joint_sweep"
+    }
+  ],
+  "next_tests": [
+    "gravity_stability",
+    "joint_sweep",
+    "imu_sensor",
+    "contact_force",
+    "depth_camera"
+  ],
+  "disclaimer": "This report is generated from recorded simulation artifacts. It describes what was observed in the run \u2014 not guaranteed real-world performance.",
+  "artifacts_used": [
+    "manifest.json",
+    "telemetry_timeseries.json"
+  ],
+  "logs_used": [],
+  "raw_data_refs": {
+    "run_dir": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\runs\\agentic-report-thermal",
+    "manifest": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\runs\\agentic-report-thermal\\manifest.json"
+  },
+  "confidence": 0.8,
+  "pass_fail": "pass",
+  "summary": "Thermal Grid Readiness finished with outcome Passed (passed).",
+  "observed_issues": [],
+  "engineering_explanation": "I finished Thermal Grid Readiness. Outcome: passed.\n\nKey results:\n- Run status: completed\n- Replay frames: 0\n- Telemetry samples: recorded\n\nLimitations:\n- Temperature grid values may be demo/placeholder fields \u2014 not validated against real material properties.\n- Results reflect Genesis rigid-body simulation fidelity \u2014 not manufacturing tolerances or real-world wear.\n\nRecommended next step:\n- Upload missing mesh files: URDF references meshes that were not found. Upload STL/OBJ files or export from STEP.",
+  "suggested_design_changes": [
+    "Ask Buildables CAD (not connected)"
+  ],
+  "missing_data_limitations": [
+    "Temperature grid values may be demo/placeholder fields \u2014 not validated against real material properties.",
+    "Results reflect Genesis rigid-body simulation fidelity \u2014 not manufacturing tolerances or real-world wear."
+  ]
+}

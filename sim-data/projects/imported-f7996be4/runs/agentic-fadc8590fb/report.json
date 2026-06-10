@@ -1,0 +1,220 @@
+{
+  "report_id": "report-2783439e5b",
+  "run_id": "agentic-fadc8590fb",
+  "project_id": "imported-f7996be4",
+  "test_id": "imu_sensor",
+  "test_name": "IMU Sensor",
+  "generated_at": "2026-06-09T09:04:00.893807+00:00",
+  "executive_summary": "IMU Sensor finished with outcome Passed (passed). Replay captured 2095 frames. Telemetry recorded 400 samples. 1 issue(s) noted in logs.",
+  "plain_language_summary": "I finished IMU Sensor. Outcome: passed.\n\nKey results:\n- Run status: completed\n- Replay frames: 2095\n- Telemetry samples: 400\n\nLimitations:\n- IMU noise model and calibration were not validated against hardware.\n- Results reflect Genesis rigid-body simulation fidelity \u2014 not manufacturing tolerances or real-world wear.\n\nRecommended next step:\n- Try Gravity Stability: Drop or settle model under gravity; report stability and contact summary.",
+  "outcome": {
+    "status": "passed",
+    "label": "Passed",
+    "summary": "Telemetry samples recorded for sensor test.",
+    "run_status": "completed",
+    "exit_code": 0
+  },
+  "key_metrics": [
+    {
+      "id": "manifest_status",
+      "label": "Manifest status",
+      "value": "complete",
+      "unit": "",
+      "category": "general"
+    },
+    {
+      "id": "has_replay",
+      "label": "Replay recorded",
+      "value": true,
+      "unit": "",
+      "category": "visual"
+    },
+    {
+      "id": "frame_count",
+      "label": "Replay frames",
+      "value": 2095,
+      "unit": "",
+      "category": "visual"
+    },
+    {
+      "id": "has_telemetry",
+      "label": "Telemetry recorded",
+      "value": true,
+      "unit": "",
+      "category": "telemetry"
+    },
+    {
+      "id": "telemetry_samples",
+      "label": "Telemetry samples",
+      "value": 400,
+      "unit": "",
+      "category": "telemetry"
+    },
+    {
+      "id": "replay_frames",
+      "label": "Replay frames",
+      "value": 2095,
+      "unit": "",
+      "category": "replay"
+    },
+    {
+      "id": "unique_poses",
+      "label": "Unique poses",
+      "value": 2095,
+      "unit": "",
+      "category": "replay"
+    },
+    {
+      "id": "moving_frames",
+      "label": "Moving frames",
+      "value": 1592,
+      "unit": "",
+      "category": "replay"
+    },
+    {
+      "id": "longest_freeze",
+      "label": "Longest freeze run",
+      "value": 209,
+      "unit": "",
+      "category": "replay"
+    },
+    {
+      "id": "object_count",
+      "label": "Tracked objects",
+      "value": 14,
+      "unit": "",
+      "category": "replay"
+    },
+    {
+      "id": "recorder_issue",
+      "label": "Recorder note",
+      "value": "sparse_motion_phases",
+      "unit": "",
+      "category": "replay"
+    },
+    {
+      "id": "imu_samples",
+      "label": "IMU samples",
+      "value": 400,
+      "unit": "",
+      "category": "imu"
+    },
+    {
+      "id": "lin_acc_max",
+      "label": "Lin Acc Max",
+      "value": 0.0,
+      "unit": "",
+      "category": "imu"
+    },
+    {
+      "id": "ang_vel_max",
+      "label": "Ang Vel Max",
+      "value": 3.99,
+      "unit": "",
+      "category": "imu"
+    },
+    {
+      "id": "signal_changing",
+      "label": "Signal Changing",
+      "value": true,
+      "unit": "",
+      "category": "imu"
+    }
+  ],
+  "time_series_metrics": [
+    {
+      "id": "imu",
+      "label": "IMU telemetry",
+      "sample_count": 400,
+      "duration_seconds": null,
+      "summary": {
+        "sample_count": 400,
+        "lin_acc_max": 0.0,
+        "lin_acc_mean": -3.2699999999999845,
+        "ang_vel_max": 3.99,
+        "ang_vel_mean": 0.6650000000000001,
+        "signal_changing": true
+      }
+    }
+  ],
+  "detected_issues": [
+    {
+      "issue_id": "failure_unknown",
+      "severity": "error",
+      "code": "unknown",
+      "title": "Run failure",
+      "explanation": "[showcase_launcher] Wrote 2095 replay frames (final, v14) \u00b7 raw=400 unique_poses=400 preview=2095 \u00b7 14 objects (13 robot links) to C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-f7996be4\\runs\\agentic-fadc8590fb\\state_timeseries.json",
+      "suggested_fix": "Review run logs and verify project assets.",
+      "source": "logs"
+    }
+  ],
+  "limitations": [
+    {
+      "limitation_id": "imu_noise",
+      "category": "sensor",
+      "text": "IMU noise model and calibration were not validated against hardware.",
+      "test_id": "imu_sensor"
+    },
+    {
+      "limitation_id": "genesis_physics",
+      "category": "general",
+      "text": "Results reflect Genesis rigid-body simulation fidelity \u2014 not manufacturing tolerances or real-world wear.",
+      "test_id": "imu_sensor"
+    }
+  ],
+  "recommendations": [
+    {
+      "recommendation_id": "next_gravity_stability",
+      "title": "Try Gravity Stability",
+      "description": "Drop or settle model under gravity; report stability and contact summary.",
+      "priority": "low",
+      "next_step_type": "run_another_test",
+      "action_id": "select_test",
+      "test_id": "gravity_stability"
+    },
+    {
+      "recommendation_id": "next_joint_sweep",
+      "title": "Try Joint Sweep",
+      "description": "Sweep movable joints through limits; detect collisions and range issues.",
+      "priority": "low",
+      "next_step_type": "run_another_test",
+      "action_id": "select_test",
+      "test_id": "joint_sweep"
+    }
+  ],
+  "next_tests": [
+    "gravity_stability",
+    "joint_sweep",
+    "contact_force",
+    "depth_camera",
+    "thermal_grid_readiness"
+  ],
+  "disclaimer": "This report is generated from recorded simulation artifacts. It describes what was observed in the run \u2014 not guaranteed real-world performance.",
+  "artifacts_used": [
+    "manifest.json",
+    "state_timeseries.json",
+    "telemetry_timeseries.json",
+    "combined.log"
+  ],
+  "logs_used": [
+    "stdout.log",
+    "stderr.log",
+    "combined.log"
+  ],
+  "raw_data_refs": {
+    "run_dir": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-f7996be4\\runs\\agentic-fadc8590fb",
+    "manifest": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-f7996be4\\runs\\agentic-fadc8590fb\\manifest.json"
+  },
+  "confidence": 1.0,
+  "pass_fail": "pass",
+  "summary": "IMU Sensor finished with outcome Passed (passed). Replay captured 2095 frames. Telemetry recorded 400 samples. 1 issue(s) noted in logs.",
+  "observed_issues": [
+    "Run failure: [showcase_launcher] Wrote 2095 replay frames (final, v14) \u00b7 raw=400 unique_poses=400 preview=2095 \u00b7 14 objects (13 robot links) to C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-f7996be4\\runs\\agentic-fadc8590fb\\state_timeseries.json"
+  ],
+  "engineering_explanation": "I finished IMU Sensor. Outcome: passed.\n\nKey results:\n- Run status: completed\n- Replay frames: 2095\n- Telemetry samples: 400\n\nLimitations:\n- IMU noise model and calibration were not validated against hardware.\n- Results reflect Genesis rigid-body simulation fidelity \u2014 not manufacturing tolerances or real-world wear.\n\nRecommended next step:\n- Try Gravity Stability: Drop or settle model under gravity; report stability and contact summary.",
+  "suggested_design_changes": [],
+  "missing_data_limitations": [
+    "IMU noise model and calibration were not validated against hardware.",
+    "Results reflect Genesis rigid-body simulation fidelity \u2014 not manufacturing tolerances or real-world wear."
+  ]
+}

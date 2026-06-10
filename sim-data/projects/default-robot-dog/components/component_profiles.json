@@ -1,0 +1,34 @@
+[
+  {
+    "id": "controller-industrial-01",
+    "brand": "Generic",
+    "model": "Industrial SBC Module",
+    "component_type": "controller",
+    "dimensions_m": [0.12, 0.08, 0.03],
+    "mass_kg": 0.32,
+    "voltage_range_v": [9.0, 28.0],
+    "current_draw_a": 0.6,
+    "peak_current_a": 1.2,
+    "communication_interface": "CAN/UART/Ethernet",
+    "source_url": null,
+    "datasheet_url": null,
+    "confidence": "placeholder",
+    "notes": "Placeholder industrial controller profile."
+  },
+  {
+    "id": "battery-pack-01",
+    "brand": "Generic",
+    "model": "LiPo 6S Industrial Pack",
+    "component_type": "battery",
+    "dimensions_m": [0.22, 0.1, 0.07],
+    "mass_kg": 5.2,
+    "voltage_range_v": [18.0, 25.2],
+    "current_draw_a": 8.0,
+    "peak_current_a": 80.0,
+    "communication_interface": "Power Bus",
+    "source_url": null,
+    "datasheet_url": null,
+    "confidence": "placeholder",
+    "notes": "Battery mass drives CoM and balance metrics."
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "runId": "agentic-0b4dc2041f",
+  "projectId": "imported-0921224b",
+  "testId": "gravity_stability",
+  "scriptId": "script-ee749e299d",
+  "templateId": "gravity_stability",
+  "status": "failed",
+  "startedAt": "2026-06-08T07:23:16.767070+00:00",
+  "completedAt": "2026-06-08T07:23:29.890258+00:00",
+  "backend": "ExecutionBackend.local",
+  "visual": {
+    "hasReplay": false,
+    "frameCount": 0,
+    "fps": 24.0,
+    "path": "state_timeseries.json"
+  },
+  "telemetry": {
+    "hasTelemetry": false,
+    "sampleCount": 0,
+    "sensorTypes": [],
+    "path": ""
+  },
+  "errors": [
+    "    v = [t._from_xml(n, node, path) for n in vs]\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\apps\\api\\.venv\\Lib\\site-packages\\genesis\\ext\\urdfpy\\urdf.py\", line 191, in _from_xml\n    return cls(**cls._parse(node, root, path))\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\apps\\api\\.venv\\Lib\\site-packages\\genesis\\ext\\urdfpy\\urdf.py\", line 167, in _parse\n    kwargs.update(cls._parse_simple_elements(node, root, path))\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\apps\\api\\.venv\\Lib\\site-packages\\genesis\\ext\\urdfpy\\urdf.py\", line 139, in _parse_simple_elements\n    v = [t._from_xml(n, node, path) for n in vs]\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\apps\\api\\.venv\\Lib\\site-packages\\genesis\\ext\\urdfpy\\urdf.py\", line 139, in <listcomp>\n    v = [t._from_xml(n, node, path) for n in vs]\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\apps\\api\\.venv\\Lib\\site-packages\\genesis\\ext\\urdfpy\\urdf.py\", line 1215, in _from_xml\n    kwargs = cls._parse(node, root, path)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\apps\\api\\.venv\\Lib\\site-packages\\genesis\\ext\\urdfpy\\urdf.py\", line 167, in _parse\n    kwargs.update(cls._parse_simple_elements(node, root, path))\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\apps\\api\\.venv\\Lib\\site-packages\\genesis\\ext\\urdfpy\\urdf.py\", line 130, in _parse_simple_elements\n    v = t._from_xml(v, root, path)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\apps\\api\\.venv\\Lib\\site-packages\\genesis\\ext\\urdfpy\\urdf.py\", line 191, in _from_xml\n ",
+    "[agentic_runtime] Run failed: Asset file not found: C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-0921224b\\assets\\imported\\meshes/torso_shell_top.stl"
+  ],
+  "warnings": [],
+  "exitCode": 1
+}

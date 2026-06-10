@@ -1,0 +1,572 @@
+{
+  "launch_id": "showcase-85798fe337",
+  "project_id": "genesis-workbench",
+  "scenario_id": "genesis-physics-rigid-franka-cube",
+  "demo_name": "Rigid: franka cube",
+  "layer": "physics",
+  "repo": "genesis-world",
+  "script_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\genesis-world\\examples\\rigid\\franka_cube.py",
+  "repo_root": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\genesis-world",
+  "argv": [
+    "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\apps\\api\\.venv\\Scripts\\python.exe",
+    "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\apps\\api\\app\\scripts\\showcase_launcher.py",
+    "--script",
+    "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\genesis-world\\examples\\rigid\\franka_cube.py",
+    "--headless",
+    "--record-web"
+  ],
+  "view_mode": "web",
+  "headless": true,
+  "started_at": "2026-06-08T05:17:08.721133+00:00",
+  "status": "completed",
+  "lifecycle": "completed",
+  "upstream_url": "https://github.com/Genesis-Embodied-AI/genesis-world/blob/main/examples/rigid/franka_cube.py",
+  "demo_type": "motion",
+  "telemetry_channels": null,
+  "kind": "simulation",
+  "sensor_type": null,
+  "note": "Running physics and recording frames for the web viewer (works on AMD and NVIDIA).",
+  "pid": 3036,
+  "replay_available": true,
+  "replay_frames": 43,
+  "replay_version": 14,
+  "replay_ready": true,
+  "replay_status": "complete",
+  "replay_partial": false,
+  "replay_fps": 24.0,
+  "replay_meta": {
+    "diagnostics": {
+      "top_level_entities": 3,
+      "robot_links": 11,
+      "visual_geoms": 81,
+      "meshes_found": 0,
+      "meshes_exported": 11,
+      "mesh_export_failures": 0,
+      "tracked_objects": 13,
+      "franka_fallback": false,
+      "motion_diagnostics": {
+        "total_frames": 401,
+        "unique_pose_count": 401,
+        "meaningful_pose_count": 16,
+        "meaningful_keyframes": [
+          0,
+          103,
+          107,
+          205,
+          208,
+          210,
+          212,
+          214,
+          216,
+          218,
+          220,
+          223,
+          227,
+          233,
+          250,
+          331
+        ],
+        "longest_freeze_run": 1,
+        "perceptual_longest_freeze_run": 166,
+        "frozen_head_length": 101,
+        "frozen_tail_length": 165,
+        "moving_frame_count": 44,
+        "frozen_runs": [
+          {
+            "start": 0,
+            "end": 100,
+            "length": 101
+          },
+          {
+            "start": 109,
+            "end": 201,
+            "length": 93
+          },
+          {
+            "start": 235,
+            "end": 400,
+            "length": 166
+          }
+        ],
+        "jump_frames": [],
+        "jump_count": 0,
+        "change_indices": [
+          0,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "top_moving_objects": [
+          {
+            "id": "franka/link5",
+            "total_delta": 0.410644
+          },
+          {
+            "id": "franka/link4",
+            "total_delta": 0.407261
+          },
+          {
+            "id": "franka/link3",
+            "total_delta": 0.348468
+          },
+          {
+            "id": "franka/right_finger",
+            "total_delta": 0.340639
+          },
+          {
+            "id": "franka/left_finger",
+            "total_delta": 0.340173
+          }
+        ],
+        "primary_motion_link": "franka/link5",
+        "identical_frame_ratio": 0.0,
+        "recorder_issue": "sparse_motion_phases",
+        "qpos_frame_counts": [
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "qpos_samples": {
+          "frame_0": {
+            "plane_5f3f76c": [],
+            "panda_d6b16e5": [
+              -1.0123258829116821,
+              1.558129072189331,
+              1.3657675981521606,
+              -1.6871795654296875,
+              -1.5804383754730225,
+              1.7758082151412964,
+              1.4601584672927856,
+              0.04000093787908554,
+              0.039999060332775116
+            ],
+            "box_fb79135": [
+              0.6499999761581421,
+              0.0,
+              0.019019000232219696,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "frame_mid": {
+            "plane_5f3f76c": [],
+            "panda_d6b16e5": [
+              -1.0117731094360352,
+              1.564601182937622,
+              1.3583828210830688,
+              -1.686819076538086,
+              -1.580852746963501,
+              1.7739918231964111,
+              1.4598405361175537,
+              0.019074251875281334,
+              0.019074158743023872
+            ],
+            "box_fb79135": [
+              0.6500550508499146,
+              0.0004954442847520113,
+              0.019892530515789986,
+              0.00035446338006295264,
+              3.925764303858159e-06,
+              7.3437717219349e-05
+            ]
+          },
+          "frame_last": {
+            "plane_5f3f76c": [],
+            "panda_d6b16e5": [
+              -1.0417777299880981,
+              1.3892860412597656,
+              1.581026315689087,
+              -1.703249216079712,
+              -1.3812408447265625,
+              1.5761094093322754,
+              1.4468638896942139,
+              0.019074222072958946,
+              0.01907406561076641
+            ],
+            "box_fb79135": [
+              0.6515834331512451,
+              -0.0004089928697794676,
+              0.1799916923046112,
+              0.001323034754022956,
+              0.12145500630140305,
+              -0.0004151075263507664
+            ]
+          }
+        },
+        "tracked_object_count": 12
+      },
+      "source_frame_count": 401,
+      "unique_pose_count": 401,
+      "longest_freeze_run": 1,
+      "preview_frame_count": 43,
+      "recorder_issue": "sparse_motion_phases",
+      "replay_frames": 43
+    },
+    "entities": {
+      "env/floor": {
+        "kind": "checker_floor",
+        "size": [
+          4.0,
+          4.0
+        ]
+      },
+      "franka/link0": {
+        "kind": "robot_link",
+        "color": "#e8e8e8",
+        "meshPath": "meshes/franka/link0.json",
+        "meshSource": "franka_obj_assets"
+      },
+      "franka/link1": {
+        "kind": "robot_link",
+        "color": "#e8e8e8",
+        "meshPath": "meshes/franka/link1.json",
+        "meshSource": "franka_obj_assets"
+      },
+      "franka/link2": {
+        "kind": "robot_link",
+        "color": "#e8e8e8",
+        "meshPath": "meshes/franka/link2.json",
+        "meshSource": "franka_obj_assets"
+      },
+      "franka/link3": {
+        "kind": "robot_link",
+        "color": "#e8e8e8",
+        "meshPath": "meshes/franka/link3.json",
+        "meshSource": "franka_obj_assets"
+      },
+      "franka/link4": {
+        "kind": "robot_link",
+        "color": "#e8e8e8",
+        "meshPath": "meshes/franka/link4.json",
+        "meshSource": "franka_obj_assets"
+      },
+      "franka/link5": {
+        "kind": "robot_link",
+        "color": "#e8e8e8",
+        "meshPath": "meshes/franka/link5.json",
+        "meshSource": "franka_obj_assets"
+      },
+      "franka/link6": {
+        "kind": "robot_link",
+        "color": "#e8e8e8",
+        "meshPath": "meshes/franka/link6.json",
+        "meshSource": "franka_obj_assets"
+      },
+      "franka/link7": {
+        "kind": "robot_link",
+        "color": "#e8e8e8",
+        "meshPath": "meshes/franka/link7.json",
+        "meshSource": "franka_obj_assets"
+      },
+      "franka/hand": {
+        "kind": "robot_link",
+        "color": "#e8e8e8",
+        "meshPath": "meshes/franka/hand.json",
+        "meshSource": "franka_obj_assets"
+      },
+      "franka/left_finger": {
+        "kind": "robot_link",
+        "color": "#e8e8e8",
+        "meshPath": "meshes/franka/left_finger.json",
+        "meshSource": "franka_obj_assets"
+      },
+      "franka/right_finger": {
+        "kind": "robot_link",
+        "color": "#e8e8e8",
+        "meshPath": "meshes/franka/right_finger.json",
+        "meshSource": "franka_obj_assets"
+      },
+      "manipuland/cube": {
+        "kind": "box",
+        "size": [
+          0.04,
+          0.04,
+          0.04
+        ],
+        "color": "#c54b5d"
+      }
+    },
+    "motion_diagnostics": {
+      "total_frames": 401,
+      "unique_pose_count": 401,
+      "meaningful_pose_count": 16,
+      "meaningful_keyframes": [
+        0,
+        103,
+        107,
+        205,
+        208,
+        210,
+        212,
+        214,
+        216,
+        218,
+        220,
+        223,
+        227,
+        233,
+        250,
+        331
+      ],
+      "longest_freeze_run": 1,
+      "perceptual_longest_freeze_run": 166,
+      "frozen_head_length": 101,
+      "frozen_tail_length": 165,
+      "moving_frame_count": 44,
+      "frozen_runs": [
+        {
+          "start": 0,
+          "end": 100,
+          "length": 101
+        },
+        {
+          "start": 109,
+          "end": 201,
+          "length": 93
+        },
+        {
+          "start": 235,
+          "end": 400,
+          "length": 166
+        }
+      ],
+      "jump_frames": [],
+      "jump_count": 0,
+      "change_indices": [
+        0,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "top_moving_objects": [
+        {
+          "id": "franka/link5",
+          "total_delta": 0.410644
+        },
+        {
+          "id": "franka/link4",
+          "total_delta": 0.407261
+        },
+        {
+          "id": "franka/link3",
+          "total_delta": 0.348468
+        },
+        {
+          "id": "franka/right_finger",
+          "total_delta": 0.340639
+        },
+        {
+          "id": "franka/left_finger",
+          "total_delta": 0.340173
+        }
+      ],
+      "primary_motion_link": "franka/link5",
+      "identical_frame_ratio": 0.0,
+      "recorder_issue": "sparse_motion_phases",
+      "qpos_frame_counts": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "qpos_samples": {
+        "frame_0": {
+          "plane_5f3f76c": [],
+          "panda_d6b16e5": [
+            -1.0123258829116821,
+            1.558129072189331,
+            1.3657675981521606,
+            -1.6871795654296875,
+            -1.5804383754730225,
+            1.7758082151412964,
+            1.4601584672927856,
+            0.04000093787908554,
+            0.039999060332775116
+          ],
+          "box_fb79135": [
+            0.6499999761581421,
+            0.0,
+            0.019019000232219696,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "frame_mid": {
+          "plane_5f3f76c": [],
+          "panda_d6b16e5": [
+            -1.0117731094360352,
+            1.564601182937622,
+            1.3583828210830688,
+            -1.686819076538086,
+            -1.580852746963501,
+            1.7739918231964111,
+            1.4598405361175537,
+            0.019074251875281334,
+            0.019074158743023872
+          ],
+          "box_fb79135": [
+            0.6500550508499146,
+            0.0004954442847520113,
+            0.019892530515789986,
+            0.00035446338006295264,
+            3.925764303858159e-06,
+            7.3437717219349e-05
+          ]
+        },
+        "frame_last": {
+          "plane_5f3f76c": [],
+          "panda_d6b16e5": [
+            -1.0417777299880981,
+            1.3892860412597656,
+            1.581026315689087,
+            -1.703249216079712,
+            -1.3812408447265625,
+            1.5761094093322754,
+            1.4468638896942139,
+            0.019074222072958946,
+            0.01907406561076641
+          ],
+          "box_fb79135": [
+            0.6515834331512451,
+            -0.0004089928697794676,
+            0.1799916923046112,
+            0.001323034754022956,
+            0.12145500630140305,
+            -0.0004151075263507664
+          ]
+        }
+      },
+      "tracked_object_count": 12
+    },
+    "source_frame_count": 401,
+    "unique_pose_count": 401,
+    "preview_frame_count": 43,
+    "preview_meta": {
+      "preview_frame_count": 43,
+      "keyframe_count": 43,
+      "preview_fps": 24.0,
+      "mode": "dense_trim",
+      "trim_info": {
+        "frozen_head_length": 101,
+        "frozen_tail_length": 165,
+        "first_motion_index": 101,
+        "last_motion_index": 42,
+        "collapsed_frames": 92,
+        "trim_log": [
+          "Trimmed frozen head: 101 frames",
+          "Trimmed frozen tail: 165 frames",
+          "Collapsed frozen run frames 8-100 (93 frames -> 1 hold frame)"
+        ],
+        "source_frame_count": 401,
+        "trimmed_tail_frames": 0,
+        "preview_distinct_pose_count": 43,
+        "moving_frame_count": 43
+      },
+      "validation": {
+        "preview_frames": 43,
+        "moving_frames": 43,
+        "frozen_tail_starts_at": null,
+        "longest_frozen_run": 1,
+        "max_position_jump": 0.009772,
+        "max_angular_jump_deg": 0.931,
+        "visible_links_changing_after_tail": true,
+        "total_frames": 43,
+        "repeated_consecutive_frames": 0,
+        "max_angular_jump_rad": 0.016249,
+        "valid": true
+      },
+      "preview_motion_diagnostics": {
+        "preview_frames": 43,
+        "moving_frames": 43,
+        "frozen_tail_starts_at": null,
+        "longest_frozen_run": 1,
+        "max_position_jump": 0.009772,
+        "max_angular_jump_deg": 0.931,
+        "visible_links_changing_after_tail": true
+      }
+    },
+    "preview_validation": {
+      "preview_frames": 43,
+      "moving_frames": 43,
+      "frozen_tail_starts_at": null,
+      "longest_frozen_run": 1,
+      "max_position_jump": 0.009772,
+      "max_angular_jump_deg": 0.931,
+      "visible_links_changing_after_tail": true,
+      "total_frames": 43,
+      "repeated_consecutive_frames": 0,
+      "max_angular_jump_rad": 0.016249,
+      "valid": true
+    },
+    "demo_type": "motion",
+    "script_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\genesis-world\\examples\\rigid\\franka_cube.py",
+    "kind": "simulation",
+    "scenario_id": "genesis-physics-rigid-franka-cube",
+    "visual_raw_frame_count": 401,
+    "telemetry_sample_count": 0,
+    "telemetry_distinct_sample_count": 0,
+    "longest_repeated_telemetry_run": 0,
+    "visual_trim_applied": true,
+    "telemetry_trim_applied": false,
+    "trim_reason": "motion_demo_visual_trim",
+    "replay_mode": "dense_trim",
+    "playback_fps": 24,
+    "demo_name": "Rigid: franka cube",
+    "repo": "genesis-world",
+    "preview_motion_diagnostics": {
+      "preview_frames": 43,
+      "moving_frames": 43,
+      "frozen_tail_starts_at": null,
+      "longest_frozen_run": 1,
+      "max_position_jump": 0.009772,
+      "max_angular_jump_deg": 0.931,
+      "visible_links_changing_after_tail": true
+    }
+  },
+  "replay_objects": 13,
+  "replay_robot_links": 11,
+  "replay_tracked_objects": 13,
+  "source_frame_count": 401,
+  "preview_frame_count": 43,
+  "unique_pose_count": 401,
+  "replay_mode": "dense_trim",
+  "exit_code": 0,
+  "ended_at": "2026-06-08T05:18:10.836237+00:00"
+}

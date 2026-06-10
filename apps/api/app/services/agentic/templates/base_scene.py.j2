@@ -1,0 +1,28 @@
+{# Shared imports and config loader — included by generated scripts #}
+from __future__ import annotations
+
+import json
+from pathlib import Path
+
+from app.services.agentic.runtime.recorder import (
+    fail_run,
+    finalize_run,
+    start_run_metadata,
+    write_manifest,
+    write_state_timeseries,
+    write_telemetry_timeseries,
+)
+from app.services.agentic.runtime.scene_helpers import (
+    add_floor,
+    add_robot_from_urdf_or_mjcf,
+    create_basic_scene,
+    init_genesis_web_mode,
+    step_scene_for_duration,
+)
+
+
+def load_sidecar_config() -> dict:
+    script_path = Path(__file__).resolve()
+    ctx_path = script_path.parent / f"{script_path.stem}.context.json"
+    return json.loads(ctx_path.read_text(encoding="utf-8"))
+

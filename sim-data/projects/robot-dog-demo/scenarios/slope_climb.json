@@ -1,0 +1,9 @@
+﻿{
+    "config":  {
+                   "slope_deg":  12,
+                   "terrain":  "slope"
+               },
+    "duration_s":  8,
+    "name":  "Slope Climb",
+    "id":  "slope_climb"
+}

@@ -1,0 +1,13 @@
+<mujoco model="default_robot_dog">
+  <worldbody>
+    <body name="body"/>
+    <body name="fl_upper"/>
+    <body name="fl_lower"/>
+    <body name="fr_upper"/>
+    <body name="fr_lower"/>
+    <body name="rl_upper"/>
+    <body name="rl_lower"/>
+    <body name="rr_upper"/>
+    <body name="rr_lower"/>
+  </worldbody>
+</mujoco>

@@ -1,0 +1,12 @@
+[showcase_launcher] Demo crashed:
+Traceback (most recent call last):
+  File "C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\apps\api\app\scripts\showcase_launcher.py", line 119, in main
+    _RECORDER["flush"](partial=False)
+  File "C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\apps\api\app\services\genesis_showcase\scene_replay_exporter.py", line 668, in flush
+    manifest = write_replay_bundle(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\apps\api\app\services\genesis_showcase\replay_atomic_io.py", line 136, in write_replay_bundle
+    partial_timeseries_path(out_dir).unlink(missing_ok=True)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\pathlib.py", line 1147, in unlink
+    os.unlink(self)
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\genesis-workbench\\runs\\showcase-fd2109ea46\\state_timeseries.partial.json'

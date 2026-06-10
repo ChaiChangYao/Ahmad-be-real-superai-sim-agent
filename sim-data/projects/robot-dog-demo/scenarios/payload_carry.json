@@ -1,0 +1,8 @@
+﻿{
+    "config":  {
+                   "payload_kg":  0.4
+               },
+    "duration_s":  7,
+    "name":  "Payload Carry",
+    "id":  "payload_carry"
+}

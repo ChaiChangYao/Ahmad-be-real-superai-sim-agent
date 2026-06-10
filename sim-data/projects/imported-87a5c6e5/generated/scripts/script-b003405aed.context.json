@@ -1,0 +1,1249 @@
+{
+  "project_id": "imported-87a5c6e5",
+  "test_id": "joint_sweep",
+  "template_id": "joint_sweep",
+  "project_root": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5",
+  "asset_root": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported",
+  "output_root": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\generated\\runs\\script-b003405aed",
+  "script_id": "script-b003405aed",
+  "robot_description_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo.urdf",
+  "robot_description_type": "urdf",
+  "mesh_assets": [
+    {
+      "id": "asset-3baba86f5ded",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\battery_block.stl",
+      "relative": "assets/imported/meshes/battery_block.stl"
+    },
+    {
+      "id": "asset-08b9a1df867d",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\bottom_chassis_frame.stl",
+      "relative": "assets/imported/meshes/bottom_chassis_frame.stl"
+    },
+    {
+      "id": "asset-a39605e65ed1",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\collision\\base_link_collision.stl",
+      "relative": "assets/imported/meshes/collision/base_link_collision.stl"
+    },
+    {
+      "id": "asset-3603938c1dec",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\collision\\front_left_foot_collision.stl",
+      "relative": "assets/imported/meshes/collision/front_left_foot_collision.stl"
+    },
+    {
+      "id": "asset-5fc36de103cf",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\collision\\front_left_hip_abduction_collision.stl",
+      "relative": "assets/imported/meshes/collision/front_left_hip_abduction_collision.stl"
+    },
+    {
+      "id": "asset-cfdc459a4776",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\collision\\front_left_hip_pitch_housing_collision.stl",
+      "relative": "assets/imported/meshes/collision/front_left_hip_pitch_housing_collision.stl"
+    },
+    {
+      "id": "asset-859465e09d9c",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\collision\\front_left_knee_housing_collision.stl",
+      "relative": "assets/imported/meshes/collision/front_left_knee_housing_collision.stl"
+    },
+    {
+      "id": "asset-1c1727d47377",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\collision\\front_left_lower_leg_collision.stl",
+      "relative": "assets/imported/meshes/collision/front_left_lower_leg_collision.stl"
+    },
+    {
+      "id": "asset-a700a5863e46",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\collision\\front_left_upper_leg_collision.stl",
+      "relative": "assets/imported/meshes/collision/front_left_upper_leg_collision.stl"
+    },
+    {
+      "id": "asset-4e15729df688",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\collision\\front_right_foot_collision.stl",
+      "relative": "assets/imported/meshes/collision/front_right_foot_collision.stl"
+    },
+    {
+      "id": "asset-7e9ea36a8683",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\collision\\front_right_hip_abduction_collision.stl",
+      "relative": "assets/imported/meshes/collision/front_right_hip_abduction_collision.stl"
+    },
+    {
+      "id": "asset-fefdc2759602",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\collision\\front_right_hip_pitch_housing_collision.stl",
+      "relative": "assets/imported/meshes/collision/front_right_hip_pitch_housing_collision.stl"
+    },
+    {
+      "id": "asset-26577dbf60f8",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\collision\\front_right_knee_housing_collision.stl",
+      "relative": "assets/imported/meshes/collision/front_right_knee_housing_collision.stl"
+    },
+    {
+      "id": "asset-92a80a5d413e",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\collision\\front_right_lower_leg_collision.stl",
+      "relative": "assets/imported/meshes/collision/front_right_lower_leg_collision.stl"
+    },
+    {
+      "id": "asset-daa05857ed91",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\collision\\front_right_upper_leg_collision.stl",
+      "relative": "assets/imported/meshes/collision/front_right_upper_leg_collision.stl"
+    },
+    {
+      "id": "asset-790f1f31382d",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\collision\\front_sensor_panel_collision.stl",
+      "relative": "assets/imported/meshes/collision/front_sensor_panel_collision.stl"
+    },
+    {
+      "id": "asset-c05dce37efac",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\collision\\internal_electronics_collision.stl",
+      "relative": "assets/imported/meshes/collision/internal_electronics_collision.stl"
+    },
+    {
+      "id": "asset-ffbab9f95388",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\collision\\payload_mount_collision.stl",
+      "relative": "assets/imported/meshes/collision/payload_mount_collision.stl"
+    },
+    {
+      "id": "asset-a9b07280ceeb",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\collision\\rear_left_foot_collision.stl",
+      "relative": "assets/imported/meshes/collision/rear_left_foot_collision.stl"
+    },
+    {
+      "id": "asset-5586365317f0",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\collision\\rear_left_hip_abduction_collision.stl",
+      "relative": "assets/imported/meshes/collision/rear_left_hip_abduction_collision.stl"
+    },
+    {
+      "id": "asset-11b7d8cd2af1",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\collision\\rear_left_hip_pitch_housing_collision.stl",
+      "relative": "assets/imported/meshes/collision/rear_left_hip_pitch_housing_collision.stl"
+    },
+    {
+      "id": "asset-6d19a3b6dcc7",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\collision\\rear_left_knee_housing_collision.stl",
+      "relative": "assets/imported/meshes/collision/rear_left_knee_housing_collision.stl"
+    },
+    {
+      "id": "asset-2683bf2aa18c",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\collision\\rear_left_lower_leg_collision.stl",
+      "relative": "assets/imported/meshes/collision/rear_left_lower_leg_collision.stl"
+    },
+    {
+      "id": "asset-9ed8591547ef",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\collision\\rear_left_upper_leg_collision.stl",
+      "relative": "assets/imported/meshes/collision/rear_left_upper_leg_collision.stl"
+    },
+    {
+      "id": "asset-bfa255c2e617",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\collision\\rear_right_foot_collision.stl",
+      "relative": "assets/imported/meshes/collision/rear_right_foot_collision.stl"
+    },
+    {
+      "id": "asset-3ec678561f0c",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\collision\\rear_right_hip_abduction_collision.stl",
+      "relative": "assets/imported/meshes/collision/rear_right_hip_abduction_collision.stl"
+    },
+    {
+      "id": "asset-b9bb8416960f",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\collision\\rear_right_hip_pitch_housing_collision.stl",
+      "relative": "assets/imported/meshes/collision/rear_right_hip_pitch_housing_collision.stl"
+    },
+    {
+      "id": "asset-acef19f5b6ba",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\collision\\rear_right_knee_housing_collision.stl",
+      "relative": "assets/imported/meshes/collision/rear_right_knee_housing_collision.stl"
+    },
+    {
+      "id": "asset-558854b5e7c8",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\collision\\rear_right_lower_leg_collision.stl",
+      "relative": "assets/imported/meshes/collision/rear_right_lower_leg_collision.stl"
+    },
+    {
+      "id": "asset-29f8ad639771",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\collision\\rear_right_upper_leg_collision.stl",
+      "relative": "assets/imported/meshes/collision/rear_right_upper_leg_collision.stl"
+    },
+    {
+      "id": "asset-78fdef27c602",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\collision\\rear_service_panel_collision.stl",
+      "relative": "assets/imported/meshes/collision/rear_service_panel_collision.stl"
+    },
+    {
+      "id": "asset-59e9b335a224",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\controller_board_block.stl",
+      "relative": "assets/imported/meshes/controller_board_block.stl"
+    },
+    {
+      "id": "asset-c785689275ff",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\front_depth_sensor_block.stl",
+      "relative": "assets/imported/meshes/front_depth_sensor_block.stl"
+    },
+    {
+      "id": "asset-06c130116fc0",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\front_left_foot.stl",
+      "relative": "assets/imported/meshes/front_left_foot.stl"
+    },
+    {
+      "id": "asset-fa7e3ab86b11",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\front_left_foot_pad.stl",
+      "relative": "assets/imported/meshes/front_left_foot_pad.stl"
+    },
+    {
+      "id": "asset-cc77432bd372",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\front_left_hip_cable_service_loop.stl",
+      "relative": "assets/imported/meshes/front_left_hip_cable_service_loop.stl"
+    },
+    {
+      "id": "asset-6e0402d68bd8",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\front_left_hip_pitch_housing.stl",
+      "relative": "assets/imported/meshes/front_left_hip_pitch_housing.stl"
+    },
+    {
+      "id": "asset-c29e0a0f9a65",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\front_left_hip_yaw_housing.stl",
+      "relative": "assets/imported/meshes/front_left_hip_yaw_housing.stl"
+    },
+    {
+      "id": "asset-28fcd77c74b4",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\front_left_knee_housing.stl",
+      "relative": "assets/imported/meshes/front_left_knee_housing.stl"
+    },
+    {
+      "id": "asset-5e5da7587c23",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\front_left_lower_leg_link.stl",
+      "relative": "assets/imported/meshes/front_left_lower_leg_link.stl"
+    },
+    {
+      "id": "asset-0e23bb5123c4",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\front_left_upper_leg_link.stl",
+      "relative": "assets/imported/meshes/front_left_upper_leg_link.stl"
+    },
+    {
+      "id": "asset-43dc17294ab7",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\front_left_upper_leg_shell.stl",
+      "relative": "assets/imported/meshes/front_left_upper_leg_shell.stl"
+    },
+    {
+      "id": "asset-6793c7c2a28d",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\front_right_foot.stl",
+      "relative": "assets/imported/meshes/front_right_foot.stl"
+    },
+    {
+      "id": "asset-aae48791d573",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\front_right_foot_pad.stl",
+      "relative": "assets/imported/meshes/front_right_foot_pad.stl"
+    },
+    {
+      "id": "asset-55bf21c4be61",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\front_right_hip_cable_service_loop.stl",
+      "relative": "assets/imported/meshes/front_right_hip_cable_service_loop.stl"
+    },
+    {
+      "id": "asset-93bbcebb8311",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\front_right_hip_pitch_housing.stl",
+      "relative": "assets/imported/meshes/front_right_hip_pitch_housing.stl"
+    },
+    {
+      "id": "asset-3fcc6dbd4615",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\front_right_hip_yaw_housing.stl",
+      "relative": "assets/imported/meshes/front_right_hip_yaw_housing.stl"
+    },
+    {
+      "id": "asset-d4afb3242f68",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\front_right_knee_housing.stl",
+      "relative": "assets/imported/meshes/front_right_knee_housing.stl"
+    },
+    {
+      "id": "asset-6d20cb520db1",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\front_right_lower_leg_link.stl",
+      "relative": "assets/imported/meshes/front_right_lower_leg_link.stl"
+    },
+    {
+      "id": "asset-fc87501ae578",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\front_right_upper_leg_link.stl",
+      "relative": "assets/imported/meshes/front_right_upper_leg_link.stl"
+    },
+    {
+      "id": "asset-09b9e1c95920",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\front_right_upper_leg_shell.stl",
+      "relative": "assets/imported/meshes/front_right_upper_leg_shell.stl"
+    },
+    {
+      "id": "asset-7874e9312dd9",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\imu_sensor_block.stl",
+      "relative": "assets/imported/meshes/imu_sensor_block.stl"
+    },
+    {
+      "id": "asset-8985b18f8a49",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\internal_battery_tray.stl",
+      "relative": "assets/imported/meshes/internal_battery_tray.stl"
+    },
+    {
+      "id": "asset-a0917cfd421e",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\internal_controller_mount.stl",
+      "relative": "assets/imported/meshes/internal_controller_mount.stl"
+    },
+    {
+      "id": "asset-8a36b5090078",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\power_distribution_block.stl",
+      "relative": "assets/imported/meshes/power_distribution_block.stl"
+    },
+    {
+      "id": "asset-7f7f961e6d21",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\rear_left_foot.stl",
+      "relative": "assets/imported/meshes/rear_left_foot.stl"
+    },
+    {
+      "id": "asset-45dc1610866f",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\rear_left_foot_pad.stl",
+      "relative": "assets/imported/meshes/rear_left_foot_pad.stl"
+    },
+    {
+      "id": "asset-78b934ccb383",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\rear_left_hip_cable_service_loop.stl",
+      "relative": "assets/imported/meshes/rear_left_hip_cable_service_loop.stl"
+    },
+    {
+      "id": "asset-9de65c819813",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\rear_left_hip_pitch_housing.stl",
+      "relative": "assets/imported/meshes/rear_left_hip_pitch_housing.stl"
+    },
+    {
+      "id": "asset-ac031e317d9b",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\rear_left_hip_yaw_housing.stl",
+      "relative": "assets/imported/meshes/rear_left_hip_yaw_housing.stl"
+    },
+    {
+      "id": "asset-ae3a4ba0a3dc",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\rear_left_knee_housing.stl",
+      "relative": "assets/imported/meshes/rear_left_knee_housing.stl"
+    },
+    {
+      "id": "asset-c38899d13d6a",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\rear_left_lower_leg_link.stl",
+      "relative": "assets/imported/meshes/rear_left_lower_leg_link.stl"
+    },
+    {
+      "id": "asset-f5204472c57f",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\rear_left_upper_leg_link.stl",
+      "relative": "assets/imported/meshes/rear_left_upper_leg_link.stl"
+    },
+    {
+      "id": "asset-bc836c506261",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\rear_left_upper_leg_shell.stl",
+      "relative": "assets/imported/meshes/rear_left_upper_leg_shell.stl"
+    },
+    {
+      "id": "asset-a5095fb9db5d",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\rear_right_foot.stl",
+      "relative": "assets/imported/meshes/rear_right_foot.stl"
+    },
+    {
+      "id": "asset-2edfdeffca2a",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\rear_right_foot_pad.stl",
+      "relative": "assets/imported/meshes/rear_right_foot_pad.stl"
+    },
+    {
+      "id": "asset-804d2f2aff1a",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\rear_right_hip_cable_service_loop.stl",
+      "relative": "assets/imported/meshes/rear_right_hip_cable_service_loop.stl"
+    },
+    {
+      "id": "asset-d47def371e7c",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\rear_right_hip_pitch_housing.stl",
+      "relative": "assets/imported/meshes/rear_right_hip_pitch_housing.stl"
+    },
+    {
+      "id": "asset-62d1c1d1d64e",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\rear_right_hip_yaw_housing.stl",
+      "relative": "assets/imported/meshes/rear_right_hip_yaw_housing.stl"
+    },
+    {
+      "id": "asset-ca85ee95fc1f",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\rear_right_knee_housing.stl",
+      "relative": "assets/imported/meshes/rear_right_knee_housing.stl"
+    },
+    {
+      "id": "asset-d6b15cdacf00",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\rear_right_lower_leg_link.stl",
+      "relative": "assets/imported/meshes/rear_right_lower_leg_link.stl"
+    },
+    {
+      "id": "asset-1c5f35480d37",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\rear_right_upper_leg_link.stl",
+      "relative": "assets/imported/meshes/rear_right_upper_leg_link.stl"
+    },
+    {
+      "id": "asset-0cd152711808",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\rear_right_upper_leg_shell.stl",
+      "relative": "assets/imported/meshes/rear_right_upper_leg_shell.stl"
+    },
+    {
+      "id": "asset-afd1f86c13be",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\top_payload_block_placeholder.stl",
+      "relative": "assets/imported/meshes/top_payload_block_placeholder.stl"
+    },
+    {
+      "id": "asset-935626ed345f",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\top_payload_mount_rail_left.stl",
+      "relative": "assets/imported/meshes/top_payload_mount_rail_left.stl"
+    },
+    {
+      "id": "asset-f83964669b86",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\top_payload_mount_rail_right.stl",
+      "relative": "assets/imported/meshes/top_payload_mount_rail_right.stl"
+    },
+    {
+      "id": "asset-854f3ea93472",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\torso_front_sensor_panel.stl",
+      "relative": "assets/imported/meshes/torso_front_sensor_panel.stl"
+    },
+    {
+      "id": "asset-421e66f918e1",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\torso_rear_service_panel.stl",
+      "relative": "assets/imported/meshes/torso_rear_service_panel.stl"
+    },
+    {
+      "id": "asset-e607fdd10e33",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\torso_shell_left.stl",
+      "relative": "assets/imported/meshes/torso_shell_left.stl"
+    },
+    {
+      "id": "asset-7ca9edd8be96",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\torso_shell_right.stl",
+      "relative": "assets/imported/meshes/torso_shell_right.stl"
+    },
+    {
+      "id": "asset-4da086b010cf",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\torso_shell_top.stl",
+      "relative": "assets/imported/meshes/torso_shell_top.stl"
+    },
+    {
+      "id": "asset-eb1d7ab628b6",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\meshes\\wire_harness_routes.stl",
+      "relative": "assets/imported/meshes/wire_harness_routes.stl"
+    },
+    {
+      "id": "asset-beefe52c7b4a",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\.robot_dog_buildables_demo.step.glb",
+      "relative": "assets/imported/robot_dog_buildables_demo/.robot_dog_buildables_demo.step.glb"
+    },
+    {
+      "id": "asset-d5e036dd0e0d",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\battery_block.obj",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/battery_block.obj"
+    },
+    {
+      "id": "asset-f774588345d0",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\battery_block.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/battery_block.stl"
+    },
+    {
+      "id": "asset-265d74ade647",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\bottom_chassis_frame.obj",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/bottom_chassis_frame.obj"
+    },
+    {
+      "id": "asset-848df88c4c38",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\bottom_chassis_frame.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/bottom_chassis_frame.stl"
+    },
+    {
+      "id": "asset-11a23db32f74",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\base_link_collision.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/collision/base_link_collision.stl"
+    },
+    {
+      "id": "asset-b250bb9036eb",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\front_left_foot_collision.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/collision/front_left_foot_collision.stl"
+    },
+    {
+      "id": "asset-fe72ac26bf4a",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\front_left_hip_abduction_collision.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/collision/front_left_hip_abduction_collision.stl"
+    },
+    {
+      "id": "asset-159b147bcbca",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\front_left_hip_pitch_housing_collision.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/collision/front_left_hip_pitch_housing_collision.stl"
+    },
+    {
+      "id": "asset-6b16a0b9ed5b",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\front_left_knee_housing_collision.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/collision/front_left_knee_housing_collision.stl"
+    },
+    {
+      "id": "asset-bb6ee76a052e",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\front_left_lower_leg_collision.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/collision/front_left_lower_leg_collision.stl"
+    },
+    {
+      "id": "asset-c4e1773be9c4",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\front_left_upper_leg_collision.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/collision/front_left_upper_leg_collision.stl"
+    },
+    {
+      "id": "asset-dfdaca71a251",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\front_right_foot_collision.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/collision/front_right_foot_collision.stl"
+    },
+    {
+      "id": "asset-5687ce43df64",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\front_right_hip_abduction_collision.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/collision/front_right_hip_abduction_collision.stl"
+    },
+    {
+      "id": "asset-426e430e2e83",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\front_right_hip_pitch_housing_collision.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/collision/front_right_hip_pitch_housing_collision.stl"
+    },
+    {
+      "id": "asset-d1e6aa40c4d0",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\front_right_knee_housing_collision.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/collision/front_right_knee_housing_collision.stl"
+    },
+    {
+      "id": "asset-c329ce16d061",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\front_right_lower_leg_collision.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/collision/front_right_lower_leg_collision.stl"
+    },
+    {
+      "id": "asset-6f6bcabe7ea1",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\front_right_upper_leg_collision.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/collision/front_right_upper_leg_collision.stl"
+    },
+    {
+      "id": "asset-590f37ceeae8",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\front_sensor_panel_collision.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/collision/front_sensor_panel_collision.stl"
+    },
+    {
+      "id": "asset-2551ca543b7f",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\internal_electronics_collision.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/collision/internal_electronics_collision.stl"
+    },
+    {
+      "id": "asset-46941a3ce78e",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\payload_mount_collision.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/collision/payload_mount_collision.stl"
+    },
+    {
+      "id": "asset-1b0fe1e7bf83",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\rear_left_foot_collision.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/collision/rear_left_foot_collision.stl"
+    },
+    {
+      "id": "asset-ddfff4e65f7d",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\rear_left_hip_abduction_collision.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/collision/rear_left_hip_abduction_collision.stl"
+    },
+    {
+      "id": "asset-85971b00f84e",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\rear_left_hip_pitch_housing_collision.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/collision/rear_left_hip_pitch_housing_collision.stl"
+    },
+    {
+      "id": "asset-351d4d5fb00a",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\rear_left_knee_housing_collision.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/collision/rear_left_knee_housing_collision.stl"
+    },
+    {
+      "id": "asset-939776cb90bd",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\rear_left_lower_leg_collision.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/collision/rear_left_lower_leg_collision.stl"
+    },
+    {
+      "id": "asset-9c1bcf633979",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\rear_left_upper_leg_collision.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/collision/rear_left_upper_leg_collision.stl"
+    },
+    {
+      "id": "asset-32404e39b757",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\rear_right_foot_collision.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/collision/rear_right_foot_collision.stl"
+    },
+    {
+      "id": "asset-4c0a1993e754",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\rear_right_hip_abduction_collision.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/collision/rear_right_hip_abduction_collision.stl"
+    },
+    {
+      "id": "asset-a1d23cf03c54",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\rear_right_hip_pitch_housing_collision.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/collision/rear_right_hip_pitch_housing_collision.stl"
+    },
+    {
+      "id": "asset-a9b4561c69f0",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\rear_right_knee_housing_collision.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/collision/rear_right_knee_housing_collision.stl"
+    },
+    {
+      "id": "asset-9ecb085c1e00",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\rear_right_lower_leg_collision.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/collision/rear_right_lower_leg_collision.stl"
+    },
+    {
+      "id": "asset-82068e790386",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\rear_right_upper_leg_collision.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/collision/rear_right_upper_leg_collision.stl"
+    },
+    {
+      "id": "asset-18f7f35a589c",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\collision\\rear_service_panel_collision.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/collision/rear_service_panel_collision.stl"
+    },
+    {
+      "id": "asset-0afa2135f82f",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\controller_board_block.obj",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/controller_board_block.obj"
+    },
+    {
+      "id": "asset-5f624f2a8545",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\controller_board_block.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/controller_board_block.stl"
+    },
+    {
+      "id": "asset-d027dad6de38",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_depth_sensor_block.obj",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/front_depth_sensor_block.obj"
+    },
+    {
+      "id": "asset-71ab7cf9d1f6",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_depth_sensor_block.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/front_depth_sensor_block.stl"
+    },
+    {
+      "id": "asset-087aaf117825",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_left_foot.obj",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/front_left_foot.obj"
+    },
+    {
+      "id": "asset-983c10cdf770",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_left_foot.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/front_left_foot.stl"
+    },
+    {
+      "id": "asset-b7a75e6dfd7d",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_left_foot_pad.obj",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/front_left_foot_pad.obj"
+    },
+    {
+      "id": "asset-94d8ecdda349",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_left_foot_pad.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/front_left_foot_pad.stl"
+    },
+    {
+      "id": "asset-9ab46efbb3d5",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_left_hip_cable_service_loop.obj",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/front_left_hip_cable_service_loop.obj"
+    },
+    {
+      "id": "asset-d983307eb467",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_left_hip_cable_service_loop.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/front_left_hip_cable_service_loop.stl"
+    },
+    {
+      "id": "asset-6812bb51f0ed",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_left_hip_pitch_housing.obj",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/front_left_hip_pitch_housing.obj"
+    },
+    {
+      "id": "asset-bd4ad78301c7",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_left_hip_pitch_housing.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/front_left_hip_pitch_housing.stl"
+    },
+    {
+      "id": "asset-d9a2c0dd423c",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_left_hip_yaw_housing.obj",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/front_left_hip_yaw_housing.obj"
+    },
+    {
+      "id": "asset-fe5354bc87d8",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_left_hip_yaw_housing.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/front_left_hip_yaw_housing.stl"
+    },
+    {
+      "id": "asset-a611ebad5185",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_left_knee_housing.obj",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/front_left_knee_housing.obj"
+    },
+    {
+      "id": "asset-81685426e9ca",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_left_knee_housing.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/front_left_knee_housing.stl"
+    },
+    {
+      "id": "asset-0d4f89c3286b",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_left_lower_leg_link.obj",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/front_left_lower_leg_link.obj"
+    },
+    {
+      "id": "asset-32ad27d12623",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_left_lower_leg_link.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/front_left_lower_leg_link.stl"
+    },
+    {
+      "id": "asset-cf71d34f4f24",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_left_upper_leg_link.obj",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/front_left_upper_leg_link.obj"
+    },
+    {
+      "id": "asset-f715d6c84aa4",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_left_upper_leg_link.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/front_left_upper_leg_link.stl"
+    },
+    {
+      "id": "asset-e52938ef2548",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_left_upper_leg_shell.obj",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/front_left_upper_leg_shell.obj"
+    },
+    {
+      "id": "asset-836ceca30cf8",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_left_upper_leg_shell.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/front_left_upper_leg_shell.stl"
+    },
+    {
+      "id": "asset-94924a9e2113",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_right_foot.obj",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/front_right_foot.obj"
+    },
+    {
+      "id": "asset-3cc728c5e466",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_right_foot.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/front_right_foot.stl"
+    },
+    {
+      "id": "asset-216948c0859c",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_right_foot_pad.obj",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/front_right_foot_pad.obj"
+    },
+    {
+      "id": "asset-bac26f1da503",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_right_foot_pad.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/front_right_foot_pad.stl"
+    },
+    {
+      "id": "asset-0ed73eb8d847",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_right_hip_cable_service_loop.obj",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/front_right_hip_cable_service_loop.obj"
+    },
+    {
+      "id": "asset-1b1c30a70e9f",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_right_hip_cable_service_loop.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/front_right_hip_cable_service_loop.stl"
+    },
+    {
+      "id": "asset-7bddb488ea09",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_right_hip_pitch_housing.obj",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/front_right_hip_pitch_housing.obj"
+    },
+    {
+      "id": "asset-2e425df5b32b",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_right_hip_pitch_housing.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/front_right_hip_pitch_housing.stl"
+    },
+    {
+      "id": "asset-850d2b9d5e8d",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_right_hip_yaw_housing.obj",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/front_right_hip_yaw_housing.obj"
+    },
+    {
+      "id": "asset-a5113e95ed41",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_right_hip_yaw_housing.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/front_right_hip_yaw_housing.stl"
+    },
+    {
+      "id": "asset-7aad288f3b83",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_right_knee_housing.obj",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/front_right_knee_housing.obj"
+    },
+    {
+      "id": "asset-4d5e7ac01022",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_right_knee_housing.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/front_right_knee_housing.stl"
+    },
+    {
+      "id": "asset-063c2bdfa3e5",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_right_lower_leg_link.obj",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/front_right_lower_leg_link.obj"
+    },
+    {
+      "id": "asset-c11941b51825",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_right_lower_leg_link.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/front_right_lower_leg_link.stl"
+    },
+    {
+      "id": "asset-6842bce226e8",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_right_upper_leg_link.obj",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/front_right_upper_leg_link.obj"
+    },
+    {
+      "id": "asset-e591c7bd0a76",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_right_upper_leg_link.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/front_right_upper_leg_link.stl"
+    },
+    {
+      "id": "asset-7e74e92119e4",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_right_upper_leg_shell.obj",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/front_right_upper_leg_shell.obj"
+    },
+    {
+      "id": "asset-364c3c58465a",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\front_right_upper_leg_shell.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/front_right_upper_leg_shell.stl"
+    },
+    {
+      "id": "asset-47ae48c6bfe1",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\imu_sensor_block.obj",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/imu_sensor_block.obj"
+    },
+    {
+      "id": "asset-8a79c09b5a16",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\imu_sensor_block.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/imu_sensor_block.stl"
+    },
+    {
+      "id": "asset-4737571c0964",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\internal_battery_tray.obj",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/internal_battery_tray.obj"
+    },
+    {
+      "id": "asset-c3e301c6b4ca",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\internal_battery_tray.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/internal_battery_tray.stl"
+    },
+    {
+      "id": "asset-8227a51249a8",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\internal_controller_mount.obj",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/internal_controller_mount.obj"
+    },
+    {
+      "id": "asset-2f3296a5f70f",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\internal_controller_mount.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/internal_controller_mount.stl"
+    },
+    {
+      "id": "asset-3e67660f7645",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\power_distribution_block.obj",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/power_distribution_block.obj"
+    },
+    {
+      "id": "asset-7e73482dec61",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\power_distribution_block.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/power_distribution_block.stl"
+    },
+    {
+      "id": "asset-58a9c71f845f",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_left_foot.obj",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/rear_left_foot.obj"
+    },
+    {
+      "id": "asset-72807022d4be",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_left_foot.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/rear_left_foot.stl"
+    },
+    {
+      "id": "asset-bdafce1e1714",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_left_foot_pad.obj",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/rear_left_foot_pad.obj"
+    },
+    {
+      "id": "asset-6da373c18c77",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_left_foot_pad.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/rear_left_foot_pad.stl"
+    },
+    {
+      "id": "asset-ac4cd576b98f",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_left_hip_cable_service_loop.obj",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/rear_left_hip_cable_service_loop.obj"
+    },
+    {
+      "id": "asset-d493db8bbcac",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_left_hip_cable_service_loop.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/rear_left_hip_cable_service_loop.stl"
+    },
+    {
+      "id": "asset-c47245956263",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_left_hip_pitch_housing.obj",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/rear_left_hip_pitch_housing.obj"
+    },
+    {
+      "id": "asset-9565fadf99fd",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_left_hip_pitch_housing.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/rear_left_hip_pitch_housing.stl"
+    },
+    {
+      "id": "asset-22531d0a4cf0",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_left_hip_yaw_housing.obj",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/rear_left_hip_yaw_housing.obj"
+    },
+    {
+      "id": "asset-2ddf925b07a6",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_left_hip_yaw_housing.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/rear_left_hip_yaw_housing.stl"
+    },
+    {
+      "id": "asset-3b128a2ff796",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_left_knee_housing.obj",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/rear_left_knee_housing.obj"
+    },
+    {
+      "id": "asset-b15f8d13b84b",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_left_knee_housing.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/rear_left_knee_housing.stl"
+    },
+    {
+      "id": "asset-4361eca7caa3",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_left_lower_leg_link.obj",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/rear_left_lower_leg_link.obj"
+    },
+    {
+      "id": "asset-3e946a1dd195",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_left_lower_leg_link.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/rear_left_lower_leg_link.stl"
+    },
+    {
+      "id": "asset-44637160f8f2",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_left_upper_leg_link.obj",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/rear_left_upper_leg_link.obj"
+    },
+    {
+      "id": "asset-b16b3e990472",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_left_upper_leg_link.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/rear_left_upper_leg_link.stl"
+    },
+    {
+      "id": "asset-bdbe8201cf1e",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_left_upper_leg_shell.obj",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/rear_left_upper_leg_shell.obj"
+    },
+    {
+      "id": "asset-a25c8f203f67",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_left_upper_leg_shell.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/rear_left_upper_leg_shell.stl"
+    },
+    {
+      "id": "asset-350ebbffc6e5",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_right_foot.obj",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/rear_right_foot.obj"
+    },
+    {
+      "id": "asset-549a6b842e25",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_right_foot.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/rear_right_foot.stl"
+    },
+    {
+      "id": "asset-d0aa82bb434f",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_right_foot_pad.obj",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/rear_right_foot_pad.obj"
+    },
+    {
+      "id": "asset-199893a1b4d9",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_right_foot_pad.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/rear_right_foot_pad.stl"
+    },
+    {
+      "id": "asset-b3cf40277f11",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_right_hip_cable_service_loop.obj",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/rear_right_hip_cable_service_loop.obj"
+    },
+    {
+      "id": "asset-015fd7ebb08e",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_right_hip_cable_service_loop.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/rear_right_hip_cable_service_loop.stl"
+    },
+    {
+      "id": "asset-d2cdc66104ef",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_right_hip_pitch_housing.obj",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/rear_right_hip_pitch_housing.obj"
+    },
+    {
+      "id": "asset-be37d873709d",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_right_hip_pitch_housing.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/rear_right_hip_pitch_housing.stl"
+    },
+    {
+      "id": "asset-6e2de479264c",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_right_hip_yaw_housing.obj",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/rear_right_hip_yaw_housing.obj"
+    },
+    {
+      "id": "asset-73ac90f98a3e",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_right_hip_yaw_housing.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/rear_right_hip_yaw_housing.stl"
+    },
+    {
+      "id": "asset-e4a5f09e7787",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_right_knee_housing.obj",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/rear_right_knee_housing.obj"
+    },
+    {
+      "id": "asset-5e2a04fc0a3a",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_right_knee_housing.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/rear_right_knee_housing.stl"
+    },
+    {
+      "id": "asset-b98b14529fd6",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_right_lower_leg_link.obj",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/rear_right_lower_leg_link.obj"
+    },
+    {
+      "id": "asset-97e566513fe8",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_right_lower_leg_link.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/rear_right_lower_leg_link.stl"
+    },
+    {
+      "id": "asset-554a0b5f3d1c",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_right_upper_leg_link.obj",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/rear_right_upper_leg_link.obj"
+    },
+    {
+      "id": "asset-f0c9c65b1dc3",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_right_upper_leg_link.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/rear_right_upper_leg_link.stl"
+    },
+    {
+      "id": "asset-7851786e02fb",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_right_upper_leg_shell.obj",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/rear_right_upper_leg_shell.obj"
+    },
+    {
+      "id": "asset-50f7b46e46cd",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\rear_right_upper_leg_shell.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/rear_right_upper_leg_shell.stl"
+    },
+    {
+      "id": "asset-b7b9aba395b4",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\top_payload_block_placeholder.obj",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/top_payload_block_placeholder.obj"
+    },
+    {
+      "id": "asset-f9dce172f56d",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\top_payload_block_placeholder.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/top_payload_block_placeholder.stl"
+    },
+    {
+      "id": "asset-041d2500b8af",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\top_payload_mount_rail_left.obj",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/top_payload_mount_rail_left.obj"
+    },
+    {
+      "id": "asset-283e863717e8",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\top_payload_mount_rail_left.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/top_payload_mount_rail_left.stl"
+    },
+    {
+      "id": "asset-d4ae758678d4",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\top_payload_mount_rail_right.obj",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/top_payload_mount_rail_right.obj"
+    },
+    {
+      "id": "asset-83f8207dc879",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\top_payload_mount_rail_right.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/top_payload_mount_rail_right.stl"
+    },
+    {
+      "id": "asset-1e62094478f1",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\torso_front_sensor_panel.obj",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/torso_front_sensor_panel.obj"
+    },
+    {
+      "id": "asset-936383188b09",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\torso_front_sensor_panel.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/torso_front_sensor_panel.stl"
+    },
+    {
+      "id": "asset-f956908b32db",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\torso_rear_service_panel.obj",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/torso_rear_service_panel.obj"
+    },
+    {
+      "id": "asset-fa5cd8117316",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\torso_rear_service_panel.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/torso_rear_service_panel.stl"
+    },
+    {
+      "id": "asset-a059c96b93f5",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\torso_shell_left.obj",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/torso_shell_left.obj"
+    },
+    {
+      "id": "asset-ceee9f2c6d20",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\torso_shell_left.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/torso_shell_left.stl"
+    },
+    {
+      "id": "asset-5e11da8ad0b9",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\torso_shell_right.obj",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/torso_shell_right.obj"
+    },
+    {
+      "id": "asset-d91eeedb815f",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\torso_shell_right.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/torso_shell_right.stl"
+    },
+    {
+      "id": "asset-c1a389852440",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\torso_shell_top.obj",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/torso_shell_top.obj"
+    },
+    {
+      "id": "asset-97fe1f4f7134",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\torso_shell_top.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/torso_shell_top.stl"
+    },
+    {
+      "id": "asset-920103759ffb",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\wire_harness_routes.obj",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/wire_harness_routes.obj"
+    },
+    {
+      "id": "asset-dc83e080b012",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\meshes\\wire_harness_routes.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/meshes/wire_harness_routes.stl"
+    },
+    {
+      "id": "asset-663acb98efe4",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\robot_dog_buildables_demo.glb",
+      "relative": "assets/imported/robot_dog_buildables_demo/robot_dog_buildables_demo.glb"
+    },
+    {
+      "id": "asset-97188375f4cb",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\assets\\imported\\robot_dog_buildables_demo\\robot_dog_buildables_demo_full_assembly.stl",
+      "relative": "assets/imported/robot_dog_buildables_demo/robot_dog_buildables_demo_full_assembly.stl"
+    }
+  ],
+  "selected_links": [
+    "base_link",
+    "front_sensor_panel_link",
+    "rear_service_panel_link",
+    "internal_electronics_link",
+    "payload_mount_link",
+    "front_left_hip_abduction_link",
+    "front_left_hip_pitch_housing_link",
+    "front_left_upper_leg_link",
+    "front_left_knee_housing_link",
+    "front_left_lower_leg_link",
+    "front_left_foot_link",
+    "front_right_hip_abduction_link",
+    "front_right_hip_pitch_housing_link",
+    "front_right_upper_leg_link",
+    "front_right_knee_housing_link",
+    "front_right_lower_leg_link",
+    "front_right_foot_link",
+    "rear_left_hip_abduction_link",
+    "rear_left_hip_pitch_housing_link",
+    "rear_left_upper_leg_link",
+    "rear_left_knee_housing_link",
+    "rear_left_lower_leg_link",
+    "rear_left_foot_link",
+    "rear_right_hip_abduction_link",
+    "rear_right_hip_pitch_housing_link",
+    "rear_right_upper_leg_link",
+    "rear_right_knee_housing_link",
+    "rear_right_lower_leg_link",
+    "rear_right_foot_link"
+  ],
+  "selected_joints": [
+    "front_sensor_panel_link_fixed",
+    "rear_service_panel_link_fixed",
+    "internal_electronics_link_fixed",
+    "payload_mount_link_fixed",
+    "front_left_hip_abduction_joint",
+    "front_left_hip_pitch_housing_fixed",
+    "front_left_hip_pitch_joint",
+    "front_left_knee_housing_fixed",
+    "front_left_knee_pitch_joint",
+    "front_left_foot_fixed",
+    "front_right_hip_abduction_joint",
+    "front_right_hip_pitch_housing_fixed"
+  ],
+  "joint_limits": {},
+  "fallback_mode": null,
+  "sensor_config": {
+    "sensor_type": "",
+    "attach_link": "",
+    "pose": {},
+    "sample_rate": 100.0,
+    "channels": [],
+    "resolution": [
+      640,
+      480
+    ],
+    "fov": 60.0,
+    "grid_bounds": [],
+    "grid_resolution": 16,
+    "heat_source": {},
+    "contact_links": [],
+    "defaults_used": [],
+    "missing_fields": []
+  },
+  "physics_config": {
+    "gravity": [
+      0.0,
+      0.0,
+      -9.81
+    ],
+    "timestep": 0.01,
+    "substeps": 1,
+    "duration_seconds": 4.0,
+    "target_fps": 24.0,
+    "friction": 0.5,
+    "restitution": 0.1,
+    "density": 1000.0,
+    "fixed_base": false,
+    "initial_pose": {},
+    "collision_mode": "default"
+  },
+  "render_config": {},
+  "telemetry_config": {},
+  "replay_config": {
+    "record_visual": true,
+    "record_telemetry": true,
+    "output_state_timeseries_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\generated\\runs\\script-b003405aed\\state_timeseries.json",
+    "output_telemetry_timeseries_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-87a5c6e5\\generated\\runs\\script-b003405aed\\telemetry_timeseries.json",
+    "target_fps": 24.0,
+    "smooth_preview": true,
+    "preserve_holds": true,
+    "trim_dead_sections": true
+  },
+  "generated_defaults": {},
+  "user_parameters": {
+    "duration_seconds": 4,
+    "sample_rate_hz": 100
+  },
+  "safety_flags": {
+    "web_mode": true,
+    "no_native_viewer": true
+  },
+  "warnings": [],
+  "link_names": [
+    "base_link",
+    "front_sensor_panel_link",
+    "rear_service_panel_link",
+    "internal_electronics_link",
+    "payload_mount_link",
+    "front_left_hip_abduction_link",
+    "front_left_hip_pitch_housing_link",
+    "front_left_upper_leg_link",
+    "front_left_knee_housing_link",
+    "front_left_lower_leg_link",
+    "front_left_foot_link",
+    "front_right_hip_abduction_link",
+    "front_right_hip_pitch_housing_link",
+    "front_right_upper_leg_link",
+    "front_right_knee_housing_link",
+    "front_right_lower_leg_link",
+    "front_right_foot_link",
+    "rear_left_hip_abduction_link",
+    "rear_left_hip_pitch_housing_link",
+    "rear_left_upper_leg_link",
+    "rear_left_knee_housing_link",
+    "rear_left_lower_leg_link",
+    "rear_left_foot_link",
+    "rear_right_hip_abduction_link",
+    "rear_right_hip_pitch_housing_link",
+    "rear_right_upper_leg_link",
+    "rear_right_knee_housing_link",
+    "rear_right_lower_leg_link",
+    "rear_right_foot_link"
+  ],
+  "missing_mesh_count": 0
+}

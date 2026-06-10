@@ -1,0 +1,169 @@
+{
+  "report_id": "report-6cb6ce5645",
+  "run_id": "agentic-7fb2b273c1",
+  "project_id": "imported-606b24ed",
+  "test_id": "imu_sensor",
+  "test_name": "IMU Sensor",
+  "generated_at": "2026-06-08T07:44:48.224872+00:00",
+  "executive_summary": "IMU Sensor finished with outcome Failed (failed). 1 issue(s) noted in logs.",
+  "plain_language_summary": "I finished IMU Sensor. Outcome: failed.\n\nKey results:\n- Run status: failed\n- Replay frames: 0\n\nLimitations:\n- IMU noise model and calibration were not validated against hardware.\n- Results reflect Genesis rigid-body simulation fidelity \u2014 not manufacturing tolerances or real-world wear.\n\nRecommended next step:\n- Upload missing mesh files: URDF references meshes that were not found. Upload STL/OBJ files or export from STEP.",
+  "outcome": {
+    "status": "failed",
+    "label": "Failed",
+    "summary": "Run ended with status failed.",
+    "run_status": "failed",
+    "exit_code": 1
+  },
+  "key_metrics": [
+    {
+      "id": "manifest_status",
+      "label": "Manifest status",
+      "value": "failed",
+      "unit": "",
+      "category": "general"
+    },
+    {
+      "id": "has_replay",
+      "label": "Replay recorded",
+      "value": false,
+      "unit": "",
+      "category": "visual"
+    },
+    {
+      "id": "frame_count",
+      "label": "Replay frames",
+      "value": 0,
+      "unit": "",
+      "category": "visual"
+    },
+    {
+      "id": "has_telemetry",
+      "label": "Telemetry recorded",
+      "value": false,
+      "unit": "",
+      "category": "telemetry"
+    },
+    {
+      "id": "telemetry_samples",
+      "label": "Telemetry samples",
+      "value": 0,
+      "unit": "",
+      "category": "telemetry"
+    },
+    {
+      "id": "replay_frames",
+      "label": "Replay frames",
+      "value": 0,
+      "unit": "",
+      "category": "general"
+    }
+  ],
+  "time_series_metrics": [],
+  "detected_issues": [
+    {
+      "issue_id": "log_missing_asset",
+      "severity": "error",
+      "code": "missing_asset",
+      "title": "Missing mesh or asset file",
+      "explanation": "Log pattern detected: missing asset.",
+      "suggested_fix": "Upload the missing mesh files or map STEP parts to URDF paths.",
+      "source": "logs"
+    }
+  ],
+  "limitations": [
+    {
+      "limitation_id": "imu_noise",
+      "category": "sensor",
+      "text": "IMU noise model and calibration were not validated against hardware.",
+      "test_id": "imu_sensor"
+    },
+    {
+      "limitation_id": "genesis_physics",
+      "category": "general",
+      "text": "Results reflect Genesis rigid-body simulation fidelity \u2014 not manufacturing tolerances or real-world wear.",
+      "test_id": "imu_sensor"
+    }
+  ],
+  "recommendations": [
+    {
+      "recommendation_id": "upload_meshes",
+      "title": "Upload missing mesh files",
+      "description": "URDF references meshes that were not found. Upload STL/OBJ files or export from STEP.",
+      "priority": "high",
+      "next_step_type": "upload_file",
+      "action_id": "upload_assets",
+      "test_id": null
+    },
+    {
+      "recommendation_id": "cad_bridge_meshes",
+      "title": "Ask Buildables CAD (not connected)",
+      "description": "Buildables CAD generation bridge is not connected yet. For now, upload a robot zip with meshes/, use STEP recovery, or accept skeleton fallback.",
+      "priority": "low",
+      "next_step_type": "change_design",
+      "action_id": "cad_bridge",
+      "test_id": null
+    },
+    {
+      "recommendation_id": "rerun",
+      "title": "Re-run after fixing blockers",
+      "description": "Address detected issues, then run the same test again.",
+      "priority": "medium",
+      "next_step_type": "rerun_test",
+      "action_id": "run_simulation",
+      "test_id": "imu_sensor"
+    },
+    {
+      "recommendation_id": "next_gravity_stability",
+      "title": "Try Gravity Stability",
+      "description": "Drop or settle model under gravity; report stability and contact summary.",
+      "priority": "low",
+      "next_step_type": "run_another_test",
+      "action_id": "select_test",
+      "test_id": "gravity_stability"
+    },
+    {
+      "recommendation_id": "next_joint_sweep",
+      "title": "Try Joint Sweep",
+      "description": "Sweep movable joints through limits; detect collisions and range issues.",
+      "priority": "low",
+      "next_step_type": "run_another_test",
+      "action_id": "select_test",
+      "test_id": "joint_sweep"
+    }
+  ],
+  "next_tests": [
+    "gravity_stability",
+    "joint_sweep",
+    "contact_force",
+    "depth_camera",
+    "thermal_grid_readiness"
+  ],
+  "disclaimer": "This report is generated from recorded simulation artifacts. It describes what was observed in the run \u2014 not guaranteed real-world performance.",
+  "artifacts_used": [
+    "manifest.json",
+    "combined.log"
+  ],
+  "logs_used": [
+    "stdout.log",
+    "stderr.log",
+    "combined.log"
+  ],
+  "raw_data_refs": {
+    "run_dir": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\runs\\agentic-7fb2b273c1",
+    "manifest": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-606b24ed\\runs\\agentic-7fb2b273c1\\manifest.json"
+  },
+  "confidence": 0.55,
+  "pass_fail": "fail",
+  "summary": "IMU Sensor finished with outcome Failed (failed). 1 issue(s) noted in logs.",
+  "observed_issues": [
+    "Missing mesh or asset file: Log pattern detected: missing asset."
+  ],
+  "engineering_explanation": "I finished IMU Sensor. Outcome: failed.\n\nKey results:\n- Run status: failed\n- Replay frames: 0\n\nLimitations:\n- IMU noise model and calibration were not validated against hardware.\n- Results reflect Genesis rigid-body simulation fidelity \u2014 not manufacturing tolerances or real-world wear.\n\nRecommended next step:\n- Upload missing mesh files: URDF references meshes that were not found. Upload STL/OBJ files or export from STEP.",
+  "suggested_design_changes": [
+    "Ask Buildables CAD (not connected)"
+  ],
+  "missing_data_limitations": [
+    "IMU noise model and calibration were not validated against hardware.",
+    "Results reflect Genesis rigid-body simulation fidelity \u2014 not manufacturing tolerances or real-world wear."
+  ]
+}

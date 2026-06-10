@@ -1,0 +1,5 @@
+[Genesis] Native scenario executor started.
+[Genesis] profile=fixed_base_passive base_mode=fixed_to_world
+[Genesis] scene.build() complete, stepped=120
+[Scenario] verify_fixed duration=2.0s
+[Result] PASS

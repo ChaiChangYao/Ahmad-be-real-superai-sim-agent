@@ -1,0 +1,19 @@
+{
+  "schema_version": "0.1.0",
+  "project_id": "robot-dog-demo-fail",
+  "project_name": "Robot Dog Demo Fail",
+  "units": { "length": "m", "mass": "kg", "time": "s", "angle": "rad" },
+  "assets": [],
+  "materials": [],
+  "links": [],
+  "joints": [{ "id": "bad-joint", "name": "bad", "type": "revolute", "parent_link_id": "missing-parent", "child_link_id": "missing-child", "origin_xyz": { "x": 0, "y": 0, "z": 0 }, "origin_rpy": { "x": 0, "y": 0, "z": 0 }, "axis_xyz": { "x": 1, "y": 0, "z": 0 }, "limit_lower_rad": -1, "limit_upper_rad": 1, "effort_limit_nm": 1, "velocity_limit_rad_s": 1, "damping": 0, "friction": 0, "auto_detected": true, "user_confirmed": false, "notes": "Broken refs by design." }],
+  "actuators": [],
+  "electronics": [],
+  "sensors": [],
+  "wires": [],
+  "collision_primitives": [],
+  "robot_description": { "preferred_format": "urdf", "urdf_path": null, "mjcf_path": null, "generated_from_manifest": true },
+  "environment": {},
+  "control": { "built_in_controller": "robot_dog_default", "script_path": null },
+  "scenarios": []
+}

@@ -1,0 +1,14 @@
+{
+  "notes": "Simplified collision shell used by Genesis.",
+  "primitives": [
+    { "id": "cp-body", "type": "box", "dimensions_m": [0.9, 0.22, 0.35] },
+    { "id": "cp-fl-upper", "type": "capsule", "dimensions_m": [0.05, 0.22] },
+    { "id": "cp-fl-lower", "type": "capsule", "dimensions_m": [0.045, 0.2] },
+    { "id": "cp-fr-upper", "type": "capsule", "dimensions_m": [0.05, 0.22] },
+    { "id": "cp-fr-lower", "type": "capsule", "dimensions_m": [0.045, 0.2] },
+    { "id": "cp-rl-upper", "type": "capsule", "dimensions_m": [0.05, 0.22] },
+    { "id": "cp-rl-lower", "type": "capsule", "dimensions_m": [0.045, 0.2] },
+    { "id": "cp-rr-upper", "type": "capsule", "dimensions_m": [0.05, 0.22] },
+    { "id": "cp-rr-lower", "type": "capsule", "dimensions_m": [0.045, 0.2] }
+  ]
+}

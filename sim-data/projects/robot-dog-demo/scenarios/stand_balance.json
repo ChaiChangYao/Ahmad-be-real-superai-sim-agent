@@ -1,0 +1,9 @@
+﻿{
+    "config":  {
+                   "pitch_threshold_deg":  12,
+                   "roll_threshold_deg":  12
+               },
+    "duration_s":  5,
+    "name":  "Stand Balance",
+    "id":  "stand_balance"
+}

@@ -1,0 +1,3407 @@
+{
+  "project_id": "imported-699cedd1",
+  "updated_at": "2026-06-09T09:24:25.565118+00:00",
+  "user_goal": null,
+  "selected_test": "gravity_stability",
+  "selected_fallback_mode": null,
+  "generated_defaults": {},
+  "latest_plan": {
+    "project_id": "imported-699cedd1",
+    "user_goal": null,
+    "asset_summary": {
+      "total_assets": 23,
+      "urdf_count": 7,
+      "mesh_count": 4,
+      "step_count": 0,
+      "robot_description_count": 7,
+      "missing_mesh_count": 0,
+      "total_mesh_references": 6,
+      "mesh_validation_warnings": 4,
+      "mesh_validation_errors": 0
+    },
+    "recommended_tests": [
+      {
+        "test_id": "gravity_stability",
+        "can_run": true,
+        "can_run_with_fallback": false,
+        "confidence": 1,
+        "missing_required": [],
+        "missing_optional": [],
+        "generated_defaults_available": [],
+        "blockers": [],
+        "warnings": [],
+        "suggested_actions": [],
+        "required_user_questions": [],
+        "fallback_modes": []
+      },
+      {
+        "test_id": "joint_sweep",
+        "can_run": true,
+        "can_run_with_fallback": false,
+        "confidence": 1,
+        "missing_required": [],
+        "missing_optional": [],
+        "generated_defaults_available": [],
+        "blockers": [],
+        "warnings": [],
+        "suggested_actions": [],
+        "required_user_questions": [],
+        "fallback_modes": []
+      },
+      {
+        "test_id": "imu_sensor",
+        "can_run": true,
+        "can_run_with_fallback": false,
+        "confidence": 1,
+        "missing_required": [],
+        "missing_optional": [],
+        "generated_defaults_available": [
+          "default_attach_link",
+          "default_sample_rate",
+          "identity_pose"
+        ],
+        "blockers": [],
+        "warnings": [
+          "No sensor metadata in URDF — IMU will use generatable defaults."
+        ],
+        "suggested_actions": [
+          "Safe defaults can be generated for: default_attach_link, default_sample_rate, identity_pose"
+        ],
+        "required_user_questions": [
+          "Which link should IMU attach to? Default: base_link"
+        ],
+        "fallback_modes": []
+      },
+      {
+        "test_id": "contact_force",
+        "can_run": true,
+        "can_run_with_fallback": false,
+        "confidence": 1,
+        "missing_required": [],
+        "missing_optional": [],
+        "generated_defaults_available": [
+          "default_contact_links"
+        ],
+        "blockers": [],
+        "warnings": [],
+        "suggested_actions": [
+          "Safe defaults can be generated for: default_contact_links"
+        ],
+        "required_user_questions": [],
+        "fallback_modes": []
+      },
+      {
+        "test_id": "depth_camera",
+        "can_run": true,
+        "can_run_with_fallback": false,
+        "confidence": 1,
+        "missing_required": [],
+        "missing_optional": [],
+        "generated_defaults_available": [
+          "default_camera_pose",
+          "default_resolution"
+        ],
+        "blockers": [],
+        "warnings": [],
+        "suggested_actions": [
+          "Safe defaults can be generated for: default_camera_pose, default_resolution"
+        ],
+        "required_user_questions": [],
+        "fallback_modes": []
+      },
+      {
+        "test_id": "thermal_grid_readiness",
+        "can_run": true,
+        "can_run_with_fallback": false,
+        "confidence": 1,
+        "missing_required": [],
+        "missing_optional": [
+          "material_thermal_properties"
+        ],
+        "generated_defaults_available": [
+          "bounding_box_grid",
+          "demo_heat_source"
+        ],
+        "blockers": [],
+        "warnings": [
+          "Real material thermal conductivity cannot be faked without user input."
+        ],
+        "suggested_actions": [
+          "Safe defaults can be generated for: bounding_box_grid, demo_heat_source"
+        ],
+        "required_user_questions": [],
+        "fallback_modes": []
+      },
+      {
+        "test_id": "static_mesh_preview",
+        "can_run": true,
+        "can_run_with_fallback": false,
+        "confidence": 1,
+        "missing_required": [],
+        "missing_optional": [],
+        "generated_defaults_available": [],
+        "blockers": [],
+        "warnings": [
+          "URDF/MJCF detected — robot motion tests are available; static preview is mesh-only."
+        ],
+        "suggested_actions": [],
+        "required_user_questions": [],
+        "fallback_modes": []
+      }
+    ],
+    "blocked_tests": [
+      {
+        "test_id": "fea_readiness",
+        "can_run": false,
+        "can_run_with_fallback": false,
+        "confidence": 0.3,
+        "missing_required": [
+          "watertight_geometry",
+          "material",
+          "constraints",
+          "loads"
+        ],
+        "missing_optional": [],
+        "generated_defaults_available": [],
+        "blockers": [
+          "FEA readiness only — Genesis does not run a full FEA solver in MVP.",
+          "No watertight solid geometry detected.",
+          "Missing material — cannot fake meaningful FEA inputs.",
+          "Missing constraints — cannot fake meaningful FEA inputs.",
+          "Missing loads — cannot fake meaningful FEA inputs."
+        ],
+        "warnings": [],
+        "suggested_actions": [
+          "Upload missing files listed in inspection report."
+        ],
+        "required_user_questions": [],
+        "fallback_modes": []
+      },
+      {
+        "test_id": "cfd_readiness",
+        "can_run": false,
+        "can_run_with_fallback": false,
+        "confidence": 0.3,
+        "missing_required": [
+          "watertight_geometry",
+          "fluid_domain",
+          "inlet_outlet",
+          "boundary_conditions"
+        ],
+        "missing_optional": [],
+        "generated_defaults_available": [],
+        "blockers": [
+          "CFD readiness only — Genesis does not run a full CFD solver in MVP.",
+          "Missing fluid_domain — cannot fake meaningful CFD boundary conditions.",
+          "Missing inlet_outlet — cannot fake meaningful CFD boundary conditions.",
+          "Missing boundary_conditions — cannot fake meaningful CFD boundary conditions."
+        ],
+        "warnings": [],
+        "suggested_actions": [
+          "Upload missing files listed in inspection report."
+        ],
+        "required_user_questions": [],
+        "fallback_modes": []
+      }
+    ],
+    "required_questions": [
+      "Which link should IMU attach to? Default: base_link"
+    ],
+    "generation_tasks": [
+      "default_attach_link",
+      "default_sample_rate",
+      "identity_pose",
+      "default_contact_links",
+      "default_camera_pose",
+      "default_resolution",
+      "bounding_box_grid",
+      "demo_heat_source"
+    ],
+    "selected_test": null,
+    "plan_steps": [
+      "You uploaded a robot description (URDF/MJCF).",
+      "All 6 URDF mesh references are resolved.",
+      "Runnable tests: gravity_stability, joint_sweep, imu_sensor, contact_force, depth_camera.",
+      "fea_readiness: readiness check only — FEA readiness only — Genesis does not run a full FEA solver in MVP..",
+      "cfd_readiness: readiness check only — CFD readiness only — Genesis does not run a full CFD solver in MVP..",
+      "Which link should IMU attach to? Default: base_link"
+    ],
+    "warnings": [
+      "No sensor metadata found in robot description. Sensors such as IMU must be configured separately or use generatable defaults at plan time.",
+      "Mesh is not watertight."
+    ],
+    "agent_explanation": "You uploaded a robot description (URDF/MJCF).\nAll 6 URDF mesh references are resolved.\nRunnable tests: gravity_stability, joint_sweep, imu_sensor, contact_force, depth_camera.\nfea_readiness: readiness check only — FEA readiness only — Genesis does not run a full FEA solver in MVP..\ncfd_readiness: readiness check only — CFD readiness only — Genesis does not run a full CFD solver in MVP..\nWhich link should IMU attach to? Default: base_link",
+    "goal_parse": {
+      "raw_goal": "",
+      "candidate_tests": [],
+      "unknown_terms": [],
+      "needs_clarification": false,
+      "clarifying_questions": []
+    }
+  },
+  "latest_inspection": {
+    "project_id": "imported-699cedd1",
+    "assets": [
+      {
+        "id": "asset-8961cf9f9767",
+        "project_id": "imported-699cedd1",
+        "original_filename": ".pre-commit-config.yaml",
+        "stored_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\.pre-commit-config.yaml",
+        "relative_path": "assets/imported/urdf_tutorial-ros2/.pre-commit-config.yaml",
+        "file_type": "yaml",
+        "size_bytes": 829,
+        "sha256": "d81c2354b1fc4593844e82b92cdadd9b4e2d360c705599d4e9986acc391eae0d",
+        "role": "unknown",
+        "source": "user_upload",
+        "status": "found"
+      },
+      {
+        "id": "asset-f79055ac40ed",
+        "project_id": "imported-699cedd1",
+        "original_filename": "flexible.png",
+        "stored_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\images\\flexible.png",
+        "relative_path": "assets/imported/urdf_tutorial-ros2/images/flexible.png",
+        "file_type": "png",
+        "size_bytes": 156481,
+        "sha256": "b450b1bc4ad71940a6a5658133a944bf0d52fcb8a4669bc4aa6e0f1951e16500",
+        "role": "texture",
+        "source": "user_upload",
+        "status": "found"
+      },
+      {
+        "id": "asset-7aa4798e0c84",
+        "project_id": "imported-699cedd1",
+        "original_filename": "materials.png",
+        "stored_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\images\\materials.png",
+        "relative_path": "assets/imported/urdf_tutorial-ros2/images/materials.png",
+        "file_type": "png",
+        "size_bytes": 90421,
+        "sha256": "afbfea0780e15be26de8d5cfc441fc09e55838a8931058031abe77a92c5aeb9f",
+        "role": "texture",
+        "source": "user_upload",
+        "status": "found"
+      },
+      {
+        "id": "asset-1adcaccf6fff",
+        "project_id": "imported-699cedd1",
+        "original_filename": "multipleshapes.png",
+        "stored_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\images\\multipleshapes.png",
+        "relative_path": "assets/imported/urdf_tutorial-ros2/images/multipleshapes.png",
+        "file_type": "png",
+        "size_bytes": 90760,
+        "sha256": "5509ef554c79f9aa9421087b4a7af46e3bd33ffa02dbf3c47c0a75f26084e49c",
+        "role": "texture",
+        "source": "user_upload",
+        "status": "found"
+      },
+      {
+        "id": "asset-8b8f05eb7719",
+        "project_id": "imported-699cedd1",
+        "original_filename": "myfirst.png",
+        "stored_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\images\\myfirst.png",
+        "relative_path": "assets/imported/urdf_tutorial-ros2/images/myfirst.png",
+        "file_type": "png",
+        "size_bytes": 101494,
+        "sha256": "57c25cece1dde1396209df306aadd072054bf73de7643b776029c8766e56cc04",
+        "role": "texture",
+        "source": "user_upload",
+        "status": "found"
+      },
+      {
+        "id": "asset-c08eef628095",
+        "project_id": "imported-699cedd1",
+        "original_filename": "origins.png",
+        "stored_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\images\\origins.png",
+        "relative_path": "assets/imported/urdf_tutorial-ros2/images/origins.png",
+        "file_type": "png",
+        "size_bytes": 101112,
+        "sha256": "54b051d0f80107da27ee15dd345c42b6eaac1ab823e9b5b289f293bb8ca4cd30",
+        "role": "texture",
+        "source": "user_upload",
+        "status": "found"
+      },
+      {
+        "id": "asset-cb41af4bf079",
+        "project_id": "imported-699cedd1",
+        "original_filename": "visual.png",
+        "stored_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\images\\visual.png",
+        "relative_path": "assets/imported/urdf_tutorial-ros2/images/visual.png",
+        "file_type": "png",
+        "size_bytes": 121367,
+        "sha256": "2a19b5ceaaa926e9dcd0f1a91a65ec7c8388df0818f0322bb208c4e2ec3a2cbb",
+        "role": "texture",
+        "source": "user_upload",
+        "status": "found"
+      },
+      {
+        "id": "asset-da31fb7bd87e",
+        "project_id": "imported-699cedd1",
+        "original_filename": "display.launch.py",
+        "stored_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\launch\\display.launch.py",
+        "relative_path": "assets/imported/urdf_tutorial-ros2/launch/display.launch.py",
+        "file_type": "py",
+        "size_bytes": 1729,
+        "sha256": "13ddd84f2582998073a221f1c1699c91ca579746adfc420b3b583a17e08832fb",
+        "role": "unknown",
+        "source": "user_upload",
+        "status": "found"
+      },
+      {
+        "id": "asset-e3d0ab311c24",
+        "project_id": "imported-699cedd1",
+        "original_filename": "LICENSE",
+        "stored_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\LICENSE",
+        "relative_path": "assets/imported/urdf_tutorial-ros2/LICENSE",
+        "file_type": "unknown",
+        "size_bytes": 1535,
+        "sha256": "c106b484e24ab0581699ca5105c59335703bc27561c3f43431ae01dc61be830d",
+        "role": "unknown",
+        "source": "user_upload",
+        "status": "found"
+      },
+      {
+        "id": "asset-c2c84bb92cac",
+        "project_id": "imported-699cedd1",
+        "original_filename": "l_finger.dae",
+        "stored_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\meshes\\l_finger.dae",
+        "relative_path": "assets/imported/urdf_tutorial-ros2/meshes/l_finger.dae",
+        "file_type": "dae",
+        "size_bytes": 145734,
+        "sha256": "cfb66ef1ee6693a76f8da59833af40a31b185a4ebcd5bcdc8a5fa15b6378accd",
+        "role": "mesh",
+        "source": "user_upload",
+        "status": "found"
+      },
+      {
+        "id": "asset-c6366c8b407d",
+        "project_id": "imported-699cedd1",
+        "original_filename": "l_finger_color.png",
+        "stored_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\meshes\\l_finger_color.png",
+        "relative_path": "assets/imported/urdf_tutorial-ros2/meshes/l_finger_color.png",
+        "file_type": "png",
+        "size_bytes": 29539,
+        "sha256": "b979d0cf072cf3aa014955bfa2fc04b9acc70f6de9e5e400b5a1c2a6978f61b7",
+        "role": "texture",
+        "source": "user_upload",
+        "status": "found"
+      },
+      {
+        "id": "asset-d5402a0e06e8",
+        "project_id": "imported-699cedd1",
+        "original_filename": "l_finger_tip.dae",
+        "stored_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\meshes\\l_finger_tip.dae",
+        "relative_path": "assets/imported/urdf_tutorial-ros2/meshes/l_finger_tip.dae",
+        "file_type": "dae",
+        "size_bytes": 78077,
+        "sha256": "d2c7576f922563e611424b6488a0cc34c1411c8c1abd20fc39859e46eba3d408",
+        "role": "mesh",
+        "source": "user_upload",
+        "status": "found"
+      },
+      {
+        "id": "asset-ce3b15fe1d07",
+        "project_id": "imported-699cedd1",
+        "original_filename": "l_finger_tip_color.png",
+        "stored_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\meshes\\l_finger_tip_color.png",
+        "relative_path": "assets/imported/urdf_tutorial-ros2/meshes/l_finger_tip_color.png",
+        "file_type": "png",
+        "size_bytes": 27722,
+        "sha256": "6bbe35c97a71aa3e71416ce2135f1e0615f83a79e2e3653f13858bdb2b8a3507",
+        "role": "texture",
+        "source": "user_upload",
+        "status": "found"
+      },
+      {
+        "id": "asset-3465dee51ee2",
+        "project_id": "imported-699cedd1",
+        "original_filename": "package.xml",
+        "stored_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\package.xml",
+        "relative_path": "assets/imported/urdf_tutorial-ros2/package.xml",
+        "file_type": "xml",
+        "size_bytes": 780,
+        "sha256": "9f2ea4b48c220c143b50492ca2f411b03e0ad5447bba99e97b64a937729894c4",
+        "role": "unknown",
+        "source": "user_upload",
+        "status": "found"
+      },
+      {
+        "id": "asset-83e2d0fda457",
+        "project_id": "imported-699cedd1",
+        "original_filename": "01-myfirst.urdf",
+        "stored_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\01-myfirst.urdf",
+        "relative_path": "assets/imported/urdf_tutorial-ros2/urdf/01-myfirst.urdf",
+        "file_type": "urdf",
+        "size_bytes": 198,
+        "sha256": "f18e9312d554f605cf6218a5787e1d50de63b3158b88b88f267ea743933f8c3e",
+        "role": "robot_description",
+        "source": "user_upload",
+        "status": "found"
+      },
+      {
+        "id": "asset-611f80d60962",
+        "project_id": "imported-699cedd1",
+        "original_filename": "02-multipleshapes.urdf",
+        "stored_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\02-multipleshapes.urdf",
+        "relative_path": "assets/imported/urdf_tutorial-ros2/urdf/02-multipleshapes.urdf",
+        "file_type": "urdf",
+        "size_bytes": 460,
+        "sha256": "72eae1a4b93936b9c0a3e95ad6579c69637e0f2f04ec5e611f8fa9a602720d4a",
+        "role": "robot_description",
+        "source": "user_upload",
+        "status": "found"
+      },
+      {
+        "id": "asset-d33109b7a8a0",
+        "project_id": "imported-699cedd1",
+        "original_filename": "03-origins.urdf",
+        "stored_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\03-origins.urdf",
+        "relative_path": "assets/imported/urdf_tutorial-ros2/urdf/03-origins.urdf",
+        "file_type": "urdf",
+        "size_bytes": 535,
+        "sha256": "25649eb63194a40a4f15b5cf90757cb8c04df8faba85fc2b79c281608b6742b6",
+        "role": "robot_description",
+        "source": "user_upload",
+        "status": "found"
+      },
+      {
+        "id": "asset-8bdb7c3b5e47",
+        "project_id": "imported-699cedd1",
+        "original_filename": "04-materials.urdf",
+        "stored_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\04-materials.urdf",
+        "relative_path": "assets/imported/urdf_tutorial-ros2/urdf/04-materials.urdf",
+        "file_type": "urdf",
+        "size_bytes": 1102,
+        "sha256": "c5c0e110a3e0da92591703648dabeca6487bf752a7407f693e666bfbb3920fa6",
+        "role": "robot_description",
+        "source": "user_upload",
+        "status": "found"
+      },
+      {
+        "id": "asset-624a47bd8ae8",
+        "project_id": "imported-699cedd1",
+        "original_filename": "05-visual.urdf",
+        "stored_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\05-visual.urdf",
+        "relative_path": "assets/imported/urdf_tutorial-ros2/urdf/05-visual.urdf",
+        "file_type": "urdf",
+        "size_bytes": 5901,
+        "sha256": "75072b226b39476d52d9bbf4611dbc1eb5ab8d51ebd37b5f404c9ddd65b7dca2",
+        "role": "robot_description",
+        "source": "user_upload",
+        "status": "found"
+      },
+      {
+        "id": "asset-46e1a6c54ae3",
+        "project_id": "imported-699cedd1",
+        "original_filename": "06-flexible.urdf",
+        "stored_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\06-flexible.urdf",
+        "relative_path": "assets/imported/urdf_tutorial-ros2/urdf/06-flexible.urdf",
+        "file_type": "urdf",
+        "size_bytes": 6361,
+        "sha256": "86e71eb5e847c85ac99b49ff5cb7af3572155a51b0d8099f5617b5685ac6e5e5",
+        "role": "robot_description",
+        "source": "user_upload",
+        "status": "found"
+      },
+      {
+        "id": "asset-2ec00bb7db74",
+        "project_id": "imported-699cedd1",
+        "original_filename": "07-physics.urdf",
+        "stored_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\07-physics.urdf",
+        "relative_path": "assets/imported/urdf_tutorial-ros2/urdf/07-physics.urdf",
+        "file_type": "urdf",
+        "size_bytes": 10980,
+        "sha256": "78e6744b67ee07138d370aeea24a6d43d7f7d77025853a995e9685ab41fef047",
+        "role": "robot_description",
+        "source": "user_upload",
+        "status": "found"
+      },
+      {
+        "id": "asset-78434d34cc7b",
+        "project_id": "imported-699cedd1",
+        "original_filename": "l_finger.dae",
+        "stored_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\meshes\\l_finger.dae",
+        "relative_path": "assets/imported/urdf_tutorial-ros2/urdf/meshes/l_finger.dae",
+        "file_type": "dae",
+        "size_bytes": 145734,
+        "sha256": "cfb66ef1ee6693a76f8da59833af40a31b185a4ebcd5bcdc8a5fa15b6378accd",
+        "role": "mesh",
+        "source": "user_upload",
+        "status": "found"
+      },
+      {
+        "id": "asset-aaa8f7b0db39",
+        "project_id": "imported-699cedd1",
+        "original_filename": "l_finger_tip.dae",
+        "stored_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\meshes\\l_finger_tip.dae",
+        "relative_path": "assets/imported/urdf_tutorial-ros2/urdf/meshes/l_finger_tip.dae",
+        "file_type": "dae",
+        "size_bytes": 78077,
+        "sha256": "d2c7576f922563e611424b6488a0cc34c1411c8c1abd20fc39859e46eba3d408",
+        "role": "mesh",
+        "source": "user_upload",
+        "status": "found"
+      }
+    ],
+    "robot_descriptions": [
+      {
+        "parsed": true,
+        "format": "urdf",
+        "source_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\01-myfirst.urdf",
+        "links_count": 1,
+        "joints_count": 0,
+        "movable_joints_count": 0,
+        "fixed_joints_count": 0,
+        "root_link": "base_link",
+        "link_names": [
+          "base_link"
+        ],
+        "joint_names": [],
+        "mesh_references": [],
+        "has_inertial_data": true,
+        "has_joint_limits": false,
+        "has_collision_geometry": false,
+        "has_visual_geometry": false,
+        "detected_sensors": [],
+        "warnings": [
+          "No sensor metadata found in robot description. Sensors such as IMU must be configured separately or use generatable defaults at plan time."
+        ],
+        "errors": []
+      },
+      {
+        "parsed": true,
+        "format": "urdf",
+        "source_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\02-multipleshapes.urdf",
+        "links_count": 2,
+        "joints_count": 1,
+        "movable_joints_count": 0,
+        "fixed_joints_count": 1,
+        "root_link": "base_link",
+        "link_names": [
+          "base_link",
+          "right_leg"
+        ],
+        "joint_names": [
+          "base_to_right_leg"
+        ],
+        "mesh_references": [],
+        "has_inertial_data": true,
+        "has_joint_limits": false,
+        "has_collision_geometry": false,
+        "has_visual_geometry": false,
+        "detected_sensors": [],
+        "warnings": [
+          "No sensor metadata found in robot description. Sensors such as IMU must be configured separately or use generatable defaults at plan time."
+        ],
+        "errors": []
+      },
+      {
+        "parsed": true,
+        "format": "urdf",
+        "source_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\03-origins.urdf",
+        "links_count": 2,
+        "joints_count": 1,
+        "movable_joints_count": 0,
+        "fixed_joints_count": 1,
+        "root_link": "base_link",
+        "link_names": [
+          "base_link",
+          "right_leg"
+        ],
+        "joint_names": [
+          "base_to_right_leg"
+        ],
+        "mesh_references": [],
+        "has_inertial_data": true,
+        "has_joint_limits": false,
+        "has_collision_geometry": false,
+        "has_visual_geometry": false,
+        "detected_sensors": [],
+        "warnings": [
+          "No sensor metadata found in robot description. Sensors such as IMU must be configured separately or use generatable defaults at plan time."
+        ],
+        "errors": []
+      },
+      {
+        "parsed": true,
+        "format": "urdf",
+        "source_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\04-materials.urdf",
+        "links_count": 3,
+        "joints_count": 2,
+        "movable_joints_count": 0,
+        "fixed_joints_count": 2,
+        "root_link": "base_link",
+        "link_names": [
+          "base_link",
+          "right_leg",
+          "left_leg"
+        ],
+        "joint_names": [
+          "base_to_right_leg",
+          "base_to_left_leg"
+        ],
+        "mesh_references": [],
+        "has_inertial_data": true,
+        "has_joint_limits": false,
+        "has_collision_geometry": false,
+        "has_visual_geometry": false,
+        "detected_sensors": [],
+        "warnings": [
+          "No sensor metadata found in robot description. Sensors such as IMU must be configured separately or use generatable defaults at plan time."
+        ],
+        "errors": []
+      },
+      {
+        "parsed": true,
+        "format": "urdf",
+        "source_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\05-visual.urdf",
+        "links_count": 16,
+        "joints_count": 15,
+        "movable_joints_count": 0,
+        "fixed_joints_count": 15,
+        "root_link": "base_link",
+        "link_names": [
+          "base_link",
+          "right_leg",
+          "right_base",
+          "right_front_wheel",
+          "right_back_wheel",
+          "left_leg",
+          "left_base",
+          "left_front_wheel",
+          "left_back_wheel",
+          "gripper_pole",
+          "left_gripper",
+          "left_tip",
+          "right_gripper",
+          "right_tip",
+          "head",
+          "box"
+        ],
+        "joint_names": [
+          "base_to_right_leg",
+          "right_base_joint",
+          "right_front_wheel_joint",
+          "right_back_wheel_joint",
+          "base_to_left_leg",
+          "left_base_joint",
+          "left_front_wheel_joint",
+          "left_back_wheel_joint",
+          "gripper_extension",
+          "left_gripper_joint",
+          "left_tip_joint",
+          "right_gripper_joint",
+          "right_tip_joint",
+          "head_swivel",
+          "tobox"
+        ],
+        "mesh_references": [
+          {
+            "source_file": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\05-visual.urdf",
+            "usage": "visual",
+            "raw_path": "package://urdf_tutorial/meshes/l_finger.dae",
+            "resolved_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\meshes\\l_finger.dae",
+            "package_name": "urdf_tutorial",
+            "file_type": "dae",
+            "exists": true,
+            "status": "found",
+            "matched_uploaded_asset_id": "asset-78434d34cc7b",
+            "action_needed": ""
+          },
+          {
+            "source_file": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\05-visual.urdf",
+            "usage": "visual",
+            "raw_path": "package://urdf_tutorial/meshes/l_finger_tip.dae",
+            "resolved_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\meshes\\l_finger_tip.dae",
+            "package_name": "urdf_tutorial",
+            "file_type": "dae",
+            "exists": true,
+            "status": "found",
+            "matched_uploaded_asset_id": "asset-aaa8f7b0db39",
+            "action_needed": ""
+          }
+        ],
+        "has_inertial_data": true,
+        "has_joint_limits": false,
+        "has_collision_geometry": false,
+        "has_visual_geometry": true,
+        "detected_sensors": [],
+        "warnings": [
+          "No sensor metadata found in robot description. Sensors such as IMU must be configured separately or use generatable defaults at plan time."
+        ],
+        "errors": []
+      },
+      {
+        "parsed": true,
+        "format": "urdf",
+        "source_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\06-flexible.urdf",
+        "links_count": 16,
+        "joints_count": 15,
+        "movable_joints_count": 8,
+        "fixed_joints_count": 7,
+        "root_link": "base_link",
+        "link_names": [
+          "base_link",
+          "right_leg",
+          "right_base",
+          "right_front_wheel",
+          "right_back_wheel",
+          "left_leg",
+          "left_base",
+          "left_front_wheel",
+          "left_back_wheel",
+          "gripper_pole",
+          "left_gripper",
+          "left_tip",
+          "right_gripper",
+          "right_tip",
+          "head",
+          "box"
+        ],
+        "joint_names": [
+          "base_to_right_leg",
+          "right_base_joint",
+          "right_front_wheel_joint",
+          "right_back_wheel_joint",
+          "base_to_left_leg",
+          "left_base_joint",
+          "left_front_wheel_joint",
+          "left_back_wheel_joint",
+          "gripper_extension",
+          "left_gripper_joint",
+          "left_tip_joint",
+          "right_gripper_joint",
+          "right_tip_joint",
+          "head_swivel",
+          "tobox"
+        ],
+        "mesh_references": [
+          {
+            "source_file": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\06-flexible.urdf",
+            "usage": "visual",
+            "raw_path": "package://urdf_tutorial/meshes/l_finger.dae",
+            "resolved_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\meshes\\l_finger.dae",
+            "package_name": "urdf_tutorial",
+            "file_type": "dae",
+            "exists": true,
+            "status": "found",
+            "matched_uploaded_asset_id": "asset-78434d34cc7b",
+            "action_needed": ""
+          },
+          {
+            "source_file": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\06-flexible.urdf",
+            "usage": "visual",
+            "raw_path": "package://urdf_tutorial/meshes/l_finger_tip.dae",
+            "resolved_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\meshes\\l_finger_tip.dae",
+            "package_name": "urdf_tutorial",
+            "file_type": "dae",
+            "exists": true,
+            "status": "found",
+            "matched_uploaded_asset_id": "asset-aaa8f7b0db39",
+            "action_needed": ""
+          }
+        ],
+        "has_inertial_data": true,
+        "has_joint_limits": true,
+        "has_collision_geometry": false,
+        "has_visual_geometry": true,
+        "detected_sensors": [],
+        "warnings": [
+          "No sensor metadata found in robot description. Sensors such as IMU must be configured separately or use generatable defaults at plan time."
+        ],
+        "errors": []
+      },
+      {
+        "parsed": true,
+        "format": "urdf",
+        "source_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\07-physics.urdf",
+        "links_count": 16,
+        "joints_count": 15,
+        "movable_joints_count": 8,
+        "fixed_joints_count": 7,
+        "root_link": "base_link",
+        "link_names": [
+          "base_link",
+          "right_leg",
+          "right_base",
+          "right_front_wheel",
+          "right_back_wheel",
+          "left_leg",
+          "left_base",
+          "left_front_wheel",
+          "left_back_wheel",
+          "gripper_pole",
+          "left_gripper",
+          "left_tip",
+          "right_gripper",
+          "right_tip",
+          "head",
+          "box"
+        ],
+        "joint_names": [
+          "base_to_right_leg",
+          "right_base_joint",
+          "right_front_wheel_joint",
+          "right_back_wheel_joint",
+          "base_to_left_leg",
+          "left_base_joint",
+          "left_front_wheel_joint",
+          "left_back_wheel_joint",
+          "gripper_extension",
+          "left_gripper_joint",
+          "left_tip_joint",
+          "right_gripper_joint",
+          "right_tip_joint",
+          "head_swivel",
+          "tobox"
+        ],
+        "mesh_references": [
+          {
+            "source_file": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\07-physics.urdf",
+            "usage": "both",
+            "raw_path": "package://urdf_tutorial/meshes/l_finger.dae",
+            "resolved_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\meshes\\l_finger.dae",
+            "package_name": "urdf_tutorial",
+            "file_type": "dae",
+            "exists": true,
+            "status": "found",
+            "matched_uploaded_asset_id": "asset-78434d34cc7b",
+            "action_needed": ""
+          },
+          {
+            "source_file": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\07-physics.urdf",
+            "usage": "both",
+            "raw_path": "package://urdf_tutorial/meshes/l_finger_tip.dae",
+            "resolved_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\meshes\\l_finger_tip.dae",
+            "package_name": "urdf_tutorial",
+            "file_type": "dae",
+            "exists": true,
+            "status": "found",
+            "matched_uploaded_asset_id": "asset-aaa8f7b0db39",
+            "action_needed": ""
+          }
+        ],
+        "has_inertial_data": true,
+        "has_joint_limits": true,
+        "has_collision_geometry": true,
+        "has_visual_geometry": true,
+        "detected_sensors": [],
+        "warnings": [
+          "No sensor metadata found in robot description. Sensors such as IMU must be configured separately or use generatable defaults at plan time."
+        ],
+        "errors": []
+      }
+    ],
+    "mesh_inspections": [
+      {
+        "asset_id": "asset-c2c84bb92cac",
+        "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\meshes\\l_finger.dae",
+        "parsed": true,
+        "file_type": "dae",
+        "watertight": false,
+        "volume": null,
+        "bounds": [
+          -0.009173891830055292,
+          -0.008981812134114087,
+          -0.028096987091750236,
+          0.09539831422862877,
+          0.045773170080381176,
+          0.0280991838209399
+        ],
+        "center_mass": [
+          0.03110337122107836,
+          0.01781293172434039,
+          1.2771922150997924e-6
+        ],
+        "face_count": 2000,
+        "vertex_count": 1372,
+        "units_guess": "likely_meters",
+        "errors": [],
+        "warnings": [
+          "Mesh is not watertight."
+        ]
+      },
+      {
+        "asset_id": "asset-d5402a0e06e8",
+        "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\meshes\\l_finger_tip.dae",
+        "parsed": true,
+        "file_type": "dae",
+        "watertight": false,
+        "volume": null,
+        "bounds": [
+          -0.02559809126851098,
+          -0.015940760313581825,
+          -0.011482779852789338,
+          0.031224400270348784,
+          0.0288008694172035,
+          0.011486600510576372
+        ],
+        "center_mass": [
+          0.004215517172393493,
+          0.0014496597658173185,
+          -2.5771606636561424e-6
+        ],
+        "face_count": 1000,
+        "vertex_count": 770,
+        "units_guess": "likely_meters",
+        "errors": [],
+        "warnings": [
+          "Mesh is not watertight."
+        ]
+      },
+      {
+        "asset_id": "asset-78434d34cc7b",
+        "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\meshes\\l_finger.dae",
+        "parsed": true,
+        "file_type": "dae",
+        "watertight": false,
+        "volume": null,
+        "bounds": [
+          -0.009173891830055292,
+          -0.008981812134114087,
+          -0.028096987091750236,
+          0.09539831422862877,
+          0.045773170080381176,
+          0.0280991838209399
+        ],
+        "center_mass": [
+          0.03110337122107836,
+          0.01781293172434039,
+          1.2771922150997924e-6
+        ],
+        "face_count": 2000,
+        "vertex_count": 1372,
+        "units_guess": "likely_meters",
+        "errors": [],
+        "warnings": [
+          "Mesh is not watertight."
+        ]
+      },
+      {
+        "asset_id": "asset-aaa8f7b0db39",
+        "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\meshes\\l_finger_tip.dae",
+        "parsed": true,
+        "file_type": "dae",
+        "watertight": false,
+        "volume": null,
+        "bounds": [
+          -0.02559809126851098,
+          -0.015940760313581825,
+          -0.011482779852789338,
+          0.031224400270348784,
+          0.0288008694172035,
+          0.011486600510576372
+        ],
+        "center_mass": [
+          0.004215517172393493,
+          0.0014496597658173185,
+          -2.5771606636561424e-6
+        ],
+        "face_count": 1000,
+        "vertex_count": 770,
+        "units_guess": "likely_meters",
+        "errors": [],
+        "warnings": [
+          "Mesh is not watertight."
+        ]
+      }
+    ],
+    "missing_mesh_count": 0,
+    "warnings": [
+      "No sensor metadata found in robot description. Sensors such as IMU must be configured separately or use generatable defaults at plan time.",
+      "No sensor metadata found in robot description. Sensors such as IMU must be configured separately or use generatable defaults at plan time.",
+      "No sensor metadata found in robot description. Sensors such as IMU must be configured separately or use generatable defaults at plan time.",
+      "No sensor metadata found in robot description. Sensors such as IMU must be configured separately or use generatable defaults at plan time.",
+      "No sensor metadata found in robot description. Sensors such as IMU must be configured separately or use generatable defaults at plan time.",
+      "No sensor metadata found in robot description. Sensors such as IMU must be configured separately or use generatable defaults at plan time.",
+      "No sensor metadata found in robot description. Sensors such as IMU must be configured separately or use generatable defaults at plan time.",
+      "Mesh is not watertight.",
+      "Mesh is not watertight.",
+      "Mesh is not watertight.",
+      "Mesh is not watertight."
+    ],
+    "errors": []
+  },
+  "candidate_tests": [],
+  "chat_summary": "You uploaded a robot description (URDF/MJCF).\nAll 6 URDF mesh references are resolved.\nRunnable tests: gravity_stability, joint_sweep, imu_sensor, contact_force, depth_camera.\nfea_readiness: readiness check only — FEA readiness only — Genesis does not run a full FEA solver in MVP..\ncfd_readiness: readiness check only — CFD readiness only — Genesis does not run a full CFD solver in MVP..\nWhich link should IMU attach to? Default: base_link",
+  "last_codegen": null,
+  "last_run_id": null,
+  "latest_report_id": null,
+  "latest_report_summary": null,
+  "messages": [
+    {
+      "id": "msg-1780996903636-ddqokd",
+      "role": "assistant",
+      "type": "text",
+      "text": "I'm the Buildables Assistant. Upload URDF, STEP, meshes, or a robot zip — I'll scan your project and tell you which simulations are ready, blocked, or need safe defaults.\n\nTry: \"Can I run gravity, joint sweep, and IMU?\"",
+      "timestamp": "2026-06-09T09:21:43.636Z"
+    },
+    {
+      "id": "msg-1780996903636-x66bna",
+      "role": "user",
+      "type": "user",
+      "text": "run joint test\n\nAttachments:\n• urdf_tutorial-ros2.zip",
+      "attachments": [
+        "urdf_tutorial-ros2.zip"
+      ],
+      "timestamp": "2026-06-09T09:21:43.636Z"
+    },
+    {
+      "id": "msg-1780996903636-uno2qi",
+      "role": "assistant",
+      "type": "agent_timeline",
+      "text": "Working on your request…",
+      "timelineSteps": [
+        {
+          "step_id": "user_submitted",
+          "label": "Message received",
+          "status": "done"
+        },
+        {
+          "step_id": "uploading",
+          "label": "Uploading files",
+          "status": "done",
+          "detail": "21 files, 7 URDF, 2 meshes"
+        },
+        {
+          "step_id": "extracting_zip",
+          "label": "Extracting zip archive",
+          "status": "done",
+          "detail": "21 files from zip"
+        },
+        {
+          "step_id": "scanning_assets",
+          "label": "Scanning project assets",
+          "status": "done"
+        },
+        {
+          "step_id": "inspecting_robot_description",
+          "label": "Inspecting URDF/MJCF",
+          "status": "done",
+          "detail": "1 links, 0 joints (0 movable)"
+        },
+        {
+          "step_id": "checking_meshes",
+          "label": "Checking mesh references",
+          "status": "done",
+          "detail": "0 missing of 0 refs"
+        },
+        {
+          "step_id": "planning_tests",
+          "label": "Planning simulation tests",
+          "status": "done",
+          "detail": "Selected: joint_sweep"
+        }
+      ],
+      "timestamp": "2026-06-09T09:21:43.636Z"
+    },
+    {
+      "id": "msg-diag-1780996907104",
+      "role": "assistant",
+      "type": "text",
+      "text": "Import diagnostics: 21 file(s) extracted · 7 URDF/MJCF · 2 mesh file(s) · 0 mesh refs matched · 0 missing · Robot description: C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\01-myfirst.urdf · Skipped: urdf_tutorial-ros2/CHANGELOG.rst (unsupported extension), urdf_tutorial-ros2/CMakeLists.txt (unsupported extension), urdf_tutorial-ros2/README.md (unsupported extension), urdf_tutorial-ros2/rviz/urdf.rviz (unsupported extension), urdf_tutorial-ros2/setup.cfg (unsupported extension)",
+      "timestamp": "2026-06-09T09:21:47.104Z"
+    },
+    {
+      "id": "msg-1780996907104-d81zvy",
+      "role": "assistant",
+      "type": "text",
+      "text": "Goal: run joint test\nYou uploaded a robot description (URDF/MJCF).\nAll 6 URDF mesh references are resolved.\nRunnable tests: joint_sweep, gravity_stability, imu_sensor, contact_force, depth_camera.\nfea_readiness: readiness check only — FEA readiness only — Genesis does not run a full FEA solver in MVP..\ncfd_readiness: readiness check only — CFD readiness only — Genesis does not run a full CFD solver in MVP..\nWhich link should IMU attach to? Default: base_link",
+      "timestamp": "2026-06-09T09:21:47.104Z"
+    },
+    {
+      "id": "msg-1780996907104-0akz9f",
+      "role": "assistant",
+      "type": "test_recommendations",
+      "timestamp": "2026-06-09T09:21:47.104Z",
+      "tests": [
+        {
+          "test_id": "joint_sweep",
+          "can_run": true,
+          "can_run_with_fallback": false,
+          "confidence": 1,
+          "missing_required": [],
+          "missing_optional": [],
+          "generated_defaults_available": [],
+          "blockers": [],
+          "warnings": [],
+          "suggested_actions": [],
+          "required_user_questions": [],
+          "fallback_modes": []
+        },
+        {
+          "test_id": "gravity_stability",
+          "can_run": true,
+          "can_run_with_fallback": false,
+          "confidence": 1,
+          "missing_required": [],
+          "missing_optional": [],
+          "generated_defaults_available": [],
+          "blockers": [],
+          "warnings": [],
+          "suggested_actions": [],
+          "required_user_questions": [],
+          "fallback_modes": []
+        },
+        {
+          "test_id": "imu_sensor",
+          "can_run": true,
+          "can_run_with_fallback": false,
+          "confidence": 1,
+          "missing_required": [],
+          "missing_optional": [],
+          "generated_defaults_available": [
+            "default_attach_link",
+            "default_sample_rate",
+            "identity_pose"
+          ],
+          "blockers": [],
+          "warnings": [
+            "No sensor metadata in URDF — IMU will use generatable defaults."
+          ],
+          "suggested_actions": [
+            "Safe defaults can be generated for: default_attach_link, default_sample_rate, identity_pose"
+          ],
+          "required_user_questions": [
+            "Which link should IMU attach to? Default: base_link"
+          ],
+          "fallback_modes": []
+        },
+        {
+          "test_id": "contact_force",
+          "can_run": true,
+          "can_run_with_fallback": false,
+          "confidence": 1,
+          "missing_required": [],
+          "missing_optional": [],
+          "generated_defaults_available": [
+            "default_contact_links"
+          ],
+          "blockers": [],
+          "warnings": [],
+          "suggested_actions": [
+            "Safe defaults can be generated for: default_contact_links"
+          ],
+          "required_user_questions": [],
+          "fallback_modes": []
+        },
+        {
+          "test_id": "depth_camera",
+          "can_run": true,
+          "can_run_with_fallback": false,
+          "confidence": 1,
+          "missing_required": [],
+          "missing_optional": [],
+          "generated_defaults_available": [
+            "default_camera_pose",
+            "default_resolution"
+          ],
+          "blockers": [],
+          "warnings": [],
+          "suggested_actions": [
+            "Safe defaults can be generated for: default_camera_pose, default_resolution"
+          ],
+          "required_user_questions": [],
+          "fallback_modes": []
+        },
+        {
+          "test_id": "thermal_grid_readiness",
+          "can_run": true,
+          "can_run_with_fallback": false,
+          "confidence": 1,
+          "missing_required": [],
+          "missing_optional": [
+            "material_thermal_properties"
+          ],
+          "generated_defaults_available": [
+            "bounding_box_grid",
+            "demo_heat_source"
+          ],
+          "blockers": [],
+          "warnings": [
+            "Real material thermal conductivity cannot be faked without user input."
+          ],
+          "suggested_actions": [
+            "Safe defaults can be generated for: bounding_box_grid, demo_heat_source"
+          ],
+          "required_user_questions": [],
+          "fallback_modes": []
+        },
+        {
+          "test_id": "static_mesh_preview",
+          "can_run": true,
+          "can_run_with_fallback": false,
+          "confidence": 1,
+          "missing_required": [],
+          "missing_optional": [],
+          "generated_defaults_available": [],
+          "blockers": [],
+          "warnings": [
+            "URDF/MJCF detected — robot motion tests are available; static preview is mesh-only."
+          ],
+          "suggested_actions": [],
+          "required_user_questions": [],
+          "fallback_modes": []
+        },
+        {
+          "test_id": "fea_readiness",
+          "can_run": false,
+          "can_run_with_fallback": false,
+          "confidence": 0.3,
+          "missing_required": [
+            "watertight_geometry",
+            "material",
+            "constraints",
+            "loads"
+          ],
+          "missing_optional": [],
+          "generated_defaults_available": [],
+          "blockers": [
+            "FEA readiness only — Genesis does not run a full FEA solver in MVP.",
+            "No watertight solid geometry detected.",
+            "Missing material — cannot fake meaningful FEA inputs.",
+            "Missing constraints — cannot fake meaningful FEA inputs.",
+            "Missing loads — cannot fake meaningful FEA inputs."
+          ],
+          "warnings": [],
+          "suggested_actions": [
+            "Upload missing files listed in inspection report."
+          ],
+          "required_user_questions": [],
+          "fallback_modes": []
+        },
+        {
+          "test_id": "cfd_readiness",
+          "can_run": false,
+          "can_run_with_fallback": false,
+          "confidence": 0.3,
+          "missing_required": [
+            "watertight_geometry",
+            "fluid_domain",
+            "inlet_outlet",
+            "boundary_conditions"
+          ],
+          "missing_optional": [],
+          "generated_defaults_available": [],
+          "blockers": [
+            "CFD readiness only — Genesis does not run a full CFD solver in MVP.",
+            "Missing fluid_domain — cannot fake meaningful CFD boundary conditions.",
+            "Missing inlet_outlet — cannot fake meaningful CFD boundary conditions.",
+            "Missing boundary_conditions — cannot fake meaningful CFD boundary conditions."
+          ],
+          "warnings": [],
+          "suggested_actions": [
+            "Upload missing files listed in inspection report."
+          ],
+          "required_user_questions": [],
+          "fallback_modes": []
+        }
+      ],
+      "specs": [
+        {
+          "test_id": "gravity_stability",
+          "display_name": "Gravity Stability",
+          "category": "rigid",
+          "description": "Drop or settle model under gravity; report stability and contact summary.",
+          "required_inputs": [
+            "geometry_or_robot_description",
+            "collision_geometry"
+          ],
+          "optional_inputs": [
+            "mass_inertial_data",
+            "friction",
+            "restitution"
+          ],
+          "generatable_inputs": [
+            "default_density",
+            "default_friction",
+            "bounding_box_collision_fallback"
+          ],
+          "cannot_fake_inputs": [],
+          "outputs": [
+            "replay",
+            "contact_collision_summary",
+            "stability_result"
+          ],
+          "viewer_layout": "simulation_only",
+          "telemetry_schema": {},
+          "genesis_template": "gravity_stability",
+          "supported_asset_types": [
+            "urdf",
+            "mjcf",
+            "stl",
+            "obj",
+            "glb",
+            "step"
+          ],
+          "status": "available"
+        },
+        {
+          "test_id": "joint_sweep",
+          "display_name": "Joint Sweep",
+          "category": "robot_motion",
+          "description": "Sweep movable joints through limits; detect collisions and range issues.",
+          "required_inputs": [
+            "urdf_or_mjcf",
+            "movable_joints",
+            "joint_limits"
+          ],
+          "optional_inputs": [
+            "actuator_metadata",
+            "control_script"
+          ],
+          "generatable_inputs": [
+            "default_joint_sweep_motion"
+          ],
+          "cannot_fake_inputs": [],
+          "outputs": [
+            "replay",
+            "joint_range_telemetry",
+            "collision_warnings"
+          ],
+          "viewer_layout": "simulation_plus_telemetry",
+          "telemetry_schema": {},
+          "genesis_template": "joint_sweep",
+          "supported_asset_types": [
+            "urdf",
+            "mjcf"
+          ],
+          "status": "available"
+        },
+        {
+          "test_id": "imu_sensor",
+          "display_name": "IMU Sensor",
+          "category": "sensor",
+          "description": "Simulate IMU on attach link; record linear acceleration and angular velocity.",
+          "required_inputs": [
+            "robot_description",
+            "attach_link",
+            "sample_rate"
+          ],
+          "optional_inputs": [
+            "sensor_pose",
+            "noise_model"
+          ],
+          "generatable_inputs": [
+            "default_attach_link",
+            "identity_pose",
+            "default_sample_rate"
+          ],
+          "cannot_fake_inputs": [],
+          "outputs": [
+            "replay",
+            "lin_acc",
+            "ang_vel",
+            "true_lin_acc",
+            "true_ang_vel"
+          ],
+          "viewer_layout": "simulation_plus_telemetry",
+          "telemetry_schema": {
+            "type": "imu",
+            "channels": [
+              "lin_acc",
+              "ang_vel"
+            ]
+          },
+          "genesis_template": "imu_sensor",
+          "supported_asset_types": [
+            "urdf",
+            "mjcf"
+          ],
+          "status": "available"
+        },
+        {
+          "test_id": "contact_force",
+          "display_name": "Contact Force",
+          "category": "sensor",
+          "description": "Record contact forces on collision-enabled bodies.",
+          "required_inputs": [
+            "collision_geometry",
+            "contact_enabled_bodies"
+          ],
+          "optional_inputs": [
+            "selected_links"
+          ],
+          "generatable_inputs": [
+            "default_contact_links"
+          ],
+          "cannot_fake_inputs": [],
+          "outputs": [
+            "replay",
+            "contact_force_charts"
+          ],
+          "viewer_layout": "simulation_plus_telemetry",
+          "telemetry_schema": {
+            "type": "contact_force"
+          },
+          "genesis_template": "contact_force",
+          "supported_asset_types": [
+            "urdf",
+            "mjcf",
+            "stl",
+            "obj"
+          ],
+          "status": "available"
+        },
+        {
+          "test_id": "depth_camera",
+          "display_name": "Depth Camera",
+          "category": "sensor",
+          "description": "Render RGB and depth frames from a camera pose toward scene geometry.",
+          "required_inputs": [
+            "scene_geometry",
+            "camera_pose"
+          ],
+          "optional_inputs": [
+            "resolution",
+            "fov"
+          ],
+          "generatable_inputs": [
+            "default_camera_pose",
+            "default_resolution"
+          ],
+          "cannot_fake_inputs": [],
+          "outputs": [
+            "replay",
+            "rgb_frames",
+            "depth_frames"
+          ],
+          "viewer_layout": "simulation_plus_telemetry",
+          "telemetry_schema": {
+            "type": "depth_camera"
+          },
+          "genesis_template": "depth_camera",
+          "supported_asset_types": [
+            "urdf",
+            "mjcf",
+            "stl",
+            "obj",
+            "glb"
+          ],
+          "status": "available"
+        },
+        {
+          "test_id": "thermal_grid_readiness",
+          "display_name": "Thermal Grid Readiness",
+          "category": "thermal",
+          "description": "Check readiness for thermal grid simulation with heat source and bounds.",
+          "required_inputs": [
+            "geometry",
+            "grid_bounds",
+            "heat_source"
+          ],
+          "optional_inputs": [
+            "material_thermal_properties"
+          ],
+          "generatable_inputs": [
+            "bounding_box_grid",
+            "demo_heat_source"
+          ],
+          "cannot_fake_inputs": [
+            "real_material_thermal_conductivity"
+          ],
+          "outputs": [
+            "heatmap_telemetry"
+          ],
+          "viewer_layout": "simulation_plus_telemetry",
+          "telemetry_schema": {},
+          "genesis_template": "thermal_grid",
+          "supported_asset_types": [
+            "stl",
+            "obj",
+            "glb",
+            "urdf"
+          ],
+          "status": "available"
+        },
+        {
+          "test_id": "static_mesh_preview",
+          "display_name": "Static Mesh Preview",
+          "category": "rigid",
+          "description": "Preview STEP/STL/OBJ/GLB when no robot description exists.",
+          "required_inputs": [
+            "geometry"
+          ],
+          "optional_inputs": [
+            "camera_pose"
+          ],
+          "generatable_inputs": [
+            "default_camera_pose"
+          ],
+          "cannot_fake_inputs": [],
+          "outputs": [
+            "replay",
+            "readiness_report"
+          ],
+          "viewer_layout": "simulation_only",
+          "telemetry_schema": {},
+          "genesis_template": "static_mesh_preview",
+          "supported_asset_types": [
+            "stl",
+            "obj",
+            "glb",
+            "step"
+          ],
+          "status": "available"
+        },
+        {
+          "test_id": "fea_readiness",
+          "display_name": "FEA Readiness",
+          "category": "fea_readiness",
+          "description": "Readiness check for FEA — does not run a full FEA solver in Genesis.",
+          "required_inputs": [
+            "watertight_geometry",
+            "material",
+            "constraints",
+            "loads"
+          ],
+          "optional_inputs": [],
+          "generatable_inputs": [],
+          "cannot_fake_inputs": [
+            "meaningful_material",
+            "real_boundary_conditions"
+          ],
+          "outputs": [
+            "readiness_report"
+          ],
+          "viewer_layout": "report_only",
+          "telemetry_schema": {},
+          "genesis_template": "",
+          "supported_asset_types": [
+            "stl",
+            "obj",
+            "step"
+          ],
+          "status": "readiness_only"
+        },
+        {
+          "test_id": "cfd_readiness",
+          "display_name": "CFD Readiness",
+          "category": "cfd_readiness",
+          "description": "Readiness check for CFD — does not run a full CFD solver in Genesis.",
+          "required_inputs": [
+            "fluid_domain",
+            "inlet_outlet",
+            "boundary_conditions",
+            "watertight_geometry"
+          ],
+          "optional_inputs": [],
+          "generatable_inputs": [],
+          "cannot_fake_inputs": [
+            "meaningful_cfd_boundary_conditions"
+          ],
+          "outputs": [
+            "readiness_report"
+          ],
+          "viewer_layout": "report_only",
+          "telemetry_schema": {},
+          "genesis_template": "",
+          "supported_asset_types": [
+            "stl",
+            "obj",
+            "step"
+          ],
+          "status": "readiness_only"
+        }
+      ],
+      "text": "7 test(s) you can explore, 2 blocked."
+    },
+    {
+      "id": "msg-1780996907104-m8ald4",
+      "role": "assistant",
+      "type": "recovery_actions",
+      "text": "Recovery and next steps:\nSuggested: default_attach_link, default_sample_rate, identity_pose, default_contact_links, default_camera_pose, default_resolution, bounding_box_grid, demo_heat_source",
+      "timestamp": "2026-06-09T09:21:47.104Z",
+      "actions": [
+        {
+          "id": "upload-zip",
+          "title": "Upload robot zip",
+          "description": "Attach a zip with meshes/ folder via + below, then Send",
+          "actionId": "upload_zip",
+          "variant": "primary"
+        },
+        {
+          "id": "run-preflight",
+          "title": "Run preflight",
+          "description": "Re-scan, inspect, and update plan",
+          "actionId": "run_preflight",
+          "variant": "secondary"
+        },
+        {
+          "id": "cad-bridge",
+          "title": "Pillar 1 CAD bridge (coming soon)",
+          "description": "Not connected yet — use STEP recovery or upload a meshes/ zip bundle",
+          "actionId": "cad_bridge",
+          "variant": "disabled",
+          "disabled": true,
+          "disabledReason": "Buildables CAD generation bridge is not connected. Use STEP recovery or upload meshes."
+        },
+        {
+          "id": "prepare-script",
+          "title": "Prepare script of last test",
+          "description": "Generate a Genesis script for the currently selected test",
+          "actionId": "prepare_genesis_script",
+          "variant": "primary"
+        },
+        {
+          "id": "run-sim",
+          "title": "Run simulation of last test",
+          "description": "Execute the last generated script for the selected test",
+          "actionId": "run_simulation",
+          "variant": "secondary"
+        }
+      ],
+      "plan": {
+        "project_id": "imported-699cedd1",
+        "user_goal": "run joint test",
+        "asset_summary": {
+          "total_assets": 23,
+          "urdf_count": 7,
+          "mesh_count": 4,
+          "step_count": 0,
+          "robot_description_count": 7,
+          "missing_mesh_count": 0,
+          "total_mesh_references": 6,
+          "mesh_validation_warnings": 4,
+          "mesh_validation_errors": 0
+        },
+        "recommended_tests": [
+          {
+            "test_id": "joint_sweep",
+            "can_run": true,
+            "can_run_with_fallback": false,
+            "confidence": 1,
+            "missing_required": [],
+            "missing_optional": [],
+            "generated_defaults_available": [],
+            "blockers": [],
+            "warnings": [],
+            "suggested_actions": [],
+            "required_user_questions": [],
+            "fallback_modes": []
+          },
+          {
+            "test_id": "gravity_stability",
+            "can_run": true,
+            "can_run_with_fallback": false,
+            "confidence": 1,
+            "missing_required": [],
+            "missing_optional": [],
+            "generated_defaults_available": [],
+            "blockers": [],
+            "warnings": [],
+            "suggested_actions": [],
+            "required_user_questions": [],
+            "fallback_modes": []
+          },
+          {
+            "test_id": "imu_sensor",
+            "can_run": true,
+            "can_run_with_fallback": false,
+            "confidence": 1,
+            "missing_required": [],
+            "missing_optional": [],
+            "generated_defaults_available": [
+              "default_attach_link",
+              "default_sample_rate",
+              "identity_pose"
+            ],
+            "blockers": [],
+            "warnings": [
+              "No sensor metadata in URDF — IMU will use generatable defaults."
+            ],
+            "suggested_actions": [
+              "Safe defaults can be generated for: default_attach_link, default_sample_rate, identity_pose"
+            ],
+            "required_user_questions": [
+              "Which link should IMU attach to? Default: base_link"
+            ],
+            "fallback_modes": []
+          },
+          {
+            "test_id": "contact_force",
+            "can_run": true,
+            "can_run_with_fallback": false,
+            "confidence": 1,
+            "missing_required": [],
+            "missing_optional": [],
+            "generated_defaults_available": [
+              "default_contact_links"
+            ],
+            "blockers": [],
+            "warnings": [],
+            "suggested_actions": [
+              "Safe defaults can be generated for: default_contact_links"
+            ],
+            "required_user_questions": [],
+            "fallback_modes": []
+          },
+          {
+            "test_id": "depth_camera",
+            "can_run": true,
+            "can_run_with_fallback": false,
+            "confidence": 1,
+            "missing_required": [],
+            "missing_optional": [],
+            "generated_defaults_available": [
+              "default_camera_pose",
+              "default_resolution"
+            ],
+            "blockers": [],
+            "warnings": [],
+            "suggested_actions": [
+              "Safe defaults can be generated for: default_camera_pose, default_resolution"
+            ],
+            "required_user_questions": [],
+            "fallback_modes": []
+          },
+          {
+            "test_id": "thermal_grid_readiness",
+            "can_run": true,
+            "can_run_with_fallback": false,
+            "confidence": 1,
+            "missing_required": [],
+            "missing_optional": [
+              "material_thermal_properties"
+            ],
+            "generated_defaults_available": [
+              "bounding_box_grid",
+              "demo_heat_source"
+            ],
+            "blockers": [],
+            "warnings": [
+              "Real material thermal conductivity cannot be faked without user input."
+            ],
+            "suggested_actions": [
+              "Safe defaults can be generated for: bounding_box_grid, demo_heat_source"
+            ],
+            "required_user_questions": [],
+            "fallback_modes": []
+          },
+          {
+            "test_id": "static_mesh_preview",
+            "can_run": true,
+            "can_run_with_fallback": false,
+            "confidence": 1,
+            "missing_required": [],
+            "missing_optional": [],
+            "generated_defaults_available": [],
+            "blockers": [],
+            "warnings": [
+              "URDF/MJCF detected — robot motion tests are available; static preview is mesh-only."
+            ],
+            "suggested_actions": [],
+            "required_user_questions": [],
+            "fallback_modes": []
+          }
+        ],
+        "blocked_tests": [
+          {
+            "test_id": "fea_readiness",
+            "can_run": false,
+            "can_run_with_fallback": false,
+            "confidence": 0.3,
+            "missing_required": [
+              "watertight_geometry",
+              "material",
+              "constraints",
+              "loads"
+            ],
+            "missing_optional": [],
+            "generated_defaults_available": [],
+            "blockers": [
+              "FEA readiness only — Genesis does not run a full FEA solver in MVP.",
+              "No watertight solid geometry detected.",
+              "Missing material — cannot fake meaningful FEA inputs.",
+              "Missing constraints — cannot fake meaningful FEA inputs.",
+              "Missing loads — cannot fake meaningful FEA inputs."
+            ],
+            "warnings": [],
+            "suggested_actions": [
+              "Upload missing files listed in inspection report."
+            ],
+            "required_user_questions": [],
+            "fallback_modes": []
+          },
+          {
+            "test_id": "cfd_readiness",
+            "can_run": false,
+            "can_run_with_fallback": false,
+            "confidence": 0.3,
+            "missing_required": [
+              "watertight_geometry",
+              "fluid_domain",
+              "inlet_outlet",
+              "boundary_conditions"
+            ],
+            "missing_optional": [],
+            "generated_defaults_available": [],
+            "blockers": [
+              "CFD readiness only — Genesis does not run a full CFD solver in MVP.",
+              "Missing fluid_domain — cannot fake meaningful CFD boundary conditions.",
+              "Missing inlet_outlet — cannot fake meaningful CFD boundary conditions.",
+              "Missing boundary_conditions — cannot fake meaningful CFD boundary conditions."
+            ],
+            "warnings": [],
+            "suggested_actions": [
+              "Upload missing files listed in inspection report."
+            ],
+            "required_user_questions": [],
+            "fallback_modes": []
+          }
+        ],
+        "required_questions": [
+          "Which link should IMU attach to? Default: base_link"
+        ],
+        "generation_tasks": [
+          "default_attach_link",
+          "default_sample_rate",
+          "identity_pose",
+          "default_contact_links",
+          "default_camera_pose",
+          "default_resolution",
+          "bounding_box_grid",
+          "demo_heat_source"
+        ],
+        "selected_test": "joint_sweep",
+        "plan_steps": [
+          "You uploaded a robot description (URDF/MJCF).",
+          "All 6 URDF mesh references are resolved.",
+          "Runnable tests: joint_sweep, gravity_stability, imu_sensor, contact_force, depth_camera.",
+          "fea_readiness: readiness check only — FEA readiness only — Genesis does not run a full FEA solver in MVP..",
+          "cfd_readiness: readiness check only — CFD readiness only — Genesis does not run a full CFD solver in MVP..",
+          "Which link should IMU attach to? Default: base_link"
+        ],
+        "warnings": [
+          "No sensor metadata found in robot description. Sensors such as IMU must be configured separately or use generatable defaults at plan time.",
+          "Mesh is not watertight."
+        ],
+        "agent_explanation": "Goal: run joint test\nYou uploaded a robot description (URDF/MJCF).\nAll 6 URDF mesh references are resolved.\nRunnable tests: joint_sweep, gravity_stability, imu_sensor, contact_force, depth_camera.\nfea_readiness: readiness check only — FEA readiness only — Genesis does not run a full FEA solver in MVP..\ncfd_readiness: readiness check only — CFD readiness only — Genesis does not run a full CFD solver in MVP..\nWhich link should IMU attach to? Default: base_link",
+        "goal_parse": {
+          "raw_goal": "run joint test",
+          "candidate_tests": [
+            "joint_sweep"
+          ],
+          "unknown_terms": [],
+          "needs_clarification": false,
+          "clarifying_questions": []
+        }
+      }
+    },
+    {
+      "id": "msg-1780996913213-i9nyya",
+      "role": "assistant",
+      "type": "text",
+      "text": "Script generation blocked: Missing required context field: selected_joints",
+      "timestamp": "2026-06-09T09:21:53.213Z"
+    },
+    {
+      "id": "cfg-1780996943101",
+      "role": "assistant",
+      "type": "missing_requirements",
+      "text": "Gravity Stability: See missing items below.",
+      "timestamp": "2026-06-09T09:22:23.101Z",
+      "missingMeshes": [],
+      "missingMetadata": []
+    },
+    {
+      "id": "msg-1780997065559-miyqcf",
+      "role": "assistant",
+      "type": "asset_summary",
+      "timestamp": "2026-06-09T09:24:25.559Z",
+      "inspection": {
+        "project_id": "imported-699cedd1",
+        "assets": [
+          {
+            "id": "asset-8961cf9f9767",
+            "project_id": "imported-699cedd1",
+            "original_filename": ".pre-commit-config.yaml",
+            "stored_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\.pre-commit-config.yaml",
+            "relative_path": "assets/imported/urdf_tutorial-ros2/.pre-commit-config.yaml",
+            "file_type": "yaml",
+            "size_bytes": 829,
+            "sha256": "d81c2354b1fc4593844e82b92cdadd9b4e2d360c705599d4e9986acc391eae0d",
+            "role": "unknown",
+            "source": "user_upload",
+            "status": "found"
+          },
+          {
+            "id": "asset-f79055ac40ed",
+            "project_id": "imported-699cedd1",
+            "original_filename": "flexible.png",
+            "stored_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\images\\flexible.png",
+            "relative_path": "assets/imported/urdf_tutorial-ros2/images/flexible.png",
+            "file_type": "png",
+            "size_bytes": 156481,
+            "sha256": "b450b1bc4ad71940a6a5658133a944bf0d52fcb8a4669bc4aa6e0f1951e16500",
+            "role": "texture",
+            "source": "user_upload",
+            "status": "found"
+          },
+          {
+            "id": "asset-7aa4798e0c84",
+            "project_id": "imported-699cedd1",
+            "original_filename": "materials.png",
+            "stored_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\images\\materials.png",
+            "relative_path": "assets/imported/urdf_tutorial-ros2/images/materials.png",
+            "file_type": "png",
+            "size_bytes": 90421,
+            "sha256": "afbfea0780e15be26de8d5cfc441fc09e55838a8931058031abe77a92c5aeb9f",
+            "role": "texture",
+            "source": "user_upload",
+            "status": "found"
+          },
+          {
+            "id": "asset-1adcaccf6fff",
+            "project_id": "imported-699cedd1",
+            "original_filename": "multipleshapes.png",
+            "stored_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\images\\multipleshapes.png",
+            "relative_path": "assets/imported/urdf_tutorial-ros2/images/multipleshapes.png",
+            "file_type": "png",
+            "size_bytes": 90760,
+            "sha256": "5509ef554c79f9aa9421087b4a7af46e3bd33ffa02dbf3c47c0a75f26084e49c",
+            "role": "texture",
+            "source": "user_upload",
+            "status": "found"
+          },
+          {
+            "id": "asset-8b8f05eb7719",
+            "project_id": "imported-699cedd1",
+            "original_filename": "myfirst.png",
+            "stored_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\images\\myfirst.png",
+            "relative_path": "assets/imported/urdf_tutorial-ros2/images/myfirst.png",
+            "file_type": "png",
+            "size_bytes": 101494,
+            "sha256": "57c25cece1dde1396209df306aadd072054bf73de7643b776029c8766e56cc04",
+            "role": "texture",
+            "source": "user_upload",
+            "status": "found"
+          },
+          {
+            "id": "asset-c08eef628095",
+            "project_id": "imported-699cedd1",
+            "original_filename": "origins.png",
+            "stored_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\images\\origins.png",
+            "relative_path": "assets/imported/urdf_tutorial-ros2/images/origins.png",
+            "file_type": "png",
+            "size_bytes": 101112,
+            "sha256": "54b051d0f80107da27ee15dd345c42b6eaac1ab823e9b5b289f293bb8ca4cd30",
+            "role": "texture",
+            "source": "user_upload",
+            "status": "found"
+          },
+          {
+            "id": "asset-cb41af4bf079",
+            "project_id": "imported-699cedd1",
+            "original_filename": "visual.png",
+            "stored_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\images\\visual.png",
+            "relative_path": "assets/imported/urdf_tutorial-ros2/images/visual.png",
+            "file_type": "png",
+            "size_bytes": 121367,
+            "sha256": "2a19b5ceaaa926e9dcd0f1a91a65ec7c8388df0818f0322bb208c4e2ec3a2cbb",
+            "role": "texture",
+            "source": "user_upload",
+            "status": "found"
+          },
+          {
+            "id": "asset-da31fb7bd87e",
+            "project_id": "imported-699cedd1",
+            "original_filename": "display.launch.py",
+            "stored_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\launch\\display.launch.py",
+            "relative_path": "assets/imported/urdf_tutorial-ros2/launch/display.launch.py",
+            "file_type": "py",
+            "size_bytes": 1729,
+            "sha256": "13ddd84f2582998073a221f1c1699c91ca579746adfc420b3b583a17e08832fb",
+            "role": "unknown",
+            "source": "user_upload",
+            "status": "found"
+          },
+          {
+            "id": "asset-e3d0ab311c24",
+            "project_id": "imported-699cedd1",
+            "original_filename": "LICENSE",
+            "stored_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\LICENSE",
+            "relative_path": "assets/imported/urdf_tutorial-ros2/LICENSE",
+            "file_type": "unknown",
+            "size_bytes": 1535,
+            "sha256": "c106b484e24ab0581699ca5105c59335703bc27561c3f43431ae01dc61be830d",
+            "role": "unknown",
+            "source": "user_upload",
+            "status": "found"
+          },
+          {
+            "id": "asset-c2c84bb92cac",
+            "project_id": "imported-699cedd1",
+            "original_filename": "l_finger.dae",
+            "stored_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\meshes\\l_finger.dae",
+            "relative_path": "assets/imported/urdf_tutorial-ros2/meshes/l_finger.dae",
+            "file_type": "dae",
+            "size_bytes": 145734,
+            "sha256": "cfb66ef1ee6693a76f8da59833af40a31b185a4ebcd5bcdc8a5fa15b6378accd",
+            "role": "mesh",
+            "source": "user_upload",
+            "status": "found"
+          },
+          {
+            "id": "asset-c6366c8b407d",
+            "project_id": "imported-699cedd1",
+            "original_filename": "l_finger_color.png",
+            "stored_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\meshes\\l_finger_color.png",
+            "relative_path": "assets/imported/urdf_tutorial-ros2/meshes/l_finger_color.png",
+            "file_type": "png",
+            "size_bytes": 29539,
+            "sha256": "b979d0cf072cf3aa014955bfa2fc04b9acc70f6de9e5e400b5a1c2a6978f61b7",
+            "role": "texture",
+            "source": "user_upload",
+            "status": "found"
+          },
+          {
+            "id": "asset-d5402a0e06e8",
+            "project_id": "imported-699cedd1",
+            "original_filename": "l_finger_tip.dae",
+            "stored_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\meshes\\l_finger_tip.dae",
+            "relative_path": "assets/imported/urdf_tutorial-ros2/meshes/l_finger_tip.dae",
+            "file_type": "dae",
+            "size_bytes": 78077,
+            "sha256": "d2c7576f922563e611424b6488a0cc34c1411c8c1abd20fc39859e46eba3d408",
+            "role": "mesh",
+            "source": "user_upload",
+            "status": "found"
+          },
+          {
+            "id": "asset-ce3b15fe1d07",
+            "project_id": "imported-699cedd1",
+            "original_filename": "l_finger_tip_color.png",
+            "stored_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\meshes\\l_finger_tip_color.png",
+            "relative_path": "assets/imported/urdf_tutorial-ros2/meshes/l_finger_tip_color.png",
+            "file_type": "png",
+            "size_bytes": 27722,
+            "sha256": "6bbe35c97a71aa3e71416ce2135f1e0615f83a79e2e3653f13858bdb2b8a3507",
+            "role": "texture",
+            "source": "user_upload",
+            "status": "found"
+          },
+          {
+            "id": "asset-3465dee51ee2",
+            "project_id": "imported-699cedd1",
+            "original_filename": "package.xml",
+            "stored_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\package.xml",
+            "relative_path": "assets/imported/urdf_tutorial-ros2/package.xml",
+            "file_type": "xml",
+            "size_bytes": 780,
+            "sha256": "9f2ea4b48c220c143b50492ca2f411b03e0ad5447bba99e97b64a937729894c4",
+            "role": "unknown",
+            "source": "user_upload",
+            "status": "found"
+          },
+          {
+            "id": "asset-83e2d0fda457",
+            "project_id": "imported-699cedd1",
+            "original_filename": "01-myfirst.urdf",
+            "stored_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\01-myfirst.urdf",
+            "relative_path": "assets/imported/urdf_tutorial-ros2/urdf/01-myfirst.urdf",
+            "file_type": "urdf",
+            "size_bytes": 198,
+            "sha256": "f18e9312d554f605cf6218a5787e1d50de63b3158b88b88f267ea743933f8c3e",
+            "role": "robot_description",
+            "source": "user_upload",
+            "status": "found"
+          },
+          {
+            "id": "asset-611f80d60962",
+            "project_id": "imported-699cedd1",
+            "original_filename": "02-multipleshapes.urdf",
+            "stored_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\02-multipleshapes.urdf",
+            "relative_path": "assets/imported/urdf_tutorial-ros2/urdf/02-multipleshapes.urdf",
+            "file_type": "urdf",
+            "size_bytes": 460,
+            "sha256": "72eae1a4b93936b9c0a3e95ad6579c69637e0f2f04ec5e611f8fa9a602720d4a",
+            "role": "robot_description",
+            "source": "user_upload",
+            "status": "found"
+          },
+          {
+            "id": "asset-d33109b7a8a0",
+            "project_id": "imported-699cedd1",
+            "original_filename": "03-origins.urdf",
+            "stored_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\03-origins.urdf",
+            "relative_path": "assets/imported/urdf_tutorial-ros2/urdf/03-origins.urdf",
+            "file_type": "urdf",
+            "size_bytes": 535,
+            "sha256": "25649eb63194a40a4f15b5cf90757cb8c04df8faba85fc2b79c281608b6742b6",
+            "role": "robot_description",
+            "source": "user_upload",
+            "status": "found"
+          },
+          {
+            "id": "asset-8bdb7c3b5e47",
+            "project_id": "imported-699cedd1",
+            "original_filename": "04-materials.urdf",
+            "stored_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\04-materials.urdf",
+            "relative_path": "assets/imported/urdf_tutorial-ros2/urdf/04-materials.urdf",
+            "file_type": "urdf",
+            "size_bytes": 1102,
+            "sha256": "c5c0e110a3e0da92591703648dabeca6487bf752a7407f693e666bfbb3920fa6",
+            "role": "robot_description",
+            "source": "user_upload",
+            "status": "found"
+          },
+          {
+            "id": "asset-624a47bd8ae8",
+            "project_id": "imported-699cedd1",
+            "original_filename": "05-visual.urdf",
+            "stored_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\05-visual.urdf",
+            "relative_path": "assets/imported/urdf_tutorial-ros2/urdf/05-visual.urdf",
+            "file_type": "urdf",
+            "size_bytes": 5901,
+            "sha256": "75072b226b39476d52d9bbf4611dbc1eb5ab8d51ebd37b5f404c9ddd65b7dca2",
+            "role": "robot_description",
+            "source": "user_upload",
+            "status": "found"
+          },
+          {
+            "id": "asset-46e1a6c54ae3",
+            "project_id": "imported-699cedd1",
+            "original_filename": "06-flexible.urdf",
+            "stored_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\06-flexible.urdf",
+            "relative_path": "assets/imported/urdf_tutorial-ros2/urdf/06-flexible.urdf",
+            "file_type": "urdf",
+            "size_bytes": 6361,
+            "sha256": "86e71eb5e847c85ac99b49ff5cb7af3572155a51b0d8099f5617b5685ac6e5e5",
+            "role": "robot_description",
+            "source": "user_upload",
+            "status": "found"
+          },
+          {
+            "id": "asset-2ec00bb7db74",
+            "project_id": "imported-699cedd1",
+            "original_filename": "07-physics.urdf",
+            "stored_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\07-physics.urdf",
+            "relative_path": "assets/imported/urdf_tutorial-ros2/urdf/07-physics.urdf",
+            "file_type": "urdf",
+            "size_bytes": 10980,
+            "sha256": "78e6744b67ee07138d370aeea24a6d43d7f7d77025853a995e9685ab41fef047",
+            "role": "robot_description",
+            "source": "user_upload",
+            "status": "found"
+          },
+          {
+            "id": "asset-78434d34cc7b",
+            "project_id": "imported-699cedd1",
+            "original_filename": "l_finger.dae",
+            "stored_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\meshes\\l_finger.dae",
+            "relative_path": "assets/imported/urdf_tutorial-ros2/urdf/meshes/l_finger.dae",
+            "file_type": "dae",
+            "size_bytes": 145734,
+            "sha256": "cfb66ef1ee6693a76f8da59833af40a31b185a4ebcd5bcdc8a5fa15b6378accd",
+            "role": "mesh",
+            "source": "user_upload",
+            "status": "found"
+          },
+          {
+            "id": "asset-aaa8f7b0db39",
+            "project_id": "imported-699cedd1",
+            "original_filename": "l_finger_tip.dae",
+            "stored_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\meshes\\l_finger_tip.dae",
+            "relative_path": "assets/imported/urdf_tutorial-ros2/urdf/meshes/l_finger_tip.dae",
+            "file_type": "dae",
+            "size_bytes": 78077,
+            "sha256": "d2c7576f922563e611424b6488a0cc34c1411c8c1abd20fc39859e46eba3d408",
+            "role": "mesh",
+            "source": "user_upload",
+            "status": "found"
+          }
+        ],
+        "robot_descriptions": [
+          {
+            "parsed": true,
+            "format": "urdf",
+            "source_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\01-myfirst.urdf",
+            "links_count": 1,
+            "joints_count": 0,
+            "movable_joints_count": 0,
+            "fixed_joints_count": 0,
+            "root_link": "base_link",
+            "link_names": [
+              "base_link"
+            ],
+            "joint_names": [],
+            "mesh_references": [],
+            "has_inertial_data": true,
+            "has_joint_limits": false,
+            "has_collision_geometry": false,
+            "has_visual_geometry": false,
+            "detected_sensors": [],
+            "warnings": [
+              "No sensor metadata found in robot description. Sensors such as IMU must be configured separately or use generatable defaults at plan time."
+            ],
+            "errors": []
+          },
+          {
+            "parsed": true,
+            "format": "urdf",
+            "source_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\02-multipleshapes.urdf",
+            "links_count": 2,
+            "joints_count": 1,
+            "movable_joints_count": 0,
+            "fixed_joints_count": 1,
+            "root_link": "base_link",
+            "link_names": [
+              "base_link",
+              "right_leg"
+            ],
+            "joint_names": [
+              "base_to_right_leg"
+            ],
+            "mesh_references": [],
+            "has_inertial_data": true,
+            "has_joint_limits": false,
+            "has_collision_geometry": false,
+            "has_visual_geometry": false,
+            "detected_sensors": [],
+            "warnings": [
+              "No sensor metadata found in robot description. Sensors such as IMU must be configured separately or use generatable defaults at plan time."
+            ],
+            "errors": []
+          },
+          {
+            "parsed": true,
+            "format": "urdf",
+            "source_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\03-origins.urdf",
+            "links_count": 2,
+            "joints_count": 1,
+            "movable_joints_count": 0,
+            "fixed_joints_count": 1,
+            "root_link": "base_link",
+            "link_names": [
+              "base_link",
+              "right_leg"
+            ],
+            "joint_names": [
+              "base_to_right_leg"
+            ],
+            "mesh_references": [],
+            "has_inertial_data": true,
+            "has_joint_limits": false,
+            "has_collision_geometry": false,
+            "has_visual_geometry": false,
+            "detected_sensors": [],
+            "warnings": [
+              "No sensor metadata found in robot description. Sensors such as IMU must be configured separately or use generatable defaults at plan time."
+            ],
+            "errors": []
+          },
+          {
+            "parsed": true,
+            "format": "urdf",
+            "source_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\04-materials.urdf",
+            "links_count": 3,
+            "joints_count": 2,
+            "movable_joints_count": 0,
+            "fixed_joints_count": 2,
+            "root_link": "base_link",
+            "link_names": [
+              "base_link",
+              "right_leg",
+              "left_leg"
+            ],
+            "joint_names": [
+              "base_to_right_leg",
+              "base_to_left_leg"
+            ],
+            "mesh_references": [],
+            "has_inertial_data": true,
+            "has_joint_limits": false,
+            "has_collision_geometry": false,
+            "has_visual_geometry": false,
+            "detected_sensors": [],
+            "warnings": [
+              "No sensor metadata found in robot description. Sensors such as IMU must be configured separately or use generatable defaults at plan time."
+            ],
+            "errors": []
+          },
+          {
+            "parsed": true,
+            "format": "urdf",
+            "source_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\05-visual.urdf",
+            "links_count": 16,
+            "joints_count": 15,
+            "movable_joints_count": 0,
+            "fixed_joints_count": 15,
+            "root_link": "base_link",
+            "link_names": [
+              "base_link",
+              "right_leg",
+              "right_base",
+              "right_front_wheel",
+              "right_back_wheel",
+              "left_leg",
+              "left_base",
+              "left_front_wheel",
+              "left_back_wheel",
+              "gripper_pole",
+              "left_gripper",
+              "left_tip",
+              "right_gripper",
+              "right_tip",
+              "head",
+              "box"
+            ],
+            "joint_names": [
+              "base_to_right_leg",
+              "right_base_joint",
+              "right_front_wheel_joint",
+              "right_back_wheel_joint",
+              "base_to_left_leg",
+              "left_base_joint",
+              "left_front_wheel_joint",
+              "left_back_wheel_joint",
+              "gripper_extension",
+              "left_gripper_joint",
+              "left_tip_joint",
+              "right_gripper_joint",
+              "right_tip_joint",
+              "head_swivel",
+              "tobox"
+            ],
+            "mesh_references": [
+              {
+                "source_file": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\05-visual.urdf",
+                "usage": "visual",
+                "raw_path": "package://urdf_tutorial/meshes/l_finger.dae",
+                "resolved_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\meshes\\l_finger.dae",
+                "package_name": "urdf_tutorial",
+                "file_type": "dae",
+                "exists": true,
+                "status": "found",
+                "matched_uploaded_asset_id": "asset-78434d34cc7b",
+                "action_needed": ""
+              },
+              {
+                "source_file": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\05-visual.urdf",
+                "usage": "visual",
+                "raw_path": "package://urdf_tutorial/meshes/l_finger_tip.dae",
+                "resolved_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\meshes\\l_finger_tip.dae",
+                "package_name": "urdf_tutorial",
+                "file_type": "dae",
+                "exists": true,
+                "status": "found",
+                "matched_uploaded_asset_id": "asset-aaa8f7b0db39",
+                "action_needed": ""
+              }
+            ],
+            "has_inertial_data": true,
+            "has_joint_limits": false,
+            "has_collision_geometry": false,
+            "has_visual_geometry": true,
+            "detected_sensors": [],
+            "warnings": [
+              "No sensor metadata found in robot description. Sensors such as IMU must be configured separately or use generatable defaults at plan time."
+            ],
+            "errors": []
+          },
+          {
+            "parsed": true,
+            "format": "urdf",
+            "source_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\06-flexible.urdf",
+            "links_count": 16,
+            "joints_count": 15,
+            "movable_joints_count": 8,
+            "fixed_joints_count": 7,
+            "root_link": "base_link",
+            "link_names": [
+              "base_link",
+              "right_leg",
+              "right_base",
+              "right_front_wheel",
+              "right_back_wheel",
+              "left_leg",
+              "left_base",
+              "left_front_wheel",
+              "left_back_wheel",
+              "gripper_pole",
+              "left_gripper",
+              "left_tip",
+              "right_gripper",
+              "right_tip",
+              "head",
+              "box"
+            ],
+            "joint_names": [
+              "base_to_right_leg",
+              "right_base_joint",
+              "right_front_wheel_joint",
+              "right_back_wheel_joint",
+              "base_to_left_leg",
+              "left_base_joint",
+              "left_front_wheel_joint",
+              "left_back_wheel_joint",
+              "gripper_extension",
+              "left_gripper_joint",
+              "left_tip_joint",
+              "right_gripper_joint",
+              "right_tip_joint",
+              "head_swivel",
+              "tobox"
+            ],
+            "mesh_references": [
+              {
+                "source_file": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\06-flexible.urdf",
+                "usage": "visual",
+                "raw_path": "package://urdf_tutorial/meshes/l_finger.dae",
+                "resolved_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\meshes\\l_finger.dae",
+                "package_name": "urdf_tutorial",
+                "file_type": "dae",
+                "exists": true,
+                "status": "found",
+                "matched_uploaded_asset_id": "asset-78434d34cc7b",
+                "action_needed": ""
+              },
+              {
+                "source_file": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\06-flexible.urdf",
+                "usage": "visual",
+                "raw_path": "package://urdf_tutorial/meshes/l_finger_tip.dae",
+                "resolved_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\meshes\\l_finger_tip.dae",
+                "package_name": "urdf_tutorial",
+                "file_type": "dae",
+                "exists": true,
+                "status": "found",
+                "matched_uploaded_asset_id": "asset-aaa8f7b0db39",
+                "action_needed": ""
+              }
+            ],
+            "has_inertial_data": true,
+            "has_joint_limits": true,
+            "has_collision_geometry": false,
+            "has_visual_geometry": true,
+            "detected_sensors": [],
+            "warnings": [
+              "No sensor metadata found in robot description. Sensors such as IMU must be configured separately or use generatable defaults at plan time."
+            ],
+            "errors": []
+          },
+          {
+            "parsed": true,
+            "format": "urdf",
+            "source_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\07-physics.urdf",
+            "links_count": 16,
+            "joints_count": 15,
+            "movable_joints_count": 8,
+            "fixed_joints_count": 7,
+            "root_link": "base_link",
+            "link_names": [
+              "base_link",
+              "right_leg",
+              "right_base",
+              "right_front_wheel",
+              "right_back_wheel",
+              "left_leg",
+              "left_base",
+              "left_front_wheel",
+              "left_back_wheel",
+              "gripper_pole",
+              "left_gripper",
+              "left_tip",
+              "right_gripper",
+              "right_tip",
+              "head",
+              "box"
+            ],
+            "joint_names": [
+              "base_to_right_leg",
+              "right_base_joint",
+              "right_front_wheel_joint",
+              "right_back_wheel_joint",
+              "base_to_left_leg",
+              "left_base_joint",
+              "left_front_wheel_joint",
+              "left_back_wheel_joint",
+              "gripper_extension",
+              "left_gripper_joint",
+              "left_tip_joint",
+              "right_gripper_joint",
+              "right_tip_joint",
+              "head_swivel",
+              "tobox"
+            ],
+            "mesh_references": [
+              {
+                "source_file": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\07-physics.urdf",
+                "usage": "both",
+                "raw_path": "package://urdf_tutorial/meshes/l_finger.dae",
+                "resolved_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\meshes\\l_finger.dae",
+                "package_name": "urdf_tutorial",
+                "file_type": "dae",
+                "exists": true,
+                "status": "found",
+                "matched_uploaded_asset_id": "asset-78434d34cc7b",
+                "action_needed": ""
+              },
+              {
+                "source_file": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\07-physics.urdf",
+                "usage": "both",
+                "raw_path": "package://urdf_tutorial/meshes/l_finger_tip.dae",
+                "resolved_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\meshes\\l_finger_tip.dae",
+                "package_name": "urdf_tutorial",
+                "file_type": "dae",
+                "exists": true,
+                "status": "found",
+                "matched_uploaded_asset_id": "asset-aaa8f7b0db39",
+                "action_needed": ""
+              }
+            ],
+            "has_inertial_data": true,
+            "has_joint_limits": true,
+            "has_collision_geometry": true,
+            "has_visual_geometry": true,
+            "detected_sensors": [],
+            "warnings": [
+              "No sensor metadata found in robot description. Sensors such as IMU must be configured separately or use generatable defaults at plan time."
+            ],
+            "errors": []
+          }
+        ],
+        "mesh_inspections": [
+          {
+            "asset_id": "asset-c2c84bb92cac",
+            "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\meshes\\l_finger.dae",
+            "parsed": true,
+            "file_type": "dae",
+            "watertight": false,
+            "volume": null,
+            "bounds": [
+              -0.009173891830055292,
+              -0.008981812134114087,
+              -0.028096987091750236,
+              0.09539831422862877,
+              0.045773170080381176,
+              0.0280991838209399
+            ],
+            "center_mass": [
+              0.03110337122107836,
+              0.01781293172434039,
+              1.2771922150997924e-6
+            ],
+            "face_count": 2000,
+            "vertex_count": 1372,
+            "units_guess": "likely_meters",
+            "errors": [],
+            "warnings": [
+              "Mesh is not watertight."
+            ]
+          },
+          {
+            "asset_id": "asset-d5402a0e06e8",
+            "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\meshes\\l_finger_tip.dae",
+            "parsed": true,
+            "file_type": "dae",
+            "watertight": false,
+            "volume": null,
+            "bounds": [
+              -0.02559809126851098,
+              -0.015940760313581825,
+              -0.011482779852789338,
+              0.031224400270348784,
+              0.0288008694172035,
+              0.011486600510576372
+            ],
+            "center_mass": [
+              0.004215517172393493,
+              0.0014496597658173185,
+              -2.5771606636561424e-6
+            ],
+            "face_count": 1000,
+            "vertex_count": 770,
+            "units_guess": "likely_meters",
+            "errors": [],
+            "warnings": [
+              "Mesh is not watertight."
+            ]
+          },
+          {
+            "asset_id": "asset-78434d34cc7b",
+            "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\meshes\\l_finger.dae",
+            "parsed": true,
+            "file_type": "dae",
+            "watertight": false,
+            "volume": null,
+            "bounds": [
+              -0.009173891830055292,
+              -0.008981812134114087,
+              -0.028096987091750236,
+              0.09539831422862877,
+              0.045773170080381176,
+              0.0280991838209399
+            ],
+            "center_mass": [
+              0.03110337122107836,
+              0.01781293172434039,
+              1.2771922150997924e-6
+            ],
+            "face_count": 2000,
+            "vertex_count": 1372,
+            "units_guess": "likely_meters",
+            "errors": [],
+            "warnings": [
+              "Mesh is not watertight."
+            ]
+          },
+          {
+            "asset_id": "asset-aaa8f7b0db39",
+            "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-699cedd1\\assets\\imported\\urdf_tutorial-ros2\\urdf\\meshes\\l_finger_tip.dae",
+            "parsed": true,
+            "file_type": "dae",
+            "watertight": false,
+            "volume": null,
+            "bounds": [
+              -0.02559809126851098,
+              -0.015940760313581825,
+              -0.011482779852789338,
+              0.031224400270348784,
+              0.0288008694172035,
+              0.011486600510576372
+            ],
+            "center_mass": [
+              0.004215517172393493,
+              0.0014496597658173185,
+              -2.5771606636561424e-6
+            ],
+            "face_count": 1000,
+            "vertex_count": 770,
+            "units_guess": "likely_meters",
+            "errors": [],
+            "warnings": [
+              "Mesh is not watertight."
+            ]
+          }
+        ],
+        "missing_mesh_count": 0,
+        "warnings": [
+          "No sensor metadata found in robot description. Sensors such as IMU must be configured separately or use generatable defaults at plan time.",
+          "No sensor metadata found in robot description. Sensors such as IMU must be configured separately or use generatable defaults at plan time.",
+          "No sensor metadata found in robot description. Sensors such as IMU must be configured separately or use generatable defaults at plan time.",
+          "No sensor metadata found in robot description. Sensors such as IMU must be configured separately or use generatable defaults at plan time.",
+          "No sensor metadata found in robot description. Sensors such as IMU must be configured separately or use generatable defaults at plan time.",
+          "No sensor metadata found in robot description. Sensors such as IMU must be configured separately or use generatable defaults at plan time.",
+          "No sensor metadata found in robot description. Sensors such as IMU must be configured separately or use generatable defaults at plan time.",
+          "Mesh is not watertight.",
+          "Mesh is not watertight.",
+          "Mesh is not watertight.",
+          "Mesh is not watertight."
+        ],
+        "errors": []
+      },
+      "text": "23 assets scanned."
+    },
+    {
+      "id": "msg-1780997065559-3257oh",
+      "role": "assistant",
+      "type": "simulation_plan",
+      "plan": {
+        "project_id": "imported-699cedd1",
+        "user_goal": null,
+        "asset_summary": {
+          "total_assets": 23,
+          "urdf_count": 7,
+          "mesh_count": 4,
+          "step_count": 0,
+          "robot_description_count": 7,
+          "missing_mesh_count": 0,
+          "total_mesh_references": 6,
+          "mesh_validation_warnings": 4,
+          "mesh_validation_errors": 0
+        },
+        "recommended_tests": [
+          {
+            "test_id": "gravity_stability",
+            "can_run": true,
+            "can_run_with_fallback": false,
+            "confidence": 1,
+            "missing_required": [],
+            "missing_optional": [],
+            "generated_defaults_available": [],
+            "blockers": [],
+            "warnings": [],
+            "suggested_actions": [],
+            "required_user_questions": [],
+            "fallback_modes": []
+          },
+          {
+            "test_id": "joint_sweep",
+            "can_run": true,
+            "can_run_with_fallback": false,
+            "confidence": 1,
+            "missing_required": [],
+            "missing_optional": [],
+            "generated_defaults_available": [],
+            "blockers": [],
+            "warnings": [],
+            "suggested_actions": [],
+            "required_user_questions": [],
+            "fallback_modes": []
+          },
+          {
+            "test_id": "imu_sensor",
+            "can_run": true,
+            "can_run_with_fallback": false,
+            "confidence": 1,
+            "missing_required": [],
+            "missing_optional": [],
+            "generated_defaults_available": [
+              "default_attach_link",
+              "default_sample_rate",
+              "identity_pose"
+            ],
+            "blockers": [],
+            "warnings": [
+              "No sensor metadata in URDF — IMU will use generatable defaults."
+            ],
+            "suggested_actions": [
+              "Safe defaults can be generated for: default_attach_link, default_sample_rate, identity_pose"
+            ],
+            "required_user_questions": [
+              "Which link should IMU attach to? Default: base_link"
+            ],
+            "fallback_modes": []
+          },
+          {
+            "test_id": "contact_force",
+            "can_run": true,
+            "can_run_with_fallback": false,
+            "confidence": 1,
+            "missing_required": [],
+            "missing_optional": [],
+            "generated_defaults_available": [
+              "default_contact_links"
+            ],
+            "blockers": [],
+            "warnings": [],
+            "suggested_actions": [
+              "Safe defaults can be generated for: default_contact_links"
+            ],
+            "required_user_questions": [],
+            "fallback_modes": []
+          },
+          {
+            "test_id": "depth_camera",
+            "can_run": true,
+            "can_run_with_fallback": false,
+            "confidence": 1,
+            "missing_required": [],
+            "missing_optional": [],
+            "generated_defaults_available": [
+              "default_camera_pose",
+              "default_resolution"
+            ],
+            "blockers": [],
+            "warnings": [],
+            "suggested_actions": [
+              "Safe defaults can be generated for: default_camera_pose, default_resolution"
+            ],
+            "required_user_questions": [],
+            "fallback_modes": []
+          },
+          {
+            "test_id": "thermal_grid_readiness",
+            "can_run": true,
+            "can_run_with_fallback": false,
+            "confidence": 1,
+            "missing_required": [],
+            "missing_optional": [
+              "material_thermal_properties"
+            ],
+            "generated_defaults_available": [
+              "bounding_box_grid",
+              "demo_heat_source"
+            ],
+            "blockers": [],
+            "warnings": [
+              "Real material thermal conductivity cannot be faked without user input."
+            ],
+            "suggested_actions": [
+              "Safe defaults can be generated for: bounding_box_grid, demo_heat_source"
+            ],
+            "required_user_questions": [],
+            "fallback_modes": []
+          },
+          {
+            "test_id": "static_mesh_preview",
+            "can_run": true,
+            "can_run_with_fallback": false,
+            "confidence": 1,
+            "missing_required": [],
+            "missing_optional": [],
+            "generated_defaults_available": [],
+            "blockers": [],
+            "warnings": [
+              "URDF/MJCF detected — robot motion tests are available; static preview is mesh-only."
+            ],
+            "suggested_actions": [],
+            "required_user_questions": [],
+            "fallback_modes": []
+          }
+        ],
+        "blocked_tests": [
+          {
+            "test_id": "fea_readiness",
+            "can_run": false,
+            "can_run_with_fallback": false,
+            "confidence": 0.3,
+            "missing_required": [
+              "watertight_geometry",
+              "material",
+              "constraints",
+              "loads"
+            ],
+            "missing_optional": [],
+            "generated_defaults_available": [],
+            "blockers": [
+              "FEA readiness only — Genesis does not run a full FEA solver in MVP.",
+              "No watertight solid geometry detected.",
+              "Missing material — cannot fake meaningful FEA inputs.",
+              "Missing constraints — cannot fake meaningful FEA inputs.",
+              "Missing loads — cannot fake meaningful FEA inputs."
+            ],
+            "warnings": [],
+            "suggested_actions": [
+              "Upload missing files listed in inspection report."
+            ],
+            "required_user_questions": [],
+            "fallback_modes": []
+          },
+          {
+            "test_id": "cfd_readiness",
+            "can_run": false,
+            "can_run_with_fallback": false,
+            "confidence": 0.3,
+            "missing_required": [
+              "watertight_geometry",
+              "fluid_domain",
+              "inlet_outlet",
+              "boundary_conditions"
+            ],
+            "missing_optional": [],
+            "generated_defaults_available": [],
+            "blockers": [
+              "CFD readiness only — Genesis does not run a full CFD solver in MVP.",
+              "Missing fluid_domain — cannot fake meaningful CFD boundary conditions.",
+              "Missing inlet_outlet — cannot fake meaningful CFD boundary conditions.",
+              "Missing boundary_conditions — cannot fake meaningful CFD boundary conditions."
+            ],
+            "warnings": [],
+            "suggested_actions": [
+              "Upload missing files listed in inspection report."
+            ],
+            "required_user_questions": [],
+            "fallback_modes": []
+          }
+        ],
+        "required_questions": [
+          "Which link should IMU attach to? Default: base_link"
+        ],
+        "generation_tasks": [
+          "default_attach_link",
+          "default_sample_rate",
+          "identity_pose",
+          "default_contact_links",
+          "default_camera_pose",
+          "default_resolution",
+          "bounding_box_grid",
+          "demo_heat_source"
+        ],
+        "selected_test": null,
+        "plan_steps": [
+          "You uploaded a robot description (URDF/MJCF).",
+          "All 6 URDF mesh references are resolved.",
+          "Runnable tests: gravity_stability, joint_sweep, imu_sensor, contact_force, depth_camera.",
+          "fea_readiness: readiness check only — FEA readiness only — Genesis does not run a full FEA solver in MVP..",
+          "cfd_readiness: readiness check only — CFD readiness only — Genesis does not run a full CFD solver in MVP..",
+          "Which link should IMU attach to? Default: base_link"
+        ],
+        "warnings": [
+          "No sensor metadata found in robot description. Sensors such as IMU must be configured separately or use generatable defaults at plan time.",
+          "Mesh is not watertight."
+        ],
+        "agent_explanation": "You uploaded a robot description (URDF/MJCF).\nAll 6 URDF mesh references are resolved.\nRunnable tests: gravity_stability, joint_sweep, imu_sensor, contact_force, depth_camera.\nfea_readiness: readiness check only — FEA readiness only — Genesis does not run a full FEA solver in MVP..\ncfd_readiness: readiness check only — CFD readiness only — Genesis does not run a full CFD solver in MVP..\nWhich link should IMU attach to? Default: base_link",
+        "goal_parse": {
+          "raw_goal": "",
+          "candidate_tests": [],
+          "unknown_terms": [],
+          "needs_clarification": false,
+          "clarifying_questions": []
+        }
+      },
+      "timestamp": "2026-06-09T09:24:25.559Z",
+      "text": "You uploaded a robot description (URDF/MJCF).\nAll 6 URDF mesh references are resolved.\nRunnable tests: gravity_stability, joint_sweep, imu_sensor, contact_force, depth_camera.\nfea_readiness: readiness check only — FEA readiness only — Genesis does not run a full FEA solver in MVP..\ncfd_readiness: readiness check only — CFD readiness only — Genesis does not run a full CFD solver in MVP..\nWhich link should IMU attach to? Default: base_link"
+    },
+    {
+      "id": "msg-1780997065559-ttbpdw",
+      "role": "assistant",
+      "type": "test_recommendations",
+      "timestamp": "2026-06-09T09:24:25.559Z",
+      "tests": [
+        {
+          "test_id": "gravity_stability",
+          "can_run": true,
+          "can_run_with_fallback": false,
+          "confidence": 1,
+          "missing_required": [],
+          "missing_optional": [],
+          "generated_defaults_available": [],
+          "blockers": [],
+          "warnings": [],
+          "suggested_actions": [],
+          "required_user_questions": [],
+          "fallback_modes": []
+        },
+        {
+          "test_id": "joint_sweep",
+          "can_run": true,
+          "can_run_with_fallback": false,
+          "confidence": 1,
+          "missing_required": [],
+          "missing_optional": [],
+          "generated_defaults_available": [],
+          "blockers": [],
+          "warnings": [],
+          "suggested_actions": [],
+          "required_user_questions": [],
+          "fallback_modes": []
+        },
+        {
+          "test_id": "imu_sensor",
+          "can_run": true,
+          "can_run_with_fallback": false,
+          "confidence": 1,
+          "missing_required": [],
+          "missing_optional": [],
+          "generated_defaults_available": [
+            "default_attach_link",
+            "default_sample_rate",
+            "identity_pose"
+          ],
+          "blockers": [],
+          "warnings": [
+            "No sensor metadata in URDF — IMU will use generatable defaults."
+          ],
+          "suggested_actions": [
+            "Safe defaults can be generated for: default_attach_link, default_sample_rate, identity_pose"
+          ],
+          "required_user_questions": [
+            "Which link should IMU attach to? Default: base_link"
+          ],
+          "fallback_modes": []
+        },
+        {
+          "test_id": "contact_force",
+          "can_run": true,
+          "can_run_with_fallback": false,
+          "confidence": 1,
+          "missing_required": [],
+          "missing_optional": [],
+          "generated_defaults_available": [
+            "default_contact_links"
+          ],
+          "blockers": [],
+          "warnings": [],
+          "suggested_actions": [
+            "Safe defaults can be generated for: default_contact_links"
+          ],
+          "required_user_questions": [],
+          "fallback_modes": []
+        },
+        {
+          "test_id": "depth_camera",
+          "can_run": true,
+          "can_run_with_fallback": false,
+          "confidence": 1,
+          "missing_required": [],
+          "missing_optional": [],
+          "generated_defaults_available": [
+            "default_camera_pose",
+            "default_resolution"
+          ],
+          "blockers": [],
+          "warnings": [],
+          "suggested_actions": [
+            "Safe defaults can be generated for: default_camera_pose, default_resolution"
+          ],
+          "required_user_questions": [],
+          "fallback_modes": []
+        },
+        {
+          "test_id": "thermal_grid_readiness",
+          "can_run": true,
+          "can_run_with_fallback": false,
+          "confidence": 1,
+          "missing_required": [],
+          "missing_optional": [
+            "material_thermal_properties"
+          ],
+          "generated_defaults_available": [
+            "bounding_box_grid",
+            "demo_heat_source"
+          ],
+          "blockers": [],
+          "warnings": [
+            "Real material thermal conductivity cannot be faked without user input."
+          ],
+          "suggested_actions": [
+            "Safe defaults can be generated for: bounding_box_grid, demo_heat_source"
+          ],
+          "required_user_questions": [],
+          "fallback_modes": []
+        },
+        {
+          "test_id": "static_mesh_preview",
+          "can_run": true,
+          "can_run_with_fallback": false,
+          "confidence": 1,
+          "missing_required": [],
+          "missing_optional": [],
+          "generated_defaults_available": [],
+          "blockers": [],
+          "warnings": [
+            "URDF/MJCF detected — robot motion tests are available; static preview is mesh-only."
+          ],
+          "suggested_actions": [],
+          "required_user_questions": [],
+          "fallback_modes": []
+        },
+        {
+          "test_id": "fea_readiness",
+          "can_run": false,
+          "can_run_with_fallback": false,
+          "confidence": 0.3,
+          "missing_required": [
+            "watertight_geometry",
+            "material",
+            "constraints",
+            "loads"
+          ],
+          "missing_optional": [],
+          "generated_defaults_available": [],
+          "blockers": [
+            "FEA readiness only — Genesis does not run a full FEA solver in MVP.",
+            "No watertight solid geometry detected.",
+            "Missing material — cannot fake meaningful FEA inputs.",
+            "Missing constraints — cannot fake meaningful FEA inputs.",
+            "Missing loads — cannot fake meaningful FEA inputs."
+          ],
+          "warnings": [],
+          "suggested_actions": [
+            "Upload missing files listed in inspection report."
+          ],
+          "required_user_questions": [],
+          "fallback_modes": []
+        },
+        {
+          "test_id": "cfd_readiness",
+          "can_run": false,
+          "can_run_with_fallback": false,
+          "confidence": 0.3,
+          "missing_required": [
+            "watertight_geometry",
+            "fluid_domain",
+            "inlet_outlet",
+            "boundary_conditions"
+          ],
+          "missing_optional": [],
+          "generated_defaults_available": [],
+          "blockers": [
+            "CFD readiness only — Genesis does not run a full CFD solver in MVP.",
+            "Missing fluid_domain — cannot fake meaningful CFD boundary conditions.",
+            "Missing inlet_outlet — cannot fake meaningful CFD boundary conditions.",
+            "Missing boundary_conditions — cannot fake meaningful CFD boundary conditions."
+          ],
+          "warnings": [],
+          "suggested_actions": [
+            "Upload missing files listed in inspection report."
+          ],
+          "required_user_questions": [],
+          "fallback_modes": []
+        }
+      ],
+      "text": "7 test(s) you can explore, 2 blocked."
+    },
+    {
+      "id": "msg-1780997065559-57ga6l",
+      "role": "assistant",
+      "type": "recovery_actions",
+      "text": "Recovery and next steps:\nSuggested: default_attach_link, default_sample_rate, identity_pose, default_contact_links, default_camera_pose, default_resolution, bounding_box_grid, demo_heat_source",
+      "timestamp": "2026-06-09T09:24:25.559Z",
+      "actions": [
+        {
+          "id": "upload-zip",
+          "title": "Upload robot zip",
+          "description": "Attach a zip with meshes/ folder via + below, then Send",
+          "actionId": "upload_zip",
+          "variant": "primary"
+        },
+        {
+          "id": "run-preflight",
+          "title": "Run preflight",
+          "description": "Re-scan, inspect, and update plan",
+          "actionId": "run_preflight",
+          "variant": "secondary"
+        },
+        {
+          "id": "cad-bridge",
+          "title": "Pillar 1 CAD bridge (coming soon)",
+          "description": "Not connected yet — use STEP recovery or upload a meshes/ zip bundle",
+          "actionId": "cad_bridge",
+          "variant": "disabled",
+          "disabled": true,
+          "disabledReason": "Buildables CAD generation bridge is not connected. Use STEP recovery or upload meshes."
+        },
+        {
+          "id": "prepare-script",
+          "title": "Prepare script of last test",
+          "description": "Generate a Genesis script for the currently selected test",
+          "actionId": "prepare_genesis_script",
+          "variant": "primary"
+        },
+        {
+          "id": "run-sim",
+          "title": "Run simulation of last test",
+          "description": "Execute the last generated script for the selected test",
+          "actionId": "run_simulation",
+          "variant": "secondary"
+        }
+      ],
+      "plan": {
+        "project_id": "imported-699cedd1",
+        "user_goal": null,
+        "asset_summary": {
+          "total_assets": 23,
+          "urdf_count": 7,
+          "mesh_count": 4,
+          "step_count": 0,
+          "robot_description_count": 7,
+          "missing_mesh_count": 0,
+          "total_mesh_references": 6,
+          "mesh_validation_warnings": 4,
+          "mesh_validation_errors": 0
+        },
+        "recommended_tests": [
+          {
+            "test_id": "gravity_stability",
+            "can_run": true,
+            "can_run_with_fallback": false,
+            "confidence": 1,
+            "missing_required": [],
+            "missing_optional": [],
+            "generated_defaults_available": [],
+            "blockers": [],
+            "warnings": [],
+            "suggested_actions": [],
+            "required_user_questions": [],
+            "fallback_modes": []
+          },
+          {
+            "test_id": "joint_sweep",
+            "can_run": true,
+            "can_run_with_fallback": false,
+            "confidence": 1,
+            "missing_required": [],
+            "missing_optional": [],
+            "generated_defaults_available": [],
+            "blockers": [],
+            "warnings": [],
+            "suggested_actions": [],
+            "required_user_questions": [],
+            "fallback_modes": []
+          },
+          {
+            "test_id": "imu_sensor",
+            "can_run": true,
+            "can_run_with_fallback": false,
+            "confidence": 1,
+            "missing_required": [],
+            "missing_optional": [],
+            "generated_defaults_available": [
+              "default_attach_link",
+              "default_sample_rate",
+              "identity_pose"
+            ],
+            "blockers": [],
+            "warnings": [
+              "No sensor metadata in URDF — IMU will use generatable defaults."
+            ],
+            "suggested_actions": [
+              "Safe defaults can be generated for: default_attach_link, default_sample_rate, identity_pose"
+            ],
+            "required_user_questions": [
+              "Which link should IMU attach to? Default: base_link"
+            ],
+            "fallback_modes": []
+          },
+          {
+            "test_id": "contact_force",
+            "can_run": true,
+            "can_run_with_fallback": false,
+            "confidence": 1,
+            "missing_required": [],
+            "missing_optional": [],
+            "generated_defaults_available": [
+              "default_contact_links"
+            ],
+            "blockers": [],
+            "warnings": [],
+            "suggested_actions": [
+              "Safe defaults can be generated for: default_contact_links"
+            ],
+            "required_user_questions": [],
+            "fallback_modes": []
+          },
+          {
+            "test_id": "depth_camera",
+            "can_run": true,
+            "can_run_with_fallback": false,
+            "confidence": 1,
+            "missing_required": [],
+            "missing_optional": [],
+            "generated_defaults_available": [
+              "default_camera_pose",
+              "default_resolution"
+            ],
+            "blockers": [],
+            "warnings": [],
+            "suggested_actions": [
+              "Safe defaults can be generated for: default_camera_pose, default_resolution"
+            ],
+            "required_user_questions": [],
+            "fallback_modes": []
+          },
+          {
+            "test_id": "thermal_grid_readiness",
+            "can_run": true,
+            "can_run_with_fallback": false,
+            "confidence": 1,
+            "missing_required": [],
+            "missing_optional": [
+              "material_thermal_properties"
+            ],
+            "generated_defaults_available": [
+              "bounding_box_grid",
+              "demo_heat_source"
+            ],
+            "blockers": [],
+            "warnings": [
+              "Real material thermal conductivity cannot be faked without user input."
+            ],
+            "suggested_actions": [
+              "Safe defaults can be generated for: bounding_box_grid, demo_heat_source"
+            ],
+            "required_user_questions": [],
+            "fallback_modes": []
+          },
+          {
+            "test_id": "static_mesh_preview",
+            "can_run": true,
+            "can_run_with_fallback": false,
+            "confidence": 1,
+            "missing_required": [],
+            "missing_optional": [],
+            "generated_defaults_available": [],
+            "blockers": [],
+            "warnings": [
+              "URDF/MJCF detected — robot motion tests are available; static preview is mesh-only."
+            ],
+            "suggested_actions": [],
+            "required_user_questions": [],
+            "fallback_modes": []
+          }
+        ],
+        "blocked_tests": [
+          {
+            "test_id": "fea_readiness",
+            "can_run": false,
+            "can_run_with_fallback": false,
+            "confidence": 0.3,
+            "missing_required": [
+              "watertight_geometry",
+              "material",
+              "constraints",
+              "loads"
+            ],
+            "missing_optional": [],
+            "generated_defaults_available": [],
+            "blockers": [
+              "FEA readiness only — Genesis does not run a full FEA solver in MVP.",
+              "No watertight solid geometry detected.",
+              "Missing material — cannot fake meaningful FEA inputs.",
+              "Missing constraints — cannot fake meaningful FEA inputs.",
+              "Missing loads — cannot fake meaningful FEA inputs."
+            ],
+            "warnings": [],
+            "suggested_actions": [
+              "Upload missing files listed in inspection report."
+            ],
+            "required_user_questions": [],
+            "fallback_modes": []
+          },
+          {
+            "test_id": "cfd_readiness",
+            "can_run": false,
+            "can_run_with_fallback": false,
+            "confidence": 0.3,
+            "missing_required": [
+              "watertight_geometry",
+              "fluid_domain",
+              "inlet_outlet",
+              "boundary_conditions"
+            ],
+            "missing_optional": [],
+            "generated_defaults_available": [],
+            "blockers": [
+              "CFD readiness only — Genesis does not run a full CFD solver in MVP.",
+              "Missing fluid_domain — cannot fake meaningful CFD boundary conditions.",
+              "Missing inlet_outlet — cannot fake meaningful CFD boundary conditions.",
+              "Missing boundary_conditions — cannot fake meaningful CFD boundary conditions."
+            ],
+            "warnings": [],
+            "suggested_actions": [
+              "Upload missing files listed in inspection report."
+            ],
+            "required_user_questions": [],
+            "fallback_modes": []
+          }
+        ],
+        "required_questions": [
+          "Which link should IMU attach to? Default: base_link"
+        ],
+        "generation_tasks": [
+          "default_attach_link",
+          "default_sample_rate",
+          "identity_pose",
+          "default_contact_links",
+          "default_camera_pose",
+          "default_resolution",
+          "bounding_box_grid",
+          "demo_heat_source"
+        ],
+        "selected_test": null,
+        "plan_steps": [
+          "You uploaded a robot description (URDF/MJCF).",
+          "All 6 URDF mesh references are resolved.",
+          "Runnable tests: gravity_stability, joint_sweep, imu_sensor, contact_force, depth_camera.",
+          "fea_readiness: readiness check only — FEA readiness only — Genesis does not run a full FEA solver in MVP..",
+          "cfd_readiness: readiness check only — CFD readiness only — Genesis does not run a full CFD solver in MVP..",
+          "Which link should IMU attach to? Default: base_link"
+        ],
+        "warnings": [
+          "No sensor metadata found in robot description. Sensors such as IMU must be configured separately or use generatable defaults at plan time.",
+          "Mesh is not watertight."
+        ],
+        "agent_explanation": "You uploaded a robot description (URDF/MJCF).\nAll 6 URDF mesh references are resolved.\nRunnable tests: gravity_stability, joint_sweep, imu_sensor, contact_force, depth_camera.\nfea_readiness: readiness check only — FEA readiness only — Genesis does not run a full FEA solver in MVP..\ncfd_readiness: readiness check only — CFD readiness only — Genesis does not run a full CFD solver in MVP..\nWhich link should IMU attach to? Default: base_link",
+        "goal_parse": {
+          "raw_goal": "",
+          "candidate_tests": [],
+          "unknown_terms": [],
+          "needs_clarification": false,
+          "clarifying_questions": []
+        }
+      }
+    }
+  ]
+}

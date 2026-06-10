@@ -1,0 +1,8 @@
+﻿{
+    "config":  {
+                   "obstacle_distance_m":  1.2
+               },
+    "duration_s":  7,
+    "name":  "Obstacle Avoidance",
+    "id":  "obstacle_avoidance"
+}

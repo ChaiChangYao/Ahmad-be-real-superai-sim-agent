@@ -1,0 +1,16 @@
+{
+  "metadata": {
+    "type": "procedural_robot_dog_visual",
+    "notes": "Visual mesh is for rendering. Collision mesh is what Genesis uses for real-time physics."
+  },
+  "parts": [
+    { "id": "torso_armor", "shape": "rounded_box", "size_m": [0.9, 0.22, 0.35], "color": "#f4c430" },
+    { "id": "chassis_frame", "shape": "box", "size_m": [0.88, 0.12, 0.33], "color": "#111827" },
+    { "id": "sensor_panel", "shape": "box", "size_m": [0.06, 0.08, 0.1], "color": "#0f172a", "offset_m": [0.45, 0.0, 0.0] },
+    { "id": "payload_rail_left", "shape": "box", "size_m": [0.55, 0.02, 0.02], "color": "#111827", "offset_m": [0.0, 0.12, 0.11] },
+    { "id": "payload_rail_right", "shape": "box", "size_m": [0.55, 0.02, 0.02], "color": "#111827", "offset_m": [0.0, -0.12, 0.11] },
+    { "id": "leg_links", "shape": "capsule_chain", "count": 8, "color": "#111827" },
+    { "id": "rubber_feet", "shape": "sphere", "count": 4, "color": "#1f2937" },
+    { "id": "cable_routes", "shape": "tube_polyline", "count": 5, "color": "#ef4444" }
+  ]
+}

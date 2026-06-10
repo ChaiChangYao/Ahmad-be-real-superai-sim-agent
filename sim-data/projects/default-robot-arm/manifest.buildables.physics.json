@@ -1,0 +1,137 @@
+{
+  "schema_version": "0.1.0",
+  "version": 1,
+  "project_id": "default-robot-arm",
+  "project_name": "Default Robot Arm Demo",
+  "project_type": "robot_arm",
+  "units": { "length": "m", "mass": "kg", "time": "s", "angle": "rad" },
+  "assets": [],
+  "materials": [
+    {
+      "id": "mat-arm-alloy",
+      "name": "Arm Alloy",
+      "density_kg_m3": 2700,
+      "static_friction": 0.62,
+      "dynamic_friction": 0.5,
+      "restitution": 0.1,
+      "simulation_notes": "Default robot arm structure.",
+      "confidence": "placeholder"
+    }
+  ],
+  "links": [
+    {
+      "id": "arm_base",
+      "name": "Arm Base",
+      "category": "body",
+      "visual_asset_id": null,
+      "material_id": "mat-arm-alloy",
+      "mass_kg": 8.0,
+      "center_of_mass": { "x": 0.0, "y": 0.0, "z": 0.2 },
+      "inertia_tensor": null,
+      "transform": { "position": { "x": 0.0, "y": 0.0, "z": 0.25 }, "rotation_rpy": { "x": 0.0, "y": 0.0, "z": 0.0 } },
+      "collision_primitive_ids": ["cp-arm-base"],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Procedural arm base."
+    },
+    {
+      "id": "arm_shoulder",
+      "name": "Shoulder Link",
+      "category": "leg",
+      "visual_asset_id": null,
+      "material_id": "mat-arm-alloy",
+      "mass_kg": 2.0,
+      "center_of_mass": { "x": 0.0, "y": 0.0, "z": 0.15 },
+      "inertia_tensor": null,
+      "transform": { "position": { "x": 0.0, "y": 0.0, "z": 0.5 }, "rotation_rpy": { "x": 0.0, "y": 0.0, "z": 0.0 } },
+      "collision_primitive_ids": ["cp-arm-shoulder"],
+      "parent_link_id": "arm_base",
+      "editable": true,
+      "notes": null
+    },
+    {
+      "id": "arm_elbow",
+      "name": "Elbow Link",
+      "category": "leg",
+      "visual_asset_id": null,
+      "material_id": "mat-arm-alloy",
+      "mass_kg": 1.6,
+      "center_of_mass": { "x": 0.0, "y": 0.0, "z": 0.12 },
+      "inertia_tensor": null,
+      "transform": { "position": { "x": 0.0, "y": 0.0, "z": 0.75 }, "rotation_rpy": { "x": 0.0, "y": 0.0, "z": 0.0 } },
+      "collision_primitive_ids": ["cp-arm-elbow"],
+      "parent_link_id": "arm_shoulder",
+      "editable": true,
+      "notes": null
+    },
+    {
+      "id": "arm_wrist",
+      "name": "Wrist Link",
+      "category": "leg",
+      "visual_asset_id": null,
+      "material_id": "mat-arm-alloy",
+      "mass_kg": 1.0,
+      "center_of_mass": { "x": 0.0, "y": 0.0, "z": 0.08 },
+      "inertia_tensor": null,
+      "transform": { "position": { "x": 0.0, "y": 0.0, "z": 0.95 }, "rotation_rpy": { "x": 0.0, "y": 0.0, "z": 0.0 } },
+      "collision_primitive_ids": ["cp-arm-wrist"],
+      "parent_link_id": "arm_elbow",
+      "editable": true,
+      "notes": null
+    },
+    {
+      "id": "arm_gripper",
+      "name": "Gripper",
+      "category": "foot",
+      "visual_asset_id": null,
+      "material_id": "mat-arm-alloy",
+      "mass_kg": 0.8,
+      "center_of_mass": { "x": 0.0, "y": 0.0, "z": 0.02 },
+      "inertia_tensor": null,
+      "transform": { "position": { "x": 0.0, "y": 0.0, "z": 1.08 }, "rotation_rpy": { "x": 0.0, "y": 0.0, "z": 0.0 } },
+      "collision_primitive_ids": ["cp-arm-gripper"],
+      "parent_link_id": "arm_wrist",
+      "editable": true,
+      "notes": null
+    }
+  ],
+  "joints": [
+    { "id": "arm_shoulder_yaw", "name": "Shoulder Yaw", "type": "revolute", "parent_link_id": "arm_base", "child_link_id": "arm_shoulder", "origin_xyz": { "x": 0.0, "y": 0.0, "z": 0.45 }, "origin_rpy": { "x": 0.0, "y": 0.0, "z": 0.0 }, "axis_xyz": { "x": 0.0, "y": 0.0, "z": 1.0 }, "limit_lower_rad": -2.2, "limit_upper_rad": 2.2, "effort_limit_nm": 70, "velocity_limit_rad_s": 2.5, "damping": 0.1, "friction": 0.02, "auto_detected": false, "user_confirmed": true, "notes": null },
+    { "id": "arm_shoulder_pitch", "name": "Shoulder Pitch", "type": "revolute", "parent_link_id": "arm_shoulder", "child_link_id": "arm_elbow", "origin_xyz": { "x": 0.0, "y": 0.0, "z": 0.22 }, "origin_rpy": { "x": 0.0, "y": 0.0, "z": 0.0 }, "axis_xyz": { "x": 0.0, "y": 1.0, "z": 0.0 }, "limit_lower_rad": -1.7, "limit_upper_rad": 1.7, "effort_limit_nm": 65, "velocity_limit_rad_s": 2.5, "damping": 0.1, "friction": 0.02, "auto_detected": false, "user_confirmed": true, "notes": null },
+    { "id": "arm_elbow_pitch", "name": "Elbow Pitch", "type": "revolute", "parent_link_id": "arm_elbow", "child_link_id": "arm_wrist", "origin_xyz": { "x": 0.0, "y": 0.0, "z": 0.2 }, "origin_rpy": { "x": 0.0, "y": 0.0, "z": 0.0 }, "axis_xyz": { "x": 0.0, "y": 1.0, "z": 0.0 }, "limit_lower_rad": -2.0, "limit_upper_rad": 2.0, "effort_limit_nm": 55, "velocity_limit_rad_s": 3.0, "damping": 0.1, "friction": 0.02, "auto_detected": false, "user_confirmed": true, "notes": null },
+    { "id": "arm_wrist_roll", "name": "Wrist Roll", "type": "revolute", "parent_link_id": "arm_wrist", "child_link_id": "arm_gripper", "origin_xyz": { "x": 0.0, "y": 0.0, "z": 0.12 }, "origin_rpy": { "x": 0.0, "y": 0.0, "z": 0.0 }, "axis_xyz": { "x": 1.0, "y": 0.0, "z": 0.0 }, "limit_lower_rad": -3.14, "limit_upper_rad": 3.14, "effort_limit_nm": 45, "velocity_limit_rad_s": 3.2, "damping": 0.1, "friction": 0.02, "auto_detected": false, "user_confirmed": true, "notes": null }
+  ],
+  "actuators": [
+    { "id": "a-arm-1", "name": "ShoulderYawServo", "type": "servo", "real_component_profile_id": "servo-arm-01", "joint_id": "arm_shoulder_yaw", "control_mode": "position", "max_torque_nm": 70, "max_velocity_rad_s": 2.5, "rated_voltage_v": 24, "stall_current_a": 8, "mass_kg": 1, "dimensions_m": [0.08, 0.08, 0.1], "mounting_transform": { "position": { "x": 0, "y": 0, "z": 0 }, "rotation_rpy": { "x": 0, "y": 0, "z": 0 } }, "confidence": "placeholder" },
+    { "id": "a-arm-2", "name": "ShoulderPitchServo", "type": "servo", "real_component_profile_id": "servo-arm-01", "joint_id": "arm_shoulder_pitch", "control_mode": "position", "max_torque_nm": 65, "max_velocity_rad_s": 2.5, "rated_voltage_v": 24, "stall_current_a": 8, "mass_kg": 1, "dimensions_m": [0.08, 0.08, 0.1], "mounting_transform": { "position": { "x": 0, "y": 0, "z": 0 }, "rotation_rpy": { "x": 0, "y": 0, "z": 0 } }, "confidence": "placeholder" },
+    { "id": "a-arm-3", "name": "ElbowServo", "type": "servo", "real_component_profile_id": "servo-arm-01", "joint_id": "arm_elbow_pitch", "control_mode": "position", "max_torque_nm": 55, "max_velocity_rad_s": 3.0, "rated_voltage_v": 24, "stall_current_a": 8, "mass_kg": 1, "dimensions_m": [0.08, 0.08, 0.1], "mounting_transform": { "position": { "x": 0, "y": 0, "z": 0 }, "rotation_rpy": { "x": 0, "y": 0, "z": 0 } }, "confidence": "placeholder" },
+    { "id": "a-arm-4", "name": "WristServo", "type": "servo", "real_component_profile_id": "servo-arm-01", "joint_id": "arm_wrist_roll", "control_mode": "position", "max_torque_nm": 45, "max_velocity_rad_s": 3.2, "rated_voltage_v": 24, "stall_current_a": 8, "mass_kg": 1, "dimensions_m": [0.08, 0.08, 0.1], "mounting_transform": { "position": { "x": 0, "y": 0, "z": 0 }, "rotation_rpy": { "x": 0, "y": 0, "z": 0 } }, "confidence": "placeholder" }
+  ],
+  "electronics": [{ "id": "arm-controller", "component_profile_id": "controller-industrial-01", "link_id": "arm_base", "transform": { "position": { "x": 0, "y": 0, "z": 0.3 }, "rotation_rpy": { "x": 0, "y": 0, "z": 0 } }, "editable": true }],
+  "sensors": [{ "id": "arm-camera", "name": "WristCamera", "sensor_type": "camera", "attach_link_id": "arm_wrist", "transform": { "position": { "x": 0, "y": 0, "z": 0.06 }, "rotation_rpy": { "x": 0, "y": 0, "z": 0 } }, "update_rate_hz": 30, "derived": true }],
+  "wires": [],
+  "collision_primitives": [
+    { "id": "cp-arm-base", "link_id": "arm_base", "primitive_type": "box", "dimensions": [0.32, 0.32, 0.4], "offset": { "x": 0, "y": 0, "z": 0 }, "rotation_rpy": { "x": 0, "y": 0, "z": 0 } },
+    { "id": "cp-arm-shoulder", "link_id": "arm_shoulder", "primitive_type": "capsule", "dimensions": [0.06, 0.35], "offset": { "x": 0, "y": 0, "z": 0.15 }, "rotation_rpy": { "x": 0, "y": 0, "z": 0 } },
+    { "id": "cp-arm-elbow", "link_id": "arm_elbow", "primitive_type": "capsule", "dimensions": [0.05, 0.3], "offset": { "x": 0, "y": 0, "z": 0.14 }, "rotation_rpy": { "x": 0, "y": 0, "z": 0 } },
+    { "id": "cp-arm-wrist", "link_id": "arm_wrist", "primitive_type": "capsule", "dimensions": [0.04, 0.22], "offset": { "x": 0, "y": 0, "z": 0.1 }, "rotation_rpy": { "x": 0, "y": 0, "z": 0 } },
+    { "id": "cp-arm-gripper", "link_id": "arm_gripper", "primitive_type": "box", "dimensions": [0.15, 0.1, 0.08], "offset": { "x": 0, "y": 0, "z": 0 }, "rotation_rpy": { "x": 0, "y": 0, "z": 0 } }
+  ],
+  "robot_description": { "preferred_format": "urdf", "urdf_path": null, "mjcf_path": null, "generated_from_manifest": true },
+  "environment": { "gravity_m_s2": 9.81 },
+  "control": { "built_in_controller": "robot_arm_default" },
+  "scenarios": [
+    { "id": "stand_balance", "name": "Static Hold", "description": "Hold stable pose.", "duration_s": 4.0, "config": {} },
+    { "id": "joint_sweep_collision", "name": "Joint Sweep", "description": "Sweep all arm joints", "duration_s": 6.0, "config": {} },
+    { "id": "torque_margin", "name": "Torque Margin", "description": "Torque margin check", "duration_s": 4.0, "config": { "required_safety_factor": 1.1 } },
+    { "id": "payload_carry", "name": "Payload Lift", "description": "Lift payload test", "duration_s": 5.0, "config": { "payload_kg": 2.0 } },
+    { "id": "sensor_visibility", "name": "Wrist Camera Visibility", "description": "Sensor visibility check", "duration_s": 4.0, "config": {} }
+  ],
+  "payloads": [{ "id": "arm-payload", "name": "Payload Block", "mass_kg": 2.0, "attach_link_id": "arm_gripper" }],
+  "environments": { "default": "flat" },
+  "controls": { "mode": "joint_command_table" },
+  "tests": [],
+  "render_cameras": [{ "id": "cam-arm-wrist", "name": "Wrist Camera", "attach_link_id": "arm_wrist", "transform": { "position": { "x": 0.0, "y": 0.0, "z": 0.06 }, "rotation_rpy": { "x": 0.0, "y": 0.0, "z": 0.0 } }, "fov_deg": 70.0, "output_type": "rgb" }],
+  "generated_robot_descriptions": {},
+  "metadata_status": {}
+}

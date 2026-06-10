@@ -1,0 +1,53 @@
+{
+  "body_height_m": 1.0346,
+  "max_pitch_deg": 89.616,
+  "max_roll_deg": 180.0,
+  "max_yaw_deg": 180.0,
+  "forward_distance_m": 88.9931,
+  "fall_detected": true,
+  "joint_position_ranges": {
+    "j-hip-fl": [
+      0.0072337971068918705,
+      89.00037384033203
+    ],
+    "j-knee-fl": [
+      -0.00011297050514258444,
+      4.008603582406067e-08
+    ],
+    "j-hip-fr": [
+      0.26410508155822754,
+      4.2115349769592285
+    ],
+    "j-knee-fr": [
+      -3.1415927410125732,
+      3.1415927410125732
+    ],
+    "j-hip-rl": [
+      -1.5640904903411865,
+      1.5623340606689453
+    ],
+    "j-knee-rl": [
+      -3.1415927410125732,
+      3.141592502593994
+    ],
+    "j-hip-rr": [
+      0.0,
+      0.0
+    ],
+    "j-knee-rr": [
+      0.0,
+      0.0
+    ]
+  },
+  "foot_contact_ratio": 1.0,
+  "collision_count": 1620,
+  "min_torque_margin": 23.4083,
+  "center_of_mass": [
+    89.0004,
+    -0.0001,
+    1.0346
+  ],
+  "sensor_clearance": 0.0043,
+  "battery_com_height_m": 0.26,
+  "applied_force_n": 180.0
+}

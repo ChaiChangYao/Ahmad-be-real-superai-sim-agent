@@ -1,0 +1,29 @@
+{
+  "runId": "agentic-f6139ad1cb",
+  "projectId": "imported-f7996be4",
+  "testId": "imu_sensor",
+  "scriptId": "script-127c9f31d8",
+  "templateId": "imu_sensor",
+  "status": "failed",
+  "startedAt": "2026-06-09T08:27:30.966858+00:00",
+  "completedAt": "2026-06-09T08:27:56.975235+00:00",
+  "backend": "ExecutionBackend.local",
+  "visual": {
+    "hasReplay": false,
+    "frameCount": 0,
+    "fps": 24.0,
+    "path": "state_timeseries.json"
+  },
+  "telemetry": {
+    "hasTelemetry": false,
+    "sampleCount": 0,
+    "sensorTypes": [],
+    "path": ""
+  },
+  "errors": [
+    "[showcase_launcher] Demo crashed:\nTraceback (most recent call last):\n  File \"C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\apps\\api\\app\\scripts\\showcase_launcher.py\", line 116, in main\n    runpy.run_path(script_path, run_name=\"__main__\")\n  File \"<frozen runpy>\", line 291, in run_path\n  File \"<frozen runpy>\", line 98, in _run_module_code\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-f7996be4\\runs\\agentic-f6139ad1cb\\generated\\script.py\", line 90, in <module>\n    main()\n  File \"C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-f7996be4\\runs\\agentic-f6139ad1cb\\generated\\script.py\", line 58, in main\n    attach_imu_sensor(\n  File \"C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\apps\\api\\app\\services\\agentic\\runtime\\sensor_helpers.py\", line 28, in attach_imu_sensor\n    return scene.add_sensor(\n           ^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\apps\\api\\app\\services\\genesis_showcase\\scene_replay_exporter.py\", line 729, in patched_add_sensor\n    sensor = original_add_sensor(self, sensor_options, *args, **kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\apps\\api\\.venv\\Lib\\site-packages\\genesis\\utils\\misc.py\", line 132, in wrapper\n    return method(self, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: Scene.add_sensor() got an unexpected keyword argument 'update_rate'\n[showcase_launcher] Running script: C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-f7996be4\\runs\\agentic-f6139ad1cb\\generated\\script.py\n[showcase_launcher] Headless: True \u00b7 Web record: True\n[showcase_launcher] Record path: C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-f7996be4\\runs\\agentic-f6139ad1cb\\state_timeseries.json\n[showcas",
+    "[agentic_runtime] Run failed: Scene.add_sensor() got an unexpected keyword argument 'update_rate'"
+  ],
+  "warnings": [],
+  "exitCode": 1
+}

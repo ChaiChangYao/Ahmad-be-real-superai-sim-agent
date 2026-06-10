@@ -1,0 +1,4 @@
+usage: depth_camera_custom_vverts.py [-h] [-v] [-c] [-B NUM_ENVS]
+                                     [--steps STEPS] [--save-every SAVE_EVERY]
+                                     [--out-dir OUT_DIR]
+depth_camera_custom_vverts.py: error: unrecognized arguments: --no-vis

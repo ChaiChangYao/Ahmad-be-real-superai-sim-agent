@@ -1,0 +1,10 @@
+{
+  "started_at": "2026-06-08T03:23:35.512318+00:00",
+  "test_id": "static_mesh_preview",
+  "template_id": "static_mesh_preview",
+  "project_id": "default-robot-dog",
+  "fallback_mode": "static_mesh",
+  "status": "initialized",
+  "mode": "static_mesh_preview",
+  "readiness_note": "No joints detected. Robot motion tests require URDF/MJCF. FEA/CFD need additional metadata."
+}

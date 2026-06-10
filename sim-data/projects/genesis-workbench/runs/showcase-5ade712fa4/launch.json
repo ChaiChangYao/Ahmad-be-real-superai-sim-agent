@@ -1,0 +1,26 @@
+{
+  "launch_id": "showcase-5ade712fa4",
+  "project_id": "genesis-workbench",
+  "scenario_id": "genesis-physics-rigid-franka-cube",
+  "demo_name": "Rigid: franka cube",
+  "layer": "physics",
+  "repo": "genesis-world",
+  "script_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\genesis-world\\examples\\rigid\\franka_cube.py",
+  "repo_root": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\genesis-world",
+  "argv": [
+    "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\apps\\api\\app\\scripts\\showcase_launcher.py",
+    "--script",
+    "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\genesis-world\\examples\\rigid\\franka_cube.py",
+    "--",
+    "--vis"
+  ],
+  "headless": false,
+  "pid": 23268,
+  "started_at": "2026-06-05T02:33:02.235636+00:00",
+  "status": "running",
+  "upstream_url": "https://github.com/Genesis-Embodied-AI/genesis-world/blob/main/examples/rigid/franka_cube.py",
+  "note": "A Genesis viewer window should open (may take 30\u201360s). If it flashes and closes, relaunch with headless mode.",
+  "error_summary": "\u001b[38;5;226m[Genesis] [10:33:13] [WARNING] Backend \u001b[38;5;121m\u001b[4mgs.gpu\u001b[0m\u001b[38;5;226m not available on this machine. Falling back to CPU.\u001b[0m",
+  "stderr_tail": []
+}

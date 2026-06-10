@@ -1,0 +1,2 @@
+﻿from .manifest import Sensor
+

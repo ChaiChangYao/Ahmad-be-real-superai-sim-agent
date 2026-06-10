@@ -1,0 +1,19 @@
+{
+  "schema_version": "0.1.0",
+  "project_id": "robot-dog-demo-pass",
+  "project_name": "Robot Dog Demo Pass",
+  "units": { "length": "m", "mass": "kg", "time": "s", "angle": "rad" },
+  "assets": [],
+  "materials": [{ "id": "mat-al6061", "name": "Aluminum 6061", "density_kg_m3": 2700, "static_friction": 0.61, "dynamic_friction": 0.47, "restitution": 0.2, "youngs_modulus_pa": 69000000000, "yield_strength_pa": 276000000, "melting_point_c": 582, "thermal_notes": null, "simulation_notes": "Demo", "source_url": null, "confidence": "datasheet" }],
+  "links": [{ "id": "body", "name": "Body", "category": "body", "visual_asset_id": null, "material_id": "mat-al6061", "mass_kg": 1.2, "center_of_mass": { "x": 0, "y": 0, "z": 0 }, "inertia_tensor": null, "transform": { "position": { "x": 0, "y": 0, "z": 0.2 }, "rotation_rpy": { "x": 0, "y": 0, "z": 0 } }, "collision_primitive_ids": [], "parent_link_id": null, "editable": true, "notes": null }],
+  "joints": [],
+  "actuators": [],
+  "electronics": [],
+  "sensors": [{ "id": "imu", "name": "Body IMU", "sensor_type": "imu", "attach_link_id": "body", "transform": { "position": { "x": 0, "y": 0, "z": 0 }, "rotation_rpy": { "x": 0, "y": 0, "z": 0 } }, "update_rate_hz": 100, "fov_deg": null, "range_m": null, "derived": true }],
+  "wires": [],
+  "collision_primitives": [],
+  "robot_description": { "preferred_format": "urdf", "urdf_path": null, "mjcf_path": null, "generated_from_manifest": true },
+  "environment": {},
+  "control": { "built_in_controller": "robot_dog_default", "script_path": null },
+  "scenarios": [{ "id": "stand_balance", "name": "Stand Balance", "description": "basic", "duration_s": 5, "config": {} }]
+}

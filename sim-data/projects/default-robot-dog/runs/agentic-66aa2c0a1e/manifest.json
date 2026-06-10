@@ -1,0 +1,29 @@
+{
+  "runId": "agentic-66aa2c0a1e",
+  "projectId": "default-robot-dog",
+  "testId": "static_mesh_preview",
+  "scriptId": "script-26820c9643",
+  "templateId": "static_mesh_preview",
+  "status": "failed",
+  "startedAt": "2026-06-08T06:22:02.889286+00:00",
+  "completedAt": "2026-06-08T06:22:23.107785+00:00",
+  "backend": "ExecutionBackend.local",
+  "visual": {
+    "hasReplay": false,
+    "frameCount": 0,
+    "fps": 24.0,
+    "path": "state_timeseries.json"
+  },
+  "telemetry": {
+    "hasTelemetry": false,
+    "sampleCount": 0,
+    "sensorTypes": [],
+    "path": ""
+  },
+  "errors": [
+    "Simulation exceeded 20 second limit.",
+    "[showcase_launcher] Forwarded args: (none)"
+  ],
+  "warnings": [],
+  "exitCode": 1
+}

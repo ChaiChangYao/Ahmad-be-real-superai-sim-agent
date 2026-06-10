@@ -1,0 +1,281 @@
+{
+  "launch_id": "showcase-58ac89a8ac",
+  "project_id": "genesis-workbench",
+  "scenario_id": "genesis-simulation-interface-sensor-tactile-sandbox",
+  "demo_name": "Sensor: tactile sandbox",
+  "layer": "simulation-interface",
+  "repo": "genesis-world",
+  "script_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\genesis-world\\examples\\sensors\\tactile_sandbox.py",
+  "repo_root": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\genesis-world",
+  "argv": [
+    "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\apps\\api\\app\\scripts\\showcase_launcher.py",
+    "--script",
+    "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\genesis-world\\examples\\sensors\\tactile_sandbox.py",
+    "--headless",
+    "--record-web"
+  ],
+  "view_mode": "web",
+  "headless": true,
+  "started_at": "2026-06-07T05:19:19.791022+00:00",
+  "status": "completed",
+  "lifecycle": "completed",
+  "upstream_url": "https://github.com/Genesis-Embodied-AI/genesis-world/blob/main/examples/sensors/tactile_sandbox.py",
+  "demo_type": "telemetry",
+  "telemetry_channels": [
+    "tactile"
+  ],
+  "kind": "sensor",
+  "sensor_type": "tactile",
+  "note": "Running physics and recording frames for the web viewer (works on AMD and NVIDIA).",
+  "pid": 18020,
+  "replay_available": true,
+  "replay_frames": 301,
+  "replay_version": 11,
+  "replay_ready": true,
+  "replay_status": "complete",
+  "replay_partial": false,
+  "replay_fps": 24.0,
+  "replay_meta": {
+    "diagnostics": {
+      "top_level_entities": 3,
+      "robot_links": 0,
+      "visual_geoms": 0,
+      "meshes_found": 0,
+      "meshes_exported": 0,
+      "mesh_export_failures": 0,
+      "tracked_objects": 3,
+      "franka_fallback": false,
+      "motion_diagnostics": {
+        "total_frames": 301,
+        "unique_pose_count": 301,
+        "meaningful_pose_count": 15,
+        "meaningful_keyframes": [
+          0,
+          21,
+          42,
+          63,
+          84,
+          105,
+          126,
+          147,
+          168,
+          189,
+          210,
+          231,
+          252,
+          273,
+          294
+        ],
+        "longest_freeze_run": 1,
+        "perceptual_longest_freeze_run": 301,
+        "frozen_head_length": 0,
+        "frozen_tail_length": 300,
+        "moving_frame_count": 1,
+        "frozen_runs": [
+          {
+            "start": 0,
+            "end": 300,
+            "length": 301
+          }
+        ],
+        "jump_frames": [],
+        "jump_count": 0,
+        "change_indices": [
+          0,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "top_moving_objects": [
+          {
+            "id": "mesh",
+            "total_delta": 0.147222
+          }
+        ],
+        "primary_motion_link": "mesh",
+        "identical_frame_ratio": 0.0,
+        "recorder_issue": "sparse_motion_phases",
+        "qpos_frame_counts": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "qpos_samples": {
+          "frame_0": {},
+          "frame_mid": {},
+          "frame_last": {}
+        },
+        "tracked_object_count": 2
+      },
+      "source_frame_count": 301,
+      "unique_pose_count": 301,
+      "longest_freeze_run": 1,
+      "preview_frame_count": 301,
+      "recorder_issue": "sparse_motion_phases",
+      "replay_frames": 301
+    },
+    "entities": {
+      "env/floor": {
+        "kind": "checker_floor",
+        "size": [
+          4.0,
+          4.0
+        ]
+      },
+      "manipuland/cube": {
+        "kind": "box",
+        "size": [
+          0.15,
+          0.15,
+          0.05
+        ],
+        "color": "#c54b5d"
+      },
+      "mesh": {
+        "kind": "box",
+        "size": [
+          0.12,
+          0.12,
+          0.12
+        ],
+        "color": "#94a3b8"
+      }
+    },
+    "motion_diagnostics": {
+      "total_frames": 301,
+      "unique_pose_count": 301,
+      "meaningful_pose_count": 15,
+      "meaningful_keyframes": [
+        0,
+        21,
+        42,
+        63,
+        84,
+        105,
+        126,
+        147,
+        168,
+        189,
+        210,
+        231,
+        252,
+        273,
+        294
+      ],
+      "longest_freeze_run": 1,
+      "perceptual_longest_freeze_run": 301,
+      "frozen_head_length": 0,
+      "frozen_tail_length": 300,
+      "moving_frame_count": 1,
+      "frozen_runs": [
+        {
+          "start": 0,
+          "end": 300,
+          "length": 301
+        }
+      ],
+      "jump_frames": [],
+      "jump_count": 0,
+      "change_indices": [
+        0,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "top_moving_objects": [
+        {
+          "id": "mesh",
+          "total_delta": 0.147222
+        }
+      ],
+      "primary_motion_link": "mesh",
+      "identical_frame_ratio": 0.0,
+      "recorder_issue": "sparse_motion_phases",
+      "qpos_frame_counts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "qpos_samples": {
+        "frame_0": {},
+        "frame_mid": {},
+        "frame_last": {}
+      },
+      "tracked_object_count": 2
+    },
+    "source_frame_count": 301,
+    "unique_pose_count": 301,
+    "preview_frame_count": 301,
+    "preview_meta": {
+      "mode": "raw"
+    },
+    "preview_validation": null,
+    "demo_type": "telemetry",
+    "script_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\genesis-world\\examples\\sensors\\tactile_sandbox.py",
+    "kind": "sensor",
+    "sensor_type": "tactile",
+    "scenario_id": "genesis-simulation-interface-sensor-tactile-sandbox",
+    "telemetry_channels": [
+      "tactile"
+    ],
+    "visual_raw_frame_count": 301,
+    "telemetry_sample_count": 301,
+    "telemetry_distinct_sample_count": 1,
+    "longest_repeated_telemetry_run": 301,
+    "visual_trim_applied": false,
+    "telemetry_trim_applied": false,
+    "trim_reason": "telemetry_demo_preserve_samples",
+    "replay_mode": "raw",
+    "playback_fps": 24,
+    "timeline_driver": "visual",
+    "timeline_length": 301,
+    "demo_name": "Sensor: tactile sandbox",
+    "repo": "genesis-world"
+  },
+  "replay_objects": 3,
+  "replay_robot_links": 0,
+  "replay_tracked_objects": 3,
+  "source_frame_count": 301,
+  "preview_frame_count": 301,
+  "unique_pose_count": 301,
+  "replay_mode": "raw",
+  "exit_code": 0,
+  "ended_at": "2026-06-07T05:22:38.732759+00:00"
+}

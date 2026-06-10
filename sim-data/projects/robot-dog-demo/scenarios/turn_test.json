@@ -1,0 +1,8 @@
+﻿{
+    "config":  {
+                   "yaw_threshold_deg":  30
+               },
+    "duration_s":  6,
+    "name":  "Turn Test",
+    "id":  "turn_test"
+}

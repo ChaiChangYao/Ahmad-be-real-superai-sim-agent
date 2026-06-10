@@ -1,0 +1,32 @@
+{
+  "launch_id": "showcase-984df7a86b",
+  "project_id": "genesis-workbench",
+  "scenario_id": "genesis-web-viewer-minimal-cube-motion-start-here",
+  "demo_name": "Minimal: cube motion (start here)",
+  "layer": "web-viewer",
+  "repo": "buildables",
+  "script_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\apps\\api\\app\\scripts\\minimal_web_viewer_demo.py",
+  "repo_root": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables",
+  "argv": [
+    "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\apps\\api\\app\\scripts\\showcase_launcher.py",
+    "--script",
+    "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\apps\\api\\app\\scripts\\minimal_web_viewer_demo.py",
+    "--headless",
+    "--record-web"
+  ],
+  "view_mode": "web",
+  "headless": true,
+  "started_at": "2026-06-05T08:43:41.286343+00:00",
+  "status": "running",
+  "lifecycle": "running",
+  "upstream_url": "https://github.com/Genesis-Embodied-AI/genesis-world",
+  "note": "Running physics and recording frames for the web viewer (works on AMD and NVIDIA).",
+  "pid": 24680,
+  "replay_available": false,
+  "replay_frames": 0,
+  "replay_meta": {},
+  "replay_objects": 0,
+  "replay_robot_links": 0,
+  "replay_tracked_objects": 0
+}

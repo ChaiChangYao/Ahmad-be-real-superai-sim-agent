@@ -1,0 +1,70 @@
+{
+  "launch_summary": {
+    "urdfParsed": true,
+    "links": 1,
+    "joints": 0,
+    "meshReferencesFound": 0,
+    "meshesFound": 0,
+    "meshesMissing": 0,
+    "unsupportedFormats": 0,
+    "stepUploaded": false,
+    "launchable": true,
+    "launchable_web": true,
+    "launchable_native": true,
+    "reason": null,
+    "actions": [
+      "launch_full_model"
+    ],
+    "meshReferences": [],
+    "autoMapLog": []
+  },
+  "robot_description": {
+    "urdf_found": true,
+    "mjcf_found": false,
+    "links_count": 1,
+    "joints_count": 0,
+    "movable_joints_count": 0,
+    "fixed_joints_count": 0
+  },
+  "geometry": {
+    "visual_mesh_references": 0,
+    "resolved_meshes": {},
+    "missing_mesh_references": [],
+    "mesh_table": [],
+    "step_source_found": false,
+    "step_note": "STEP is stored as an optional asset and does not replace missing URDF STL/OBJ mesh files. Convert or map STEP bodies to URDF mesh paths before full launch.",
+    "unit_scale": "meters"
+  },
+  "physics_metadata": {
+    "links_with_mass": 1,
+    "links_missing_mass": [],
+    "links_with_inertia": 1,
+    "links_missing_inertia": [],
+    "materials_found": 1,
+    "collision_geometry_missing": [
+      "base_link"
+    ]
+  },
+  "motion": {
+    "revolute_joints": 0,
+    "prismatic_joints": 0,
+    "continuous_joints": 0,
+    "joint_limits_missing": [],
+    "actuators_found": 0
+  },
+  "sensors_control": {
+    "sensors_found": 0,
+    "control_script_found": true,
+    "message": "Control script detected.",
+    "enabled_features": [],
+    "requirements": []
+  },
+  "simulation_readiness": {
+    "status": "mechanism_imported",
+    "passive": true,
+    "joint": false,
+    "controlled": false,
+    "missing_metadata": true
+  },
+  "user_messages": []
+}

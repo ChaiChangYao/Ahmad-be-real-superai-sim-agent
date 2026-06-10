@@ -1,0 +1,22 @@
+{
+  "launch_id": "showcase-abb875ff76",
+  "project_id": "genesis-workbench",
+  "scenario_id": "genesis-simulation-interface-controlling-a-robot",
+  "demo_name": "Controlling a robot",
+  "layer": "simulation-interface",
+  "repo": "genesis-world",
+  "script_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\genesis-world\\examples\\tutorials\\control_your_robot.py",
+  "repo_root": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\genesis-world",
+  "argv": [
+    "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\genesis-world\\examples\\tutorials\\control_your_robot.py"
+  ],
+  "pid": 28964,
+  "started_at": "2026-06-05T01:18:14.241429+00:00",
+  "status": "failed",
+  "upstream_url": "https://github.com/Genesis-Embodied-AI/genesis-world/blob/main/examples/tutorials/control_your_robot.py",
+  "note": "A Genesis viewer window should open (may take 30\u201360s). If you see a blank window that closes, check stderr in launch status \u2014 often an OpenGL/driver issue.",
+  "stderr_tail": [],
+  "exit_code": 1,
+  "ended_at": "2026-06-05T01:19:10.313285+00:00"
+}

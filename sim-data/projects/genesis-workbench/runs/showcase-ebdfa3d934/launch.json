@@ -1,0 +1,431 @@
+{
+  "launch_id": "showcase-ebdfa3d934",
+  "project_id": "genesis-workbench",
+  "scenario_id": "genesis-simulation-interface-controlling-a-robot",
+  "demo_name": "Controlling a robot",
+  "layer": "simulation-interface",
+  "repo": "genesis-world",
+  "script_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\genesis-world\\examples\\tutorials\\control_your_robot.py",
+  "repo_root": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\genesis-world",
+  "argv": [
+    "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\apps\\api\\app\\scripts\\showcase_launcher.py",
+    "--script",
+    "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\genesis-world\\examples\\tutorials\\control_your_robot.py",
+    "--headless",
+    "--record-web"
+  ],
+  "view_mode": "web",
+  "headless": true,
+  "started_at": "2026-06-05T10:24:03.824049+00:00",
+  "status": "completed",
+  "lifecycle": "completed",
+  "upstream_url": "https://github.com/Genesis-Embodied-AI/genesis-world/blob/main/examples/tutorials/control_your_robot.py",
+  "note": "Running physics and recording frames for the web viewer (works on AMD and NVIDIA).",
+  "pid": 37332,
+  "replay_available": true,
+  "replay_frames": 139,
+  "replay_version": 7,
+  "replay_ready": true,
+  "replay_status": "complete",
+  "replay_partial": false,
+  "replay_fps": 24.0,
+  "replay_meta": {
+    "diagnostics": {
+      "top_level_entities": 2,
+      "robot_links": 11,
+      "visual_geoms": 81,
+      "meshes_found": 0,
+      "meshes_exported": 11,
+      "mesh_export_failures": 0,
+      "tracked_objects": 12,
+      "franka_fallback": false,
+      "motion_diagnostics": {
+        "total_frames": 155,
+        "unique_pose_count": 8,
+        "meaningful_pose_count": 5,
+        "meaningful_keyframes": [
+          0,
+          50,
+          100,
+          153,
+          154
+        ],
+        "longest_freeze_run": 50,
+        "jump_frames": [
+          50,
+          100
+        ],
+        "jump_count": 2,
+        "change_indices": [
+          0,
+          0,
+          50,
+          100,
+          150,
+          151,
+          152,
+          153,
+          154
+        ],
+        "top_moving_objects": [
+          {
+            "id": "franka/link5",
+            "total_delta": 6.739569
+          },
+          {
+            "id": "franka/link7",
+            "total_delta": 6.705422
+          },
+          {
+            "id": "franka/link6",
+            "total_delta": 6.353582
+          },
+          {
+            "id": "franka/hand",
+            "total_delta": 6.329816
+          },
+          {
+            "id": "franka/right_finger",
+            "total_delta": 6.246805
+          }
+        ],
+        "identical_frame_ratio": 0.9484,
+        "recorder_issue": "upstream_demo_hold",
+        "qpos_frame_counts": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "qpos_samples": {
+          "frame_0": {
+            "plane_a43fad6": [],
+            "panda_c847071": [
+              0.999960720539093,
+              0.9945217967033386,
+              -5.3233306971378624e-05,
+              -0.01731695793569088,
+              0.0009472526144236326,
+              0.0034974657464772463,
+              0.0025589177384972572,
+              0.03855656832456589,
+              0.03839671239256859
+            ]
+          },
+          "frame_mid": {
+            "plane_a43fad6": [],
+            "panda_c847071": [
+              -0.9995087385177612,
+              0.8018749952316284,
+              0.9991215467453003,
+              -2.0003414154052734,
+              0.9995908141136169,
+              0.5004368424415588,
+              -0.4999656081199646,
+              0.04000081121921539,
+              0.039999186992645264
+            ]
+          },
+          "frame_last": {
+            "plane_a43fad6": [],
+            "panda_c847071": [
+              0.02714509889483452,
+              -0.015694521367549896,
+              -0.00018439744599163532,
+              -0.06479410827159882,
+              0.0006220205686986446,
+              -0.005869616754353046,
+              -1.0892250429606065e-05,
+              0.013068861328065395,
+              0.013073678128421307
+            ]
+          }
+        },
+        "tracked_object_count": 11
+      },
+      "source_frame_count": 155,
+      "unique_pose_count": 8,
+      "longest_freeze_run": 50,
+      "preview_frame_count": 139,
+      "recorder_issue": "upstream_demo_hold",
+      "replay_frames": 139
+    },
+    "entities": {
+      "env/floor": {
+        "kind": "checker_floor",
+        "size": [
+          4.0,
+          4.0
+        ]
+      },
+      "franka/link0": {
+        "kind": "robot_link",
+        "color": "#e8e8e8",
+        "meshPath": "meshes/franka/link0.json",
+        "meshSource": "franka_obj_assets"
+      },
+      "franka/link1": {
+        "kind": "robot_link",
+        "color": "#e8e8e8",
+        "meshPath": "meshes/franka/link1.json",
+        "meshSource": "franka_obj_assets"
+      },
+      "franka/link2": {
+        "kind": "robot_link",
+        "color": "#e8e8e8",
+        "meshPath": "meshes/franka/link2.json",
+        "meshSource": "franka_obj_assets"
+      },
+      "franka/link3": {
+        "kind": "robot_link",
+        "color": "#e8e8e8",
+        "meshPath": "meshes/franka/link3.json",
+        "meshSource": "franka_obj_assets"
+      },
+      "franka/link4": {
+        "kind": "robot_link",
+        "color": "#e8e8e8",
+        "meshPath": "meshes/franka/link4.json",
+        "meshSource": "franka_obj_assets"
+      },
+      "franka/link5": {
+        "kind": "robot_link",
+        "color": "#e8e8e8",
+        "meshPath": "meshes/franka/link5.json",
+        "meshSource": "franka_obj_assets"
+      },
+      "franka/link6": {
+        "kind": "robot_link",
+        "color": "#e8e8e8",
+        "meshPath": "meshes/franka/link6.json",
+        "meshSource": "franka_obj_assets"
+      },
+      "franka/link7": {
+        "kind": "robot_link",
+        "color": "#e8e8e8",
+        "meshPath": "meshes/franka/link7.json",
+        "meshSource": "franka_obj_assets"
+      },
+      "franka/hand": {
+        "kind": "robot_link",
+        "color": "#e8e8e8",
+        "meshPath": "meshes/franka/hand.json",
+        "meshSource": "franka_obj_assets"
+      },
+      "franka/left_finger": {
+        "kind": "robot_link",
+        "color": "#e8e8e8",
+        "meshPath": "meshes/franka/left_finger.json",
+        "meshSource": "franka_obj_assets"
+      },
+      "franka/right_finger": {
+        "kind": "robot_link",
+        "color": "#e8e8e8",
+        "meshPath": "meshes/franka/right_finger.json",
+        "meshSource": "franka_obj_assets"
+      }
+    },
+    "motion_diagnostics": {
+      "total_frames": 155,
+      "unique_pose_count": 8,
+      "meaningful_pose_count": 5,
+      "meaningful_keyframes": [
+        0,
+        50,
+        100,
+        153,
+        154
+      ],
+      "longest_freeze_run": 50,
+      "jump_frames": [
+        50,
+        100
+      ],
+      "jump_count": 2,
+      "change_indices": [
+        0,
+        0,
+        50,
+        100,
+        150,
+        151,
+        152,
+        153,
+        154
+      ],
+      "top_moving_objects": [
+        {
+          "id": "franka/link5",
+          "total_delta": 6.739569
+        },
+        {
+          "id": "franka/link7",
+          "total_delta": 6.705422
+        },
+        {
+          "id": "franka/link6",
+          "total_delta": 6.353582
+        },
+        {
+          "id": "franka/hand",
+          "total_delta": 6.329816
+        },
+        {
+          "id": "franka/right_finger",
+          "total_delta": 6.246805
+        }
+      ],
+      "identical_frame_ratio": 0.9484,
+      "recorder_issue": "upstream_demo_hold",
+      "qpos_frame_counts": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "qpos_samples": {
+        "frame_0": {
+          "plane_a43fad6": [],
+          "panda_c847071": [
+            0.999960720539093,
+            0.9945217967033386,
+            -5.3233306971378624e-05,
+            -0.01731695793569088,
+            0.0009472526144236326,
+            0.0034974657464772463,
+            0.0025589177384972572,
+            0.03855656832456589,
+            0.03839671239256859
+          ]
+        },
+        "frame_mid": {
+          "plane_a43fad6": [],
+          "panda_c847071": [
+            -0.9995087385177612,
+            0.8018749952316284,
+            0.9991215467453003,
+            -2.0003414154052734,
+            0.9995908141136169,
+            0.5004368424415588,
+            -0.4999656081199646,
+            0.04000081121921539,
+            0.039999186992645264
+          ]
+        },
+        "frame_last": {
+          "plane_a43fad6": [],
+          "panda_c847071": [
+            0.02714509889483452,
+            -0.015694521367549896,
+            -0.00018439744599163532,
+            -0.06479410827159882,
+            0.0006220205686986446,
+            -0.005869616754353046,
+            -1.0892250429606065e-05,
+            0.013068861328065395,
+            0.013073678128421307
+          ]
+        }
+      },
+      "tracked_object_count": 11
+    },
+    "source_frame_count": 155,
+    "unique_pose_count": 8,
+    "preview_frame_count": 139,
+    "preview_meta": {
+      "preview_frame_count": 139,
+      "keyframe_count": 5,
+      "keyframes": [
+        0,
+        50,
+        100,
+        153,
+        154
+      ],
+      "pose_groups": [
+        {
+          "start": 0,
+          "end": 49,
+          "keyframe_index": 0
+        },
+        {
+          "start": 50,
+          "end": 99,
+          "keyframe_index": 50
+        },
+        {
+          "start": 100,
+          "end": 152,
+          "keyframe_index": 100
+        },
+        {
+          "start": 153,
+          "end": 153,
+          "keyframe_index": 153
+        },
+        {
+          "start": 154,
+          "end": 154,
+          "keyframe_index": 154
+        }
+      ],
+      "segment_plan": [
+        {
+          "index": 0,
+          "start_idx": 0,
+          "end_idx": 50,
+          "segment_frames": 45
+        },
+        {
+          "index": 1,
+          "start_idx": 50,
+          "end_idx": 100,
+          "segment_frames": 49
+        },
+        {
+          "index": 2,
+          "start_idx": 100,
+          "end_idx": 153,
+          "segment_frames": 24
+        },
+        {
+          "index": 3,
+          "start_idx": 153,
+          "end_idx": 154,
+          "segment_frames": 24
+        }
+      ],
+      "preview_fps": 24.0,
+      "mode": "smooth_preview",
+      "preserve_holds": false,
+      "validation": {
+        "total_frames": 139,
+        "repeated_consecutive_frames": 0,
+        "longest_freeze_run": 1,
+        "max_position_jump": 0.018508,
+        "max_angular_jump_rad": 0.059089,
+        "max_angular_jump_deg": 3.386,
+        "valid": true
+      }
+    },
+    "preview_validation": {
+      "total_frames": 139,
+      "repeated_consecutive_frames": 0,
+      "longest_freeze_run": 1,
+      "max_position_jump": 0.018508,
+      "max_angular_jump_rad": 0.059089,
+      "max_angular_jump_deg": 3.386,
+      "valid": true
+    },
+    "replay_mode": "smooth_preview",
+    "playback_fps": 24
+  },
+  "replay_objects": 12,
+  "replay_robot_links": 11,
+  "replay_tracked_objects": 12,
+  "exit_code": 0,
+  "ended_at": "2026-06-05T10:24:41.987975+00:00"
+}

@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://buildables.local/schemas/buildables.physics.schema.json",
+  "title": "Buildables Physics Manifest",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "project_id",
+    "project_name",
+    "units",
+    "assets",
+    "materials",
+    "links",
+    "joints",
+    "actuators",
+    "electronics",
+    "sensors",
+    "wires",
+    "collision_primitives",
+    "robot_description",
+    "environment",
+    "control",
+    "scenarios"
+  ],
+  "properties": {
+    "schema_version": { "type": "string", "const": "0.1.0" },
+    "project_id": { "type": "string", "minLength": 1 },
+    "project_name": { "type": "string", "minLength": 1 },
+    "units": {
+      "type": "object",
+      "required": ["length", "mass", "time", "angle"],
+      "properties": {
+        "length": { "const": "m" },
+        "mass": { "const": "kg" },
+        "time": { "const": "s" },
+        "angle": { "const": "rad" }
+      }
+    },
+    "assets": { "type": "array" },
+    "materials": { "type": "array" },
+    "links": { "type": "array" },
+    "joints": { "type": "array" },
+    "actuators": { "type": "array" },
+    "electronics": { "type": "array" },
+    "sensors": { "type": "array" },
+    "wires": { "type": "array" },
+    "collision_primitives": { "type": "array" },
+    "robot_description": {
+      "type": "object",
+      "required": ["preferred_format", "generated_from_manifest"],
+      "properties": {
+        "preferred_format": { "enum": ["urdf", "mjcf"] },
+        "urdf_path": { "type": ["string", "null"] },
+        "mjcf_path": { "type": ["string", "null"] },
+        "generated_from_manifest": { "type": "boolean" }
+      }
+    },
+    "environment": { "type": "object" },
+    "control": { "type": "object" },
+    "scenarios": { "type": "array" }
+  }
+}

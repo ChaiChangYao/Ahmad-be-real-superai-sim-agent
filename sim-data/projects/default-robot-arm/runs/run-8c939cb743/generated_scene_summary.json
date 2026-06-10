@@ -1,0 +1,14 @@
+{
+  "project_id": "default-robot-arm",
+  "links": 5,
+  "joints": 4,
+  "actuators": 4,
+  "sensors": 1,
+  "wires": 0,
+  "terrain": "flat",
+  "payload_kg": 0.0,
+  "robot_description": {
+    "urdf_path": null,
+    "mjcf_path": null
+  }
+}

@@ -1,0 +1,65 @@
+<robot name="default-robot-arm">
+  <link name="arm_base">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.01" ixy="0" ixz="0" iyy="0.01" iyz="0" izz="0.01"/>
+    </inertial>
+  </link>
+  <link name="arm_shoulder">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.01" ixy="0" ixz="0" iyy="0.01" iyz="0" izz="0.01"/>
+    </inertial>
+  </link>
+  <link name="arm_elbow">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.01" ixy="0" ixz="0" iyy="0.01" iyz="0" izz="0.01"/>
+    </inertial>
+  </link>
+  <link name="arm_wrist">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.01" ixy="0" ixz="0" iyy="0.01" iyz="0" izz="0.01"/>
+    </inertial>
+  </link>
+  <link name="arm_gripper">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.01" ixy="0" ixz="0" iyy="0.01" iyz="0" izz="0.01"/>
+    </inertial>
+  </link>
+  <joint name="arm_shoulder_yaw" type="revolute">
+    <parent link="arm_base"/>
+    <child link="arm_shoulder"/>
+    <origin xyz="0.0 0.0 0.45" rpy="0.0 0.0 0.0"/>
+    <axis xyz="0.0 0.0 1.0"/>
+    <limit lower="-2.2" upper="2.2" effort="70.0" velocity="2.5"/>
+  </joint>
+  <joint name="arm_shoulder_pitch" type="revolute">
+    <parent link="arm_shoulder"/>
+    <child link="arm_elbow"/>
+    <origin xyz="0.0 0.0 0.22" rpy="0.0 0.0 0.0"/>
+    <axis xyz="0.0 1.0 0.0"/>
+    <limit lower="-1.7" upper="1.7" effort="65.0" velocity="2.5"/>
+  </joint>
+  <joint name="arm_elbow_pitch" type="revolute">
+    <parent link="arm_elbow"/>
+    <child link="arm_wrist"/>
+    <origin xyz="0.0 0.0 0.2" rpy="0.0 0.0 0.0"/>
+    <axis xyz="0.0 1.0 0.0"/>
+    <limit lower="-2.0" upper="2.0" effort="55.0" velocity="3.0"/>
+  </joint>
+  <joint name="arm_wrist_roll" type="revolute">
+    <parent link="arm_wrist"/>
+    <child link="arm_gripper"/>
+    <origin xyz="0.0 0.0 0.12" rpy="0.0 0.0 0.0"/>
+    <axis xyz="1.0 0.0 0.0"/>
+    <limit lower="-3.14" upper="3.14" effort="45.0" velocity="3.2"/>
+  </joint>
+</robot>

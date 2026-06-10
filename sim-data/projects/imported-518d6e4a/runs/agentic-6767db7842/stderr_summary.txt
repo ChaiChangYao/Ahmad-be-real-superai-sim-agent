@@ -1,0 +1,96 @@
+Traceback (most recent call last):
+  File "C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\imported-518d6e4a\runs\agentic-6767db7842\generated\script.py", line 49, in main
+    add_robot_from_urdf_or_mjcf(scene, desc, desc_type)
+  File "C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\apps\api\app\services\agentic\runtime\scene_helpers.py", line 39, in add_robot_from_urdf_or_mjcf
+    return add_from_robot_description(scene, desc_path, preferred_format=desc_type)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\apps\api\app\services\genesis_native\entity_loader.py", line 24, in add_from_robot_description
+    return add_urdf_entity(scene, path, fixed=fixed, pos=(0.0, 0.0, 0.0), euler=(0.0, 0.0, 0.0))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\apps\api\app\services\genesis_native\urdf_mjcf_loader.py", line 34, in add_urdf_entity
+    return scene.add_entity(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\apps\api\.venv\Lib\site-packages\genesis\utils\misc.py", line 132, in wrapper
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\apps\api\.venv\Lib\site-packages\genesis\engine\scene.py", line 493, in add_entity
+    entity = self._sim._add_entity(morph, material, surface, visualize_contact, name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\apps\api\.venv\Lib\site-packages\genesis\engine\simulator.py", line 166, in _add_entity
+    entity = self.rigid_solver.add_entity(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\apps\api\.venv\Lib\site-packages\genesis\engine\solvers\rigid\rigid_solver.py", line 289, in add_entity
+    entity = EntityClass(
+             ^^^^^^^^^^^^
+  File "C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\apps\api\.venv\Lib\site-packages\genesis\engine\entities\rigid_entity\rigid_entity.py", line 2052, in __init__
+    super().__init__(
+  File "C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\apps\api\.venv\Lib\site-packages\genesis\engine\entities\rigid_entity\rigid_entity.py", line 109, in __init__
+    self._load_model()
+  File "C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\apps\api\.venv\Lib\site-packages\genesis\engine\entities\rigid_entity\rigid_entity.py", line 2163, in _load_model
+    super()._load_model()
+  File "C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\apps\api\.venv\Lib\site-packages\genesis\engine\entities\rigid_entity\rigid_entity.py", line 284, in _load_model
+    self._load_morph(self._morph)
+  File "C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\apps\api\.venv\Lib\site-packages\genesis\engine\entities\rigid_entity\rigid_entity.py", line 133, in _load_morph
+    self._load_scene(morph, self._surface)
+  File "C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\apps\api\.venv\Lib\site-packages\genesis\engine\entities\rigid_entity\rigid_entity.py", line 2168, in _load_scene
+    l_infos, links_j_infos, links_g_infos, eqs_info = self._parse_scene(morph, surface)
+                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\apps\api\.venv\Lib\site-packages\genesis\engine\entities\rigid_entity\rigid_entity.py", line 526, in _parse_scene
+    l_infos, links_j_infos, links_g_infos, eqs_info = uu.parse_urdf(morph, surface)
+                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\apps\api\.venv\Lib\site-packages\genesis\utils\urdf.py", line 135, in parse_urdf
+    robot = urdfpy.URDF.load(path)
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\apps\api\.venv\Lib\site-packages\genesis\ext\urdfpy\urdf.py", line 3751, in load
+    return URDF._from_xml(node, node, path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\apps\api\.venv\Lib\site-packages\genesis\ext\urdfpy\urdf.py", line 3937, in _from_xml
+    kwargs = cls._parse(node, root, path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\apps\api\.venv\Lib\site-packages\genesis\ext\urdfpy\urdf.py", line 167, in _parse
+    kwargs.update(cls._parse_simple_elements(node, root, path))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\apps\api\.venv\Lib\site-packages\genesis\ext\urdfpy\urdf.py", line 139, in _parse_simple_elements
+    v = [t._from_xml(n, node, path) for n in vs]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\apps\api\.venv\Lib\site-packages\genesis\ext\urdfpy\urdf.py", line 139, in <listcomp>
+    v = [t._from_xml(n, node, path) for n in vs]
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\apps\api\.venv\Lib\site-packages\genesis\ext\urdfpy\urdf.py", line 191, in _from_xml
+    return cls(**cls._parse(node, root, path))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\apps\api\.venv\Lib\site-packages\genesis\ext\urdfpy\urdf.py", line 167, in _parse
+    kwargs.update(cls._parse_simple_elements(node, root, path))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\apps\api\.venv\Lib\site-packages\genesis\ext\urdfpy\urdf.py", line 139, in _parse_simple_elements
+    v = [t._from_xml(n, node, path) for n in vs]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\apps\api\.venv\Lib\site-packages\genesis\ext\urdfpy\urdf.py", line 139, in <listcomp>
+    v = [t._from_xml(n, node, path) for n in vs]
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\apps\api\.venv\Lib\site-packages\genesis\ext\urdfpy\urdf.py", line 1215, in _from_xml
+    kwargs = cls._parse(node, root, path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\apps\api\.venv\Lib\site-packages\genesis\ext\urdfpy\urdf.py", line 167, in _parse
+    kwargs.update(cls._parse_simple_elements(node, root, path))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\apps\api\.venv\Lib\site-packages\genesis\ext\urdfpy\urdf.py", line 130, in _parse_simple_elements
+    v = t._from_xml(v, root, path)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\apps\api\.venv\Lib\site-packages\genesis\ext\urdfpy\urdf.py", line 191, in _from_xml
+    return cls(**cls._parse(node, root, path))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\apps\api\.venv\Lib\site-packages\genesis\ext\urdfpy\urdf.py", line 167, in _parse
+    kwargs.update(cls._parse_simple_elements(node, root, path))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\apps\api\.venv\Lib\site-packages\genesis\ext\urdfpy\urdf.py", line 130, in _parse_simple_elements
+    v = t._from_xml(v, root, path)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\apps\api\.venv\Lib\site-packages\genesis\ext\urdfpy\urdf.py", line 658, in _from_xml
+    fn = get_filename(path, kwargs["filename"])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\apps\api\.venv\Lib\site-packages\genesis\ext\urdfpy\utils.py", line 226, in get_filename
+    gs.raise_exception(f"Asset file not found: {fn}")
+  File "C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\apps\api\.venv\Lib\site-packages\genesis\utils\misc.py", line 35, in raise_exception
+    raise gs.GenesisException(msg)
+genesis.GenesisException: Asset file not found: C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\imported-518d6e4a\assets\imported\meshes/torso_shell_top.stl

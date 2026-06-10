@@ -1,0 +1,1 @@
+{"id":"wire_route","name":"Wire Route Sanity","description":"Cable route checks","duration_s":2.0,"config":{"min_bend_radius_m":0.015}}

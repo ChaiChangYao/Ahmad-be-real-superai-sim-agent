@@ -1,0 +1,43 @@
+{
+  "schema_version": "0.1.0",
+  "version": 1,
+  "updated_at": "2026-06-08T07:23:49.003086+00:00",
+  "project_id": "imported-115a7c7b",
+  "project_name": "QA Missing Mesh",
+  "project_mode": "default_demo",
+  "project_type": "generic",
+  "units": {
+    "length": "m",
+    "mass": "kg",
+    "time": "s",
+    "angle": "rad"
+  },
+  "assets": [],
+  "materials": [],
+  "links": [],
+  "joints": [],
+  "actuators": [],
+  "electronics": [],
+  "sensors": [],
+  "wires": [],
+  "collision_primitives": [],
+  "robot_description": {
+    "preferred_format": "urdf",
+    "urdf_path": null,
+    "mjcf_path": null,
+    "generated_from_manifest": true
+  },
+  "environment": {},
+  "control": {
+    "script_path": null,
+    "built_in_controller": "robot_dog_default"
+  },
+  "scenarios": [],
+  "payloads": [],
+  "environments": {},
+  "controls": {},
+  "tests": [],
+  "render_cameras": [],
+  "generated_robot_descriptions": {},
+  "metadata_status": {}
+}

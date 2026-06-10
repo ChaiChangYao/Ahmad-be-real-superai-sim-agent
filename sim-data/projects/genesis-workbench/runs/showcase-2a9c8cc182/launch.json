@@ -1,0 +1,58 @@
+{
+  "launch_id": "showcase-2a9c8cc182",
+  "project_id": "genesis-workbench",
+  "scenario_id": "genesis-physics-rigid-franka-cube",
+  "demo_name": "Rigid: franka cube",
+  "layer": "physics",
+  "repo": "genesis-world",
+  "script_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\genesis-world\\examples\\rigid\\franka_cube.py",
+  "repo_root": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\genesis-world",
+  "argv": [
+    "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\apps\\api\\app\\scripts\\showcase_launcher.py",
+    "--script",
+    "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\genesis-world\\examples\\rigid\\franka_cube.py",
+    "--headless",
+    "--record-web"
+  ],
+  "view_mode": "web",
+  "headless": true,
+  "started_at": "2026-06-05T02:53:20.531612+00:00",
+  "status": "completed",
+  "lifecycle": "completed",
+  "upstream_url": "https://github.com/Genesis-Embodied-AI/genesis-world/blob/main/examples/rigid/franka_cube.py",
+  "note": "Running physics and recording frames for the web viewer (works on AMD and NVIDIA).",
+  "pid": 20864,
+  "replay_available": true,
+  "replay_frames": 401,
+  "replay_meta": {
+    "entities": {
+      "plane_fa4d50f": {
+        "kind": "plane",
+        "size": [
+          4.0,
+          0.02,
+          4.0
+        ]
+      },
+      "panda_53e3421": {
+        "kind": "box",
+        "size": [
+          0.12,
+          0.12,
+          0.12
+        ]
+      },
+      "box_cfd7457": {
+        "kind": "box",
+        "size": [
+          0.04,
+          0.04,
+          0.04
+        ]
+      }
+    }
+  },
+  "exit_code": 0,
+  "ended_at": "2026-06-05T02:53:46.945582+00:00"
+}

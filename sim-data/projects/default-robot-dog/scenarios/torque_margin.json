@@ -1,0 +1,1 @@
+{"id":"torque_margin","name":"Torque Margin","description":"Actuator margin check","duration_s":4.0,"config":{"required_safety_factor":1.2}}

@@ -1,0 +1,2035 @@
+{
+  "schema_version": "0.1.0",
+  "version": 3,
+  "updated_at": "2026-06-01T02:07:23.477657+00:00",
+  "project_id": "default-robot-dog",
+  "project_name": "Default Robot Dog Demo",
+  "project_type": "generic",
+  "units": {
+    "length": "m",
+    "mass": "kg",
+    "time": "s",
+    "angle": "rad"
+  },
+  "assets": [
+    {
+      "id": "asset-generated-visual",
+      "name": "generated_robot_dog_visual",
+      "type": "other",
+      "file_path": "sim-data/projects/default-robot-dog/assets/visual/generated_robot_dog_parts.json",
+      "original_filename": "generated_robot_dog_parts.json",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": true,
+      "generated": true,
+      "source_asset_id": null,
+      "notes": "Procedural visual geometry definition for default robot dog."
+    },
+    {
+      "id": "asset-demo-step",
+      "name": "robot_dog_buildables_demo.step",
+      "type": "step",
+      "file_path": "C:\\Users\\user\\Downloads\\robot_dog_buildables_demo.step",
+      "original_filename": "robot_dog_buildables_demo.step",
+      "unit_scale_to_meters": 0.001,
+      "visual_only": true,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "External STEP source provided by user for robot dog demo."
+    },
+    {
+      "id": "asset-demo-urdf-generator",
+      "name": "robot_dog_buildables_demo_urdf.py",
+      "type": "other",
+      "file_path": "C:\\Users\\user\\Downloads\\robot_dog_buildables_demo_urdf.py",
+      "original_filename": "robot_dog_buildables_demo_urdf.py",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": "asset-demo-step",
+      "notes": "URDF/Xacro generator script for Buildables robot dog."
+    }
+  ],
+  "materials": [
+    {
+      "id": "mat-armor-yellow",
+      "name": "Armor Composite (Yellow)",
+      "density_kg_m3": 1520.0,
+      "static_friction": 0.5,
+      "dynamic_friction": 0.4,
+      "restitution": 0.1,
+      "youngs_modulus_pa": 2500000000.0,
+      "yield_strength_pa": 68000000.0,
+      "melting_point_c": 220.0,
+      "thermal_notes": "Demo placeholder for durable outer shell.",
+      "simulation_notes": "Used for torso armor.",
+      "source_url": null,
+      "confidence": "placeholder"
+    },
+    {
+      "id": "mat-structure-black",
+      "name": "Structure Alloy",
+      "density_kg_m3": 2700.0,
+      "static_friction": 0.62,
+      "dynamic_friction": 0.5,
+      "restitution": 0.15,
+      "youngs_modulus_pa": 69000000000.0,
+      "yield_strength_pa": 276000000.0,
+      "melting_point_c": 582.0,
+      "thermal_notes": "Approximation for rigid limb structure.",
+      "simulation_notes": "Used for legs and brackets.",
+      "source_url": "https://asm.matweb.com/search/SpecificMaterial.asp?bassnum=MA6061T6",
+      "confidence": "datasheet"
+    },
+    {
+      "id": "mat-rubber-foot",
+      "name": "Rubber Foot Pad",
+      "density_kg_m3": 1180.0,
+      "static_friction": 1.0,
+      "dynamic_friction": 0.85,
+      "restitution": 0.25,
+      "youngs_modulus_pa": 9000000.0,
+      "yield_strength_pa": null,
+      "melting_point_c": 160.0,
+      "thermal_notes": "Grip-focused foot material.",
+      "simulation_notes": "Used for contact stability.",
+      "source_url": null,
+      "confidence": "placeholder"
+    }
+  ],
+  "links": [
+    {
+      "id": "body",
+      "name": "MainBody",
+      "category": "body",
+      "visual_asset_id": "asset-generated-visual",
+      "material_id": "mat-armor-yellow",
+      "mass_kg": 16.8,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.12
+      },
+      "inertia_tensor": [
+        0.52,
+        0.0,
+        0.0,
+        0.78,
+        0.0,
+        0.65
+      ],
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.34
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [
+        "cp-body"
+      ],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Industrial torso shell."
+    },
+    {
+      "id": "fl_upper",
+      "name": "FrontLeftUpper",
+      "category": "leg",
+      "visual_asset_id": null,
+      "material_id": "mat-structure-black",
+      "mass_kg": 1.45,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.08
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.28,
+          "y": 0.16,
+          "z": 0.25
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [
+        "cp-fl-upper"
+      ],
+      "parent_link_id": "body",
+      "editable": true,
+      "notes": null
+    },
+    {
+      "id": "fl_lower",
+      "name": "FrontLeftLower",
+      "category": "leg",
+      "visual_asset_id": null,
+      "material_id": "mat-structure-black",
+      "mass_kg": 1.1,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.07
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.28,
+          "y": 0.16,
+          "z": 0.13
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [
+        "cp-fl-lower"
+      ],
+      "parent_link_id": "fl_upper",
+      "editable": true,
+      "notes": null
+    },
+    {
+      "id": "fr_upper",
+      "name": "FrontRightUpper",
+      "category": "leg",
+      "visual_asset_id": null,
+      "material_id": "mat-structure-black",
+      "mass_kg": 1.45,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.08
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.28,
+          "y": -0.16,
+          "z": 0.25
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [
+        "cp-fr-upper"
+      ],
+      "parent_link_id": "body",
+      "editable": true,
+      "notes": null
+    },
+    {
+      "id": "fr_lower",
+      "name": "FrontRightLower",
+      "category": "leg",
+      "visual_asset_id": null,
+      "material_id": "mat-structure-black",
+      "mass_kg": 1.1,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.07
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.28,
+          "y": -0.16,
+          "z": 0.13
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [
+        "cp-fr-lower"
+      ],
+      "parent_link_id": "fr_upper",
+      "editable": true,
+      "notes": null
+    },
+    {
+      "id": "rl_upper",
+      "name": "RearLeftUpper",
+      "category": "leg",
+      "visual_asset_id": null,
+      "material_id": "mat-structure-black",
+      "mass_kg": 1.45,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.08
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": -0.28,
+          "y": 0.16,
+          "z": 0.25
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [
+        "cp-rl-upper"
+      ],
+      "parent_link_id": "body",
+      "editable": true,
+      "notes": null
+    },
+    {
+      "id": "rl_lower",
+      "name": "RearLeftLower",
+      "category": "leg",
+      "visual_asset_id": null,
+      "material_id": "mat-structure-black",
+      "mass_kg": 1.1,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.07
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": -0.28,
+          "y": 0.16,
+          "z": 0.13
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [
+        "cp-rl-lower"
+      ],
+      "parent_link_id": "rl_upper",
+      "editable": true,
+      "notes": null
+    },
+    {
+      "id": "rr_upper",
+      "name": "RearRightUpper",
+      "category": "leg",
+      "visual_asset_id": null,
+      "material_id": "mat-structure-black",
+      "mass_kg": 1.45,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.08
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": -0.28,
+          "y": -0.16,
+          "z": 0.25
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [
+        "cp-rr-upper"
+      ],
+      "parent_link_id": "body",
+      "editable": true,
+      "notes": null
+    },
+    {
+      "id": "rr_lower",
+      "name": "RearRightLower",
+      "category": "leg",
+      "visual_asset_id": null,
+      "material_id": "mat-structure-black",
+      "mass_kg": 1.1,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.07
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": -0.28,
+          "y": -0.16,
+          "z": 0.13
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [
+        "cp-rr-lower"
+      ],
+      "parent_link_id": "rr_upper",
+      "editable": true,
+      "notes": null
+    }
+  ],
+  "joints": [
+    {
+      "id": "j-hip-fl",
+      "name": "front_left_hip_pitch",
+      "type": "revolute",
+      "parent_link_id": "body",
+      "child_link_id": "fl_upper",
+      "origin_xyz": {
+        "x": 0.28,
+        "y": 0.16,
+        "z": 0.27
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "limit_lower_rad": -1.2,
+      "limit_upper_rad": 1.0,
+      "effort_limit_nm": 42.0,
+      "velocity_limit_rad_s": 6.0,
+      "damping": 0.1,
+      "friction": 0.02,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": null
+    },
+    {
+      "id": "j-knee-fl",
+      "name": "front_left_knee",
+      "type": "revolute",
+      "parent_link_id": "fl_upper",
+      "child_link_id": "fl_lower",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.13
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "limit_lower_rad": -1.8,
+      "limit_upper_rad": 0.2,
+      "effort_limit_nm": 42.0,
+      "velocity_limit_rad_s": 6.0,
+      "damping": 0.1,
+      "friction": 0.02,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": null
+    },
+    {
+      "id": "j-hip-fr",
+      "name": "front_right_hip_pitch",
+      "type": "revolute",
+      "parent_link_id": "body",
+      "child_link_id": "fr_upper",
+      "origin_xyz": {
+        "x": 0.28,
+        "y": -0.16,
+        "z": 0.27
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "limit_lower_rad": -1.2,
+      "limit_upper_rad": 1.0,
+      "effort_limit_nm": 42.0,
+      "velocity_limit_rad_s": 6.0,
+      "damping": 0.1,
+      "friction": 0.02,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": null
+    },
+    {
+      "id": "j-knee-fr",
+      "name": "front_right_knee",
+      "type": "revolute",
+      "parent_link_id": "fr_upper",
+      "child_link_id": "fr_lower",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.13
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "limit_lower_rad": -1.8,
+      "limit_upper_rad": 0.2,
+      "effort_limit_nm": 42.0,
+      "velocity_limit_rad_s": 6.0,
+      "damping": 0.1,
+      "friction": 0.02,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": null
+    },
+    {
+      "id": "j-hip-rl",
+      "name": "rear_left_hip_pitch",
+      "type": "revolute",
+      "parent_link_id": "body",
+      "child_link_id": "rl_upper",
+      "origin_xyz": {
+        "x": -0.28,
+        "y": 0.16,
+        "z": 0.27
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "limit_lower_rad": -1.2,
+      "limit_upper_rad": 1.0,
+      "effort_limit_nm": 42.0,
+      "velocity_limit_rad_s": 6.0,
+      "damping": 0.1,
+      "friction": 0.02,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": null
+    },
+    {
+      "id": "j-knee-rl",
+      "name": "rear_left_knee",
+      "type": "revolute",
+      "parent_link_id": "rl_upper",
+      "child_link_id": "rl_lower",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.13
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "limit_lower_rad": -1.8,
+      "limit_upper_rad": 0.2,
+      "effort_limit_nm": 42.0,
+      "velocity_limit_rad_s": 6.0,
+      "damping": 0.1,
+      "friction": 0.02,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": null
+    },
+    {
+      "id": "j-hip-rr",
+      "name": "rear_right_hip_pitch",
+      "type": "revolute",
+      "parent_link_id": "body",
+      "child_link_id": "rr_upper",
+      "origin_xyz": {
+        "x": -0.28,
+        "y": -0.16,
+        "z": 0.27
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "limit_lower_rad": -1.2,
+      "limit_upper_rad": 1.0,
+      "effort_limit_nm": 42.0,
+      "velocity_limit_rad_s": 6.0,
+      "damping": 0.1,
+      "friction": 0.02,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": null
+    },
+    {
+      "id": "j-knee-rr",
+      "name": "rear_right_knee",
+      "type": "revolute",
+      "parent_link_id": "rr_upper",
+      "child_link_id": "rr_lower",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.13
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "limit_lower_rad": -1.8,
+      "limit_upper_rad": 0.2,
+      "effort_limit_nm": 42.0,
+      "velocity_limit_rad_s": 6.0,
+      "damping": 0.1,
+      "friction": 0.02,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": null
+    }
+  ],
+  "actuators": [
+    {
+      "id": "a-j-hip-fl",
+      "name": "hip_fl",
+      "type": "servo",
+      "real_component_profile_id": "servo-industrial-01",
+      "joint_id": "j-hip-fl",
+      "control_mode": "position",
+      "max_torque_nm": 42.0,
+      "max_velocity_rad_s": 6.0,
+      "rated_voltage_v": 24.0,
+      "stall_current_a": 7.0,
+      "no_load_current_a": 0.4,
+      "gear_ratio": null,
+      "kp": 40.0,
+      "kd": 2.0,
+      "torque_curve": null,
+      "mass_kg": 1.1,
+      "dimensions_m": [
+        0.08,
+        0.06,
+        0.12
+      ],
+      "mounting_transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "source_url": null,
+      "confidence": "placeholder",
+      "notes": null
+    },
+    {
+      "id": "a-j-knee-fl",
+      "name": "knee_fl",
+      "type": "servo",
+      "real_component_profile_id": "servo-industrial-01",
+      "joint_id": "j-knee-fl",
+      "control_mode": "position",
+      "max_torque_nm": 42.0,
+      "max_velocity_rad_s": 6.0,
+      "rated_voltage_v": 24.0,
+      "stall_current_a": 7.0,
+      "no_load_current_a": 0.4,
+      "gear_ratio": null,
+      "kp": 40.0,
+      "kd": 2.0,
+      "torque_curve": null,
+      "mass_kg": 1.1,
+      "dimensions_m": [
+        0.08,
+        0.06,
+        0.12
+      ],
+      "mounting_transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "source_url": null,
+      "confidence": "placeholder",
+      "notes": null
+    },
+    {
+      "id": "a-j-hip-fr",
+      "name": "hip_fr",
+      "type": "servo",
+      "real_component_profile_id": "servo-industrial-01",
+      "joint_id": "j-hip-fr",
+      "control_mode": "position",
+      "max_torque_nm": 42.0,
+      "max_velocity_rad_s": 6.0,
+      "rated_voltage_v": 24.0,
+      "stall_current_a": 7.0,
+      "no_load_current_a": 0.4,
+      "gear_ratio": null,
+      "kp": 40.0,
+      "kd": 2.0,
+      "torque_curve": null,
+      "mass_kg": 1.1,
+      "dimensions_m": [
+        0.08,
+        0.06,
+        0.12
+      ],
+      "mounting_transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "source_url": null,
+      "confidence": "placeholder",
+      "notes": null
+    },
+    {
+      "id": "a-j-knee-fr",
+      "name": "knee_fr",
+      "type": "servo",
+      "real_component_profile_id": "servo-industrial-01",
+      "joint_id": "j-knee-fr",
+      "control_mode": "position",
+      "max_torque_nm": 42.0,
+      "max_velocity_rad_s": 6.0,
+      "rated_voltage_v": 24.0,
+      "stall_current_a": 7.0,
+      "no_load_current_a": 0.4,
+      "gear_ratio": null,
+      "kp": 40.0,
+      "kd": 2.0,
+      "torque_curve": null,
+      "mass_kg": 1.1,
+      "dimensions_m": [
+        0.08,
+        0.06,
+        0.12
+      ],
+      "mounting_transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "source_url": null,
+      "confidence": "placeholder",
+      "notes": null
+    },
+    {
+      "id": "a-j-hip-rl",
+      "name": "hip_rl",
+      "type": "servo",
+      "real_component_profile_id": "servo-industrial-01",
+      "joint_id": "j-hip-rl",
+      "control_mode": "position",
+      "max_torque_nm": 42.0,
+      "max_velocity_rad_s": 6.0,
+      "rated_voltage_v": 24.0,
+      "stall_current_a": 7.0,
+      "no_load_current_a": 0.4,
+      "gear_ratio": null,
+      "kp": 40.0,
+      "kd": 2.0,
+      "torque_curve": null,
+      "mass_kg": 1.1,
+      "dimensions_m": [
+        0.08,
+        0.06,
+        0.12
+      ],
+      "mounting_transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "source_url": null,
+      "confidence": "placeholder",
+      "notes": null
+    },
+    {
+      "id": "a-j-knee-rl",
+      "name": "knee_rl",
+      "type": "servo",
+      "real_component_profile_id": "servo-industrial-01",
+      "joint_id": "j-knee-rl",
+      "control_mode": "position",
+      "max_torque_nm": 42.0,
+      "max_velocity_rad_s": 6.0,
+      "rated_voltage_v": 24.0,
+      "stall_current_a": 7.0,
+      "no_load_current_a": 0.4,
+      "gear_ratio": null,
+      "kp": 40.0,
+      "kd": 2.0,
+      "torque_curve": null,
+      "mass_kg": 1.1,
+      "dimensions_m": [
+        0.08,
+        0.06,
+        0.12
+      ],
+      "mounting_transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "source_url": null,
+      "confidence": "placeholder",
+      "notes": null
+    },
+    {
+      "id": "a-j-hip-rr",
+      "name": "hip_rr",
+      "type": "servo",
+      "real_component_profile_id": "servo-industrial-01",
+      "joint_id": "j-hip-rr",
+      "control_mode": "position",
+      "max_torque_nm": 42.0,
+      "max_velocity_rad_s": 6.0,
+      "rated_voltage_v": 24.0,
+      "stall_current_a": 7.0,
+      "no_load_current_a": 0.4,
+      "gear_ratio": null,
+      "kp": 40.0,
+      "kd": 2.0,
+      "torque_curve": null,
+      "mass_kg": 1.1,
+      "dimensions_m": [
+        0.08,
+        0.06,
+        0.12
+      ],
+      "mounting_transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "source_url": null,
+      "confidence": "placeholder",
+      "notes": null
+    },
+    {
+      "id": "a-j-knee-rr",
+      "name": "knee_rr",
+      "type": "servo",
+      "real_component_profile_id": "servo-industrial-01",
+      "joint_id": "j-knee-rr",
+      "control_mode": "position",
+      "max_torque_nm": 42.0,
+      "max_velocity_rad_s": 6.0,
+      "rated_voltage_v": 24.0,
+      "stall_current_a": 7.0,
+      "no_load_current_a": 0.4,
+      "gear_ratio": null,
+      "kp": 40.0,
+      "kd": 2.0,
+      "torque_curve": null,
+      "mass_kg": 1.1,
+      "dimensions_m": [
+        0.08,
+        0.06,
+        0.12
+      ],
+      "mounting_transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "source_url": null,
+      "confidence": "placeholder",
+      "notes": null
+    }
+  ],
+  "electronics": [
+    {
+      "id": "el-controller",
+      "component_profile_id": "controller-industrial-01",
+      "link_id": "body",
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.03,
+          "z": 0.31
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "editable": true,
+      "notes": "Internal controller block."
+    },
+    {
+      "id": "el-battery",
+      "component_profile_id": "battery-pack-01",
+      "link_id": "body",
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": -0.04,
+          "z": 0.26
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "editable": true,
+      "notes": "Battery position affects CoM and balance."
+    },
+    {
+      "id": "el-imu",
+      "component_profile_id": "imu-industrial-01",
+      "link_id": "body",
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.33
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "editable": true,
+      "notes": null
+    },
+    {
+      "id": "el-depth",
+      "component_profile_id": "depth-front-01",
+      "link_id": "body",
+      "transform": {
+        "position": {
+          "x": 0.44,
+          "y": 0.0,
+          "z": 0.31
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "editable": true,
+      "notes": null
+    }
+  ],
+  "sensors": [
+    {
+      "id": "sensor-imu",
+      "name": "BodyIMU",
+      "sensor_type": "imu",
+      "attach_link_id": "body",
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.33
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "update_rate_hz": 100.0,
+      "fov_deg": null,
+      "range_m": null,
+      "derived": false
+    },
+    {
+      "id": "sensor-depth-front",
+      "name": "FrontDepth",
+      "sensor_type": "depth_camera",
+      "attach_link_id": "body",
+      "transform": {
+        "position": {
+          "x": 0.44,
+          "y": 0.0,
+          "z": 0.31
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "update_rate_hz": 30.0,
+      "fov_deg": 86.0,
+      "range_m": 5.0,
+      "derived": true
+    },
+    {
+      "id": "sensor-contact-fl",
+      "name": "FootContactFL",
+      "sensor_type": "contact",
+      "attach_link_id": "fl_lower",
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": -0.14
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "update_rate_hz": 120.0,
+      "fov_deg": null,
+      "range_m": null,
+      "derived": true
+    },
+    {
+      "id": "sensor-contact-fr",
+      "name": "FootContactFR",
+      "sensor_type": "contact",
+      "attach_link_id": "fr_lower",
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": -0.14
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "update_rate_hz": 120.0,
+      "fov_deg": null,
+      "range_m": null,
+      "derived": true
+    }
+  ],
+  "wires": [
+    {
+      "id": "wire-main",
+      "name": "MainPower",
+      "from_component_id": "el-battery",
+      "to_component_id": "el-controller",
+      "route_points": [
+        {
+          "x": 0.0,
+          "y": -0.04,
+          "z": 0.26
+        },
+        {
+          "x": 0.0,
+          "y": 0.03,
+          "z": 0.31
+        }
+      ],
+      "mass_kg": 0.05,
+      "min_bend_radius_m": 0.015
+    },
+    {
+      "id": "wire-front-sensor",
+      "name": "FrontSensorHarness",
+      "from_component_id": "el-controller",
+      "to_component_id": "el-depth",
+      "route_points": [
+        {
+          "x": 0.0,
+          "y": 0.03,
+          "z": 0.31
+        },
+        {
+          "x": 0.4,
+          "y": 0.0,
+          "z": 0.31
+        }
+      ],
+      "mass_kg": 0.03,
+      "min_bend_radius_m": 0.015
+    }
+  ],
+  "collision_primitives": [
+    {
+      "id": "cp-body",
+      "link_id": "body",
+      "primitive_type": "box",
+      "dimensions": [
+        0.9,
+        0.22,
+        0.35
+      ],
+      "offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "cp-fl-upper",
+      "link_id": "fl_upper",
+      "primitive_type": "capsule",
+      "dimensions": [
+        0.05,
+        0.22
+      ],
+      "offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.11
+      },
+      "rotation_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "cp-fl-lower",
+      "link_id": "fl_lower",
+      "primitive_type": "capsule",
+      "dimensions": [
+        0.045,
+        0.2
+      ],
+      "offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.1
+      },
+      "rotation_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "cp-fr-upper",
+      "link_id": "fr_upper",
+      "primitive_type": "capsule",
+      "dimensions": [
+        0.05,
+        0.22
+      ],
+      "offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.11
+      },
+      "rotation_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "cp-fr-lower",
+      "link_id": "fr_lower",
+      "primitive_type": "capsule",
+      "dimensions": [
+        0.045,
+        0.2
+      ],
+      "offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.1
+      },
+      "rotation_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "cp-rl-upper",
+      "link_id": "rl_upper",
+      "primitive_type": "capsule",
+      "dimensions": [
+        0.05,
+        0.22
+      ],
+      "offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.11
+      },
+      "rotation_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "cp-rl-lower",
+      "link_id": "rl_lower",
+      "primitive_type": "capsule",
+      "dimensions": [
+        0.045,
+        0.2
+      ],
+      "offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.1
+      },
+      "rotation_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "cp-rr-upper",
+      "link_id": "rr_upper",
+      "primitive_type": "capsule",
+      "dimensions": [
+        0.05,
+        0.22
+      ],
+      "offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.11
+      },
+      "rotation_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "id": "cp-rr-lower",
+      "link_id": "rr_lower",
+      "primitive_type": "capsule",
+      "dimensions": [
+        0.045,
+        0.2
+      ],
+      "offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.1
+      },
+      "rotation_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    }
+  ],
+  "robot_description": {
+    "preferred_format": "urdf",
+    "urdf_path": "C:\\Users\\user\\Downloads\\robot_dog_buildables_demo.xacro",
+    "mjcf_path": "sim-data/projects/default-robot-dog/generated/robot_description/default_robot_dog.mjcf",
+    "generated_from_manifest": false
+  },
+  "environment": {
+    "gravity_m_s2": 9.81
+  },
+  "control": {
+    "script_path": "sim-data/projects/default-robot-dog/control/robot_dog_controller.py",
+    "built_in_controller": "default_robot_dog_controller"
+  },
+  "scenarios": [
+    {
+      "id": "free_drive",
+      "name": "Free Remote Control",
+      "description": "Manual keyboard control",
+      "duration_s": 8.0,
+      "config": {
+        "terrain": "flat"
+      }
+    },
+    {
+      "id": "stand_balance",
+      "name": "Stand Balance",
+      "description": "Stability while standing",
+      "duration_s": 5.0,
+      "config": {
+        "pitch_threshold_deg": 12.0,
+        "roll_threshold_deg": 12.0
+      }
+    },
+    {
+      "id": "walk_forward",
+      "name": "Walk Forward",
+      "description": "Walk test",
+      "duration_s": 5.0,
+      "config": {
+        "distance_threshold_m": 0.5
+      }
+    },
+    {
+      "id": "turn_test",
+      "name": "Turn Test",
+      "description": "Yaw response",
+      "duration_s": 5.0,
+      "config": {
+        "yaw_threshold_deg": 15.0
+      }
+    },
+    {
+      "id": "jump_test",
+      "name": "Jump Test",
+      "description": "Controlled jump behavior",
+      "duration_s": 4.0,
+      "config": {
+        "jump_height_m": 0.08
+      }
+    },
+    {
+      "id": "slope_climb",
+      "name": "Slope Climb",
+      "description": "Slope terrain test",
+      "duration_s": 6.0,
+      "config": {
+        "terrain": "slope",
+        "slope_deg": 12.0
+      }
+    },
+    {
+      "id": "step_test",
+      "name": "Stair Step Test",
+      "description": "Single step obstacle",
+      "duration_s": 6.0,
+      "config": {
+        "step_height_m": 0.12
+      }
+    },
+    {
+      "id": "rough_terrain",
+      "name": "Rough Terrain",
+      "description": "Uneven terrain test",
+      "duration_s": 6.0,
+      "config": {
+        "terrain": "rough"
+      }
+    },
+    {
+      "id": "obstacle_avoidance",
+      "name": "Obstacle Avoidance",
+      "description": "Sensor-based obstacle handling",
+      "duration_s": 6.0,
+      "config": {
+        "obstacle_distance_m": 1.0
+      }
+    },
+    {
+      "id": "payload_carry",
+      "name": "Payload Carry",
+      "description": "Payload on top rail",
+      "duration_s": 6.0,
+      "config": {
+        "payload_kg": 5.0
+      }
+    },
+    {
+      "id": "joint_sweep_collision",
+      "name": "Joint Sweep Collision",
+      "description": "Joint range sweep",
+      "duration_s": 4.0,
+      "config": {
+        "sweep_samples": 24
+      }
+    },
+    {
+      "id": "torque_margin",
+      "name": "Torque Margin",
+      "description": "Actuator margin check",
+      "duration_s": 4.0,
+      "config": {
+        "required_safety_factor": 1.2
+      }
+    },
+    {
+      "id": "sensor_visibility",
+      "name": "Sensor Visibility",
+      "description": "Front sensor clearance",
+      "duration_s": 4.0,
+      "config": {
+        "required_clearance_m": 0.2
+      }
+    },
+    {
+      "id": "wire_route",
+      "name": "Wire Route Sanity",
+      "description": "Cable route checks",
+      "duration_s": 2.0,
+      "config": {
+        "min_bend_radius_m": 0.015
+      }
+    },
+    {
+      "id": "component_fit",
+      "name": "Component Fit",
+      "description": "Internal packaging checks",
+      "duration_s": 2.0,
+      "config": {
+        "clearance_m": 0.005
+      }
+    },
+    {
+      "id": "genesis-physics-rigid-franka-cube",
+      "name": "[Genesis Physics] Rigid: franka cube",
+      "description": "Genesis showcase demo reference: Rigid: franka cube",
+      "duration_s": 6.0,
+      "config": {
+        "genesis_layer": "physics",
+        "genesis_demo_name": "Rigid: franka cube",
+        "command_hint": "walk_forward",
+        "source": "https://github.com/Genesis-Embodied-AI/genesis-world"
+      }
+    },
+    {
+      "id": "genesis-physics-rigid-collision-tower",
+      "name": "[Genesis Physics] Rigid: collision tower",
+      "description": "Genesis showcase demo reference: Rigid: collision tower",
+      "duration_s": 6.0,
+      "config": {
+        "genesis_layer": "physics",
+        "genesis_demo_name": "Rigid: collision tower",
+        "command_hint": "stand",
+        "source": "https://github.com/Genesis-Embodied-AI/genesis-world"
+      }
+    },
+    {
+      "id": "genesis-physics-rigid-contype",
+      "name": "[Genesis Physics] Rigid: contype",
+      "description": "Genesis showcase demo reference: Rigid: contype",
+      "duration_s": 6.0,
+      "config": {
+        "genesis_layer": "physics",
+        "genesis_demo_name": "Rigid: contype",
+        "command_hint": "stand",
+        "source": "https://github.com/Genesis-Embodied-AI/genesis-world"
+      }
+    },
+    {
+      "id": "genesis-physics-fem-hard-soft-constraint",
+      "name": "[Genesis Physics] FEM: hard & soft constraint",
+      "description": "Genesis showcase demo reference: FEM: hard & soft constraint",
+      "duration_s": 6.0,
+      "config": {
+        "genesis_layer": "physics",
+        "genesis_demo_name": "FEM: hard & soft constraint",
+        "command_hint": "stand",
+        "source": "https://github.com/Genesis-Embodied-AI/genesis-world"
+      }
+    },
+    {
+      "id": "genesis-physics-mpm-tutorial",
+      "name": "[Genesis Physics] MPM: tutorial",
+      "description": "Genesis showcase demo reference: MPM: tutorial",
+      "duration_s": 6.0,
+      "config": {
+        "genesis_layer": "physics",
+        "genesis_demo_name": "MPM: tutorial",
+        "command_hint": "walk_forward",
+        "source": "https://github.com/Genesis-Embodied-AI/genesis-world"
+      }
+    },
+    {
+      "id": "genesis-physics-mpm-sand-wheel",
+      "name": "[Genesis Physics] MPM: sand wheel",
+      "description": "Genesis showcase demo reference: MPM: sand wheel",
+      "duration_s": 6.0,
+      "config": {
+        "genesis_layer": "physics",
+        "genesis_demo_name": "MPM: sand wheel",
+        "command_hint": "walk_forward",
+        "source": "https://github.com/Genesis-Embodied-AI/genesis-world"
+      }
+    },
+    {
+      "id": "genesis-physics-sph-rigid",
+      "name": "[Genesis Physics] SPH: rigid",
+      "description": "Genesis showcase demo reference: SPH: rigid",
+      "duration_s": 6.0,
+      "config": {
+        "genesis_layer": "physics",
+        "genesis_demo_name": "SPH: rigid",
+        "command_hint": "walk_forward",
+        "source": "https://github.com/Genesis-Embodied-AI/genesis-world"
+      }
+    },
+    {
+      "id": "genesis-physics-sph-mpm",
+      "name": "[Genesis Physics] SPH: + MPM",
+      "description": "Genesis showcase demo reference: SPH: + MPM",
+      "duration_s": 6.0,
+      "config": {
+        "genesis_layer": "physics",
+        "genesis_demo_name": "SPH: + MPM",
+        "command_hint": "walk_forward",
+        "source": "https://github.com/Genesis-Embodied-AI/genesis-world"
+      }
+    },
+    {
+      "id": "genesis-physics-pbd-liquid",
+      "name": "[Genesis Physics] PBD: liquid",
+      "description": "Genesis showcase demo reference: PBD: liquid",
+      "duration_s": 6.0,
+      "config": {
+        "genesis_layer": "physics",
+        "genesis_demo_name": "PBD: liquid",
+        "command_hint": "stand",
+        "source": "https://github.com/Genesis-Embodied-AI/genesis-world"
+      }
+    },
+    {
+      "id": "genesis-physics-pbd-cloth",
+      "name": "[Genesis Physics] PBD: cloth",
+      "description": "Genesis showcase demo reference: PBD: cloth",
+      "duration_s": 6.0,
+      "config": {
+        "genesis_layer": "physics",
+        "genesis_demo_name": "PBD: cloth",
+        "command_hint": "stand",
+        "source": "https://github.com/Genesis-Embodied-AI/genesis-world"
+      }
+    },
+    {
+      "id": "genesis-physics-stable-fluid-smoke",
+      "name": "[Genesis Physics] Stable Fluid: smoke",
+      "description": "Genesis showcase demo reference: Stable Fluid: smoke",
+      "duration_s": 6.0,
+      "config": {
+        "genesis_layer": "physics",
+        "genesis_demo_name": "Stable Fluid: smoke",
+        "command_hint": "stand",
+        "source": "https://github.com/Genesis-Embodied-AI/genesis-world"
+      }
+    },
+    {
+      "id": "genesis-physics-ipc-robot-cloth-teleop",
+      "name": "[Genesis Physics] IPC: robot cloth teleop",
+      "description": "Genesis showcase demo reference: IPC: robot cloth teleop",
+      "duration_s": 6.0,
+      "config": {
+        "genesis_layer": "physics",
+        "genesis_demo_name": "IPC: robot cloth teleop",
+        "command_hint": "walk_forward",
+        "source": "https://github.com/Genesis-Embodied-AI/genesis-world"
+      }
+    },
+    {
+      "id": "genesis-physics-coupler-cloth-on-rigid",
+      "name": "[Genesis Physics] Coupler: cloth on rigid",
+      "description": "Genesis showcase demo reference: Coupler: cloth on rigid",
+      "duration_s": 6.0,
+      "config": {
+        "genesis_layer": "physics",
+        "genesis_demo_name": "Coupler: cloth on rigid",
+        "command_hint": "walk_forward",
+        "source": "https://github.com/Genesis-Embodied-AI/genesis-world"
+      }
+    },
+    {
+      "id": "genesis-physics-coupler-rigid-mpm",
+      "name": "[Genesis Physics] Coupler: rigid + MPM",
+      "description": "Genesis showcase demo reference: Coupler: rigid + MPM",
+      "duration_s": 6.0,
+      "config": {
+        "genesis_layer": "physics",
+        "genesis_demo_name": "Coupler: rigid + MPM",
+        "command_hint": "walk_forward",
+        "source": "https://github.com/Genesis-Embodied-AI/genesis-world"
+      }
+    },
+    {
+      "id": "genesis-physics-coupler-cut-dragon",
+      "name": "[Genesis Physics] Coupler: cut dragon",
+      "description": "Genesis showcase demo reference: Coupler: cut dragon",
+      "duration_s": 6.0,
+      "config": {
+        "genesis_layer": "physics",
+        "genesis_demo_name": "Coupler: cut dragon",
+        "command_hint": "walk_forward",
+        "source": "https://github.com/Genesis-Embodied-AI/genesis-world"
+      }
+    },
+    {
+      "id": "genesis-physics-coupler-water-wheel",
+      "name": "[Genesis Physics] Coupler: water wheel",
+      "description": "Genesis showcase demo reference: Coupler: water wheel",
+      "duration_s": 6.0,
+      "config": {
+        "genesis_layer": "physics",
+        "genesis_demo_name": "Coupler: water wheel",
+        "command_hint": "walk_forward",
+        "source": "https://github.com/Genesis-Embodied-AI/genesis-world"
+      }
+    },
+    {
+      "id": "genesis-physics-coupler-flush-cubes",
+      "name": "[Genesis Physics] Coupler: flush cubes",
+      "description": "Genesis showcase demo reference: Coupler: flush cubes",
+      "duration_s": 6.0,
+      "config": {
+        "genesis_layer": "physics",
+        "genesis_demo_name": "Coupler: flush cubes",
+        "command_hint": "walk_forward",
+        "source": "https://github.com/Genesis-Embodied-AI/genesis-world"
+      }
+    },
+    {
+      "id": "genesis-physics-sap-franka-grasp-rigid-cube",
+      "name": "[Genesis Physics] SAP: Franka grasp rigid cube",
+      "description": "Genesis showcase demo reference: SAP: Franka grasp rigid cube",
+      "duration_s": 6.0,
+      "config": {
+        "genesis_layer": "physics",
+        "genesis_demo_name": "SAP: Franka grasp rigid cube",
+        "command_hint": "walk_forward",
+        "source": "https://github.com/Genesis-Embodied-AI/genesis-world"
+      }
+    },
+    {
+      "id": "genesis-rendering-follow-entity",
+      "name": "[Genesis Rendering] Follow entity",
+      "description": "Genesis showcase demo reference: Follow entity",
+      "duration_s": 6.0,
+      "config": {
+        "genesis_layer": "rendering",
+        "genesis_demo_name": "Follow entity",
+        "command_hint": "stand",
+        "source": "https://github.com/Genesis-Embodied-AI/genesis-world"
+      }
+    },
+    {
+      "id": "genesis-rendering-animated-camera",
+      "name": "[Genesis Rendering] Animated camera",
+      "description": "Genesis showcase demo reference: Animated camera",
+      "duration_s": 6.0,
+      "config": {
+        "genesis_layer": "rendering",
+        "genesis_demo_name": "Animated camera",
+        "command_hint": "turn_left",
+        "source": "https://github.com/Genesis-Embodied-AI/genesis-world"
+      }
+    },
+    {
+      "id": "genesis-rendering-nyx-hello",
+      "name": "[Genesis Rendering] Nyx: hello",
+      "description": "Genesis showcase demo reference: Nyx: hello",
+      "duration_s": 6.0,
+      "config": {
+        "genesis_layer": "rendering",
+        "genesis_demo_name": "Nyx: hello",
+        "command_hint": "turn_left",
+        "source": "https://github.com/Genesis-Embodied-AI/genesis-world"
+      }
+    },
+    {
+      "id": "genesis-rendering-nyx-attached-camera",
+      "name": "[Genesis Rendering] Nyx: attached camera",
+      "description": "Genesis showcase demo reference: Nyx: attached camera",
+      "duration_s": 6.0,
+      "config": {
+        "genesis_layer": "rendering",
+        "genesis_demo_name": "Nyx: attached camera",
+        "command_hint": "turn_left",
+        "source": "https://github.com/Genesis-Embodied-AI/genesis-world"
+      }
+    },
+    {
+      "id": "genesis-rendering-nyx-pbr-materials",
+      "name": "[Genesis Rendering] Nyx: PBR materials",
+      "description": "Genesis showcase demo reference: Nyx: PBR materials",
+      "duration_s": 6.0,
+      "config": {
+        "genesis_layer": "rendering",
+        "genesis_demo_name": "Nyx: PBR materials",
+        "command_hint": "turn_left",
+        "source": "https://github.com/Genesis-Embodied-AI/genesis-world"
+      }
+    },
+    {
+      "id": "genesis-rendering-nyx-light-types",
+      "name": "[Genesis Rendering] Nyx: light types",
+      "description": "Genesis showcase demo reference: Nyx: light types",
+      "duration_s": 6.0,
+      "config": {
+        "genesis_layer": "rendering",
+        "genesis_demo_name": "Nyx: light types",
+        "command_hint": "turn_left",
+        "source": "https://github.com/Genesis-Embodied-AI/genesis-world"
+      }
+    },
+    {
+      "id": "genesis-rendering-nyx-3d-gaussian-splat",
+      "name": "[Genesis Rendering] Nyx: 3D Gaussian splat",
+      "description": "Genesis showcase demo reference: Nyx: 3D Gaussian splat",
+      "duration_s": 6.0,
+      "config": {
+        "genesis_layer": "rendering",
+        "genesis_demo_name": "Nyx: 3D Gaussian splat",
+        "command_hint": "turn_left",
+        "source": "https://github.com/Genesis-Embodied-AI/genesis-world"
+      }
+    },
+    {
+      "id": "genesis-rendering-nyx-object-picking",
+      "name": "[Genesis Rendering] Nyx: object picking",
+      "description": "Genesis showcase demo reference: Nyx: object picking",
+      "duration_s": 6.0,
+      "config": {
+        "genesis_layer": "rendering",
+        "genesis_demo_name": "Nyx: object picking",
+        "command_hint": "turn_left",
+        "source": "https://github.com/Genesis-Embodied-AI/genesis-world"
+      }
+    },
+    {
+      "id": "genesis-rendering-nyx-multi-cam-multi-env",
+      "name": "[Genesis Rendering] Nyx: multi-cam multi-env",
+      "description": "Genesis showcase demo reference: Nyx: multi-cam multi-env",
+      "duration_s": 6.0,
+      "config": {
+        "genesis_layer": "rendering",
+        "genesis_demo_name": "Nyx: multi-cam multi-env",
+        "command_hint": "turn_left",
+        "source": "https://github.com/Genesis-Embodied-AI/genesis-world"
+      }
+    },
+    {
+      "id": "genesis-simulation-interface-controlling-a-robot",
+      "name": "[Genesis Simulation-Interface] Controlling a robot",
+      "description": "Genesis showcase demo reference: Controlling a robot",
+      "duration_s": 6.0,
+      "config": {
+        "genesis_layer": "simulation-interface",
+        "genesis_demo_name": "Controlling a robot",
+        "command_hint": "walk_forward",
+        "source": "https://github.com/Genesis-Embodied-AI/genesis-world"
+      }
+    },
+    {
+      "id": "genesis-simulation-interface-gui-imgui-joint-control",
+      "name": "[Genesis Simulation-Interface] GUI: ImGui joint control",
+      "description": "Genesis showcase demo reference: GUI: ImGui joint control",
+      "duration_s": 6.0,
+      "config": {
+        "genesis_layer": "simulation-interface",
+        "genesis_demo_name": "GUI: ImGui joint control",
+        "command_hint": "turn_left",
+        "source": "https://github.com/Genesis-Embodied-AI/genesis-world"
+      }
+    },
+    {
+      "id": "genesis-simulation-interface-heterogeneous-envs",
+      "name": "[Genesis Simulation-Interface] Heterogeneous envs",
+      "description": "Genesis showcase demo reference: Heterogeneous envs",
+      "duration_s": 6.0,
+      "config": {
+        "genesis_layer": "simulation-interface",
+        "genesis_demo_name": "Heterogeneous envs",
+        "command_hint": "stand",
+        "source": "https://github.com/Genesis-Embodied-AI/genesis-world"
+      }
+    },
+    {
+      "id": "genesis-simulation-interface-domain-randomization",
+      "name": "[Genesis Simulation-Interface] Domain randomization",
+      "description": "Genesis showcase demo reference: Domain randomization",
+      "duration_s": 6.0,
+      "config": {
+        "genesis_layer": "simulation-interface",
+        "genesis_demo_name": "Domain randomization",
+        "command_hint": "stand",
+        "source": "https://github.com/Genesis-Embodied-AI/genesis-world"
+      }
+    },
+    {
+      "id": "genesis-simulation-interface-sensor-depth-camera",
+      "name": "[Genesis Simulation-Interface] Sensor: depth camera",
+      "description": "Genesis showcase demo reference: Sensor: depth camera",
+      "duration_s": 6.0,
+      "config": {
+        "genesis_layer": "simulation-interface",
+        "genesis_demo_name": "Sensor: depth camera",
+        "command_hint": "turn_left",
+        "source": "https://github.com/Genesis-Embodied-AI/genesis-world"
+      }
+    },
+    {
+      "id": "genesis-simulation-interface-sensor-imu",
+      "name": "[Genesis Simulation-Interface] Sensor: IMU",
+      "description": "Genesis showcase demo reference: Sensor: IMU",
+      "duration_s": 6.0,
+      "config": {
+        "genesis_layer": "simulation-interface",
+        "genesis_demo_name": "Sensor: IMU",
+        "command_hint": "turn_left",
+        "source": "https://github.com/Genesis-Embodied-AI/genesis-world"
+      }
+    },
+    {
+      "id": "genesis-simulation-interface-sensor-lidar",
+      "name": "[Genesis Simulation-Interface] Sensor: lidar",
+      "description": "Genesis showcase demo reference: Sensor: lidar",
+      "duration_s": 6.0,
+      "config": {
+        "genesis_layer": "simulation-interface",
+        "genesis_demo_name": "Sensor: lidar",
+        "command_hint": "turn_left",
+        "source": "https://github.com/Genesis-Embodied-AI/genesis-world"
+      }
+    },
+    {
+      "id": "genesis-simulation-interface-sensor-tactile-sandbox",
+      "name": "[Genesis Simulation-Interface] Sensor: tactile sandbox",
+      "description": "Genesis showcase demo reference: Sensor: tactile sandbox",
+      "duration_s": 6.0,
+      "config": {
+        "genesis_layer": "simulation-interface",
+        "genesis_demo_name": "Sensor: tactile sandbox",
+        "command_hint": "turn_left",
+        "source": "https://github.com/Genesis-Embodied-AI/genesis-world"
+      }
+    },
+    {
+      "id": "genesis-simulation-interface-sensor-contact-force",
+      "name": "[Genesis Simulation-Interface] Sensor: contact force",
+      "description": "Genesis showcase demo reference: Sensor: contact force",
+      "duration_s": 6.0,
+      "config": {
+        "genesis_layer": "simulation-interface",
+        "genesis_demo_name": "Sensor: contact force",
+        "command_hint": "turn_left",
+        "source": "https://github.com/Genesis-Embodied-AI/genesis-world"
+      }
+    },
+    {
+      "id": "genesis-simulation-interface-sensor-surface-distance",
+      "name": "[Genesis Simulation-Interface] Sensor: surface distance",
+      "description": "Genesis showcase demo reference: Sensor: surface distance",
+      "duration_s": 6.0,
+      "config": {
+        "genesis_layer": "simulation-interface",
+        "genesis_demo_name": "Sensor: surface distance",
+        "command_hint": "turn_left",
+        "source": "https://github.com/Genesis-Embodied-AI/genesis-world"
+      }
+    },
+    {
+      "id": "genesis-simulation-interface-sensor-temperature-grid",
+      "name": "[Genesis Simulation-Interface] Sensor: temperature grid",
+      "description": "Genesis showcase demo reference: Sensor: temperature grid",
+      "duration_s": 6.0,
+      "config": {
+        "genesis_layer": "simulation-interface",
+        "genesis_demo_name": "Sensor: temperature grid",
+        "command_hint": "turn_left",
+        "source": "https://github.com/Genesis-Embodied-AI/genesis-world"
+      }
+    },
+    {
+      "id": "genesis-simulation-interface-gui-debug-drawing",
+      "name": "[Genesis Simulation-Interface] GUI: debug drawing",
+      "description": "Genesis showcase demo reference: GUI: debug drawing",
+      "duration_s": 6.0,
+      "config": {
+        "genesis_layer": "simulation-interface",
+        "genesis_demo_name": "GUI: debug drawing",
+        "command_hint": "turn_left",
+        "source": "https://github.com/Genesis-Embodied-AI/genesis-world"
+      }
+    },
+    {
+      "id": "genesis-simulation-interface-gui-mesh-point-picker",
+      "name": "[Genesis Simulation-Interface] GUI: mesh point picker",
+      "description": "Genesis showcase demo reference: GUI: mesh point picker",
+      "duration_s": 6.0,
+      "config": {
+        "genesis_layer": "simulation-interface",
+        "genesis_demo_name": "GUI: mesh point picker",
+        "command_hint": "turn_left",
+        "source": "https://github.com/Genesis-Embodied-AI/genesis-world"
+      }
+    },
+    {
+      "id": "genesis-simulation-interface-gui-mouse-interaction",
+      "name": "[Genesis Simulation-Interface] GUI: mouse interaction",
+      "description": "Genesis showcase demo reference: GUI: mouse interaction",
+      "duration_s": 6.0,
+      "config": {
+        "genesis_layer": "simulation-interface",
+        "genesis_demo_name": "GUI: mouse interaction",
+        "command_hint": "turn_left",
+        "source": "https://github.com/Genesis-Embodied-AI/genesis-world"
+      }
+    },
+    {
+      "id": "genesis-simulation-interface-diff-ik-controller",
+      "name": "[Genesis Simulation-Interface] Diff-IK controller",
+      "description": "Genesis showcase demo reference: Diff-IK controller",
+      "duration_s": 6.0,
+      "config": {
+        "genesis_layer": "simulation-interface",
+        "genesis_demo_name": "Diff-IK controller",
+        "command_hint": "walk_forward",
+        "source": "https://github.com/Genesis-Embodied-AI/genesis-world"
+      }
+    },
+    {
+      "id": "genesis-simulation-interface-batched-ik",
+      "name": "[Genesis Simulation-Interface] Batched IK",
+      "description": "Genesis showcase demo reference: Batched IK",
+      "duration_s": 6.0,
+      "config": {
+        "genesis_layer": "simulation-interface",
+        "genesis_demo_name": "Batched IK",
+        "command_hint": "stand",
+        "source": "https://github.com/Genesis-Embodied-AI/genesis-world"
+      }
+    },
+    {
+      "id": "genesis-simulation-interface-drone",
+      "name": "[Genesis Simulation-Interface] Drone",
+      "description": "Genesis showcase demo reference: Drone",
+      "duration_s": 6.0,
+      "config": {
+        "genesis_layer": "simulation-interface",
+        "genesis_demo_name": "Drone",
+        "command_hint": "walk_forward",
+        "source": "https://github.com/Genesis-Embodied-AI/genesis-world"
+      }
+    },
+    {
+      "id": "genesis-simulation-interface-advanced-worm",
+      "name": "[Genesis Simulation-Interface] Advanced: worm",
+      "description": "Genesis showcase demo reference: Advanced: worm",
+      "duration_s": 6.0,
+      "config": {
+        "genesis_layer": "simulation-interface",
+        "genesis_demo_name": "Advanced: worm",
+        "command_hint": "walk_forward",
+        "source": "https://github.com/Genesis-Embodied-AI/genesis-world"
+      }
+    }
+  ],
+  "payloads": [],
+  "environments": {},
+  "controls": {},
+  "tests": [],
+  "render_cameras": [],
+  "generated_robot_descriptions": {},
+  "metadata_status": {}
+}

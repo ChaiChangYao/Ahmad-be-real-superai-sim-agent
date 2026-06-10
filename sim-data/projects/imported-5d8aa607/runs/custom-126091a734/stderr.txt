@@ -1,0 +1,12 @@
+[showcase_launcher] Demo crashed:
+Traceback (most recent call last):
+  File "C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\apps\api\app\scripts\showcase_launcher.py", line 100, in main
+    runpy.run_path(script_path, run_name="__main__")
+  File "<frozen runpy>", line 291, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\apps\api\app\scripts\imported_robot_web_demo.py", line 73, in <module>
+    main()
+  File "C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\apps\api\app\scripts\imported_robot_web_demo.py", line 51, in main
+    raise RuntimeError(
+RuntimeError: Cannot launch: missing URDF mesh asset meshes/torso_shell_top.stl. Upload the full mesh folder or a zip bundle.

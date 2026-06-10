@@ -1,0 +1,1 @@
+{"id":"joint_sweep_collision","name":"Joint Sweep Collision","description":"Joint range sweep","duration_s":4.0,"config":{"sweep_samples":24}}

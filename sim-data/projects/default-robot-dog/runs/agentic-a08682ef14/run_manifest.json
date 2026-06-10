@@ -1,0 +1,9 @@
+{
+  "started_at": "2026-06-08T03:22:52.814021+00:00",
+  "test_id": "gravity_stability",
+  "template_id": "gravity_stability",
+  "project_id": "default-robot-dog",
+  "fallback_mode": null,
+  "status": "initialized",
+  "warnings": []
+}

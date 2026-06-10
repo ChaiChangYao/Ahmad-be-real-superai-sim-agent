@@ -1,0 +1,328 @@
+[showcase_launcher] Running script: C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\genesis-world\examples\sensors\imu_franka.py
+[showcase_launcher] Headless: True · Web record: True
+[showcase_launcher] Record path: C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-98a507a64c\state_timeseries.json
+[38;5;159m[Genesis] [19:42:23] [INFO] [38;5;121m╭───────────────────────────────────────────────╮[0m[38;5;159m[0m
+[38;5;159m[Genesis] [19:42:23] [INFO] [38;5;121m│┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈[0m[38;5;159m [38;5;121m[1m[3mGenesis[0m[38;5;159m [38;5;121m┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈│[0m[38;5;159m[0m
+[38;5;159m[Genesis] [19:42:23] [INFO] [38;5;121m╰───────────────────────────────────────────────╯[0m[38;5;159m[0m
+[38;5;226m[Genesis] [19:42:25] [WARNING] Backend [38;5;121m[4mgs.gpu[0m[38;5;226m not available on this machine. Falling back to CPU.[0m
+[38;5;159m[Genesis] [19:42:25] [INFO] Running on [38;5;121m[4m[AMD Ryzen 7 6800H with Radeon Graphics][0m[38;5;159m with backend [38;5;121m[4mgs.cpu[0m[38;5;159m. Device memory: [38;5;121m[4m15.25[0m[38;5;159m GB.[0m
+[38;5;159m[Genesis] [19:42:25] [INFO] 🚀 Genesis initialized. 🔖 version: [38;5;121m[4m1.0.0[0m[38;5;159m, 🎨 theme: [38;5;121m[4mdark[0m[38;5;159m, 🌱 seed: [38;5;121m[4mNone[0m[38;5;159m, 🐛 debug: [38;5;121m[4mFalse[0m[38;5;159m, 📏 precision: [38;5;121m[4m32[0m[38;5;159m, 🔥 performance: [38;5;121m[4mFalse[0m[38;5;159m, 💬 verbose: [38;5;121m[4mINFO[0m[38;5;159m[0m
+[38;5;159m[Genesis] [19:42:30] [INFO] Scene [38;5;121m[3m<5394694>[0m[38;5;159m created.[0m
+[38;5;159m[Genesis] [19:42:30] [INFO] Adding [38;5;121m<gs.engine.entities.RigidEntity>[0m[38;5;159m. idx: [38;5;121m0[0m[38;5;159m, uid: [38;5;121m[3m<09aaea3>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Plane>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [19:42:30] [INFO] Adding [38;5;121m<gs.engine.entities.RigidEntity>[0m[38;5;159m. idx: [38;5;121m1[0m[38;5;159m, uid: [38;5;121m[3m<ef2f10a>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.MJCF(file='C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\genesis\assets\xml/franka_emika_panda/panda.xml')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [19:42:31] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint1`[0m
+[38;5;226m[Genesis] [19:42:31] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint2`[0m
+[38;5;159m[Genesis] [19:42:31] [INFO] pyqtgraph not found, falling back to matplotlib.[0m
+[showcase_launcher] Skipped native plot recorder: MPLLinePlot
+[38;5;159m[Genesis] [19:42:31] [INFO] Building scene [38;5;121m[3m<5394694>[0m[38;5;159m...[0m
+[38;5;226m[Genesis] [19:42:32] [WARNING] Neutral robot position (qpos0) exceeds joint limits.[0m
+[38;5;226m[Genesis] [19:42:33] [WARNING] Constraint solver time constant should be greater than 2*substep_dt. timeconst is changed from `0.005` to `0.02`). Decrease simulation timestep or increase timeconst to avoid altering the original value.[0m
+[38;5;226m[Genesis] [19:42:37] [WARNING] Filtered out geometry pairs causing self-collision for the neutral configuration (qpos0): (6, 11), (7, 11), (14, 21), (15, 20), (16, 23), (17, 22). Consider tuning Morph option 'decompose_robot_error_threshold' or specify dedicated collision meshes. This behavior can be disabled by setting Morph option 'enable_neutral_collision=True'.[0m
+[38;5;159m[Genesis] [19:42:39] [INFO] Compiling simulation kernels...[0m
+[38;5;159m[Genesis] [19:42:46] [INFO] Building visualizer...[0m
+[showcase_launcher] Franka OBJ meshes exported: 11 links
+[showcase_launcher] Transform sample (raw Genesis, upAxis=z): [{"id": "env/floor", "position": [0.0, 0.0, 0.0], "quaternion": [1.0, 0.0, 0.0, 0.0]}, {"id": "franka/link0", "position": [0.0, 0.0, 0.0], "quaternion": [1.0, 0.0, 0.0, 0.0]}, {"id": "franka/link1", "position": [0.0, 0.0, 0.3330000042915344], "quaternion": [1.0, 0.0, 0.0, 0.0]}, {"id": "franka/link2", "position": [0.0, 0.0, 0.3330000042915344], "quaternion": [0.7071068286895752, -0.7071068286895752, 0.0, 0.0]}]
+[showcase_launcher] Scene export: top_level=2 robot_links=11 visual_geoms=81 meshes_exported=11 tracked_objects=12 franka_fallback=False
+[showcase_launcher] Frame 0: link franka/link0 pos delta=0.000000 qpos_keys=2
+[showcase_launcher] Frame 10: link franka/link5 pos delta=0.042538 qpos_keys=2
+[showcase_launcher] Frame 20: link franka/link5 pos delta=0.064906 qpos_keys=2
+[showcase_launcher] Replay diagnostics: 30 frames, 30 unique poses, 25 meaningful keyframes, longest freeze 1 frames, jump at frame none, primary motion=franka/link5, issue=none
+[showcase_launcher] Wrote 30 replay frames (partial, v1) · raw=30 unique_poses=30 preview=30 · 12 objects (11 robot links) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-98a507a64c\state_timeseries.json
+[showcase_launcher] Frame 30: link franka/link5 pos delta=0.077014 qpos_keys=2
+[showcase_launcher] Frame 40: link franka/link7 pos delta=0.070008 qpos_keys=2
+[showcase_launcher] Frame 50: link franka/link4 pos delta=0.065540 qpos_keys=2
+[showcase_launcher] Replay diagnostics: 60 frames, 60 unique poses, 53 meaningful keyframes, longest freeze 1 frames, jump at frame none, primary motion=franka/link5, issue=none
+[showcase_launcher] Wrote 60 replay frames (partial, v2) · raw=60 unique_poses=60 preview=60 · 12 objects (11 robot links) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-98a507a64c\state_timeseries.json
+[showcase_launcher] Frame 60: link franka/left_finger pos delta=0.040720 qpos_keys=2
+[showcase_launcher] Frame 70: link franka/link7 pos delta=0.048249 qpos_keys=2
+[showcase_launcher] Frame 80: link franka/link7 pos delta=0.058121 qpos_keys=2
+[showcase_launcher] Replay diagnostics: 90 frames, 90 unique poses, 70 meaningful keyframes, longest freeze 1 frames, jump at frame none, primary motion=franka/link7, issue=none
+[showcase_launcher] Wrote 90 replay frames (partial, v3) · raw=90 unique_poses=90 preview=90 · 12 objects (11 robot links) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-98a507a64c\state_timeseries.json
+[showcase_launcher] Frame 90: link franka/link7 pos delta=0.041371 qpos_keys=2
+[showcase_launcher] Frame 100: link franka/link6 pos delta=0.021969 qpos_keys=2
+[showcase_launcher] Frame 110: link franka/link3 pos delta=0.020663 qpos_keys=2
+[showcase_launcher] Replay diagnostics: 120 frames, 120 unique poses, 85 meaningful keyframes, longest freeze 1 frames, jump at frame none, primary motion=franka/link7, issue=none
+[showcase_launcher] Wrote 120 replay frames (partial, v4) · raw=120 unique_poses=120 preview=120 · 12 objects (11 robot links) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-98a507a64c\state_timeseries.json
+[showcase_launcher] Frame 120: link franka/right_finger pos delta=0.025872 qpos_keys=2
+[showcase_launcher] Frame 130: link franka/right_finger pos delta=0.030966 qpos_keys=2
+[showcase_launcher] Frame 140: link franka/link7 pos delta=0.026655 qpos_keys=2
+[showcase_launcher] Replay diagnostics: 150 frames, 150 unique poses, 100 meaningful keyframes, longest freeze 1 frames, jump at frame none, primary motion=franka/link7, issue=none
+[showcase_launcher] Wrote 150 replay frames (partial, v5) · raw=150 unique_poses=150 preview=150 · 12 objects (11 robot links) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-98a507a64c\state_timeseries.json
+[showcase_launcher] Frame 150: link franka/link7 pos delta=0.020077 qpos_keys=2
+[showcase_launcher] Frame 160: link franka/link5 pos delta=0.013112 qpos_keys=2
+[showcase_launcher] Frame 170: link franka/link4 pos delta=0.011882 qpos_keys=2
+[showcase_launcher] Replay diagnostics: 180 frames, 180 unique poses, 112 meaningful keyframes, longest freeze 1 frames, jump at frame none, primary motion=franka/link7, issue=none
+[showcase_launcher] Wrote 180 replay frames (partial, v6) · raw=180 unique_poses=180 preview=180 · 12 objects (11 robot links) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-98a507a64c\state_timeseries.json
+[showcase_launcher] Frame 180: link franka/left_finger pos delta=0.013080 qpos_keys=2
+[showcase_launcher] Frame 190: link franka/left_finger pos delta=0.021154 qpos_keys=2
+[showcase_launcher] Frame 200: link franka/right_finger pos delta=0.020460 qpos_keys=2
+[showcase_launcher] Replay diagnostics: 210 frames, 210 unique poses, 127 meaningful keyframes, longest freeze 1 frames, jump at frame none, primary motion=franka/link7, issue=none
+[showcase_launcher] Wrote 210 replay frames (partial, v7) · raw=210 unique_poses=210 preview=210 · 12 objects (11 robot links) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-98a507a64c\state_timeseries.json
+[showcase_launcher] Frame 210: link franka/link3 pos delta=0.017038 qpos_keys=2
+[showcase_launcher] Frame 220: link franka/link3 pos delta=0.019352 qpos_keys=2
+[showcase_launcher] Frame 230: link franka/link3 pos delta=0.020353 qpos_keys=2
+[showcase_launcher] Replay diagnostics: 240 frames, 240 unique poses, 142 meaningful keyframes, longest freeze 1 frames, jump at frame none, primary motion=franka/link7, issue=none
+[showcase_launcher] Wrote 240 replay frames (partial, v8) · raw=240 unique_poses=240 preview=240 · 12 objects (11 robot links) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-98a507a64c\state_timeseries.json
+[showcase_launcher] Frame 240: link franka/link3 pos delta=0.019695 qpos_keys=2
+[showcase_launcher] Frame 250: link franka/link3 pos delta=0.017179 qpos_keys=2
+[showcase_launcher] Frame 260: link franka/link3 pos delta=0.012923 qpos_keys=2
+[showcase_launcher] Replay diagnostics: 270 frames, 270 unique poses, 157 meaningful keyframes, longest freeze 1 frames, jump at frame none, primary motion=franka/link7, issue=none
+[showcase_launcher] Wrote 270 replay frames (partial, v9) · raw=270 unique_poses=270 preview=270 · 12 objects (11 robot links) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-98a507a64c\state_timeseries.json
+[showcase_launcher] Frame 270: link franka/link5 pos delta=0.014152 qpos_keys=2
+[showcase_launcher] Frame 280: link franka/link4 pos delta=0.016170 qpos_keys=2
+[showcase_launcher] Frame 290: link franka/link3 pos delta=0.020215 qpos_keys=2
+[showcase_launcher] Replay diagnostics: 300 frames, 300 unique poses, 169 meaningful keyframes, longest freeze 1 frames, jump at frame none, primary motion=franka/link7, issue=none
+[showcase_launcher] Wrote 300 replay frames (partial, v10) · raw=300 unique_poses=300 preview=300 · 12 objects (11 robot links) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-98a507a64c\state_timeseries.json
+[38;5;159m[Genesis] [19:43:08] [INFO] Simulation finished.[0m
+[38;5;159m[Genesis] [19:43:09] [INFO] [NPZFileWriter] Saved data with keys ['timestamp', 'lin_acc', 'ang_vel', 'mag'] to [38;5;121m"imu_data.npz"[0m[38;5;159m.[0m
+Ground truth data:
+IMUData(lin_acc=tensor([ 1.0132, -1.0675, -9.8261]), ang_vel=tensor([-0.0041, -0.0377,  0.0029]), mag=tensor([-4.1387e-03,  2.6341e-04, -4.9998e-01]))
+Measured data:
+IMUData(lin_acc=tensor([ 0.9927, -1.0398, -9.8363]), ang_vel=tensor([-0.0038, -0.0232, -0.0042]), mag=tensor([-4.1387e-03,  2.6341e-04, -4.9998e-01]))
+[showcase_launcher] Demo finished.
+[showcase_launcher] Replay diagnostics: 300 frames, 300 unique poses, 169 meaningful keyframes, longest freeze 1 frames, jump at frame none, primary motion=franka/link7, issue=none
+[showcase_launcher] Trimmed frozen head: 1 frames
+[showcase_launcher] Smooth preview has frozen head of 3 frames; trimming.
+[showcase_launcher] Raw replay: 299 frames · Distinct keyframes detected: 168
+[showcase_launcher] Trimmed frozen head: 1 frames
+[showcase_launcher] Trimmed frozen head: 1 frames
+[showcase_launcher] Trimmed frozen tail: 0 frames
+[showcase_launcher] Pose group A: frames 0-2
+[showcase_launcher] Pose group B: frames 3-4
+[showcase_launcher] Pose group C: frames 5-6
+[showcase_launcher] Pose group D: frames 7-8
+[showcase_launcher] Pose group E: frames 9-9
+[showcase_launcher] Pose group F: frames 10-10
+[showcase_launcher] Pose group G: frames 11-11
+[showcase_launcher] Pose group H: frames 12-12
+[showcase_launcher] Pose group I: frames 13-13
+[showcase_launcher] Pose group J: frames 14-14
+[showcase_launcher] Pose group K: frames 15-15
+[showcase_launcher] Pose group L: frames 16-16
+[showcase_launcher] Pose group M: frames 17-17
+[showcase_launcher] Pose group N: frames 18-18
+[showcase_launcher] Pose group O: frames 19-19
+[showcase_launcher] Pose group P: frames 20-20
+[showcase_launcher] Pose group Q: frames 21-21
+[showcase_launcher] Pose group R: frames 22-22
+[showcase_launcher] Pose group S: frames 23-23
+[showcase_launcher] Pose group T: frames 24-24
+[showcase_launcher] Pose group U: frames 25-25
+[showcase_launcher] Pose group V: frames 26-26
+[showcase_launcher] Pose group W: frames 27-27
+[showcase_launcher] Pose group X: frames 28-28
+[showcase_launcher] Pose group Y: frames 29-29
+[showcase_launcher] Pose group Z: frames 30-30
+[showcase_launcher] Pose group 26: frames 31-31
+[showcase_launcher] Pose group 27: frames 32-32
+[showcase_launcher] Pose group 28: frames 33-33
+[showcase_launcher] Pose group 29: frames 34-34
+[showcase_launcher] Pose group 30: frames 35-35
+[showcase_launcher] Pose group 31: frames 36-36
+[showcase_launcher] Pose group 32: frames 37-37
+[showcase_launcher] Pose group 33: frames 38-38
+[showcase_launcher] Pose group 34: frames 39-39
+[showcase_launcher] Pose group 35: frames 40-40
+[showcase_launcher] Pose group 36: frames 41-41
+[showcase_launcher] Pose group 37: frames 42-42
+[showcase_launcher] Pose group 38: frames 43-43
+[showcase_launcher] Pose group 39: frames 44-44
+[showcase_launcher] Pose group 40: frames 45-45
+[showcase_launcher] Pose group 41: frames 46-46
+[showcase_launcher] Pose group 42: frames 47-47
+[showcase_launcher] Pose group 43: frames 48-48
+[showcase_launcher] Pose group 44: frames 49-49
+[showcase_launcher] Pose group 45: frames 50-50
+[showcase_launcher] Pose group 46: frames 51-51
+[showcase_launcher] Pose group 47: frames 52-52
+[showcase_launcher] Pose group 48: frames 53-53
+[showcase_launcher] Pose group 49: frames 54-55
+[showcase_launcher] Pose group 50: frames 56-57
+[showcase_launcher] Pose group 51: frames 58-59
+[showcase_launcher] Pose group 52: frames 60-61
+[showcase_launcher] Pose group 53: frames 62-63
+[showcase_launcher] Pose group 54: frames 64-65
+[showcase_launcher] Pose group 55: frames 66-67
+[showcase_launcher] Pose group 56: frames 68-69
+[showcase_launcher] Pose group 57: frames 70-71
+[showcase_launcher] Pose group 58: frames 72-73
+[showcase_launcher] Pose group 59: frames 74-75
+[showcase_launcher] Pose group 60: frames 76-77
+[showcase_launcher] Pose group 61: frames 78-79
+[showcase_launcher] Pose group 62: frames 80-80
+[showcase_launcher] Pose group 63: frames 81-81
+[showcase_launcher] Pose group 64: frames 82-82
+[showcase_launcher] Pose group 65: frames 83-83
+[showcase_launcher] Pose group 66: frames 84-84
+[showcase_launcher] Pose group 67: frames 85-86
+[showcase_launcher] Pose group 68: frames 87-88
+[showcase_launcher] Pose group 69: frames 89-90
+[showcase_launcher] Pose group 70: frames 91-92
+[showcase_launcher] Pose group 71: frames 93-94
+[showcase_launcher] Pose group 72: frames 95-96
+[showcase_launcher] Pose group 73: frames 97-98
+[showcase_launcher] Pose group 74: frames 99-100
+[showcase_launcher] Pose group 75: frames 101-102
+[showcase_launcher] Pose group 76: frames 103-104
+[showcase_launcher] Pose group 77: frames 105-106
+[showcase_launcher] Pose group 78: frames 107-108
+[showcase_launcher] Pose group 79: frames 109-110
+[showcase_launcher] Pose group 80: frames 111-112
+[showcase_launcher] Pose group 81: frames 113-114
+[showcase_launcher] Pose group 82: frames 115-116
+[showcase_launcher] Pose group 83: frames 117-118
+[showcase_launcher] Pose group 84: frames 119-120
+[showcase_launcher] Pose group 85: frames 121-122
+[showcase_launcher] Pose group 86: frames 123-124
+[showcase_launcher] Pose group 87: frames 125-126
+[showcase_launcher] Pose group 88: frames 127-128
+[showcase_launcher] Pose group 89: frames 129-130
+[showcase_launcher] Pose group 90: frames 131-132
+[showcase_launcher] Pose group 91: frames 133-134
+[showcase_launcher] Pose group 92: frames 135-136
+[showcase_launcher] Pose group 93: frames 137-138
+[showcase_launcher] Pose group 94: frames 139-140
+[showcase_launcher] Pose group 95: frames 141-142
+[showcase_launcher] Pose group 96: frames 143-144
+[showcase_launcher] Pose group 97: frames 145-146
+[showcase_launcher] Pose group 98: frames 147-148
+[showcase_launcher] Pose group 99: frames 149-150
+[showcase_launcher] Pose group 100: frames 151-152
+[showcase_launcher] Pose group 101: frames 153-155
+[showcase_launcher] Pose group 102: frames 156-158
+[showcase_launcher] Pose group 103: frames 159-161
+[showcase_launcher] Pose group 104: frames 162-164
+[showcase_launcher] Pose group 105: frames 165-167
+[showcase_launcher] Pose group 106: frames 168-170
+[showcase_launcher] Pose group 107: frames 171-172
+[showcase_launcher] Pose group 108: frames 173-174
+[showcase_launcher] Pose group 109: frames 175-176
+[showcase_launcher] Pose group 110: frames 177-178
+[showcase_launcher] Pose group 111: frames 179-180
+[showcase_launcher] Pose group 112: frames 181-182
+[showcase_launcher] Pose group 113: frames 183-184
+[showcase_launcher] Pose group 114: frames 185-186
+[showcase_launcher] Pose group 115: frames 187-188
+[showcase_launcher] Pose group 116: frames 189-190
+[showcase_launcher] Pose group 117: frames 191-192
+[showcase_launcher] Pose group 118: frames 193-194
+[showcase_launcher] Pose group 119: frames 195-196
+[showcase_launcher] Pose group 120: frames 197-198
+[showcase_launcher] Pose group 121: frames 199-200
+[showcase_launcher] Pose group 122: frames 201-202
+[showcase_launcher] Pose group 123: frames 203-204
+[showcase_launcher] Pose group 124: frames 205-206
+[showcase_launcher] Pose group 125: frames 207-208
+[showcase_launcher] Pose group 126: frames 209-210
+[showcase_launcher] Pose group 127: frames 211-212
+[showcase_launcher] Pose group 128: frames 213-214
+[showcase_launcher] Pose group 129: frames 215-216
+[showcase_launcher] Pose group 130: frames 217-218
+[showcase_launcher] Pose group 131: frames 219-220
+[showcase_launcher] Pose group 132: frames 221-222
+[showcase_launcher] Pose group 133: frames 223-224
+[showcase_launcher] Pose group 134: frames 225-226
+[showcase_launcher] Pose group 135: frames 227-228
+[showcase_launcher] Pose group 136: frames 229-230
+[showcase_launcher] Pose group 137: frames 231-232
+[showcase_launcher] Pose group 138: frames 233-234
+[showcase_launcher] Pose group 139: frames 235-236
+[showcase_launcher] Pose group 140: frames 237-238
+[showcase_launcher] Pose group 141: frames 239-240
+[showcase_launcher] Pose group 142: frames 241-242
+[showcase_launcher] Pose group 143: frames 243-244
+[showcase_launcher] Pose group 144: frames 245-246
+[showcase_launcher] Pose group 145: frames 247-248
+[showcase_launcher] Pose group 146: frames 249-250
+[showcase_launcher] Pose group 147: frames 251-252
+[showcase_launcher] Pose group 148: frames 253-254
+[showcase_launcher] Pose group 149: frames 255-256
+[showcase_launcher] Pose group 150: frames 257-258
+[showcase_launcher] Pose group 151: frames 259-260
+[showcase_launcher] Pose group 152: frames 261-262
+[showcase_launcher] Pose group 153: frames 263-264
+[showcase_launcher] Pose group 154: frames 265-266
+[showcase_launcher] Pose group 155: frames 267-268
+[showcase_launcher] Pose group 156: frames 269-270
+[showcase_launcher] Pose group 157: frames 271-273
+[showcase_launcher] Pose group 158: frames 274-276
+[showcase_launcher] Pose group 159: frames 277-279
+[showcase_launcher] Pose group 160: frames 280-282
+[showcase_launcher] Pose group 161: frames 283-285
+[showcase_launcher] Pose group 162: frames 286-288
+[showcase_launcher] Pose group 163: frames 289-290
+[showcase_launcher] Pose group 164: frames 291-292
+[showcase_launcher] Pose group 165: frames 293-294
+[showcase_launcher] Pose group 166: frames 295-296
+[showcase_launcher] Pose group 167: frames 297-298
+[showcase_launcher] Smooth segment 0: raw 0->3 · 24 preview frames
+[showcase_launcher] Smooth segment 2: raw 5->7 · 24 preview frames
+[showcase_launcher] Smooth segment 3: raw 7->9 · 24 preview frames
+[showcase_launcher] Smooth segment 9: raw 14->15 · 24 preview frames
+[showcase_launcher] Smooth segment 10: raw 15->16 · 24 preview frames
+[showcase_launcher] Smooth segment 11: raw 16->17 · 24 preview frames
+[showcase_launcher] Smooth segment 12: raw 17->18 · 24 preview frames
+[showcase_launcher] Smooth segment 13: raw 18->19 · 24 preview frames
+[showcase_launcher] Smooth segment 14: raw 19->20 · 24 preview frames
+[showcase_launcher] Smooth segment 15: raw 20->21 · 24 preview frames
+[showcase_launcher] Smooth segment 16: raw 21->22 · 24 preview frames
+[showcase_launcher] Smooth segment 17: raw 22->23 · 24 preview frames
+[showcase_launcher] Smooth segment 18: raw 23->24 · 24 preview frames
+[showcase_launcher] Smooth segment 19: raw 24->25 · 24 preview frames
+[showcase_launcher] Smooth segment 20: raw 25->26 · 24 preview frames
+[showcase_launcher] Smooth segment 21: raw 26->27 · 24 preview frames
+[showcase_launcher] Smooth segment 22: raw 27->28 · 24 preview frames
+[showcase_launcher] Smooth segment 23: raw 28->29 · 24 preview frames
+[showcase_launcher] Smooth segment 24: raw 29->30 · 24 preview frames
+[showcase_launcher] Smooth segment 25: raw 30->31 · 24 preview frames
+[showcase_launcher] Smooth segment 26: raw 31->32 · 24 preview frames
+[showcase_launcher] Smooth segment 27: raw 32->33 · 24 preview frames
+[showcase_launcher] Smooth segment 28: raw 33->34 · 24 preview frames
+[showcase_launcher] Smooth segment 29: raw 34->35 · 24 preview frames
+[showcase_launcher] Smooth segment 30: raw 35->36 · 24 preview frames
+[showcase_launcher] Smooth segment 31: raw 36->37 · 24 preview frames
+[showcase_launcher] Smooth segment 32: raw 37->38 · 24 preview frames
+[showcase_launcher] Smooth segment 33: raw 38->39 · 24 preview frames
+[showcase_launcher] Smooth segment 34: raw 39->40 · 24 preview frames
+[showcase_launcher] Smooth segment 35: raw 40->41 · 24 preview frames
+[showcase_launcher] Smooth segment 36: raw 41->42 · 24 preview frames
+[showcase_launcher] Smooth segment 37: raw 42->43 · 24 preview frames
+[showcase_launcher] Smooth segment 38: raw 43->44 · 24 preview frames
+[showcase_launcher] Smooth segment 39: raw 44->45 · 24 preview frames
+[showcase_launcher] Smooth segment 40: raw 45->46 · 24 preview frames
+[showcase_launcher] Smooth segment 41: raw 46->47 · 24 preview frames
+[showcase_launcher] Smooth segment 42: raw 47->48 · 24 preview frames
+[showcase_launcher] Smooth segment 43: raw 48->49 · 24 preview frames
+[showcase_launcher] Smooth segment 44: raw 49->50 · 24 preview frames
+[showcase_launcher] Smooth segment 45: raw 50->51 · 24 preview frames
+[showcase_launcher] Smooth segment 48: raw 53->54 · 24 preview frames
+[showcase_launcher] Smooth segment 49: raw 54->56 · 24 preview frames
+[showcase_launcher] Smooth segment 50: raw 56->58 · 24 preview frames
+[showcase_launcher] Smooth segment 51: raw 58->60 · 24 preview frames
+[showcase_launcher] Smooth segment 52: raw 60->62 · 24 preview frames
+[showcase_launcher] Smooth segment 53: raw 62->64 · 24 preview frames
+[showcase_launcher] Smooth segment 54: raw 64->66 · 24 preview frames
+[showcase_launcher] Smooth segment 55: raw 66->68 · 24 preview frames
+[showcase_launcher] Smooth segment 56: raw 68->70 · 24 preview frames
+[showcase_launcher] Smooth segment 57: raw 70->72 · 24 preview frames
+[showcase_launcher] Smooth segment 58: raw 72->74 · 24 preview frames
+[showcase_launcher] Smooth segment 59: raw 74->76 · 24 preview frames
+[showcase_launcher] Smooth segment 60: raw 76->78 · 24 preview frames
+[showcase_launcher] Smooth segment 61: raw 78->80 · 24 preview frames
+[showcase_launcher] Smooth segment 62: raw 80->81 · 24 preview frames
+[showcase_launcher] Smooth segment 63: raw 81->82 · 24 preview frames
+[showcase_launcher] Smooth segment 67: raw 85->87 · 24 preview frames
+[showcase_launcher] Smooth segment 68: raw 87->89 · 24 preview frames
+[showcase_launcher] Smooth segment 69: raw 89->91 · 24 preview frames
+[showcase_launcher] Smooth segment 70: raw 91->93 · 24 preview frames
+[showcase_launcher] Smooth segment 87: raw 125->127 · 24 preview frames
+[showcase_launcher] Smooth segment 88: raw 127->129 · 24 preview frames
+[showcase_launcher] Smooth segment 89: raw 129->131 · 24 preview frames
+[showcase_launcher] Smooth segment 90: raw 131->133 · 24 preview frames
+[showcase_launcher] Smooth segment 162: raw 286->289 · 24 preview frames
+[showcase_launcher] Smooth segment 166: raw 295->297 · 1 preview frames
+[showcase_launcher] Smooth preview: total 1494 frames (raw 299, trimmed_tail=0)
+[showcase_launcher] Smooth preview diagnostics: preview frames=1494 moving frames=1261 distinct poses=1494 frozen tail starts at frame=none longest frozen run=7 max jump=0.180575 links changing after tail=True valid=False
+[showcase_launcher] Preview (smooth_preview): 300 raw frames -> 1494 preview frames (head=1, tail=0, longest_freeze=7, max_jump=0.180575)
+[showcase_launcher] Wrote 1494 replay frames (final, v11) · raw=300 unique_poses=300 preview=1494 · 12 objects (11 robot links) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-98a507a64c\state_timeseries.json
+[38;5;159m[Genesis] [19:43:10] [INFO] 💤 Exiting Genesis and caching compiled kernels...[0m

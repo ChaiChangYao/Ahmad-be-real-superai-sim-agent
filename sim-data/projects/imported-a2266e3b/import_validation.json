@@ -1,0 +1,44 @@
+{
+  "robot_description": {
+    "urdf_found": false,
+    "mjcf_found": true,
+    "links_count": 0,
+    "joints_count": 0,
+    "movable_joints_count": 0,
+    "fixed_joints_count": 0
+  },
+  "geometry": {
+    "visual_mesh_references": 0,
+    "resolved_meshes": {},
+    "missing_mesh_references": [],
+    "step_source_found": true,
+    "unit_scale": "meters"
+  },
+  "physics_metadata": {
+    "links_with_mass": 0,
+    "links_missing_mass": [],
+    "links_with_inertia": 0,
+    "links_missing_inertia": [],
+    "materials_found": 1,
+    "collision_geometry_missing": []
+  },
+  "motion": {
+    "revolute_joints": 0,
+    "prismatic_joints": 0,
+    "continuous_joints": 0,
+    "joint_limits_missing": [],
+    "actuators_found": 0
+  },
+  "sensors_control": {
+    "sensors_found": 0,
+    "control_script_found": false,
+    "message": "No control script found. You can still run passive gravity, joint sweep, and collision tests."
+  },
+  "simulation_readiness": {
+    "status": "mechanism_imported",
+    "passive": false,
+    "joint": false,
+    "controlled": false,
+    "missing_metadata": true
+  }
+}

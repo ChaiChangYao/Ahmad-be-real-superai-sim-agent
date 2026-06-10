@@ -1,0 +1,106 @@
+{
+  "run_id": "agentic-8380062fe6",
+  "project_id": "imported-cbf0d95c",
+  "script_id": "script-a648eca14b",
+  "test_id": "gravity_stability",
+  "template_id": "gravity_stability",
+  "backend": "local",
+  "status": "failed",
+  "created_at": "2026-06-08T05:36:27.550918+00:00",
+  "started_at": "2026-06-08T05:36:27.609470+00:00",
+  "completed_at": "2026-06-08T05:36:58.547642+00:00",
+  "run_dir": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-cbf0d95c\\runs\\agentic-8380062fe6",
+  "command": [
+    "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\apps\\api\\.venv\\Scripts\\python.exe",
+    "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\apps\\api\\app\\scripts\\showcase_launcher.py",
+    "--script",
+    "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-cbf0d95c\\runs\\agentic-8380062fe6\\generated\\script.py",
+    "--headless",
+    "--record-web"
+  ],
+  "pid": 34516,
+  "exit_code": 1,
+  "timeout_seconds": 45,
+  "stdout_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-cbf0d95c\\runs\\agentic-8380062fe6\\stdout.log",
+  "stderr_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-cbf0d95c\\runs\\agentic-8380062fe6\\stderr.log",
+  "combined_log_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-cbf0d95c\\runs\\agentic-8380062fe6\\combined.log",
+  "manifest_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-cbf0d95c\\runs\\agentic-8380062fe6\\manifest.json",
+  "replay_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-cbf0d95c\\runs\\agentic-8380062fe6\\state_timeseries.json",
+  "telemetry_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-cbf0d95c\\runs\\agentic-8380062fe6\\telemetry_timeseries.json",
+  "report_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-cbf0d95c\\runs\\agentic-8380062fe6\\report.json",
+  "error_summary": "    v = [t._from_xml(n, node, path) for n in vs]\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\apps\\api\\.venv\\Lib\\site-packages\\genesis\\ext\\urdfpy\\urdf.py\", line 191, in _from_xml\n    return cls(**cls._parse(node, root, path))\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\apps\\api\\.venv\\Lib\\site-packages\\genesis\\ext\\urdfpy\\urdf.py\", line 167, in _parse\n    kwargs.update(cls._parse_simple_elements(node, root, path))\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\apps\\api\\.venv\\Lib\\site-packages\\genesis\\ext\\urdfpy\\urdf.py\", line 139, in _parse_simple_elements\n    v = [t._from_xml(n, node, path) for n in vs]\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\apps\\api\\.venv\\Lib\\site-packages\\genesis\\ext\\urdfpy\\urdf.py\", line 139, in <listcomp>\n    v = [t._from_xml(n, node, path) for n in vs]\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\apps\\api\\.venv\\Lib\\site-packages\\genesis\\ext\\urdfpy\\urdf.py\", line 1215, in _from_xml\n    kwargs = cls._parse(node, root, path)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\apps\\api\\.venv\\Lib\\site-packages\\genesis\\ext\\urdfpy\\urdf.py\", line 167, in _parse\n    kwargs.update(cls._parse_simple_elements(node, root, path))\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\apps\\api\\.venv\\Lib\\site-packages\\genesis\\ext\\urdfpy\\urdf.py\", line 130, in _parse_simple_elements\n    v = t._from_xml(v, root, path)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\apps\\api\\.venv\\Lib\\site-packages\\genesis\\ext\\urdfpy\\urdf.py\", line 191, in _from_xml\n ",
+  "warning_summary": "",
+  "artifacts": [
+    {
+      "artifact_id": "agentic-8380062fe6:manifest",
+      "run_id": "agentic-8380062fe6",
+      "kind": "manifest",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-cbf0d95c\\runs\\agentic-8380062fe6\\run.json",
+      "url": "",
+      "size_bytes": 4572,
+      "content_type": "application/json",
+      "created_at": ""
+    },
+    {
+      "artifact_id": "agentic-8380062fe6:manifest",
+      "run_id": "agentic-8380062fe6",
+      "kind": "manifest",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-cbf0d95c\\runs\\agentic-8380062fe6\\manifest.json",
+      "url": "",
+      "size_bytes": 3006,
+      "content_type": "application/json",
+      "created_at": ""
+    },
+    {
+      "artifact_id": "agentic-8380062fe6:stdout",
+      "run_id": "agentic-8380062fe6",
+      "kind": "stdout",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-cbf0d95c\\runs\\agentic-8380062fe6\\stdout.log",
+      "url": "",
+      "size_bytes": 639,
+      "content_type": "text/plain",
+      "created_at": ""
+    },
+    {
+      "artifact_id": "agentic-8380062fe6:stderr",
+      "run_id": "agentic-8380062fe6",
+      "kind": "stderr",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-cbf0d95c\\runs\\agentic-8380062fe6\\stderr.log",
+      "url": "",
+      "size_bytes": 9357,
+      "content_type": "text/plain",
+      "created_at": ""
+    },
+    {
+      "artifact_id": "agentic-8380062fe6:log",
+      "run_id": "agentic-8380062fe6",
+      "kind": "log",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-cbf0d95c\\runs\\agentic-8380062fe6\\combined.log",
+      "url": "",
+      "size_bytes": 14683,
+      "content_type": "text/plain",
+      "created_at": ""
+    },
+    {
+      "artifact_id": "agentic-8380062fe6:generated_script",
+      "run_id": "agentic-8380062fe6",
+      "kind": "generated_script",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-cbf0d95c\\runs\\agentic-8380062fe6\\generated\\script.py",
+      "url": "",
+      "size_bytes": 1995,
+      "content_type": "text/plain",
+      "created_at": ""
+    },
+    {
+      "artifact_id": "agentic-8380062fe6:context",
+      "run_id": "agentic-8380062fe6",
+      "kind": "context",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-cbf0d95c\\runs\\agentic-8380062fe6\\generated\\script.context.json",
+      "url": "",
+      "size_bytes": 4921,
+      "content_type": "application/json",
+      "created_at": ""
+    }
+  ],
+  "failure": null
+}

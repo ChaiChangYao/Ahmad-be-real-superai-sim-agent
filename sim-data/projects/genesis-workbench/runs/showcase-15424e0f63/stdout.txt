@@ -1,0 +1,504 @@
+[showcase_launcher] Running script: C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\genesis-world\examples\rigid\franka_cube.py
+[showcase_launcher] Headless: True · Web record: True
+[showcase_launcher] Record path: C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-15424e0f63\state_timeseries.json
+[38;5;159m[Genesis] [11:48:43] [INFO] [38;5;121m╭───────────────────────────────────────────────╮[0m[38;5;159m[0m
+[38;5;159m[Genesis] [11:48:43] [INFO] [38;5;121m│┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈[0m[38;5;159m [38;5;121m[1m[3mGenesis[0m[38;5;159m [38;5;121m┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈│[0m[38;5;159m[0m
+[38;5;159m[Genesis] [11:48:43] [INFO] [38;5;121m╰───────────────────────────────────────────────╯[0m[38;5;159m[0m
+[38;5;226m[Genesis] [11:48:45] [WARNING] Backend [38;5;121m[4mgs.gpu[0m[38;5;226m not available on this machine. Falling back to CPU.[0m
+[38;5;159m[Genesis] [11:48:45] [INFO] Running on [38;5;121m[4m[AMD Ryzen 7 6800H with Radeon Graphics][0m[38;5;159m with backend [38;5;121m[4mgs.cpu[0m[38;5;159m. Device memory: [38;5;121m[4m15.25[0m[38;5;159m GB.[0m
+[38;5;159m[Genesis] [11:48:45] [INFO] 🚀 Genesis initialized. 🔖 version: [38;5;121m[4m1.0.0[0m[38;5;159m, 🎨 theme: [38;5;121m[4mdark[0m[38;5;159m, 🌱 seed: [38;5;121m[4mNone[0m[38;5;159m, 🐛 debug: [38;5;121m[4mFalse[0m[38;5;159m, 📏 precision: [38;5;121m[4m32[0m[38;5;159m, 🔥 performance: [38;5;121m[4mFalse[0m[38;5;159m, 💬 verbose: [38;5;121m[4mINFO[0m[38;5;159m[0m
+[38;5;159m[Genesis] [11:48:51] [INFO] Scene [38;5;121m[3m<b47e44e>[0m[38;5;159m created.[0m
+[38;5;159m[Genesis] [11:48:51] [INFO] Adding [38;5;121m<gs.engine.entities.RigidEntity>[0m[38;5;159m. idx: [38;5;121m0[0m[38;5;159m, uid: [38;5;121m[3m<375dc64>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Plane>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [11:48:51] [INFO] Adding [38;5;121m<gs.engine.entities.RigidEntity>[0m[38;5;159m. idx: [38;5;121m1[0m[38;5;159m, uid: [38;5;121m[3m<2daab7e>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.MJCF(file='C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\genesis\assets\xml/franka_emika_panda/panda.xml')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [11:48:51] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint1`[0m
+[38;5;226m[Genesis] [11:48:51] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint2`[0m
+[38;5;159m[Genesis] [11:48:52] [INFO] Adding [38;5;121m<gs.engine.entities.RigidEntity>[0m[38;5;159m. idx: [38;5;121m2[0m[38;5;159m, uid: [38;5;121m[3m<3f58ec6>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [11:48:52] [INFO] Building scene [38;5;121m[3m<b47e44e>[0m[38;5;159m...[0m
+[38;5;226m[Genesis] [11:48:53] [WARNING] Neutral robot position (qpos0) exceeds joint limits.[0m
+[38;5;226m[Genesis] [11:48:54] [WARNING] Constraint solver time constant should be greater than 2*substep_dt. timeconst is changed from `0.005` to `0.02`). Decrease simulation timestep or increase timeconst to avoid altering the original value.[0m
+[38;5;226m[Genesis] [11:48:58] [WARNING] Filtered out geometry pairs causing self-collision for the neutral configuration (qpos0): (6, 11), (7, 11), (14, 21), (15, 20), (16, 23), (17, 22). Consider tuning Morph option 'decompose_robot_error_threshold' or specify dedicated collision meshes. This behavior can be disabled by setting Morph option 'enable_neutral_collision=True'.[0m
+[38;5;159m[Genesis] [11:48:59] [INFO] Compiling simulation kernels...[0m
+[38;5;159m[Genesis] [11:49:07] [INFO] Building visualizer...[0m
+[showcase_launcher] Scene export: top_level=3 robot_links=11 visual_geoms=81 meshes_exported=11 tracked_objects=13 franka_fallback=False
+hold 0
+[38;5;159m[Genesis] [11:49:18] [INFO] Running at [38;5;121m0.13[0m[38;5;159m FPS.[0m
+hold 1
+hold 2
+hold 3
+hold 4
+hold 5
+hold 6
+hold 7
+[38;5;159m[Genesis] [11:49:18] [INFO] Running at [38;5;121m136.18[0m[38;5;159m FPS.[0m
+hold 8
+hold 9
+hold 10
+hold 11
+hold 12
+hold 13
+hold 14
+[38;5;159m[Genesis] [11:49:18] [INFO] Running at [38;5;121m135.46[0m[38;5;159m FPS.[0m
+hold 15
+hold 16
+hold 17
+hold 18
+hold 19
+hold 20
+hold 21
+[38;5;159m[Genesis] [11:49:18] [INFO] Running at [38;5;121m135.35[0m[38;5;159m FPS.[0m
+hold 22
+hold 23
+hold 24
+hold 25
+hold 26
+hold 27
+hold 28
+[38;5;159m[Genesis] [11:49:18] [INFO] Running at [38;5;121m134.60[0m[38;5;159m FPS.[0m
+[showcase_launcher] Wrote 30 replay frames (partial) · 13 objects (11 robot links, 11 meshes exported) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-15424e0f63\state_timeseries.json
+hold 29
+hold 30
+hold 31
+hold 32
+hold 33
+hold 34
+[38;5;159m[Genesis] [11:49:18] [INFO] Running at [38;5;121m115.04[0m[38;5;159m FPS.[0m
+hold 35
+hold 36
+hold 37
+hold 38
+hold 39
+hold 40
+[38;5;159m[Genesis] [11:49:18] [INFO] Running at [38;5;121m114.89[0m[38;5;159m FPS.[0m
+hold 41
+hold 42
+hold 43
+hold 44
+hold 45
+hold 46
+hold 47
+[38;5;159m[Genesis] [11:49:18] [INFO] Running at [38;5;121m133.65[0m[38;5;159m FPS.[0m
+hold 48
+hold 49
+hold 50
+hold 51
+hold 52
+hold 53
+hold 54
+[38;5;159m[Genesis] [11:49:18] [INFO] Running at [38;5;121m133.69[0m[38;5;159m FPS.[0m
+hold 55
+hold 56
+hold 57
+hold 58
+[showcase_launcher] Wrote 60 replay frames (partial) · 13 objects (11 robot links, 11 meshes exported) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-15424e0f63\state_timeseries.json
+hold 59
+hold 60
+[38;5;159m[Genesis] [11:49:18] [INFO] Running at [38;5;121m114.75[0m[38;5;159m FPS.[0m
+hold 61
+hold 62
+hold 63
+hold 64
+hold 65
+hold 66
+hold 67
+[38;5;159m[Genesis] [11:49:18] [INFO] Running at [38;5;121m133.94[0m[38;5;159m FPS.[0m
+hold 68
+hold 69
+hold 70
+hold 71
+hold 72
+hold 73
+hold 74
+[38;5;159m[Genesis] [11:49:18] [INFO] Running at [38;5;121m133.78[0m[38;5;159m FPS.[0m
+hold 75
+hold 76
+hold 77
+hold 78
+hold 79
+hold 80
+hold 81
+[38;5;159m[Genesis] [11:49:18] [INFO] Running at [38;5;121m133.67[0m[38;5;159m FPS.[0m
+hold 82
+hold 83
+hold 84
+hold 85
+hold 86
+[38;5;159m[Genesis] [11:49:18] [INFO] Running at [38;5;121m95.68[0m[38;5;159m FPS.[0m
+hold 87
+hold 88
+[showcase_launcher] Wrote 90 replay frames (partial) · 13 objects (11 robot links, 11 meshes exported) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-15424e0f63\state_timeseries.json
+hold 89
+hold 90
+hold 91
+[38;5;159m[Genesis] [11:49:18] [INFO] Running at [38;5;121m94.99[0m[38;5;159m FPS.[0m
+hold 92
+hold 93
+hold 94
+hold 95
+hold 96
+hold 97
+[38;5;159m[Genesis] [11:49:18] [INFO] Running at [38;5;121m113.80[0m[38;5;159m FPS.[0m
+hold 98
+hold 99
+grasp 0
+grasp 1
+grasp 2
+grasp 3
+grasp 4
+[38;5;159m[Genesis] [11:49:18] [INFO] Running at [38;5;121m131.67[0m[38;5;159m FPS.[0m
+grasp 5
+grasp 6
+grasp 7
+grasp 8
+grasp 9
+[38;5;159m[Genesis] [11:49:18] [INFO] Running at [38;5;121m93.94[0m[38;5;159m FPS.[0m
+grasp 10
+grasp 11
+grasp 12
+grasp 13
+[38;5;159m[Genesis] [11:49:19] [INFO] Running at [38;5;121m75.34[0m[38;5;159m FPS.[0m
+grasp 14
+grasp 15
+grasp 16
+grasp 17
+grasp 18
+[showcase_launcher] Wrote 120 replay frames (partial) · 13 objects (11 robot links, 11 meshes exported) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-15424e0f63\state_timeseries.json
+grasp 19
+[38;5;159m[Genesis] [11:49:19] [INFO] Running at [38;5;121m111.38[0m[38;5;159m FPS.[0m
+grasp 20
+grasp 21
+grasp 22
+grasp 23
+grasp 24
+grasp 25
+grasp 26
+[38;5;159m[Genesis] [11:49:19] [INFO] Running at [38;5;121m129.78[0m[38;5;159m FPS.[0m
+grasp 27
+grasp 28
+grasp 29
+grasp 30
+grasp 31
+grasp 32
+[38;5;159m[Genesis] [11:49:19] [INFO] Running at [38;5;121m111.40[0m[38;5;159m FPS.[0m
+grasp 33
+grasp 34
+grasp 35
+grasp 36
+grasp 37
+grasp 38
+[38;5;159m[Genesis] [11:49:19] [INFO] Running at [38;5;121m111.37[0m[38;5;159m FPS.[0m
+grasp 39
+grasp 40
+grasp 41
+grasp 42
+grasp 43
+grasp 44
+grasp 45
+[38;5;159m[Genesis] [11:49:19] [INFO] Running at [38;5;121m129.51[0m[38;5;159m FPS.[0m
+grasp 46
+grasp 47
+grasp 48
+[showcase_launcher] Wrote 150 replay frames (partial) · 13 objects (11 robot links, 11 meshes exported) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-15424e0f63\state_timeseries.json
+grasp 49
+grasp 50
+[38;5;159m[Genesis] [11:49:19] [INFO] Running at [38;5;121m92.15[0m[38;5;159m FPS.[0m
+grasp 51
+grasp 52
+grasp 53
+grasp 54
+grasp 55
+grasp 56
+grasp 57
+[38;5;159m[Genesis] [11:49:19] [INFO] Running at [38;5;121m128.87[0m[38;5;159m FPS.[0m
+grasp 58
+grasp 59
+grasp 60
+grasp 61
+grasp 62
+grasp 63
+[38;5;159m[Genesis] [11:49:19] [INFO] Running at [38;5;121m109.94[0m[38;5;159m FPS.[0m
+grasp 64
+grasp 65
+grasp 66
+grasp 67
+grasp 68
+grasp 69
+[38;5;159m[Genesis] [11:49:19] [INFO] Running at [38;5;121m110.29[0m[38;5;159m FPS.[0m
+grasp 70
+grasp 71
+grasp 72
+grasp 73
+grasp 74
+grasp 75
+grasp 76
+[38;5;159m[Genesis] [11:49:19] [INFO] Running at [38;5;121m128.34[0m[38;5;159m FPS.[0m
+grasp 77
+grasp 78
+[showcase_launcher] Wrote 180 replay frames (partial) · 13 objects (11 robot links, 11 meshes exported) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-15424e0f63\state_timeseries.json
+grasp 79
+grasp 80
+grasp 81
+[38;5;159m[Genesis] [11:49:19] [INFO] Running at [38;5;121m91.59[0m[38;5;159m FPS.[0m
+grasp 82
+grasp 83
+grasp 84
+grasp 85
+grasp 86
+grasp 87
+grasp 88
+[38;5;159m[Genesis] [11:49:19] [INFO] Running at [38;5;121m127.97[0m[38;5;159m FPS.[0m
+grasp 89
+grasp 90
+grasp 91
+grasp 92
+grasp 93
+grasp 94
+grasp 95
+[38;5;159m[Genesis] [11:49:19] [INFO] Running at [38;5;121m127.79[0m[38;5;159m FPS.[0m
+grasp 96
+grasp 97
+grasp 98
+grasp 99
+lift 0
+lift 1
+[38;5;159m[Genesis] [11:49:19] [INFO] Running at [38;5;121m109.09[0m[38;5;159m FPS.[0m
+lift 2
+lift 3
+lift 4
+lift 5
+lift 6
+lift 7
+lift 8
+[38;5;159m[Genesis] [11:49:19] [INFO] Running at [38;5;121m127.29[0m[38;5;159m FPS.[0m
+[showcase_launcher] Wrote 210 replay frames (partial) · 13 objects (11 robot links, 11 meshes exported) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-15424e0f63\state_timeseries.json
+lift 9
+lift 10
+lift 11
+lift 12
+[38;5;159m[Genesis] [11:49:19] [INFO] Running at [38;5;121m72.64[0m[38;5;159m FPS.[0m
+lift 13
+lift 14
+lift 15
+lift 16
+lift 17
+lift 18
+lift 19
+[38;5;159m[Genesis] [11:49:19] [INFO] Running at [38;5;121m126.64[0m[38;5;159m FPS.[0m
+lift 20
+lift 21
+lift 22
+lift 23
+lift 24
+lift 25
+lift 26
+[38;5;159m[Genesis] [11:49:20] [INFO] Running at [38;5;121m126.20[0m[38;5;159m FPS.[0m
+lift 27
+lift 28
+lift 29
+lift 30
+lift 31
+lift 32
+[38;5;159m[Genesis] [11:49:20] [INFO] Running at [38;5;121m107.79[0m[38;5;159m FPS.[0m
+lift 33
+lift 34
+lift 35
+lift 36
+lift 37
+lift 38
+[38;5;159m[Genesis] [11:49:20] [INFO] Running at [38;5;121m107.86[0m[38;5;159m FPS.[0m
+[showcase_launcher] Wrote 240 replay frames (partial) · 13 objects (11 robot links, 11 meshes exported) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-15424e0f63\state_timeseries.json
+lift 39
+lift 40
+lift 41
+lift 42
+[38;5;159m[Genesis] [11:49:20] [INFO] Running at [38;5;121m71.98[0m[38;5;159m FPS.[0m
+lift 43
+lift 44
+lift 45
+lift 46
+lift 47
+lift 48
+lift 49
+[38;5;159m[Genesis] [11:49:20] [INFO] Running at [38;5;121m126.16[0m[38;5;159m FPS.[0m
+lift 50
+lift 51
+lift 52
+lift 53
+lift 54
+lift 55
+[38;5;159m[Genesis] [11:49:20] [INFO] Running at [38;5;121m108.63[0m[38;5;159m FPS.[0m
+lift 56
+lift 57
+lift 58
+lift 59
+lift 60
+lift 61
+lift 62
+[38;5;159m[Genesis] [11:49:20] [INFO] Running at [38;5;121m127.30[0m[38;5;159m FPS.[0m
+lift 63
+lift 64
+lift 65
+lift 66
+lift 67
+lift 68
+[showcase_launcher] Wrote 270 replay frames (partial) · 13 objects (11 robot links, 11 meshes exported) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-15424e0f63\state_timeseries.json
+lift 69
+[38;5;159m[Genesis] [11:49:20] [INFO] Running at [38;5;121m83.54[0m[38;5;159m FPS.[0m
+lift 70
+lift 71
+lift 72
+lift 73
+lift 74
+lift 75
+lift 76
+[38;5;159m[Genesis] [11:49:20] [INFO] Running at [38;5;121m131.19[0m[38;5;159m FPS.[0m
+lift 77
+lift 78
+lift 79
+lift 80
+lift 81
+lift 82
+lift 83
+[38;5;159m[Genesis] [11:49:20] [INFO] Running at [38;5;121m130.67[0m[38;5;159m FPS.[0m
+lift 84
+lift 85
+lift 86
+lift 87
+lift 88
+lift 89
+lift 90
+[38;5;159m[Genesis] [11:49:20] [INFO] Running at [38;5;121m130.42[0m[38;5;159m FPS.[0m
+lift 91
+lift 92
+lift 93
+lift 94
+lift 95
+lift 96
+[38;5;159m[Genesis] [11:49:20] [INFO] Running at [38;5;121m111.80[0m[38;5;159m FPS.[0m
+lift 97
+lift 98
+[showcase_launcher] Wrote 300 replay frames (partial) · 13 objects (11 robot links, 11 meshes exported) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-15424e0f63\state_timeseries.json
+lift 99
+[38;5;159m[Genesis] [11:49:20] [INFO] Running at [38;5;121m55.89[0m[38;5;159m FPS.[0m
+lift 100
+lift 101
+lift 102
+lift 103
+lift 104
+lift 105
+lift 106
+[38;5;159m[Genesis] [11:49:20] [INFO] Running at [38;5;121m129.92[0m[38;5;159m FPS.[0m
+lift 107
+lift 108
+lift 109
+lift 110
+lift 111
+lift 112
+[38;5;159m[Genesis] [11:49:20] [INFO] Running at [38;5;121m111.41[0m[38;5;159m FPS.[0m
+lift 113
+lift 114
+lift 115
+lift 116
+lift 117
+lift 118
+[38;5;159m[Genesis] [11:49:20] [INFO] Running at [38;5;121m111.74[0m[38;5;159m FPS.[0m
+lift 119
+lift 120
+lift 121
+lift 122
+lift 123
+lift 124
+[38;5;159m[Genesis] [11:49:20] [INFO] Running at [38;5;121m111.45[0m[38;5;159m FPS.[0m
+lift 125
+lift 126
+lift 127
+lift 128
+[showcase_launcher] Wrote 330 replay frames (partial) · 13 objects (11 robot links, 11 meshes exported) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-15424e0f63\state_timeseries.json
+lift 129
+[38;5;159m[Genesis] [11:49:21] [INFO] Running at [38;5;121m54.60[0m[38;5;159m FPS.[0m
+lift 130
+lift 131
+lift 132
+lift 133
+lift 134
+lift 135
+lift 136
+[38;5;159m[Genesis] [11:49:21] [INFO] Running at [38;5;121m123.71[0m[38;5;159m FPS.[0m
+lift 137
+lift 138
+lift 139
+lift 140
+lift 141
+lift 142
+lift 143
+[38;5;159m[Genesis] [11:49:21] [INFO] Running at [38;5;121m123.74[0m[38;5;159m FPS.[0m
+lift 144
+lift 145
+lift 146
+lift 147
+lift 148
+lift 149
+lift 150
+[38;5;159m[Genesis] [11:49:21] [INFO] Running at [38;5;121m123.88[0m[38;5;159m FPS.[0m
+lift 151
+lift 152
+lift 153
+lift 154
+lift 155
+lift 156
+lift 157
+[38;5;159m[Genesis] [11:49:21] [INFO] Running at [38;5;121m124.11[0m[38;5;159m FPS.[0m
+lift 158
+[showcase_launcher] Wrote 360 replay frames (partial) · 13 objects (11 robot links, 11 meshes exported) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-15424e0f63\state_timeseries.json
+lift 159
+[38;5;159m[Genesis] [11:49:21] [INFO] Running at [38;5;121m34.96[0m[38;5;159m FPS.[0m
+lift 160
+lift 161
+lift 162
+lift 163
+lift 164
+lift 165
+lift 166
+[38;5;159m[Genesis] [11:49:21] [INFO] Running at [38;5;121m122.48[0m[38;5;159m FPS.[0m
+lift 167
+lift 168
+lift 169
+lift 170
+lift 171
+lift 172
+lift 173
+[38;5;159m[Genesis] [11:49:21] [INFO] Running at [38;5;121m122.29[0m[38;5;159m FPS.[0m
+lift 174
+lift 175
+lift 176
+lift 177
+lift 178
+lift 179
+[38;5;159m[Genesis] [11:49:21] [INFO] Running at [38;5;121m105.47[0m[38;5;159m FPS.[0m
+lift 180
+lift 181
+lift 182
+lift 183
+lift 184
+lift 185
+lift 186
+[38;5;159m[Genesis] [11:49:21] [INFO] Running at [38;5;121m123.42[0m[38;5;159m FPS.[0m
+lift 187
+lift 188
+[showcase_launcher] Wrote 390 replay frames (partial) · 13 objects (11 robot links, 11 meshes exported) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-15424e0f63\state_timeseries.json
+lift 189
+[38;5;159m[Genesis] [11:49:21] [INFO] Running at [38;5;121m52.65[0m[38;5;159m FPS.[0m
+lift 190
+lift 191
+lift 192
+lift 193
+lift 194
+lift 195
+lift 196
+[38;5;159m[Genesis] [11:49:21] [INFO] Running at [38;5;121m123.17[0m[38;5;159m FPS.[0m
+lift 197
+lift 198
+lift 199
+[showcase_launcher] Demo finished.
+[showcase_launcher] Wrote 401 replay frames (final) · 13 objects (11 robot links, 11 meshes exported) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-15424e0f63\state_timeseries.json
+[38;5;159m[Genesis] [11:49:21] [INFO] 💤 Exiting Genesis and caching compiled kernels...[0m
+[showcase_launcher] Wrote 401 replay frames (final) · 13 objects (11 robot links, 11 meshes exported) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-15424e0f63\state_timeseries.json

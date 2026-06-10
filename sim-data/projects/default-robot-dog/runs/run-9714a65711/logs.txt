@@ -1,0 +1,5 @@
+[Genesis] Native scenario executor started.
+[Genesis] profile=joint_motion base_mode=ground_contact
+[Genesis] scene.build() complete, stepped=300
+[Scenario] walk_forward duration=5.0s
+[Result] FAIL

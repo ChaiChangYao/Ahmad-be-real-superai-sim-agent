@@ -1,0 +1,15 @@
+{
+  "launch_id": "showcase-1f28eae314",
+  "project_id": "genesis-workbench",
+  "scenario_id": "genesis-physics-rigid-franka-cube",
+  "demo_name": "Rigid: franka cube",
+  "layer": "physics",
+  "repo": "genesis-world",
+  "script_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\genesis-world\\examples\\rigid\\franka_cube.py",
+  "repo_root": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\genesis-world",
+  "pid": 9160,
+  "started_at": "2026-06-04T14:36:42.248576+00:00",
+  "status": "running",
+  "upstream_url": "https://github.com/Genesis-Embodied-AI/genesis-world/blob/main/examples/rigid/franka_cube.py",
+  "note": "Native Genesis/Nyx viewer window should open in a separate process. Close the viewer to finish."
+}

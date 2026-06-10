@@ -1,0 +1,14 @@
+{
+  "project_id": "imported-fc2edda5",
+  "links": 29,
+  "joints": 28,
+  "actuators": 12,
+  "sensors": 0,
+  "wires": 0,
+  "terrain": "flat",
+  "payload_kg": 0.0,
+  "robot_description": {
+    "urdf_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-fc2edda5\\assets\\imported\\robot_dog_buildables_demo.xml",
+    "mjcf_path": null
+  }
+}

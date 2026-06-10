@@ -1,0 +1,7 @@
+{
+  "imu": {
+    "max_pitch_deg": 0.0,
+    "max_roll_deg": 0.0
+  },
+  "contacts": 1.0
+}

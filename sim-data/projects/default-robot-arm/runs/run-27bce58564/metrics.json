@@ -1,0 +1,9 @@
+{
+  "fall_detected": true,
+  "topple_detected": false,
+  "max_height_m": 0.9972749948501587,
+  "min_height_m": 0.043524667620658875,
+  "contact_count": 9,
+  "collision_count": 9,
+  "applied_force_n": null
+}

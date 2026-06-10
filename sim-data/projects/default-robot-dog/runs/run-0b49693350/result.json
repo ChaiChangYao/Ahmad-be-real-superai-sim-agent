@@ -1,0 +1,5690 @@
+{
+  "run_id": "run-0b49693350",
+  "project_id": "default-robot-dog",
+  "project_mode": "default_demo",
+  "scenario_id": "genesis_run_scene",
+  "test_id": "genesis_run_scene",
+  "genesis_profile": "passive_gravity",
+  "base_mode": "free_floating",
+  "robot_description_type": "urdf",
+  "status": "fail",
+  "started_at": "2026-06-01T04:34:57.478920+00:00",
+  "ended_at": "2026-06-01T04:35:00.256064+00:00",
+  "duration_s": 2.777144,
+  "genesis_used": true,
+  "mocked": false,
+  "scene_built": true,
+  "manifest_version_used": 5,
+  "step_count": 60,
+  "metrics": {
+    "body_height_m": -4.4867,
+    "max_pitch_deg": 0.0,
+    "max_roll_deg": 0.0,
+    "max_yaw_deg": 0.0,
+    "forward_distance_m": 0.0,
+    "fall_detected": true,
+    "joint_position_ranges": {
+      "j-hip-fl": [
+        0.0,
+        0.0
+      ],
+      "j-knee-fl": [
+        0.0,
+        0.0
+      ],
+      "j-hip-fr": [
+        -4.486749172210693,
+        0.4972749948501587
+      ],
+      "j-knee-fr": [
+        0.0,
+        0.0
+      ],
+      "j-hip-rl": [
+        0.0,
+        0.0
+      ],
+      "j-knee-rl": [
+        0.0,
+        0.0
+      ],
+      "j-hip-rr": [
+        0.0,
+        0.0
+      ],
+      "j-knee-rr": [
+        0.0,
+        0.0
+      ]
+    },
+    "foot_contact_ratio": 1.0,
+    "collision_count": 540,
+    "min_torque_margin": 93.3333,
+    "center_of_mass": [
+      0.0,
+      0.0,
+      -4.4867
+    ],
+    "sensor_clearance": 1.0,
+    "battery_com_height_m": 0.26
+  },
+  "metric_sources": {
+    "body_height_m": "genesis_state",
+    "max_pitch_deg": "genesis_state",
+    "max_roll_deg": "genesis_state",
+    "max_yaw_deg": "genesis_state",
+    "forward_distance_m": "genesis_state",
+    "fall_detected": "derived_from_genesis_state",
+    "joint_position_ranges": "genesis_state",
+    "foot_contact_ratio": "genesis_state",
+    "collision_count": "genesis_state",
+    "min_torque_margin": "derived_from_manifest_and_genesis_state",
+    "center_of_mass": "derived_from_genesis_state",
+    "sensor_clearance": "derived_from_genesis_state",
+    "battery_com_height_m": "derived_from_manifest_and_genesis_state"
+  },
+  "events": [
+    {
+      "kind": "genesis_profile",
+      "payload": {
+        "profile": "passive_gravity",
+        "base_mode": "free_floating"
+      }
+    }
+  ],
+  "logs": [
+    "[Genesis] Native scenario executor started.",
+    "[Genesis] profile=passive_gravity base_mode=free_floating",
+    "[Genesis] scene.build() complete, stepped=60",
+    "[Scenario] genesis_run_scene duration=1.0s",
+    "[Result] FAIL"
+  ],
+  "artifacts": {
+    "video_path": null,
+    "frames_path": null,
+    "urdf_path": "C:\\Users\\user\\Downloads\\robot_dog_buildables_demo.urdf",
+    "mjcf_path": "sim-data/projects/default-robot-dog/generated/robot_description/default_robot_dog.mjcf"
+  },
+  "state_timeseries": [
+    {
+      "t": 0.0,
+      "step": 0,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            0.4972749948501587
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            0.4972749948501587,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -0.16350002586841583,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.4972749948501587
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": 0.4972749948501587,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.016667,
+      "step": 1,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            0.4918249845504761
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            0.4918249845504761,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -0.32700005173683167,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.4918249845504761
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": 0.4918249845504761,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.033333,
+      "step": 2,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            0.48364996910095215
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            0.48364996910095215,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -0.4905000925064087,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.48364996910095215
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": 0.48364996910095215,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.05,
+      "step": 3,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            0.4727499783039093
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            0.4727499783039093,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -0.6540001034736633,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.4727499783039093
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": 0.4727499783039093,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.066667,
+      "step": 4,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            0.45912498235702515
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            0.45912498235702515,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -0.817500114440918,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.45912498235702515
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": 0.45912498235702515,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.083333,
+      "step": 5,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            0.4427749812602997
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            0.4427749812602997,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -0.9810001254081726,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.4427749812602997
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": 0.4427749812602997,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.1,
+      "step": 6,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            0.4236999750137329
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            0.4236999750137329,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -1.1445001363754272,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.4236999750137329
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": 0.4236999750137329,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.116667,
+      "step": 7,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            0.40189996361732483
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            0.40189996361732483,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -1.3080002069473267,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.40189996361732483
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": 0.40189996361732483,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.133333,
+      "step": 8,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            0.37737494707107544
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            0.37737494707107544,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -1.471500277519226,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.37737494707107544
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": 0.37737494707107544,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.15,
+      "step": 9,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            0.35012495517730713
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            0.35012495517730713,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -1.6350003480911255,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.35012495517730713
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": 0.35012495517730713,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.166667,
+      "step": 10,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            0.3201499581336975
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            0.3201499581336975,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -1.798500418663025,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.3201499581336975
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": 0.3201499581336975,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.183333,
+      "step": 11,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            0.2874499559402466
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            0.2874499559402466,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -1.9620004892349243,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.2874499559402466
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": 0.2874499559402466,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.2,
+      "step": 12,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            0.25202494859695435
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            0.25202494859695435,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -2.125500440597534,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.25202494859695435
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": 0.25202494859695435,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.216667,
+      "step": 13,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            0.2138749361038208
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            0.2138749361038208,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -2.2890005111694336,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.2138749361038208
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": 0.2138749361038208,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.233333,
+      "step": 14,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            0.17299991846084595
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            0.17299991846084595,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -2.452500581741333,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.17299991846084595
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": 0.17299991846084595,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.25,
+      "step": 15,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            0.12939991056919098
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            0.12939991056919098,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -2.6160006523132324,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.12939991056919098
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": 0.12939991056919098,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.266667,
+      "step": 16,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            0.0830748975276947
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            0.0830748975276947,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -2.779500722885132,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.0830748975276947
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": 0.0830748975276947,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.283333,
+      "step": 17,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            0.034024883061647415
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            0.034024883061647415,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -2.9430007934570312,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            0.034024883061647415
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": 0.034024883061647415,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.3,
+      "step": 18,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            -0.017750132828950882
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            -0.017750132828950882,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -3.1065008640289307,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            -0.017750132828950882
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": -0.017750132828950882,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.316667,
+      "step": 19,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            -0.07225015014410019
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            -0.07225015014410019,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -3.27000093460083,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            -0.07225015014410019
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": -0.07225015014410019,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.333333,
+      "step": 20,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            -0.1294751763343811
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            -0.1294751763343811,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -3.4335010051727295,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            -0.1294751763343811
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": -0.1294751763343811,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.35,
+      "step": 21,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            -0.18942520022392273
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            -0.18942520022392273,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -3.597001075744629,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            -0.18942520022392273
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": -0.18942520022392273,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.366667,
+      "step": 22,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            -0.25210022926330566
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            -0.25210022926330566,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -3.7605011463165283,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            -0.25210022926330566
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": -0.25210022926330566,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.383333,
+      "step": 23,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            -0.3175002634525299
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            -0.3175002634525299,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -3.9240012168884277,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            -0.3175002634525299
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": -0.3175002634525299,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.4,
+      "step": 24,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            -0.38562530279159546
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            -0.38562530279159546,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -4.087501049041748,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            -0.38562530279159546
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": -0.38562530279159546,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.416667,
+      "step": 25,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            -0.45647531747817993
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            -0.45647531747817993,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -4.251000881195068,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            -0.45647531747817993
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": -0.45647531747817993,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.433333,
+      "step": 26,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            -0.5300503373146057
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            -0.5300503373146057,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -4.414500713348389,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            -0.5300503373146057
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": -0.5300503373146057,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.45,
+      "step": 27,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            -0.6063503623008728
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            -0.6063503623008728,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -4.578000545501709,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            -0.6063503623008728
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": -0.6063503623008728,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.466667,
+      "step": 28,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            -0.6853753924369812
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            -0.6853753924369812,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -4.741500377655029,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            -0.6853753924369812
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": -0.6853753924369812,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.483333,
+      "step": 29,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            -0.7671253681182861
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            -0.7671253681182861,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -4.90500020980835,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            -0.7671253681182861
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": -0.7671253681182861,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.5,
+      "step": 30,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            -0.8516003489494324
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            -0.8516003489494324,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -5.06850004196167,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            -0.8516003489494324
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": -0.8516003489494324,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.516667,
+      "step": 31,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            -0.9388003349304199
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            -0.9388003349304199,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -5.23199987411499,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            -0.9388003349304199
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": -0.9388003349304199,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.533333,
+      "step": 32,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            -1.0287253856658936
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            -1.0287253856658936,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -5.3954997062683105,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            -1.0287253856658936
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": -1.0287253856658936,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.55,
+      "step": 33,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            -1.121375322341919
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            -1.121375322341919,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -5.558999538421631,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            -1.121375322341919
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": -1.121375322341919,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.566667,
+      "step": 34,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            -1.2167502641677856
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            -1.2167502641677856,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -5.722499370574951,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            -1.2167502641677856
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": -1.2167502641677856,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.583333,
+      "step": 35,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            -1.3148502111434937
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            -1.3148502111434937,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -5.8859992027282715,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            -1.3148502111434937
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": -1.3148502111434937,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.6,
+      "step": 36,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            -1.415675163269043
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            -1.415675163269043,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -6.049499034881592,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            -1.415675163269043
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": -1.415675163269043,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.616667,
+      "step": 37,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            -1.5192251205444336
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            -1.5192251205444336,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -6.212998867034912,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            -1.5192251205444336
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": -1.5192251205444336,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.633333,
+      "step": 38,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            -1.6255000829696655
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            -1.6255000829696655,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -6.376498699188232,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            -1.6255000829696655
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": -1.6255000829696655,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.65,
+      "step": 39,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            -1.7345000505447388
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            -1.7345000505447388,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -6.539998531341553,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            -1.7345000505447388
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": -1.7345000505447388,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.666667,
+      "step": 40,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            -1.8462250232696533
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            -1.8462250232696533,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -6.703498363494873,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            -1.8462250232696533
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": -1.8462250232696533,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.683333,
+      "step": 41,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            -1.9606750011444092
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            -1.9606750011444092,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -6.866998195648193,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            -1.9606750011444092
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": -1.9606750011444092,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.7,
+      "step": 42,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            -2.077849864959717
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            -2.077849864959717,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -7.030498027801514,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            -2.077849864959717
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": -2.077849864959717,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.716667,
+      "step": 43,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            -2.1977498531341553
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            -2.1977498531341553,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -7.193997859954834,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            -2.1977498531341553
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": -2.1977498531341553,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.733333,
+      "step": 44,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            -2.3203747272491455
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            -2.3203747272491455,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -7.357497692108154,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            -2.3203747272491455
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": -2.3203747272491455,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.75,
+      "step": 45,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            -2.4457247257232666
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            -2.4457247257232666,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -7.520997524261475,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            -2.4457247257232666
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": -2.4457247257232666,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.766667,
+      "step": 46,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            -2.5737996101379395
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            -2.5737996101379395,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -7.684497356414795,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            -2.5737996101379395
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": -2.5737996101379395,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.783333,
+      "step": 47,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            -2.704599618911743
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            -2.704599618911743,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -7.847997188568115,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            -2.704599618911743
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": -2.704599618911743,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.8,
+      "step": 48,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            -2.8381245136260986
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            -2.8381245136260986,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -8.011497497558594,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            -2.8381245136260986
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": -2.8381245136260986,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.816667,
+      "step": 49,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            -2.974374532699585
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            -2.974374532699585,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -8.174997329711914,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            -2.974374532699585
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": -2.974374532699585,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.833333,
+      "step": 50,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            -3.113349437713623
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            -3.113349437713623,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -8.338497161865234,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            -3.113349437713623
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": -3.113349437713623,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.85,
+      "step": 51,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            -3.255049467086792
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            -3.255049467086792,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -8.501996994018555,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            -3.255049467086792
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": -3.255049467086792,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.866667,
+      "step": 52,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            -3.3994743824005127
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            -3.3994743824005127,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -8.665496826171875,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            -3.3994743824005127
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": -3.3994743824005127,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.883333,
+      "step": 53,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            -3.5466244220733643
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            -3.5466244220733643,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -8.828996658325195,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            -3.5466244220733643
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": -3.5466244220733643,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.9,
+      "step": 54,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            -3.6964993476867676
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            -3.6964993476867676,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -8.992496490478516,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            -3.6964993476867676
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": -3.6964993476867676,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.916667,
+      "step": 55,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            -3.8490993976593018
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            -3.8490993976593018,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -9.155996322631836,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            -3.8490993976593018
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": -3.8490993976593018,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.933333,
+      "step": 56,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            -4.004424571990967
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            -4.004424571990967,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -9.319496154785156,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            -4.004424571990967
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": -4.004424571990967,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.95,
+      "step": 57,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            -4.162474632263184
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            -4.162474632263184,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -9.482995986938477,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            -4.162474632263184
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": -4.162474632263184,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.966667,
+      "step": 58,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            -4.323249340057373
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            -4.323249340057373,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -9.646495819091797,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            -4.323249340057373
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": -4.323249340057373,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    },
+    {
+      "t": 0.983333,
+      "step": 59,
+      "entities": {
+        "robot": {
+          "position": [
+            0.0,
+            0.0,
+            -4.486749172210693
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_position": [
+            0.0,
+            0.0,
+            -4.486749172210693,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dof_velocity": [
+            0.0,
+            0.0,
+            -9.809995651245117,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "pose": {
+            "roll_deg": 0.0,
+            "pitch_deg": 0.0,
+            "yaw_deg": 0.0
+          },
+          "contact_count": 9
+        }
+      },
+      "links": {
+        "body": {
+          "position": [
+            0.0,
+            0.0,
+            -4.486749172210693
+          ],
+          "rotation_quat": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "joints": {
+        "j-hip-fl": 0.0,
+        "j-knee-fl": 0.0,
+        "j-hip-fr": -4.486749172210693,
+        "j-knee-fr": 0.0,
+        "j-hip-rl": 0.0,
+        "j-knee-rl": 0.0,
+        "j-hip-rr": 0.0,
+        "j-knee-rr": 0.0
+      },
+      "pose": {
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "contacts": {
+        "ratio": 1.0,
+        "count": 9
+      },
+      "collisions": 9,
+      "events": []
+    }
+  ]
+}

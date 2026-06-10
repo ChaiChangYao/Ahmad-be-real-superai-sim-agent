@@ -1,0 +1,158 @@
+{
+  "schema_version": "0.1.0",
+  "project_id": "robot-dog-demo",
+  "project_name": "Robot Dog Demo",
+  "units": {
+    "length": "m",
+    "mass": "kg",
+    "time": "s",
+    "angle": "rad"
+  },
+  "assets": [
+    {
+      "id": "asset-body-visual",
+      "name": "robot_dog_visual",
+      "type": "glb",
+      "file_path": "sim-data/projects/robot-dog-demo/assets/visual/robot_dog_visual.glb",
+      "original_filename": "robot_dog_visual.glb",
+      "unit_scale_to_meters": 1,
+      "visual_only": true,
+      "generated": true,
+      "source_asset_id": null,
+      "notes": "Visual proxy mesh."
+    }
+  ],
+  "materials": [
+    {
+      "id": "mat-pla",
+      "name": "PLA",
+      "density_kg_m3": 1240,
+      "static_friction": 0.45,
+      "dynamic_friction": 0.35,
+      "restitution": 0.1,
+      "youngs_modulus_pa": 3500000000,
+      "yield_strength_pa": 55000000,
+      "melting_point_c": 180,
+      "thermal_notes": "Approximate value",
+      "simulation_notes": "Main shell",
+      "source_url": null,
+      "confidence": "placeholder"
+    },
+    {
+      "id": "mat-al6061",
+      "name": "Aluminum 6061",
+      "density_kg_m3": 2700,
+      "static_friction": 0.61,
+      "dynamic_friction": 0.47,
+      "restitution": 0.2,
+      "youngs_modulus_pa": 69000000000,
+      "yield_strength_pa": 276000000,
+      "melting_point_c": 582,
+      "thermal_notes": "Bracket use",
+      "simulation_notes": "Leg links",
+      "source_url": "https://asm.matweb.com/search/SpecificMaterial.asp?bassnum=MA6061T6",
+      "confidence": "datasheet"
+    },
+    {
+      "id": "mat-rubber",
+      "name": "TPU/rubber",
+      "density_kg_m3": 1200,
+      "static_friction": 0.95,
+      "dynamic_friction": 0.8,
+      "restitution": 0.35,
+      "youngs_modulus_pa": 8000000,
+      "yield_strength_pa": null,
+      "melting_point_c": 160,
+      "thermal_notes": "Foot pad",
+      "simulation_notes": "Foot grip",
+      "source_url": null,
+      "confidence": "placeholder"
+    }
+  ],
+  "links": [
+    { "id": "body", "name": "Body", "category": "body", "visual_asset_id": "asset-body-visual", "material_id": "mat-pla", "mass_kg": 1.2, "center_of_mass": { "x": 0, "y": 0, "z": 0.08 }, "inertia_tensor": [0.01, 0, 0, 0.03, 0, 0.02], "transform": { "position": { "x": 0, "y": 0, "z": 0.24 }, "rotation_rpy": { "x": 0, "y": 0, "z": 0 } }, "collision_primitive_ids": ["cp-body"], "parent_link_id": null, "editable": true, "notes": "Main torso shell" },
+    { "id": "fl_upper", "name": "Front Left Upper", "category": "leg", "visual_asset_id": null, "material_id": "mat-al6061", "mass_kg": 0.18, "center_of_mass": { "x": 0, "y": 0, "z": -0.05 }, "inertia_tensor": null, "transform": { "position": { "x": 0.16, "y": 0.1, "z": 0.18 }, "rotation_rpy": { "x": 0, "y": 0, "z": 0 } }, "collision_primitive_ids": ["cp-fl-upper"], "parent_link_id": "body", "editable": true, "notes": null },
+    { "id": "fl_lower", "name": "Front Left Lower", "category": "leg", "visual_asset_id": null, "material_id": "mat-al6061", "mass_kg": 0.12, "center_of_mass": { "x": 0, "y": 0, "z": -0.05 }, "inertia_tensor": null, "transform": { "position": { "x": 0.16, "y": 0.1, "z": 0.08 }, "rotation_rpy": { "x": 0, "y": 0, "z": 0 } }, "collision_primitive_ids": ["cp-fl-lower"], "parent_link_id": "fl_upper", "editable": true, "notes": null },
+    { "id": "fr_upper", "name": "Front Right Upper", "category": "leg", "visual_asset_id": null, "material_id": "mat-al6061", "mass_kg": 0.18, "center_of_mass": { "x": 0, "y": 0, "z": -0.05 }, "inertia_tensor": null, "transform": { "position": { "x": 0.16, "y": -0.1, "z": 0.18 }, "rotation_rpy": { "x": 0, "y": 0, "z": 0 } }, "collision_primitive_ids": ["cp-fr-upper"], "parent_link_id": "body", "editable": true, "notes": null },
+    { "id": "fr_lower", "name": "Front Right Lower", "category": "leg", "visual_asset_id": null, "material_id": "mat-al6061", "mass_kg": 0.12, "center_of_mass": { "x": 0, "y": 0, "z": -0.05 }, "inertia_tensor": null, "transform": { "position": { "x": 0.16, "y": -0.1, "z": 0.08 }, "rotation_rpy": { "x": 0, "y": 0, "z": 0 } }, "collision_primitive_ids": ["cp-fr-lower"], "parent_link_id": "fr_upper", "editable": true, "notes": null },
+    { "id": "rl_upper", "name": "Rear Left Upper", "category": "leg", "visual_asset_id": null, "material_id": "mat-al6061", "mass_kg": 0.18, "center_of_mass": { "x": 0, "y": 0, "z": -0.05 }, "inertia_tensor": null, "transform": { "position": { "x": -0.16, "y": 0.1, "z": 0.18 }, "rotation_rpy": { "x": 0, "y": 0, "z": 0 } }, "collision_primitive_ids": ["cp-rl-upper"], "parent_link_id": "body", "editable": true, "notes": null },
+    { "id": "rl_lower", "name": "Rear Left Lower", "category": "leg", "visual_asset_id": null, "material_id": "mat-al6061", "mass_kg": 0.12, "center_of_mass": { "x": 0, "y": 0, "z": -0.05 }, "inertia_tensor": null, "transform": { "position": { "x": -0.16, "y": 0.1, "z": 0.08 }, "rotation_rpy": { "x": 0, "y": 0, "z": 0 } }, "collision_primitive_ids": ["cp-rl-lower"], "parent_link_id": "rl_upper", "editable": true, "notes": null },
+    { "id": "rr_upper", "name": "Rear Right Upper", "category": "leg", "visual_asset_id": null, "material_id": "mat-al6061", "mass_kg": 0.18, "center_of_mass": { "x": 0, "y": 0, "z": -0.05 }, "inertia_tensor": null, "transform": { "position": { "x": -0.16, "y": -0.1, "z": 0.18 }, "rotation_rpy": { "x": 0, "y": 0, "z": 0 } }, "collision_primitive_ids": ["cp-rr-upper"], "parent_link_id": "body", "editable": true, "notes": null },
+    { "id": "rr_lower", "name": "Rear Right Lower", "category": "leg", "visual_asset_id": null, "material_id": "mat-al6061", "mass_kg": 0.12, "center_of_mass": { "x": 0, "y": 0, "z": -0.05 }, "inertia_tensor": null, "transform": { "position": { "x": -0.16, "y": -0.1, "z": 0.08 }, "rotation_rpy": { "x": 0, "y": 0, "z": 0 } }, "collision_primitive_ids": ["cp-rr-lower"], "parent_link_id": "rr_upper", "editable": true, "notes": null }
+  ],
+  "joints": [
+    { "id": "j-hip-fl", "name": "hip_front_left", "type": "revolute", "parent_link_id": "body", "child_link_id": "fl_upper", "origin_xyz": { "x": 0.16, "y": 0.1, "z": 0.2 }, "origin_rpy": { "x": 0, "y": 0, "z": 0 }, "axis_xyz": { "x": 1, "y": 0, "z": 0 }, "limit_lower_rad": -1.2, "limit_upper_rad": 1.2, "effort_limit_nm": 2.2, "velocity_limit_rad_s": 5.0, "damping": 0.05, "friction": 0.01, "auto_detected": false, "user_confirmed": true, "notes": null },
+    { "id": "j-knee-fl", "name": "knee_front_left", "type": "revolute", "parent_link_id": "fl_upper", "child_link_id": "fl_lower", "origin_xyz": { "x": 0, "y": 0, "z": -0.1 }, "origin_rpy": { "x": 0, "y": 0, "z": 0 }, "axis_xyz": { "x": 1, "y": 0, "z": 0 }, "limit_lower_rad": -1.8, "limit_upper_rad": 0.2, "effort_limit_nm": 2.2, "velocity_limit_rad_s": 6.0, "damping": 0.05, "friction": 0.01, "auto_detected": false, "user_confirmed": true, "notes": null },
+    { "id": "j-hip-fr", "name": "hip_front_right", "type": "revolute", "parent_link_id": "body", "child_link_id": "fr_upper", "origin_xyz": { "x": 0.16, "y": -0.1, "z": 0.2 }, "origin_rpy": { "x": 0, "y": 0, "z": 0 }, "axis_xyz": { "x": 1, "y": 0, "z": 0 }, "limit_lower_rad": -1.2, "limit_upper_rad": 1.2, "effort_limit_nm": 2.2, "velocity_limit_rad_s": 5.0, "damping": 0.05, "friction": 0.01, "auto_detected": false, "user_confirmed": true, "notes": null },
+    { "id": "j-knee-fr", "name": "knee_front_right", "type": "revolute", "parent_link_id": "fr_upper", "child_link_id": "fr_lower", "origin_xyz": { "x": 0, "y": 0, "z": -0.1 }, "origin_rpy": { "x": 0, "y": 0, "z": 0 }, "axis_xyz": { "x": 1, "y": 0, "z": 0 }, "limit_lower_rad": -1.8, "limit_upper_rad": 0.2, "effort_limit_nm": 2.2, "velocity_limit_rad_s": 6.0, "damping": 0.05, "friction": 0.01, "auto_detected": false, "user_confirmed": true, "notes": null },
+    { "id": "j-hip-rl", "name": "hip_rear_left", "type": "revolute", "parent_link_id": "body", "child_link_id": "rl_upper", "origin_xyz": { "x": -0.16, "y": 0.1, "z": 0.2 }, "origin_rpy": { "x": 0, "y": 0, "z": 0 }, "axis_xyz": { "x": 1, "y": 0, "z": 0 }, "limit_lower_rad": -1.2, "limit_upper_rad": 1.2, "effort_limit_nm": 2.2, "velocity_limit_rad_s": 5.0, "damping": 0.05, "friction": 0.01, "auto_detected": false, "user_confirmed": true, "notes": null },
+    { "id": "j-knee-rl", "name": "knee_rear_left", "type": "revolute", "parent_link_id": "rl_upper", "child_link_id": "rl_lower", "origin_xyz": { "x": 0, "y": 0, "z": -0.1 }, "origin_rpy": { "x": 0, "y": 0, "z": 0 }, "axis_xyz": { "x": 1, "y": 0, "z": 0 }, "limit_lower_rad": -1.8, "limit_upper_rad": 0.2, "effort_limit_nm": 2.2, "velocity_limit_rad_s": 6.0, "damping": 0.05, "friction": 0.01, "auto_detected": false, "user_confirmed": true, "notes": null },
+    { "id": "j-hip-rr", "name": "hip_rear_right", "type": "revolute", "parent_link_id": "body", "child_link_id": "rr_upper", "origin_xyz": { "x": -0.16, "y": -0.1, "z": 0.2 }, "origin_rpy": { "x": 0, "y": 0, "z": 0 }, "axis_xyz": { "x": 1, "y": 0, "z": 0 }, "limit_lower_rad": -1.2, "limit_upper_rad": 1.2, "effort_limit_nm": 2.2, "velocity_limit_rad_s": 5.0, "damping": 0.05, "friction": 0.01, "auto_detected": false, "user_confirmed": true, "notes": null },
+    { "id": "j-knee-rr", "name": "knee_rear_right", "type": "revolute", "parent_link_id": "rr_upper", "child_link_id": "rr_lower", "origin_xyz": { "x": 0, "y": 0, "z": -0.1 }, "origin_rpy": { "x": 0, "y": 0, "z": 0 }, "axis_xyz": { "x": 1, "y": 0, "z": 0 }, "limit_lower_rad": -1.8, "limit_upper_rad": 0.2, "effort_limit_nm": 2.2, "velocity_limit_rad_s": 6.0, "damping": 0.05, "friction": 0.01, "auto_detected": false, "user_confirmed": true, "notes": null }
+  ],
+  "actuators": [
+    { "id": "a-j-hip-fl", "name": "servo_hip_fl", "type": "servo", "real_component_profile_id": "servo-dynamixel-xl430", "joint_id": "j-hip-fl", "control_mode": "position", "max_torque_nm": 1.4, "max_velocity_rad_s": 4.8, "rated_voltage_v": 12, "stall_current_a": 1.4, "no_load_current_a": 0.18, "gear_ratio": null, "kp": 22, "kd": 1, "torque_curve": null, "mass_kg": 0.0572, "dimensions_m": [0.0285, 0.034, 0.0465], "mounting_transform": { "position": { "x": 0, "y": 0, "z": 0 }, "rotation_rpy": { "x": 0, "y": 0, "z": 0 } }, "source_url": "https://emanual.robotis.com/docs/en/dxl/x/xl430-w250/", "confidence": "datasheet", "notes": null },
+    { "id": "a-j-knee-fl", "name": "servo_knee_fl", "type": "servo", "real_component_profile_id": "servo-dynamixel-xl430", "joint_id": "j-knee-fl", "control_mode": "position", "max_torque_nm": 1.4, "max_velocity_rad_s": 4.8, "rated_voltage_v": 12, "stall_current_a": 1.4, "no_load_current_a": 0.18, "gear_ratio": null, "kp": 22, "kd": 1, "torque_curve": null, "mass_kg": 0.0572, "dimensions_m": [0.0285, 0.034, 0.0465], "mounting_transform": { "position": { "x": 0, "y": 0, "z": 0 }, "rotation_rpy": { "x": 0, "y": 0, "z": 0 } }, "source_url": "https://emanual.robotis.com/docs/en/dxl/x/xl430-w250/", "confidence": "datasheet", "notes": null },
+    { "id": "a-j-hip-fr", "name": "servo_hip_fr", "type": "servo", "real_component_profile_id": "servo-dynamixel-xl430", "joint_id": "j-hip-fr", "control_mode": "position", "max_torque_nm": 1.4, "max_velocity_rad_s": 4.8, "rated_voltage_v": 12, "stall_current_a": 1.4, "no_load_current_a": 0.18, "gear_ratio": null, "kp": 22, "kd": 1, "torque_curve": null, "mass_kg": 0.0572, "dimensions_m": [0.0285, 0.034, 0.0465], "mounting_transform": { "position": { "x": 0, "y": 0, "z": 0 }, "rotation_rpy": { "x": 0, "y": 0, "z": 0 } }, "source_url": "https://emanual.robotis.com/docs/en/dxl/x/xl430-w250/", "confidence": "datasheet", "notes": null },
+    { "id": "a-j-knee-fr", "name": "servo_knee_fr", "type": "servo", "real_component_profile_id": "servo-dynamixel-xl430", "joint_id": "j-knee-fr", "control_mode": "position", "max_torque_nm": 1.4, "max_velocity_rad_s": 4.8, "rated_voltage_v": 12, "stall_current_a": 1.4, "no_load_current_a": 0.18, "gear_ratio": null, "kp": 22, "kd": 1, "torque_curve": null, "mass_kg": 0.0572, "dimensions_m": [0.0285, 0.034, 0.0465], "mounting_transform": { "position": { "x": 0, "y": 0, "z": 0 }, "rotation_rpy": { "x": 0, "y": 0, "z": 0 } }, "source_url": "https://emanual.robotis.com/docs/en/dxl/x/xl430-w250/", "confidence": "datasheet", "notes": null },
+    { "id": "a-j-hip-rl", "name": "servo_hip_rl", "type": "servo", "real_component_profile_id": "servo-dynamixel-xl430", "joint_id": "j-hip-rl", "control_mode": "position", "max_torque_nm": 1.4, "max_velocity_rad_s": 4.8, "rated_voltage_v": 12, "stall_current_a": 1.4, "no_load_current_a": 0.18, "gear_ratio": null, "kp": 22, "kd": 1, "torque_curve": null, "mass_kg": 0.0572, "dimensions_m": [0.0285, 0.034, 0.0465], "mounting_transform": { "position": { "x": 0, "y": 0, "z": 0 }, "rotation_rpy": { "x": 0, "y": 0, "z": 0 } }, "source_url": "https://emanual.robotis.com/docs/en/dxl/x/xl430-w250/", "confidence": "datasheet", "notes": null },
+    { "id": "a-j-knee-rl", "name": "servo_knee_rl", "type": "servo", "real_component_profile_id": "servo-dynamixel-xl430", "joint_id": "j-knee-rl", "control_mode": "position", "max_torque_nm": 1.4, "max_velocity_rad_s": 4.8, "rated_voltage_v": 12, "stall_current_a": 1.4, "no_load_current_a": 0.18, "gear_ratio": null, "kp": 22, "kd": 1, "torque_curve": null, "mass_kg": 0.0572, "dimensions_m": [0.0285, 0.034, 0.0465], "mounting_transform": { "position": { "x": 0, "y": 0, "z": 0 }, "rotation_rpy": { "x": 0, "y": 0, "z": 0 } }, "source_url": "https://emanual.robotis.com/docs/en/dxl/x/xl430-w250/", "confidence": "datasheet", "notes": null },
+    { "id": "a-j-hip-rr", "name": "servo_hip_rr", "type": "servo", "real_component_profile_id": "servo-dynamixel-xl430", "joint_id": "j-hip-rr", "control_mode": "position", "max_torque_nm": 1.4, "max_velocity_rad_s": 4.8, "rated_voltage_v": 12, "stall_current_a": 1.4, "no_load_current_a": 0.18, "gear_ratio": null, "kp": 22, "kd": 1, "torque_curve": null, "mass_kg": 0.0572, "dimensions_m": [0.0285, 0.034, 0.0465], "mounting_transform": { "position": { "x": 0, "y": 0, "z": 0 }, "rotation_rpy": { "x": 0, "y": 0, "z": 0 } }, "source_url": "https://emanual.robotis.com/docs/en/dxl/x/xl430-w250/", "confidence": "datasheet", "notes": null },
+    { "id": "a-j-knee-rr", "name": "servo_knee_rr", "type": "servo", "real_component_profile_id": "servo-dynamixel-xl430", "joint_id": "j-knee-rr", "control_mode": "position", "max_torque_nm": 1.4, "max_velocity_rad_s": 4.8, "rated_voltage_v": 12, "stall_current_a": 1.4, "no_load_current_a": 0.18, "gear_ratio": null, "kp": 22, "kd": 1, "torque_curve": null, "mass_kg": 0.0572, "dimensions_m": [0.0285, 0.034, 0.0465], "mounting_transform": { "position": { "x": 0, "y": 0, "z": 0 }, "rotation_rpy": { "x": 0, "y": 0, "z": 0 } }, "source_url": "https://emanual.robotis.com/docs/en/dxl/x/xl430-w250/", "confidence": "datasheet", "notes": null }
+  ],
+  "electronics": [
+    { "id": "el-controller", "component_profile_id": "controller-raspberrypi-4b", "link_id": "body", "transform": { "position": { "x": 0, "y": 0.03, "z": 0.22 }, "rotation_rpy": { "x": 0, "y": 0, "z": 0 } }, "editable": true, "notes": "Moveable internal electronics block." },
+    { "id": "el-battery", "component_profile_id": "battery-3s-lipo-2200", "link_id": "body", "transform": { "position": { "x": 0, "y": -0.02, "z": 0.19 }, "rotation_rpy": { "x": 0, "y": 0, "z": 0 } }, "editable": true, "notes": "Battery placement affects CoM and balance metrics." },
+    { "id": "el-imu", "component_profile_id": "imu-bno055", "link_id": "body", "transform": { "position": { "x": 0, "y": 0, "z": 0.24 }, "rotation_rpy": { "x": 0, "y": 0, "z": 0 } }, "editable": true, "notes": null },
+    { "id": "el-depth", "component_profile_id": "depth-realsense-d435", "link_id": "body", "transform": { "position": { "x": 0.21, "y": 0, "z": 0.24 }, "rotation_rpy": { "x": 0, "y": 0, "z": 0 } }, "editable": true, "notes": null }
+  ],
+  "sensors": [
+    { "id": "sensor-imu-body", "name": "Body IMU", "sensor_type": "imu", "attach_link_id": "body", "transform": { "position": { "x": 0, "y": 0, "z": 0.24 }, "rotation_rpy": { "x": 0, "y": 0, "z": 0 } }, "update_rate_hz": 100, "fov_deg": null, "range_m": null, "derived": false },
+    { "id": "sensor-depth-front", "name": "Front Depth Sensor", "sensor_type": "depth_camera", "attach_link_id": "body", "transform": { "position": { "x": 0.21, "y": 0, "z": 0.24 }, "rotation_rpy": { "x": 0, "y": 0, "z": 0 } }, "update_rate_hz": 30, "fov_deg": 86, "range_m": 5, "derived": true },
+    { "id": "sensor-contact-fl", "name": "Foot Contact FL", "sensor_type": "contact", "attach_link_id": "fl_lower", "transform": { "position": { "x": 0, "y": 0, "z": -0.14 }, "rotation_rpy": { "x": 0, "y": 0, "z": 0 } }, "update_rate_hz": 120, "fov_deg": null, "range_m": null, "derived": true },
+    { "id": "sensor-contact-fr", "name": "Foot Contact FR", "sensor_type": "contact", "attach_link_id": "fr_lower", "transform": { "position": { "x": 0, "y": 0, "z": -0.14 }, "rotation_rpy": { "x": 0, "y": 0, "z": 0 } }, "update_rate_hz": 120, "fov_deg": null, "range_m": null, "derived": true }
+  ],
+  "wires": [
+    { "id": "wire-main-power", "name": "Main Battery to Controller", "from_component_id": "el-battery", "to_component_id": "el-controller", "route_points": [{ "x": 0, "y": -0.02, "z": 0.19 }, { "x": 0, "y": 0.03, "z": 0.22 }], "mass_kg": 0.01, "min_bend_radius_m": 0.01 },
+    { "id": "wire-controller-depth", "name": "Controller to Depth", "from_component_id": "el-controller", "to_component_id": "el-depth", "route_points": [{ "x": 0, "y": 0.03, "z": 0.22 }, { "x": 0.18, "y": 0.01, "z": 0.24 }], "mass_kg": 0.008, "min_bend_radius_m": 0.01 }
+  ],
+  "collision_primitives": [
+    { "id": "cp-body", "link_id": "body", "primitive_type": "box", "dimensions": [0.42, 0.16, 0.2], "offset": { "x": 0, "y": 0, "z": 0 }, "rotation_rpy": { "x": 0, "y": 0, "z": 0 } },
+    { "id": "cp-fl-upper", "link_id": "fl_upper", "primitive_type": "capsule", "dimensions": [0.02, 0.12], "offset": { "x": 0, "y": 0, "z": -0.06 }, "rotation_rpy": { "x": 0, "y": 0, "z": 0 } },
+    { "id": "cp-fl-lower", "link_id": "fl_lower", "primitive_type": "capsule", "dimensions": [0.018, 0.1], "offset": { "x": 0, "y": 0, "z": -0.05 }, "rotation_rpy": { "x": 0, "y": 0, "z": 0 } },
+    { "id": "cp-fr-upper", "link_id": "fr_upper", "primitive_type": "capsule", "dimensions": [0.02, 0.12], "offset": { "x": 0, "y": 0, "z": -0.06 }, "rotation_rpy": { "x": 0, "y": 0, "z": 0 } },
+    { "id": "cp-fr-lower", "link_id": "fr_lower", "primitive_type": "capsule", "dimensions": [0.018, 0.1], "offset": { "x": 0, "y": 0, "z": -0.05 }, "rotation_rpy": { "x": 0, "y": 0, "z": 0 } },
+    { "id": "cp-rl-upper", "link_id": "rl_upper", "primitive_type": "capsule", "dimensions": [0.02, 0.12], "offset": { "x": 0, "y": 0, "z": -0.06 }, "rotation_rpy": { "x": 0, "y": 0, "z": 0 } },
+    { "id": "cp-rl-lower", "link_id": "rl_lower", "primitive_type": "capsule", "dimensions": [0.018, 0.1], "offset": { "x": 0, "y": 0, "z": -0.05 }, "rotation_rpy": { "x": 0, "y": 0, "z": 0 } },
+    { "id": "cp-rr-upper", "link_id": "rr_upper", "primitive_type": "capsule", "dimensions": [0.02, 0.12], "offset": { "x": 0, "y": 0, "z": -0.06 }, "rotation_rpy": { "x": 0, "y": 0, "z": 0 } },
+    { "id": "cp-rr-lower", "link_id": "rr_lower", "primitive_type": "capsule", "dimensions": [0.018, 0.1], "offset": { "x": 0, "y": 0, "z": -0.05 }, "rotation_rpy": { "x": 0, "y": 0, "z": 0 } }
+  ],
+  "robot_description": {
+    "preferred_format": "urdf",
+    "urdf_path": "sim-data/projects/robot-dog-demo/generated/robot.urdf",
+    "mjcf_path": "sim-data/projects/robot-dog-demo/generated/robot.mjcf",
+    "generated_from_manifest": true
+  },
+  "environment": {
+    "gravity_m_s2": 9.81
+  },
+  "control": {
+    "script_path": "sim-data/projects/robot-dog-demo/control/robot_dog_controller.py",
+    "built_in_controller": "robot_dog_default"
+  },
+  "scenarios": [
+    { "id": "free_drive", "name": "Free Drive / WASD", "description": "Manual drive mode", "duration_s": 10, "config": { "terrain": "flat" } },
+    { "id": "stand_balance", "name": "Stand Balance", "description": "Stability while standing", "duration_s": 5, "config": { "pitch_threshold_deg": 12, "roll_threshold_deg": 12 } },
+    { "id": "walk_forward", "name": "Walk Forward", "description": "Forward progression while staying stable", "duration_s": 6, "config": { "distance_threshold_m": 0.5 } },
+    { "id": "turn_test", "name": "Turn Test", "description": "Yaw turn response", "duration_s": 6, "config": { "yaw_threshold_deg": 30 } },
+    { "id": "slope_climb", "name": "Slope Climb", "description": "Slope stability and progress", "duration_s": 8, "config": { "terrain": "slope", "slope_deg": 12 } },
+    { "id": "rough_terrain", "name": "Rough Terrain", "description": "Heightfield disturbance response", "duration_s": 8, "config": { "terrain": "rough" } },
+    { "id": "obstacle_avoidance", "name": "Obstacle Avoidance", "description": "Depth-guided obstacle handling", "duration_s": 7, "config": { "obstacle_distance_m": 1.2 } },
+    { "id": "payload_carry", "name": "Payload Carry", "description": "Payload effect on balance and torque", "duration_s": 7, "config": { "payload_kg": 0.4 } },
+    { "id": "joint_sweep_collision", "name": "Joint Sweep Collision", "description": "Joint range collision check", "duration_s": 5, "config": { "sweep_samples": 20 } },
+    { "id": "torque_margin", "name": "Torque Margin", "description": "Required vs available torque margin", "duration_s": 5, "config": { "required_safety_factor": 1.1 } },
+    { "id": "sensor_visibility", "name": "Sensor Visibility", "description": "Forward visibility check", "duration_s": 5, "config": { "required_clearance_m": 0.15 } },
+    { "id": "wire_route", "name": "Wire Route", "description": "Cable route sanity check", "duration_s": 2, "config": { "min_bend_radius_m": 0.01 } },
+    { "id": "component_fit", "name": "Component Fit", "description": "Internal packaging overlap check", "duration_s": 2, "config": { "clearance_m": 0.005 } }
+  ]
+}

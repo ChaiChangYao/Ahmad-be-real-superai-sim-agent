@@ -1,0 +1,5 @@
+[Genesis] Native scenario executor started.
+[Genesis] profile=lateral_push base_mode=free_floating
+[Genesis] scene.build() complete, stepped=180
+[Scenario] verify_lateral_push duration=3.0s
+[Result] FAIL

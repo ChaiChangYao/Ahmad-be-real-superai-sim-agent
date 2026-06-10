@@ -1,0 +1,11 @@
+<robot name="robot_dog_demo">
+  <link name="body" />
+  <link name="fl_upper" />
+  <link name="fl_lower" />
+  <link name="fr_upper" />
+  <link name="fr_lower" />
+  <link name="rl_upper" />
+  <link name="rl_lower" />
+  <link name="rr_upper" />
+  <link name="rr_lower" />
+</robot>

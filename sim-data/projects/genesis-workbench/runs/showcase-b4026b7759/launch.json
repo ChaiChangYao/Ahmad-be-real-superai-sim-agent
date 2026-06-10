@@ -1,0 +1,99 @@
+{
+  "launch_id": "showcase-b4026b7759",
+  "project_id": "genesis-workbench",
+  "scenario_id": "genesis-simulation-interface-controlling-a-robot",
+  "demo_name": "Controlling a robot",
+  "layer": "simulation-interface",
+  "repo": "genesis-world",
+  "script_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\genesis-world\\examples\\tutorials\\control_your_robot.py",
+  "repo_root": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\genesis-world",
+  "argv": [
+    "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\apps\\api\\app\\scripts\\showcase_launcher.py",
+    "--script",
+    "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\genesis-world\\examples\\tutorials\\control_your_robot.py",
+    "--headless",
+    "--record-web"
+  ],
+  "view_mode": "web",
+  "headless": true,
+  "started_at": "2026-06-05T05:27:43.406392+00:00",
+  "status": "completed",
+  "lifecycle": "completed",
+  "upstream_url": "https://github.com/Genesis-Embodied-AI/genesis-world/blob/main/examples/tutorials/control_your_robot.py",
+  "note": "Running physics and recording frames for the web viewer (works on AMD and NVIDIA).",
+  "pid": 14992,
+  "replay_available": true,
+  "replay_frames": 155,
+  "replay_meta": {
+    "diagnostics": {
+      "top_level_entities": 2,
+      "robot_links": 11,
+      "visual_geoms": 81,
+      "meshes_found": 11,
+      "meshes_exported": 11,
+      "mesh_export_failures": 0,
+      "tracked_objects": 12,
+      "franka_fallback": false,
+      "replay_frames": 155
+    },
+    "entities": {
+      "plane_dfef285": {
+        "kind": "checker_floor",
+        "size": [
+          4.0,
+          4.0
+        ]
+      },
+      "panda_9199fb3/link0": {
+        "kind": "robot_link",
+        "meshPath": "meshes/panda_9199fb3__link0.json"
+      },
+      "panda_9199fb3/link1": {
+        "kind": "robot_link",
+        "meshPath": "meshes/panda_9199fb3__link1.json"
+      },
+      "panda_9199fb3/link2": {
+        "kind": "robot_link",
+        "meshPath": "meshes/panda_9199fb3__link2.json"
+      },
+      "panda_9199fb3/link3": {
+        "kind": "robot_link",
+        "meshPath": "meshes/panda_9199fb3__link3.json"
+      },
+      "panda_9199fb3/link4": {
+        "kind": "robot_link",
+        "meshPath": "meshes/panda_9199fb3__link4.json"
+      },
+      "panda_9199fb3/link5": {
+        "kind": "robot_link",
+        "meshPath": "meshes/panda_9199fb3__link5.json"
+      },
+      "panda_9199fb3/link6": {
+        "kind": "robot_link",
+        "meshPath": "meshes/panda_9199fb3__link6.json"
+      },
+      "panda_9199fb3/link7": {
+        "kind": "robot_link",
+        "meshPath": "meshes/panda_9199fb3__link7.json"
+      },
+      "panda_9199fb3/hand": {
+        "kind": "robot_link",
+        "meshPath": "meshes/panda_9199fb3__hand.json"
+      },
+      "panda_9199fb3/left_finger": {
+        "kind": "robot_link",
+        "meshPath": "meshes/panda_9199fb3__left_finger.json"
+      },
+      "panda_9199fb3/right_finger": {
+        "kind": "robot_link",
+        "meshPath": "meshes/panda_9199fb3__right_finger.json"
+      }
+    }
+  },
+  "replay_objects": 12,
+  "replay_robot_links": 11,
+  "replay_tracked_objects": 12,
+  "exit_code": 0,
+  "ended_at": "2026-06-05T05:28:26.357533+00:00"
+}

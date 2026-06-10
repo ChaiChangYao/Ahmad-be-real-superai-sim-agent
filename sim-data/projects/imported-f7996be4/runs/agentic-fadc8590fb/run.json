@@ -1,0 +1,126 @@
+{
+  "run_id": "agentic-fadc8590fb",
+  "project_id": "imported-f7996be4",
+  "script_id": "script-341ffcc094",
+  "test_id": "imu_sensor",
+  "template_id": "imu_sensor",
+  "backend": "local",
+  "status": "completed",
+  "created_at": "2026-06-09T09:02:44.376191+00:00",
+  "started_at": "2026-06-09T09:02:44.399219+00:00",
+  "completed_at": "2026-06-09T09:03:09.215773+00:00",
+  "run_dir": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-f7996be4\\runs\\agentic-fadc8590fb",
+  "command": [
+    "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\apps\\api\\.venv\\Scripts\\python.exe",
+    "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\apps\\api\\app\\scripts\\showcase_launcher.py",
+    "--script",
+    "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-f7996be4\\runs\\agentic-fadc8590fb\\generated\\script.py",
+    "--headless",
+    "--record-web"
+  ],
+  "pid": 38152,
+  "exit_code": 0,
+  "timeout_seconds": 300,
+  "stdout_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-f7996be4\\runs\\agentic-fadc8590fb\\stdout.log",
+  "stderr_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-f7996be4\\runs\\agentic-fadc8590fb\\stderr.log",
+  "combined_log_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-f7996be4\\runs\\agentic-fadc8590fb\\combined.log",
+  "manifest_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-f7996be4\\runs\\agentic-fadc8590fb\\manifest.json",
+  "replay_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-f7996be4\\runs\\agentic-fadc8590fb\\state_timeseries.json",
+  "telemetry_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-f7996be4\\runs\\agentic-fadc8590fb\\telemetry_timeseries.json",
+  "report_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-f7996be4\\runs\\agentic-fadc8590fb\\report.json",
+  "error_summary": "",
+  "warning_summary": "",
+  "artifacts": [
+    {
+      "artifact_id": "agentic-fadc8590fb:manifest",
+      "run_id": "agentic-fadc8590fb",
+      "kind": "manifest",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-f7996be4\\runs\\agentic-fadc8590fb\\run.json",
+      "url": "",
+      "size_bytes": 5394,
+      "content_type": "application/json",
+      "created_at": ""
+    },
+    {
+      "artifact_id": "agentic-fadc8590fb:manifest",
+      "run_id": "agentic-fadc8590fb",
+      "kind": "manifest",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-f7996be4\\runs\\agentic-fadc8590fb\\manifest.json",
+      "url": "",
+      "size_bytes": 980,
+      "content_type": "application/json",
+      "created_at": ""
+    },
+    {
+      "artifact_id": "agentic-fadc8590fb:stdout",
+      "run_id": "agentic-fadc8590fb",
+      "kind": "stdout",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-f7996be4\\runs\\agentic-fadc8590fb\\stdout.log",
+      "url": "",
+      "size_bytes": 28856,
+      "content_type": "text/plain",
+      "created_at": ""
+    },
+    {
+      "artifact_id": "agentic-fadc8590fb:stderr",
+      "run_id": "agentic-fadc8590fb",
+      "kind": "stderr",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-f7996be4\\runs\\agentic-fadc8590fb\\stderr.log",
+      "url": "",
+      "size_bytes": 0,
+      "content_type": "text/plain",
+      "created_at": ""
+    },
+    {
+      "artifact_id": "agentic-fadc8590fb:log",
+      "run_id": "agentic-fadc8590fb",
+      "kind": "log",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-f7996be4\\runs\\agentic-fadc8590fb\\combined.log",
+      "url": "",
+      "size_bytes": 44379,
+      "content_type": "text/plain",
+      "created_at": ""
+    },
+    {
+      "artifact_id": "agentic-fadc8590fb:replay",
+      "run_id": "agentic-fadc8590fb",
+      "kind": "replay",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-f7996be4\\runs\\agentic-fadc8590fb\\state_timeseries.json",
+      "url": "",
+      "size_bytes": 15841251,
+      "content_type": "application/json",
+      "created_at": ""
+    },
+    {
+      "artifact_id": "agentic-fadc8590fb:telemetry",
+      "run_id": "agentic-fadc8590fb",
+      "kind": "telemetry",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-f7996be4\\runs\\agentic-fadc8590fb\\telemetry_timeseries.json",
+      "url": "",
+      "size_bytes": 84957,
+      "content_type": "application/json",
+      "created_at": ""
+    },
+    {
+      "artifact_id": "agentic-fadc8590fb:generated_script",
+      "run_id": "agentic-fadc8590fb",
+      "kind": "generated_script",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-f7996be4\\runs\\agentic-fadc8590fb\\generated\\script.py",
+      "url": "",
+      "size_bytes": 2740,
+      "content_type": "text/plain",
+      "created_at": ""
+    },
+    {
+      "artifact_id": "agentic-fadc8590fb:context",
+      "run_id": "agentic-fadc8590fb",
+      "kind": "context",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-f7996be4\\runs\\agentic-fadc8590fb\\generated\\script.context.json",
+      "url": "",
+      "size_bytes": 54375,
+      "content_type": "application/json",
+      "created_at": ""
+    }
+  ],
+  "failure": null
+}

@@ -1,0 +1,15 @@
+[
+  {
+    "id": "asset-a625f978c97f",
+    "project_id": "imported-bb4f0a10",
+    "original_filename": "robot_dog_buildables_demo.urdf",
+    "stored_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-bb4f0a10\\assets\\imported\\robot_dog_buildables_demo.urdf",
+    "relative_path": "assets/imported/robot_dog_buildables_demo.urdf",
+    "file_type": "urdf",
+    "size_bytes": 47925,
+    "sha256": "72a9b1ec3b7024bcbe0f22ccf531b3060f29ab769e9ff2729958973b8559a00f",
+    "role": "robot_description",
+    "source": "user_upload",
+    "status": "found"
+  }
+]

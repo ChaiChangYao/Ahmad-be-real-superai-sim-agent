@@ -1,0 +1,40 @@
+{
+  "name": "buildables-sim-sandbox",
+  "private": true,
+  "workspaces": [
+    "apps/web",
+    "packages/schemas"
+  ],
+  "scripts": {
+    "dev": "node scripts/kill-dev-ports.mjs && concurrently --kill-others=false -n api,web -c green,cyan \"npm run dev:api\" \"npm run dev:next\"",
+    "dev:clean": "node scripts/kill-dev-ports.mjs && node scripts/clean-web-next.mjs && npm run dev",
+    "setup": "node scripts/setup-repos.mjs && node scripts/setup-api.mjs",
+    "setup:repos": "node scripts/setup-repos.mjs",
+    "setup:api": "node scripts/setup-api.mjs",
+    "predev": "node scripts/ensure-api-ready.mjs",
+    "dev:api": "node scripts/dev-api.mjs",
+    "dev:web": "node scripts/dev-web.mjs",
+    "dev:next": "node scripts/dev-web.mjs",
+    "dev:web-only": "npm --workspace apps/web run dev",
+    "build:web": "npm --workspace apps/web run build",
+    "test:web": "npm --workspace apps/web run build",
+    "lint:web": "npm --workspace apps/web run lint",
+    "check:no-forbidden-engines": "python tools/check_no_forbidden_engines.py",
+    "smoke:genesis": "python apps/api/app/scripts/run_default_robot_dog_genesis_smoke_test.py",
+    "smoke:keyboard": "python apps/api/app/scripts/run_default_robot_dog_keyboard_smoke_test.py",
+    "smoke:scenarios": "python apps/api/app/scripts/run_default_robot_dog_scenario_suite.py",
+    "smoke:api": "python apps/api/app/scripts/api_smoke_test.py",
+    "refs:clone": "powershell -ExecutionPolicy Bypass -File scripts/clone-reference-repos.ps1",
+    "qa:agentic": "node scripts/run-qa-agentic.mjs",
+    "qa:agentic:e2e": "node scripts/run-qa-agentic.mjs --e2e",
+    "qa:agentic:retry": "node scripts/run-qa-fix-retry.mjs",
+    "qa:golden": "python apps/api/app/scripts/qa_agentic_golden_paths.py",
+    "qa:e2e": "npx playwright test --config e2e/playwright.config.ts",
+    "test:e2e": "npx playwright test --config e2e/playwright.config.ts",
+    "test:e2e:headed": "npx playwright test --config e2e/playwright.config.ts --headed"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "concurrently": "^9.2.1"
+  }
+}

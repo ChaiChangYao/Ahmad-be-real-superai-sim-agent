@@ -1,0 +1,850 @@
+[
+  {
+    "part_id": "bdog_001",
+    "part_name": "torso_shell_top",
+    "parent_assembly": "robot_dog_buildables_demo",
+    "approximate_dimensions_mm": {
+      "x": 910,
+      "y": 330,
+      "z": 105
+    },
+    "suggested_material": "matte yellow painted composite armor",
+    "visual_only": false,
+    "physics_link": true,
+    "movable": false,
+    "suggested_joint_parent": null,
+    "suggested_joint_child": null
+  },
+  {
+    "part_id": "bdog_002",
+    "part_name": "torso_shell_left",
+    "parent_assembly": "robot_dog_buildables_demo",
+    "approximate_dimensions_mm": {
+      "x": 875,
+      "y": 42,
+      "z": 185
+    },
+    "suggested_material": "matte yellow painted composite armor",
+    "visual_only": false,
+    "physics_link": true,
+    "movable": false,
+    "suggested_joint_parent": null,
+    "suggested_joint_child": null
+  },
+  {
+    "part_id": "bdog_003",
+    "part_name": "torso_shell_right",
+    "parent_assembly": "robot_dog_buildables_demo",
+    "approximate_dimensions_mm": {
+      "x": 875,
+      "y": 42,
+      "z": 185
+    },
+    "suggested_material": "matte yellow painted composite armor",
+    "visual_only": false,
+    "physics_link": true,
+    "movable": false,
+    "suggested_joint_parent": null,
+    "suggested_joint_child": null
+  },
+  {
+    "part_id": "bdog_004",
+    "part_name": "torso_front_sensor_panel",
+    "parent_assembly": "robot_dog_buildables_demo",
+    "approximate_dimensions_mm": {
+      "x": 44,
+      "y": 230,
+      "z": 128
+    },
+    "suggested_material": "dark smoked sensor glass",
+    "visual_only": false,
+    "physics_link": true,
+    "movable": false,
+    "suggested_joint_parent": null,
+    "suggested_joint_child": null
+  },
+  {
+    "part_id": "bdog_005",
+    "part_name": "torso_rear_service_panel",
+    "parent_assembly": "robot_dog_buildables_demo",
+    "approximate_dimensions_mm": {
+      "x": 36,
+      "y": 238,
+      "z": 124
+    },
+    "suggested_material": "black anodized aluminum / carbon composite",
+    "visual_only": false,
+    "physics_link": true,
+    "movable": false,
+    "suggested_joint_parent": null,
+    "suggested_joint_child": null
+  },
+  {
+    "part_id": "bdog_006",
+    "part_name": "internal_battery_tray",
+    "parent_assembly": "robot_dog_buildables_demo",
+    "approximate_dimensions_mm": {
+      "x": 390,
+      "y": 210,
+      "z": 36
+    },
+    "suggested_material": "black anodized aluminum / carbon composite",
+    "visual_only": false,
+    "physics_link": true,
+    "movable": false,
+    "suggested_joint_parent": null,
+    "suggested_joint_child": null
+  },
+  {
+    "part_id": "bdog_007",
+    "part_name": "internal_controller_mount",
+    "parent_assembly": "robot_dog_buildables_demo",
+    "approximate_dimensions_mm": {
+      "x": 160,
+      "y": 118,
+      "z": 24
+    },
+    "suggested_material": "black anodized aluminum / carbon composite",
+    "visual_only": false,
+    "physics_link": true,
+    "movable": false,
+    "suggested_joint_parent": null,
+    "suggested_joint_child": null
+  },
+  {
+    "part_id": "bdog_008",
+    "part_name": "top_payload_mount_rail_left",
+    "parent_assembly": "robot_dog_buildables_demo",
+    "approximate_dimensions_mm": {
+      "x": 610,
+      "y": 22,
+      "z": 20
+    },
+    "suggested_material": "black anodized aluminum / carbon composite",
+    "visual_only": false,
+    "physics_link": true,
+    "movable": false,
+    "suggested_joint_parent": null,
+    "suggested_joint_child": null
+  },
+  {
+    "part_id": "bdog_009",
+    "part_name": "top_payload_mount_rail_right",
+    "parent_assembly": "robot_dog_buildables_demo",
+    "approximate_dimensions_mm": {
+      "x": 610,
+      "y": 22,
+      "z": 20
+    },
+    "suggested_material": "black anodized aluminum / carbon composite",
+    "visual_only": false,
+    "physics_link": true,
+    "movable": false,
+    "suggested_joint_parent": null,
+    "suggested_joint_child": null
+  },
+  {
+    "part_id": "bdog_010",
+    "part_name": "bottom_chassis_frame",
+    "parent_assembly": "robot_dog_buildables_demo",
+    "approximate_dimensions_mm": {
+      "x": 900,
+      "y": 374,
+      "z": 36
+    },
+    "suggested_material": "black anodized aluminum / carbon composite",
+    "visual_only": false,
+    "physics_link": true,
+    "movable": false,
+    "suggested_joint_parent": null,
+    "suggested_joint_child": null
+  },
+  {
+    "part_id": "bdog_011",
+    "part_name": "top_payload_block_placeholder",
+    "parent_assembly": "robot_dog_buildables_demo",
+    "approximate_dimensions_mm": {
+      "x": 240,
+      "y": 145,
+      "z": 42
+    },
+    "suggested_material": "neutral gray removable payload placeholder",
+    "visual_only": true,
+    "physics_link": false,
+    "movable": false,
+    "suggested_joint_parent": null,
+    "suggested_joint_child": null
+  },
+  {
+    "part_id": "bdog_012",
+    "part_name": "battery_block",
+    "parent_assembly": "robot_dog_buildables_demo",
+    "approximate_dimensions_mm": {
+      "x": 320,
+      "y": 170,
+      "z": 90
+    },
+    "suggested_material": "dark gray battery enclosure",
+    "visual_only": false,
+    "physics_link": true,
+    "movable": false,
+    "suggested_joint_parent": null,
+    "suggested_joint_child": null
+  },
+  {
+    "part_id": "bdog_013",
+    "part_name": "controller_board_block",
+    "parent_assembly": "robot_dog_buildables_demo",
+    "approximate_dimensions_mm": {
+      "x": 120,
+      "y": 90,
+      "z": 25
+    },
+    "suggested_material": "green PCB and black electronics",
+    "visual_only": false,
+    "physics_link": true,
+    "movable": false,
+    "suggested_joint_parent": null,
+    "suggested_joint_child": null
+  },
+  {
+    "part_id": "bdog_014",
+    "part_name": "imu_sensor_block",
+    "parent_assembly": "robot_dog_buildables_demo",
+    "approximate_dimensions_mm": {
+      "x": 25,
+      "y": 25,
+      "z": 10
+    },
+    "suggested_material": "green PCB and black electronics",
+    "visual_only": false,
+    "physics_link": true,
+    "movable": false,
+    "suggested_joint_parent": null,
+    "suggested_joint_child": null
+  },
+  {
+    "part_id": "bdog_015",
+    "part_name": "front_depth_sensor_block",
+    "parent_assembly": "robot_dog_buildables_demo",
+    "approximate_dimensions_mm": {
+      "x": 80,
+      "y": 35,
+      "z": 25
+    },
+    "suggested_material": "dark smoked sensor glass",
+    "visual_only": false,
+    "physics_link": true,
+    "movable": false,
+    "suggested_joint_parent": null,
+    "suggested_joint_child": null
+  },
+  {
+    "part_id": "bdog_016",
+    "part_name": "power_distribution_block",
+    "parent_assembly": "robot_dog_buildables_demo",
+    "approximate_dimensions_mm": {
+      "x": 80,
+      "y": 50,
+      "z": 25
+    },
+    "suggested_material": "green PCB and black electronics",
+    "visual_only": false,
+    "physics_link": true,
+    "movable": false,
+    "suggested_joint_parent": null,
+    "suggested_joint_child": null
+  },
+  {
+    "part_id": "bdog_017",
+    "part_name": "wire_harness_routes",
+    "parent_assembly": "robot_dog_buildables_demo",
+    "approximate_dimensions_mm": {
+      "x": 720,
+      "y": 330,
+      "z": 112
+    },
+    "suggested_material": "black flexible cable",
+    "visual_only": false,
+    "physics_link": true,
+    "movable": false,
+    "suggested_joint_parent": null,
+    "suggested_joint_child": null
+  },
+  {
+    "part_id": "bdog_018",
+    "part_name": "front_left_hip_yaw_housing",
+    "parent_assembly": "robot_dog_buildables_demo",
+    "approximate_dimensions_mm": {
+      "x": 110,
+      "y": 80,
+      "z": 76
+    },
+    "suggested_material": "black anodized aluminum / carbon composite",
+    "visual_only": false,
+    "physics_link": true,
+    "movable": true,
+    "suggested_joint_parent": "bottom_chassis_frame",
+    "suggested_joint_child": "front_left_hip_pitch_housing"
+  },
+  {
+    "part_id": "bdog_019",
+    "part_name": "front_left_hip_pitch_housing",
+    "parent_assembly": "robot_dog_buildables_demo",
+    "approximate_dimensions_mm": {
+      "x": 74,
+      "y": 104,
+      "z": 96
+    },
+    "suggested_material": "black anodized aluminum / carbon composite",
+    "visual_only": false,
+    "physics_link": true,
+    "movable": true,
+    "suggested_joint_parent": "front_left_hip_yaw_housing",
+    "suggested_joint_child": "front_left_upper_leg_link"
+  },
+  {
+    "part_id": "bdog_020",
+    "part_name": "front_left_upper_leg_shell",
+    "parent_assembly": "robot_dog_buildables_demo",
+    "approximate_dimensions_mm": {
+      "x": 92,
+      "y": 66,
+      "z": 168
+    },
+    "suggested_material": "matte yellow painted composite armor",
+    "visual_only": true,
+    "physics_link": false,
+    "movable": true,
+    "suggested_joint_parent": "front_left_hip_pitch_housing",
+    "suggested_joint_child": "front_left_upper_leg_link"
+  },
+  {
+    "part_id": "bdog_021",
+    "part_name": "front_left_upper_leg_link",
+    "parent_assembly": "robot_dog_buildables_demo",
+    "approximate_dimensions_mm": {
+      "x": 96,
+      "y": 42,
+      "z": 210
+    },
+    "suggested_material": "black anodized aluminum / carbon composite",
+    "visual_only": false,
+    "physics_link": true,
+    "movable": true,
+    "suggested_joint_parent": "front_left_hip_pitch_housing",
+    "suggested_joint_child": "front_left_knee_housing"
+  },
+  {
+    "part_id": "bdog_022",
+    "part_name": "front_left_knee_housing",
+    "parent_assembly": "robot_dog_buildables_demo",
+    "approximate_dimensions_mm": {
+      "x": 76,
+      "y": 92,
+      "z": 78
+    },
+    "suggested_material": "black anodized aluminum / carbon composite",
+    "visual_only": false,
+    "physics_link": true,
+    "movable": true,
+    "suggested_joint_parent": "front_left_upper_leg_link",
+    "suggested_joint_child": "front_left_lower_leg_link"
+  },
+  {
+    "part_id": "bdog_023",
+    "part_name": "front_left_lower_leg_link",
+    "parent_assembly": "robot_dog_buildables_demo",
+    "approximate_dimensions_mm": {
+      "x": 92,
+      "y": 34,
+      "z": 188
+    },
+    "suggested_material": "black anodized aluminum / carbon composite",
+    "visual_only": false,
+    "physics_link": true,
+    "movable": true,
+    "suggested_joint_parent": "front_left_knee_housing",
+    "suggested_joint_child": "front_left_foot"
+  },
+  {
+    "part_id": "bdog_024",
+    "part_name": "front_left_foot",
+    "parent_assembly": "robot_dog_buildables_demo",
+    "approximate_dimensions_mm": {
+      "x": 132,
+      "y": 68,
+      "z": 58
+    },
+    "suggested_material": "black anodized aluminum / carbon composite",
+    "visual_only": false,
+    "physics_link": true,
+    "movable": true,
+    "suggested_joint_parent": "front_left_lower_leg_link",
+    "suggested_joint_child": "front_left_foot_pad"
+  },
+  {
+    "part_id": "bdog_025",
+    "part_name": "front_left_foot_pad",
+    "parent_assembly": "robot_dog_buildables_demo",
+    "approximate_dimensions_mm": {
+      "x": 150,
+      "y": 78,
+      "z": 22
+    },
+    "suggested_material": "dark textured rubber",
+    "visual_only": false,
+    "physics_link": true,
+    "movable": true,
+    "suggested_joint_parent": "front_left_foot",
+    "suggested_joint_child": null
+  },
+  {
+    "part_id": "bdog_026",
+    "part_name": "front_left_hip_cable_service_loop",
+    "parent_assembly": "robot_dog_buildables_demo",
+    "approximate_dimensions_mm": {
+      "x": 62,
+      "y": 84,
+      "z": 76
+    },
+    "suggested_material": "black flexible cable",
+    "visual_only": true,
+    "physics_link": false,
+    "movable": true,
+    "suggested_joint_parent": "wire_harness_routes",
+    "suggested_joint_child": "front_left_hip_pitch_housing"
+  },
+  {
+    "part_id": "bdog_027",
+    "part_name": "front_right_hip_yaw_housing",
+    "parent_assembly": "robot_dog_buildables_demo",
+    "approximate_dimensions_mm": {
+      "x": 110,
+      "y": 80,
+      "z": 76
+    },
+    "suggested_material": "black anodized aluminum / carbon composite",
+    "visual_only": false,
+    "physics_link": true,
+    "movable": true,
+    "suggested_joint_parent": "bottom_chassis_frame",
+    "suggested_joint_child": "front_right_hip_pitch_housing"
+  },
+  {
+    "part_id": "bdog_028",
+    "part_name": "front_right_hip_pitch_housing",
+    "parent_assembly": "robot_dog_buildables_demo",
+    "approximate_dimensions_mm": {
+      "x": 74,
+      "y": 104,
+      "z": 96
+    },
+    "suggested_material": "black anodized aluminum / carbon composite",
+    "visual_only": false,
+    "physics_link": true,
+    "movable": true,
+    "suggested_joint_parent": "front_right_hip_yaw_housing",
+    "suggested_joint_child": "front_right_upper_leg_link"
+  },
+  {
+    "part_id": "bdog_029",
+    "part_name": "front_right_upper_leg_shell",
+    "parent_assembly": "robot_dog_buildables_demo",
+    "approximate_dimensions_mm": {
+      "x": 92,
+      "y": 66,
+      "z": 168
+    },
+    "suggested_material": "matte yellow painted composite armor",
+    "visual_only": true,
+    "physics_link": false,
+    "movable": true,
+    "suggested_joint_parent": "front_right_hip_pitch_housing",
+    "suggested_joint_child": "front_right_upper_leg_link"
+  },
+  {
+    "part_id": "bdog_030",
+    "part_name": "front_right_upper_leg_link",
+    "parent_assembly": "robot_dog_buildables_demo",
+    "approximate_dimensions_mm": {
+      "x": 96,
+      "y": 42,
+      "z": 210
+    },
+    "suggested_material": "black anodized aluminum / carbon composite",
+    "visual_only": false,
+    "physics_link": true,
+    "movable": true,
+    "suggested_joint_parent": "front_right_hip_pitch_housing",
+    "suggested_joint_child": "front_right_knee_housing"
+  },
+  {
+    "part_id": "bdog_031",
+    "part_name": "front_right_knee_housing",
+    "parent_assembly": "robot_dog_buildables_demo",
+    "approximate_dimensions_mm": {
+      "x": 76,
+      "y": 92,
+      "z": 78
+    },
+    "suggested_material": "black anodized aluminum / carbon composite",
+    "visual_only": false,
+    "physics_link": true,
+    "movable": true,
+    "suggested_joint_parent": "front_right_upper_leg_link",
+    "suggested_joint_child": "front_right_lower_leg_link"
+  },
+  {
+    "part_id": "bdog_032",
+    "part_name": "front_right_lower_leg_link",
+    "parent_assembly": "robot_dog_buildables_demo",
+    "approximate_dimensions_mm": {
+      "x": 92,
+      "y": 34,
+      "z": 188
+    },
+    "suggested_material": "black anodized aluminum / carbon composite",
+    "visual_only": false,
+    "physics_link": true,
+    "movable": true,
+    "suggested_joint_parent": "front_right_knee_housing",
+    "suggested_joint_child": "front_right_foot"
+  },
+  {
+    "part_id": "bdog_033",
+    "part_name": "front_right_foot",
+    "parent_assembly": "robot_dog_buildables_demo",
+    "approximate_dimensions_mm": {
+      "x": 132,
+      "y": 68,
+      "z": 58
+    },
+    "suggested_material": "black anodized aluminum / carbon composite",
+    "visual_only": false,
+    "physics_link": true,
+    "movable": true,
+    "suggested_joint_parent": "front_right_lower_leg_link",
+    "suggested_joint_child": "front_right_foot_pad"
+  },
+  {
+    "part_id": "bdog_034",
+    "part_name": "front_right_foot_pad",
+    "parent_assembly": "robot_dog_buildables_demo",
+    "approximate_dimensions_mm": {
+      "x": 150,
+      "y": 78,
+      "z": 22
+    },
+    "suggested_material": "dark textured rubber",
+    "visual_only": false,
+    "physics_link": true,
+    "movable": true,
+    "suggested_joint_parent": "front_right_foot",
+    "suggested_joint_child": null
+  },
+  {
+    "part_id": "bdog_035",
+    "part_name": "front_right_hip_cable_service_loop",
+    "parent_assembly": "robot_dog_buildables_demo",
+    "approximate_dimensions_mm": {
+      "x": 62,
+      "y": 84,
+      "z": 76
+    },
+    "suggested_material": "black flexible cable",
+    "visual_only": true,
+    "physics_link": false,
+    "movable": true,
+    "suggested_joint_parent": "wire_harness_routes",
+    "suggested_joint_child": "front_right_hip_pitch_housing"
+  },
+  {
+    "part_id": "bdog_036",
+    "part_name": "rear_left_hip_yaw_housing",
+    "parent_assembly": "robot_dog_buildables_demo",
+    "approximate_dimensions_mm": {
+      "x": 110,
+      "y": 80,
+      "z": 76
+    },
+    "suggested_material": "black anodized aluminum / carbon composite",
+    "visual_only": false,
+    "physics_link": true,
+    "movable": true,
+    "suggested_joint_parent": "bottom_chassis_frame",
+    "suggested_joint_child": "rear_left_hip_pitch_housing"
+  },
+  {
+    "part_id": "bdog_037",
+    "part_name": "rear_left_hip_pitch_housing",
+    "parent_assembly": "robot_dog_buildables_demo",
+    "approximate_dimensions_mm": {
+      "x": 74,
+      "y": 104,
+      "z": 96
+    },
+    "suggested_material": "black anodized aluminum / carbon composite",
+    "visual_only": false,
+    "physics_link": true,
+    "movable": true,
+    "suggested_joint_parent": "rear_left_hip_yaw_housing",
+    "suggested_joint_child": "rear_left_upper_leg_link"
+  },
+  {
+    "part_id": "bdog_038",
+    "part_name": "rear_left_upper_leg_shell",
+    "parent_assembly": "robot_dog_buildables_demo",
+    "approximate_dimensions_mm": {
+      "x": 92,
+      "y": 66,
+      "z": 168
+    },
+    "suggested_material": "matte yellow painted composite armor",
+    "visual_only": true,
+    "physics_link": false,
+    "movable": true,
+    "suggested_joint_parent": "rear_left_hip_pitch_housing",
+    "suggested_joint_child": "rear_left_upper_leg_link"
+  },
+  {
+    "part_id": "bdog_039",
+    "part_name": "rear_left_upper_leg_link",
+    "parent_assembly": "robot_dog_buildables_demo",
+    "approximate_dimensions_mm": {
+      "x": 96,
+      "y": 42,
+      "z": 210
+    },
+    "suggested_material": "black anodized aluminum / carbon composite",
+    "visual_only": false,
+    "physics_link": true,
+    "movable": true,
+    "suggested_joint_parent": "rear_left_hip_pitch_housing",
+    "suggested_joint_child": "rear_left_knee_housing"
+  },
+  {
+    "part_id": "bdog_040",
+    "part_name": "rear_left_knee_housing",
+    "parent_assembly": "robot_dog_buildables_demo",
+    "approximate_dimensions_mm": {
+      "x": 76,
+      "y": 92,
+      "z": 78
+    },
+    "suggested_material": "black anodized aluminum / carbon composite",
+    "visual_only": false,
+    "physics_link": true,
+    "movable": true,
+    "suggested_joint_parent": "rear_left_upper_leg_link",
+    "suggested_joint_child": "rear_left_lower_leg_link"
+  },
+  {
+    "part_id": "bdog_041",
+    "part_name": "rear_left_lower_leg_link",
+    "parent_assembly": "robot_dog_buildables_demo",
+    "approximate_dimensions_mm": {
+      "x": 92,
+      "y": 34,
+      "z": 188
+    },
+    "suggested_material": "black anodized aluminum / carbon composite",
+    "visual_only": false,
+    "physics_link": true,
+    "movable": true,
+    "suggested_joint_parent": "rear_left_knee_housing",
+    "suggested_joint_child": "rear_left_foot"
+  },
+  {
+    "part_id": "bdog_042",
+    "part_name": "rear_left_foot",
+    "parent_assembly": "robot_dog_buildables_demo",
+    "approximate_dimensions_mm": {
+      "x": 132,
+      "y": 68,
+      "z": 58
+    },
+    "suggested_material": "black anodized aluminum / carbon composite",
+    "visual_only": false,
+    "physics_link": true,
+    "movable": true,
+    "suggested_joint_parent": "rear_left_lower_leg_link",
+    "suggested_joint_child": "rear_left_foot_pad"
+  },
+  {
+    "part_id": "bdog_043",
+    "part_name": "rear_left_foot_pad",
+    "parent_assembly": "robot_dog_buildables_demo",
+    "approximate_dimensions_mm": {
+      "x": 150,
+      "y": 78,
+      "z": 22
+    },
+    "suggested_material": "dark textured rubber",
+    "visual_only": false,
+    "physics_link": true,
+    "movable": true,
+    "suggested_joint_parent": "rear_left_foot",
+    "suggested_joint_child": null
+  },
+  {
+    "part_id": "bdog_044",
+    "part_name": "rear_left_hip_cable_service_loop",
+    "parent_assembly": "robot_dog_buildables_demo",
+    "approximate_dimensions_mm": {
+      "x": 62,
+      "y": 84,
+      "z": 76
+    },
+    "suggested_material": "black flexible cable",
+    "visual_only": true,
+    "physics_link": false,
+    "movable": true,
+    "suggested_joint_parent": "wire_harness_routes",
+    "suggested_joint_child": "rear_left_hip_pitch_housing"
+  },
+  {
+    "part_id": "bdog_045",
+    "part_name": "rear_right_hip_yaw_housing",
+    "parent_assembly": "robot_dog_buildables_demo",
+    "approximate_dimensions_mm": {
+      "x": 110,
+      "y": 80,
+      "z": 76
+    },
+    "suggested_material": "black anodized aluminum / carbon composite",
+    "visual_only": false,
+    "physics_link": true,
+    "movable": true,
+    "suggested_joint_parent": "bottom_chassis_frame",
+    "suggested_joint_child": "rear_right_hip_pitch_housing"
+  },
+  {
+    "part_id": "bdog_046",
+    "part_name": "rear_right_hip_pitch_housing",
+    "parent_assembly": "robot_dog_buildables_demo",
+    "approximate_dimensions_mm": {
+      "x": 74,
+      "y": 104,
+      "z": 96
+    },
+    "suggested_material": "black anodized aluminum / carbon composite",
+    "visual_only": false,
+    "physics_link": true,
+    "movable": true,
+    "suggested_joint_parent": "rear_right_hip_yaw_housing",
+    "suggested_joint_child": "rear_right_upper_leg_link"
+  },
+  {
+    "part_id": "bdog_047",
+    "part_name": "rear_right_upper_leg_shell",
+    "parent_assembly": "robot_dog_buildables_demo",
+    "approximate_dimensions_mm": {
+      "x": 92,
+      "y": 66,
+      "z": 168
+    },
+    "suggested_material": "matte yellow painted composite armor",
+    "visual_only": true,
+    "physics_link": false,
+    "movable": true,
+    "suggested_joint_parent": "rear_right_hip_pitch_housing",
+    "suggested_joint_child": "rear_right_upper_leg_link"
+  },
+  {
+    "part_id": "bdog_048",
+    "part_name": "rear_right_upper_leg_link",
+    "parent_assembly": "robot_dog_buildables_demo",
+    "approximate_dimensions_mm": {
+      "x": 96,
+      "y": 42,
+      "z": 210
+    },
+    "suggested_material": "black anodized aluminum / carbon composite",
+    "visual_only": false,
+    "physics_link": true,
+    "movable": true,
+    "suggested_joint_parent": "rear_right_hip_pitch_housing",
+    "suggested_joint_child": "rear_right_knee_housing"
+  },
+  {
+    "part_id": "bdog_049",
+    "part_name": "rear_right_knee_housing",
+    "parent_assembly": "robot_dog_buildables_demo",
+    "approximate_dimensions_mm": {
+      "x": 76,
+      "y": 92,
+      "z": 78
+    },
+    "suggested_material": "black anodized aluminum / carbon composite",
+    "visual_only": false,
+    "physics_link": true,
+    "movable": true,
+    "suggested_joint_parent": "rear_right_upper_leg_link",
+    "suggested_joint_child": "rear_right_lower_leg_link"
+  },
+  {
+    "part_id": "bdog_050",
+    "part_name": "rear_right_lower_leg_link",
+    "parent_assembly": "robot_dog_buildables_demo",
+    "approximate_dimensions_mm": {
+      "x": 92,
+      "y": 34,
+      "z": 188
+    },
+    "suggested_material": "black anodized aluminum / carbon composite",
+    "visual_only": false,
+    "physics_link": true,
+    "movable": true,
+    "suggested_joint_parent": "rear_right_knee_housing",
+    "suggested_joint_child": "rear_right_foot"
+  },
+  {
+    "part_id": "bdog_051",
+    "part_name": "rear_right_foot",
+    "parent_assembly": "robot_dog_buildables_demo",
+    "approximate_dimensions_mm": {
+      "x": 132,
+      "y": 68,
+      "z": 58
+    },
+    "suggested_material": "black anodized aluminum / carbon composite",
+    "visual_only": false,
+    "physics_link": true,
+    "movable": true,
+    "suggested_joint_parent": "rear_right_lower_leg_link",
+    "suggested_joint_child": "rear_right_foot_pad"
+  },
+  {
+    "part_id": "bdog_052",
+    "part_name": "rear_right_foot_pad",
+    "parent_assembly": "robot_dog_buildables_demo",
+    "approximate_dimensions_mm": {
+      "x": 150,
+      "y": 78,
+      "z": 22
+    },
+    "suggested_material": "dark textured rubber",
+    "visual_only": false,
+    "physics_link": true,
+    "movable": true,
+    "suggested_joint_parent": "rear_right_foot",
+    "suggested_joint_child": null
+  },
+  {
+    "part_id": "bdog_053",
+    "part_name": "rear_right_hip_cable_service_loop",
+    "parent_assembly": "robot_dog_buildables_demo",
+    "approximate_dimensions_mm": {
+      "x": 62,
+      "y": 84,
+      "z": 76
+    },
+    "suggested_material": "black flexible cable",
+    "visual_only": true,
+    "physics_link": false,
+    "movable": true,
+    "suggested_joint_parent": "wire_harness_routes",
+    "suggested_joint_child": "rear_right_hip_pitch_housing"
+  }
+]

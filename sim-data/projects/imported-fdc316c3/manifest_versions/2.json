@@ -1,0 +1,2400 @@
+{
+  "schema_version": "0.1.0",
+  "version": 2,
+  "updated_at": "2026-06-08T06:25:10.735028+00:00",
+  "project_id": "imported-fdc316c3",
+  "project_name": "QA Blocked Tests",
+  "project_mode": "imported_project",
+  "project_type": "imported_cad_assembly",
+  "units": {
+    "length": "m",
+    "mass": "kg",
+    "time": "s",
+    "angle": "rad"
+  },
+  "assets": [
+    {
+      "id": "asset-31613c0c",
+      "name": "robot_dog_buildables_demo",
+      "type": "urdf",
+      "file_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-fdc316c3\\assets\\imported\\robot_dog_buildables_demo.urdf",
+      "original_filename": "robot_dog_buildables_demo.urdf",
+      "unit_scale_to_meters": 1.0,
+      "visual_only": false,
+      "generated": false,
+      "source_asset_id": null,
+      "notes": "Imported file"
+    }
+  ],
+  "materials": [
+    {
+      "id": "armor_yellow",
+      "name": "armor_yellow",
+      "density_kg_m3": 1500.0,
+      "static_friction": 0.5,
+      "dynamic_friction": 0.4,
+      "restitution": 0.1,
+      "youngs_modulus_pa": null,
+      "yield_strength_pa": null,
+      "melting_point_c": null,
+      "thermal_notes": null,
+      "simulation_notes": "Imported from URDF material tag.",
+      "source_url": null,
+      "confidence": "placeholder"
+    },
+    {
+      "id": "anodized_black",
+      "name": "anodized_black",
+      "density_kg_m3": 1500.0,
+      "static_friction": 0.5,
+      "dynamic_friction": 0.4,
+      "restitution": 0.1,
+      "youngs_modulus_pa": null,
+      "yield_strength_pa": null,
+      "melting_point_c": null,
+      "thermal_notes": null,
+      "simulation_notes": "Imported from URDF material tag.",
+      "source_url": null,
+      "confidence": "placeholder"
+    },
+    {
+      "id": "rubber_black",
+      "name": "rubber_black",
+      "density_kg_m3": 1500.0,
+      "static_friction": 0.5,
+      "dynamic_friction": 0.4,
+      "restitution": 0.1,
+      "youngs_modulus_pa": null,
+      "yield_strength_pa": null,
+      "melting_point_c": null,
+      "thermal_notes": null,
+      "simulation_notes": "Imported from URDF material tag.",
+      "source_url": null,
+      "confidence": "placeholder"
+    },
+    {
+      "id": "sensor_glass",
+      "name": "sensor_glass",
+      "density_kg_m3": 1500.0,
+      "static_friction": 0.5,
+      "dynamic_friction": 0.4,
+      "restitution": 0.1,
+      "youngs_modulus_pa": null,
+      "yield_strength_pa": null,
+      "melting_point_c": null,
+      "thermal_notes": null,
+      "simulation_notes": "Imported from URDF material tag.",
+      "source_url": null,
+      "confidence": "placeholder"
+    },
+    {
+      "id": "pcb_green",
+      "name": "pcb_green",
+      "density_kg_m3": 1500.0,
+      "static_friction": 0.5,
+      "dynamic_friction": 0.4,
+      "restitution": 0.1,
+      "youngs_modulus_pa": null,
+      "yield_strength_pa": null,
+      "melting_point_c": null,
+      "thermal_notes": null,
+      "simulation_notes": "Imported from URDF material tag.",
+      "source_url": null,
+      "confidence": "placeholder"
+    },
+    {
+      "id": "battery_gray",
+      "name": "battery_gray",
+      "density_kg_m3": 1500.0,
+      "static_friction": 0.5,
+      "dynamic_friction": 0.4,
+      "restitution": 0.1,
+      "youngs_modulus_pa": null,
+      "yield_strength_pa": null,
+      "melting_point_c": null,
+      "thermal_notes": null,
+      "simulation_notes": "Imported from URDF material tag.",
+      "source_url": null,
+      "confidence": "placeholder"
+    },
+    {
+      "id": "payload_gray",
+      "name": "payload_gray",
+      "density_kg_m3": 1500.0,
+      "static_friction": 0.5,
+      "dynamic_friction": 0.4,
+      "restitution": 0.1,
+      "youngs_modulus_pa": null,
+      "yield_strength_pa": null,
+      "melting_point_c": null,
+      "thermal_notes": null,
+      "simulation_notes": "Imported from URDF material tag.",
+      "source_url": null,
+      "confidence": "placeholder"
+    }
+  ],
+  "links": [
+    {
+      "id": "base_link",
+      "name": "base_link",
+      "category": "body",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 15.0,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    },
+    {
+      "id": "front_sensor_panel_link",
+      "name": "front_sensor_panel_link",
+      "category": "other",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 0.35,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    },
+    {
+      "id": "rear_service_panel_link",
+      "name": "rear_service_panel_link",
+      "category": "other",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 0.28,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    },
+    {
+      "id": "internal_electronics_link",
+      "name": "internal_electronics_link",
+      "category": "other",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 2.9,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    },
+    {
+      "id": "payload_mount_link",
+      "name": "payload_mount_link",
+      "category": "other",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 1.1,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    },
+    {
+      "id": "front_left_hip_abduction_link",
+      "name": "front_left_hip_abduction_link",
+      "category": "other",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 1.25,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    },
+    {
+      "id": "front_left_hip_pitch_housing_link",
+      "name": "front_left_hip_pitch_housing_link",
+      "category": "other",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 0.65,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    },
+    {
+      "id": "front_left_upper_leg_link",
+      "name": "front_left_upper_leg_link",
+      "category": "other",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 1.15,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    },
+    {
+      "id": "front_left_knee_housing_link",
+      "name": "front_left_knee_housing_link",
+      "category": "other",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 0.55,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    },
+    {
+      "id": "front_left_lower_leg_link",
+      "name": "front_left_lower_leg_link",
+      "category": "other",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 0.75,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    },
+    {
+      "id": "front_left_foot_link",
+      "name": "front_left_foot_link",
+      "category": "other",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 0.32,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    },
+    {
+      "id": "front_right_hip_abduction_link",
+      "name": "front_right_hip_abduction_link",
+      "category": "other",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 1.25,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    },
+    {
+      "id": "front_right_hip_pitch_housing_link",
+      "name": "front_right_hip_pitch_housing_link",
+      "category": "other",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 0.65,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    },
+    {
+      "id": "front_right_upper_leg_link",
+      "name": "front_right_upper_leg_link",
+      "category": "other",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 1.15,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    },
+    {
+      "id": "front_right_knee_housing_link",
+      "name": "front_right_knee_housing_link",
+      "category": "other",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 0.55,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    },
+    {
+      "id": "front_right_lower_leg_link",
+      "name": "front_right_lower_leg_link",
+      "category": "other",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 0.75,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    },
+    {
+      "id": "front_right_foot_link",
+      "name": "front_right_foot_link",
+      "category": "other",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 0.32,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    },
+    {
+      "id": "rear_left_hip_abduction_link",
+      "name": "rear_left_hip_abduction_link",
+      "category": "other",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 1.25,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    },
+    {
+      "id": "rear_left_hip_pitch_housing_link",
+      "name": "rear_left_hip_pitch_housing_link",
+      "category": "other",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 0.65,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    },
+    {
+      "id": "rear_left_upper_leg_link",
+      "name": "rear_left_upper_leg_link",
+      "category": "other",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 1.15,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    },
+    {
+      "id": "rear_left_knee_housing_link",
+      "name": "rear_left_knee_housing_link",
+      "category": "other",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 0.55,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    },
+    {
+      "id": "rear_left_lower_leg_link",
+      "name": "rear_left_lower_leg_link",
+      "category": "other",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 0.75,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    },
+    {
+      "id": "rear_left_foot_link",
+      "name": "rear_left_foot_link",
+      "category": "other",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 0.32,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    },
+    {
+      "id": "rear_right_hip_abduction_link",
+      "name": "rear_right_hip_abduction_link",
+      "category": "other",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 1.25,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    },
+    {
+      "id": "rear_right_hip_pitch_housing_link",
+      "name": "rear_right_hip_pitch_housing_link",
+      "category": "other",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 0.65,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    },
+    {
+      "id": "rear_right_upper_leg_link",
+      "name": "rear_right_upper_leg_link",
+      "category": "other",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 1.15,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    },
+    {
+      "id": "rear_right_knee_housing_link",
+      "name": "rear_right_knee_housing_link",
+      "category": "other",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 0.55,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    },
+    {
+      "id": "rear_right_lower_leg_link",
+      "name": "rear_right_lower_leg_link",
+      "category": "other",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 0.75,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    },
+    {
+      "id": "rear_right_foot_link",
+      "name": "rear_right_foot_link",
+      "category": "other",
+      "visual_asset_id": null,
+      "material_id": "armor_yellow",
+      "mass_kg": 0.32,
+      "center_of_mass": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "inertia_tensor": null,
+      "transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "collision_primitive_ids": [],
+      "parent_link_id": null,
+      "editable": true,
+      "notes": "Imported from URDF."
+    }
+  ],
+  "joints": [
+    {
+      "id": "front_sensor_panel_link_fixed",
+      "name": "front_sensor_panel_link_fixed",
+      "type": "fixed",
+      "parent_link_id": "base_link",
+      "child_link_id": "front_sensor_panel_link",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "limit_lower_rad": -3.14,
+      "limit_upper_rad": 3.14,
+      "effort_limit_nm": 5.0,
+      "velocity_limit_rad_s": 2.0,
+      "damping": 0.05,
+      "friction": 0.01,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": "Imported from URDF"
+    },
+    {
+      "id": "rear_service_panel_link_fixed",
+      "name": "rear_service_panel_link_fixed",
+      "type": "fixed",
+      "parent_link_id": "base_link",
+      "child_link_id": "rear_service_panel_link",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "limit_lower_rad": -3.14,
+      "limit_upper_rad": 3.14,
+      "effort_limit_nm": 5.0,
+      "velocity_limit_rad_s": 2.0,
+      "damping": 0.05,
+      "friction": 0.01,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": "Imported from URDF"
+    },
+    {
+      "id": "internal_electronics_link_fixed",
+      "name": "internal_electronics_link_fixed",
+      "type": "fixed",
+      "parent_link_id": "base_link",
+      "child_link_id": "internal_electronics_link",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "limit_lower_rad": -3.14,
+      "limit_upper_rad": 3.14,
+      "effort_limit_nm": 5.0,
+      "velocity_limit_rad_s": 2.0,
+      "damping": 0.05,
+      "friction": 0.01,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": "Imported from URDF"
+    },
+    {
+      "id": "payload_mount_link_fixed",
+      "name": "payload_mount_link_fixed",
+      "type": "fixed",
+      "parent_link_id": "base_link",
+      "child_link_id": "payload_mount_link",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "limit_lower_rad": -3.14,
+      "limit_upper_rad": 3.14,
+      "effort_limit_nm": 5.0,
+      "velocity_limit_rad_s": 2.0,
+      "damping": 0.05,
+      "friction": 0.01,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": "Imported from URDF"
+    },
+    {
+      "id": "front_left_hip_abduction_joint",
+      "name": "front_left_hip_abduction_joint",
+      "type": "revolute",
+      "parent_link_id": "base_link",
+      "child_link_id": "front_left_hip_abduction_link",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "limit_lower_rad": -0.65,
+      "limit_upper_rad": 0.65,
+      "effort_limit_nm": 70.0,
+      "velocity_limit_rad_s": 7.0,
+      "damping": 0.05,
+      "friction": 0.01,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": "Imported from URDF"
+    },
+    {
+      "id": "front_left_hip_pitch_housing_fixed",
+      "name": "front_left_hip_pitch_housing_fixed",
+      "type": "fixed",
+      "parent_link_id": "front_left_hip_abduction_link",
+      "child_link_id": "front_left_hip_pitch_housing_link",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "limit_lower_rad": -3.14,
+      "limit_upper_rad": 3.14,
+      "effort_limit_nm": 5.0,
+      "velocity_limit_rad_s": 2.0,
+      "damping": 0.05,
+      "friction": 0.01,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": "Imported from URDF"
+    },
+    {
+      "id": "front_left_hip_pitch_joint",
+      "name": "front_left_hip_pitch_joint",
+      "type": "revolute",
+      "parent_link_id": "front_left_hip_abduction_link",
+      "child_link_id": "front_left_upper_leg_link",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "limit_lower_rad": -1.3,
+      "limit_upper_rad": 1.35,
+      "effort_limit_nm": 85.0,
+      "velocity_limit_rad_s": 8.0,
+      "damping": 0.05,
+      "friction": 0.01,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": "Imported from URDF"
+    },
+    {
+      "id": "front_left_knee_housing_fixed",
+      "name": "front_left_knee_housing_fixed",
+      "type": "fixed",
+      "parent_link_id": "front_left_upper_leg_link",
+      "child_link_id": "front_left_knee_housing_link",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "limit_lower_rad": -3.14,
+      "limit_upper_rad": 3.14,
+      "effort_limit_nm": 5.0,
+      "velocity_limit_rad_s": 2.0,
+      "damping": 0.05,
+      "friction": 0.01,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": "Imported from URDF"
+    },
+    {
+      "id": "front_left_knee_pitch_joint",
+      "name": "front_left_knee_pitch_joint",
+      "type": "revolute",
+      "parent_link_id": "front_left_upper_leg_link",
+      "child_link_id": "front_left_lower_leg_link",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "limit_lower_rad": -2.65,
+      "limit_upper_rad": -0.25,
+      "effort_limit_nm": 90.0,
+      "velocity_limit_rad_s": 8.0,
+      "damping": 0.05,
+      "friction": 0.01,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": "Imported from URDF"
+    },
+    {
+      "id": "front_left_foot_fixed",
+      "name": "front_left_foot_fixed",
+      "type": "fixed",
+      "parent_link_id": "front_left_lower_leg_link",
+      "child_link_id": "front_left_foot_link",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "limit_lower_rad": -3.14,
+      "limit_upper_rad": 3.14,
+      "effort_limit_nm": 5.0,
+      "velocity_limit_rad_s": 2.0,
+      "damping": 0.05,
+      "friction": 0.01,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": "Imported from URDF"
+    },
+    {
+      "id": "front_right_hip_abduction_joint",
+      "name": "front_right_hip_abduction_joint",
+      "type": "revolute",
+      "parent_link_id": "base_link",
+      "child_link_id": "front_right_hip_abduction_link",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "limit_lower_rad": -0.65,
+      "limit_upper_rad": 0.65,
+      "effort_limit_nm": 70.0,
+      "velocity_limit_rad_s": 7.0,
+      "damping": 0.05,
+      "friction": 0.01,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": "Imported from URDF"
+    },
+    {
+      "id": "front_right_hip_pitch_housing_fixed",
+      "name": "front_right_hip_pitch_housing_fixed",
+      "type": "fixed",
+      "parent_link_id": "front_right_hip_abduction_link",
+      "child_link_id": "front_right_hip_pitch_housing_link",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "limit_lower_rad": -3.14,
+      "limit_upper_rad": 3.14,
+      "effort_limit_nm": 5.0,
+      "velocity_limit_rad_s": 2.0,
+      "damping": 0.05,
+      "friction": 0.01,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": "Imported from URDF"
+    },
+    {
+      "id": "front_right_hip_pitch_joint",
+      "name": "front_right_hip_pitch_joint",
+      "type": "revolute",
+      "parent_link_id": "front_right_hip_abduction_link",
+      "child_link_id": "front_right_upper_leg_link",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "limit_lower_rad": -1.3,
+      "limit_upper_rad": 1.35,
+      "effort_limit_nm": 85.0,
+      "velocity_limit_rad_s": 8.0,
+      "damping": 0.05,
+      "friction": 0.01,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": "Imported from URDF"
+    },
+    {
+      "id": "front_right_knee_housing_fixed",
+      "name": "front_right_knee_housing_fixed",
+      "type": "fixed",
+      "parent_link_id": "front_right_upper_leg_link",
+      "child_link_id": "front_right_knee_housing_link",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "limit_lower_rad": -3.14,
+      "limit_upper_rad": 3.14,
+      "effort_limit_nm": 5.0,
+      "velocity_limit_rad_s": 2.0,
+      "damping": 0.05,
+      "friction": 0.01,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": "Imported from URDF"
+    },
+    {
+      "id": "front_right_knee_pitch_joint",
+      "name": "front_right_knee_pitch_joint",
+      "type": "revolute",
+      "parent_link_id": "front_right_upper_leg_link",
+      "child_link_id": "front_right_lower_leg_link",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "limit_lower_rad": -2.65,
+      "limit_upper_rad": -0.25,
+      "effort_limit_nm": 90.0,
+      "velocity_limit_rad_s": 8.0,
+      "damping": 0.05,
+      "friction": 0.01,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": "Imported from URDF"
+    },
+    {
+      "id": "front_right_foot_fixed",
+      "name": "front_right_foot_fixed",
+      "type": "fixed",
+      "parent_link_id": "front_right_lower_leg_link",
+      "child_link_id": "front_right_foot_link",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "limit_lower_rad": -3.14,
+      "limit_upper_rad": 3.14,
+      "effort_limit_nm": 5.0,
+      "velocity_limit_rad_s": 2.0,
+      "damping": 0.05,
+      "friction": 0.01,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": "Imported from URDF"
+    },
+    {
+      "id": "rear_left_hip_abduction_joint",
+      "name": "rear_left_hip_abduction_joint",
+      "type": "revolute",
+      "parent_link_id": "base_link",
+      "child_link_id": "rear_left_hip_abduction_link",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "limit_lower_rad": -0.65,
+      "limit_upper_rad": 0.65,
+      "effort_limit_nm": 70.0,
+      "velocity_limit_rad_s": 7.0,
+      "damping": 0.05,
+      "friction": 0.01,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": "Imported from URDF"
+    },
+    {
+      "id": "rear_left_hip_pitch_housing_fixed",
+      "name": "rear_left_hip_pitch_housing_fixed",
+      "type": "fixed",
+      "parent_link_id": "rear_left_hip_abduction_link",
+      "child_link_id": "rear_left_hip_pitch_housing_link",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "limit_lower_rad": -3.14,
+      "limit_upper_rad": 3.14,
+      "effort_limit_nm": 5.0,
+      "velocity_limit_rad_s": 2.0,
+      "damping": 0.05,
+      "friction": 0.01,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": "Imported from URDF"
+    },
+    {
+      "id": "rear_left_hip_pitch_joint",
+      "name": "rear_left_hip_pitch_joint",
+      "type": "revolute",
+      "parent_link_id": "rear_left_hip_abduction_link",
+      "child_link_id": "rear_left_upper_leg_link",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "limit_lower_rad": -1.3,
+      "limit_upper_rad": 1.35,
+      "effort_limit_nm": 85.0,
+      "velocity_limit_rad_s": 8.0,
+      "damping": 0.05,
+      "friction": 0.01,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": "Imported from URDF"
+    },
+    {
+      "id": "rear_left_knee_housing_fixed",
+      "name": "rear_left_knee_housing_fixed",
+      "type": "fixed",
+      "parent_link_id": "rear_left_upper_leg_link",
+      "child_link_id": "rear_left_knee_housing_link",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "limit_lower_rad": -3.14,
+      "limit_upper_rad": 3.14,
+      "effort_limit_nm": 5.0,
+      "velocity_limit_rad_s": 2.0,
+      "damping": 0.05,
+      "friction": 0.01,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": "Imported from URDF"
+    },
+    {
+      "id": "rear_left_knee_pitch_joint",
+      "name": "rear_left_knee_pitch_joint",
+      "type": "revolute",
+      "parent_link_id": "rear_left_upper_leg_link",
+      "child_link_id": "rear_left_lower_leg_link",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "limit_lower_rad": -2.65,
+      "limit_upper_rad": -0.25,
+      "effort_limit_nm": 90.0,
+      "velocity_limit_rad_s": 8.0,
+      "damping": 0.05,
+      "friction": 0.01,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": "Imported from URDF"
+    },
+    {
+      "id": "rear_left_foot_fixed",
+      "name": "rear_left_foot_fixed",
+      "type": "fixed",
+      "parent_link_id": "rear_left_lower_leg_link",
+      "child_link_id": "rear_left_foot_link",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "limit_lower_rad": -3.14,
+      "limit_upper_rad": 3.14,
+      "effort_limit_nm": 5.0,
+      "velocity_limit_rad_s": 2.0,
+      "damping": 0.05,
+      "friction": 0.01,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": "Imported from URDF"
+    },
+    {
+      "id": "rear_right_hip_abduction_joint",
+      "name": "rear_right_hip_abduction_joint",
+      "type": "revolute",
+      "parent_link_id": "base_link",
+      "child_link_id": "rear_right_hip_abduction_link",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "limit_lower_rad": -0.65,
+      "limit_upper_rad": 0.65,
+      "effort_limit_nm": 70.0,
+      "velocity_limit_rad_s": 7.0,
+      "damping": 0.05,
+      "friction": 0.01,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": "Imported from URDF"
+    },
+    {
+      "id": "rear_right_hip_pitch_housing_fixed",
+      "name": "rear_right_hip_pitch_housing_fixed",
+      "type": "fixed",
+      "parent_link_id": "rear_right_hip_abduction_link",
+      "child_link_id": "rear_right_hip_pitch_housing_link",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "limit_lower_rad": -3.14,
+      "limit_upper_rad": 3.14,
+      "effort_limit_nm": 5.0,
+      "velocity_limit_rad_s": 2.0,
+      "damping": 0.05,
+      "friction": 0.01,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": "Imported from URDF"
+    },
+    {
+      "id": "rear_right_hip_pitch_joint",
+      "name": "rear_right_hip_pitch_joint",
+      "type": "revolute",
+      "parent_link_id": "rear_right_hip_abduction_link",
+      "child_link_id": "rear_right_upper_leg_link",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "limit_lower_rad": -1.3,
+      "limit_upper_rad": 1.35,
+      "effort_limit_nm": 85.0,
+      "velocity_limit_rad_s": 8.0,
+      "damping": 0.05,
+      "friction": 0.01,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": "Imported from URDF"
+    },
+    {
+      "id": "rear_right_knee_housing_fixed",
+      "name": "rear_right_knee_housing_fixed",
+      "type": "fixed",
+      "parent_link_id": "rear_right_upper_leg_link",
+      "child_link_id": "rear_right_knee_housing_link",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "limit_lower_rad": -3.14,
+      "limit_upper_rad": 3.14,
+      "effort_limit_nm": 5.0,
+      "velocity_limit_rad_s": 2.0,
+      "damping": 0.05,
+      "friction": 0.01,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": "Imported from URDF"
+    },
+    {
+      "id": "rear_right_knee_pitch_joint",
+      "name": "rear_right_knee_pitch_joint",
+      "type": "revolute",
+      "parent_link_id": "rear_right_upper_leg_link",
+      "child_link_id": "rear_right_lower_leg_link",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "limit_lower_rad": -2.65,
+      "limit_upper_rad": -0.25,
+      "effort_limit_nm": 90.0,
+      "velocity_limit_rad_s": 8.0,
+      "damping": 0.05,
+      "friction": 0.01,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": "Imported from URDF"
+    },
+    {
+      "id": "rear_right_foot_fixed",
+      "name": "rear_right_foot_fixed",
+      "type": "fixed",
+      "parent_link_id": "rear_right_lower_leg_link",
+      "child_link_id": "rear_right_foot_link",
+      "origin_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "origin_rpy": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "axis_xyz": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "limit_lower_rad": -3.14,
+      "limit_upper_rad": 3.14,
+      "effort_limit_nm": 5.0,
+      "velocity_limit_rad_s": 2.0,
+      "damping": 0.05,
+      "friction": 0.01,
+      "auto_detected": false,
+      "user_confirmed": true,
+      "notes": "Imported from URDF"
+    }
+  ],
+  "actuators": [
+    {
+      "id": "act-front_left_hip_abduction_joint",
+      "name": "Actuator front_left_hip_abduction_joint",
+      "type": "virtual_motor",
+      "real_component_profile_id": "imported-auto",
+      "joint_id": "front_left_hip_abduction_joint",
+      "control_mode": "position",
+      "max_torque_nm": 70.0,
+      "max_velocity_rad_s": 7.0,
+      "rated_voltage_v": 24.0,
+      "stall_current_a": 3.0,
+      "no_load_current_a": null,
+      "gear_ratio": null,
+      "kp": 20.0,
+      "kd": 1.0,
+      "torque_curve": null,
+      "mass_kg": 0.2,
+      "dimensions_m": [
+        0.05,
+        0.05,
+        0.05
+      ],
+      "mounting_transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "source_url": null,
+      "confidence": "placeholder",
+      "notes": null
+    },
+    {
+      "id": "act-front_left_hip_pitch_joint",
+      "name": "Actuator front_left_hip_pitch_joint",
+      "type": "virtual_motor",
+      "real_component_profile_id": "imported-auto",
+      "joint_id": "front_left_hip_pitch_joint",
+      "control_mode": "position",
+      "max_torque_nm": 85.0,
+      "max_velocity_rad_s": 8.0,
+      "rated_voltage_v": 24.0,
+      "stall_current_a": 3.0,
+      "no_load_current_a": null,
+      "gear_ratio": null,
+      "kp": 20.0,
+      "kd": 1.0,
+      "torque_curve": null,
+      "mass_kg": 0.2,
+      "dimensions_m": [
+        0.05,
+        0.05,
+        0.05
+      ],
+      "mounting_transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "source_url": null,
+      "confidence": "placeholder",
+      "notes": null
+    },
+    {
+      "id": "act-front_left_knee_pitch_joint",
+      "name": "Actuator front_left_knee_pitch_joint",
+      "type": "virtual_motor",
+      "real_component_profile_id": "imported-auto",
+      "joint_id": "front_left_knee_pitch_joint",
+      "control_mode": "position",
+      "max_torque_nm": 90.0,
+      "max_velocity_rad_s": 8.0,
+      "rated_voltage_v": 24.0,
+      "stall_current_a": 3.0,
+      "no_load_current_a": null,
+      "gear_ratio": null,
+      "kp": 20.0,
+      "kd": 1.0,
+      "torque_curve": null,
+      "mass_kg": 0.2,
+      "dimensions_m": [
+        0.05,
+        0.05,
+        0.05
+      ],
+      "mounting_transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "source_url": null,
+      "confidence": "placeholder",
+      "notes": null
+    },
+    {
+      "id": "act-front_right_hip_abduction_joint",
+      "name": "Actuator front_right_hip_abduction_joint",
+      "type": "virtual_motor",
+      "real_component_profile_id": "imported-auto",
+      "joint_id": "front_right_hip_abduction_joint",
+      "control_mode": "position",
+      "max_torque_nm": 70.0,
+      "max_velocity_rad_s": 7.0,
+      "rated_voltage_v": 24.0,
+      "stall_current_a": 3.0,
+      "no_load_current_a": null,
+      "gear_ratio": null,
+      "kp": 20.0,
+      "kd": 1.0,
+      "torque_curve": null,
+      "mass_kg": 0.2,
+      "dimensions_m": [
+        0.05,
+        0.05,
+        0.05
+      ],
+      "mounting_transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "source_url": null,
+      "confidence": "placeholder",
+      "notes": null
+    },
+    {
+      "id": "act-front_right_hip_pitch_joint",
+      "name": "Actuator front_right_hip_pitch_joint",
+      "type": "virtual_motor",
+      "real_component_profile_id": "imported-auto",
+      "joint_id": "front_right_hip_pitch_joint",
+      "control_mode": "position",
+      "max_torque_nm": 85.0,
+      "max_velocity_rad_s": 8.0,
+      "rated_voltage_v": 24.0,
+      "stall_current_a": 3.0,
+      "no_load_current_a": null,
+      "gear_ratio": null,
+      "kp": 20.0,
+      "kd": 1.0,
+      "torque_curve": null,
+      "mass_kg": 0.2,
+      "dimensions_m": [
+        0.05,
+        0.05,
+        0.05
+      ],
+      "mounting_transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "source_url": null,
+      "confidence": "placeholder",
+      "notes": null
+    },
+    {
+      "id": "act-front_right_knee_pitch_joint",
+      "name": "Actuator front_right_knee_pitch_joint",
+      "type": "virtual_motor",
+      "real_component_profile_id": "imported-auto",
+      "joint_id": "front_right_knee_pitch_joint",
+      "control_mode": "position",
+      "max_torque_nm": 90.0,
+      "max_velocity_rad_s": 8.0,
+      "rated_voltage_v": 24.0,
+      "stall_current_a": 3.0,
+      "no_load_current_a": null,
+      "gear_ratio": null,
+      "kp": 20.0,
+      "kd": 1.0,
+      "torque_curve": null,
+      "mass_kg": 0.2,
+      "dimensions_m": [
+        0.05,
+        0.05,
+        0.05
+      ],
+      "mounting_transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "source_url": null,
+      "confidence": "placeholder",
+      "notes": null
+    },
+    {
+      "id": "act-rear_left_hip_abduction_joint",
+      "name": "Actuator rear_left_hip_abduction_joint",
+      "type": "virtual_motor",
+      "real_component_profile_id": "imported-auto",
+      "joint_id": "rear_left_hip_abduction_joint",
+      "control_mode": "position",
+      "max_torque_nm": 70.0,
+      "max_velocity_rad_s": 7.0,
+      "rated_voltage_v": 24.0,
+      "stall_current_a": 3.0,
+      "no_load_current_a": null,
+      "gear_ratio": null,
+      "kp": 20.0,
+      "kd": 1.0,
+      "torque_curve": null,
+      "mass_kg": 0.2,
+      "dimensions_m": [
+        0.05,
+        0.05,
+        0.05
+      ],
+      "mounting_transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "source_url": null,
+      "confidence": "placeholder",
+      "notes": null
+    },
+    {
+      "id": "act-rear_left_hip_pitch_joint",
+      "name": "Actuator rear_left_hip_pitch_joint",
+      "type": "virtual_motor",
+      "real_component_profile_id": "imported-auto",
+      "joint_id": "rear_left_hip_pitch_joint",
+      "control_mode": "position",
+      "max_torque_nm": 85.0,
+      "max_velocity_rad_s": 8.0,
+      "rated_voltage_v": 24.0,
+      "stall_current_a": 3.0,
+      "no_load_current_a": null,
+      "gear_ratio": null,
+      "kp": 20.0,
+      "kd": 1.0,
+      "torque_curve": null,
+      "mass_kg": 0.2,
+      "dimensions_m": [
+        0.05,
+        0.05,
+        0.05
+      ],
+      "mounting_transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "source_url": null,
+      "confidence": "placeholder",
+      "notes": null
+    },
+    {
+      "id": "act-rear_left_knee_pitch_joint",
+      "name": "Actuator rear_left_knee_pitch_joint",
+      "type": "virtual_motor",
+      "real_component_profile_id": "imported-auto",
+      "joint_id": "rear_left_knee_pitch_joint",
+      "control_mode": "position",
+      "max_torque_nm": 90.0,
+      "max_velocity_rad_s": 8.0,
+      "rated_voltage_v": 24.0,
+      "stall_current_a": 3.0,
+      "no_load_current_a": null,
+      "gear_ratio": null,
+      "kp": 20.0,
+      "kd": 1.0,
+      "torque_curve": null,
+      "mass_kg": 0.2,
+      "dimensions_m": [
+        0.05,
+        0.05,
+        0.05
+      ],
+      "mounting_transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "source_url": null,
+      "confidence": "placeholder",
+      "notes": null
+    },
+    {
+      "id": "act-rear_right_hip_abduction_joint",
+      "name": "Actuator rear_right_hip_abduction_joint",
+      "type": "virtual_motor",
+      "real_component_profile_id": "imported-auto",
+      "joint_id": "rear_right_hip_abduction_joint",
+      "control_mode": "position",
+      "max_torque_nm": 70.0,
+      "max_velocity_rad_s": 7.0,
+      "rated_voltage_v": 24.0,
+      "stall_current_a": 3.0,
+      "no_load_current_a": null,
+      "gear_ratio": null,
+      "kp": 20.0,
+      "kd": 1.0,
+      "torque_curve": null,
+      "mass_kg": 0.2,
+      "dimensions_m": [
+        0.05,
+        0.05,
+        0.05
+      ],
+      "mounting_transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "source_url": null,
+      "confidence": "placeholder",
+      "notes": null
+    },
+    {
+      "id": "act-rear_right_hip_pitch_joint",
+      "name": "Actuator rear_right_hip_pitch_joint",
+      "type": "virtual_motor",
+      "real_component_profile_id": "imported-auto",
+      "joint_id": "rear_right_hip_pitch_joint",
+      "control_mode": "position",
+      "max_torque_nm": 85.0,
+      "max_velocity_rad_s": 8.0,
+      "rated_voltage_v": 24.0,
+      "stall_current_a": 3.0,
+      "no_load_current_a": null,
+      "gear_ratio": null,
+      "kp": 20.0,
+      "kd": 1.0,
+      "torque_curve": null,
+      "mass_kg": 0.2,
+      "dimensions_m": [
+        0.05,
+        0.05,
+        0.05
+      ],
+      "mounting_transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "source_url": null,
+      "confidence": "placeholder",
+      "notes": null
+    },
+    {
+      "id": "act-rear_right_knee_pitch_joint",
+      "name": "Actuator rear_right_knee_pitch_joint",
+      "type": "virtual_motor",
+      "real_component_profile_id": "imported-auto",
+      "joint_id": "rear_right_knee_pitch_joint",
+      "control_mode": "position",
+      "max_torque_nm": 90.0,
+      "max_velocity_rad_s": 8.0,
+      "rated_voltage_v": 24.0,
+      "stall_current_a": 3.0,
+      "no_load_current_a": null,
+      "gear_ratio": null,
+      "kp": 20.0,
+      "kd": 1.0,
+      "torque_curve": null,
+      "mass_kg": 0.2,
+      "dimensions_m": [
+        0.05,
+        0.05,
+        0.05
+      ],
+      "mounting_transform": {
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_rpy": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "source_url": null,
+      "confidence": "placeholder",
+      "notes": null
+    }
+  ],
+  "electronics": [],
+  "sensors": [],
+  "wires": [],
+  "collision_primitives": [],
+  "robot_description": {
+    "preferred_format": "urdf",
+    "urdf_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\imported-fdc316c3\\assets\\imported\\robot_dog_buildables_demo.urdf",
+    "mjcf_path": null,
+    "generated_from_manifest": false
+  },
+  "environment": {},
+  "control": {
+    "script_path": null,
+    "built_in_controller": "robot_dog_default"
+  },
+  "scenarios": [
+    {
+      "id": "passive_gravity",
+      "name": "Passive Gravity",
+      "description": "Passive gravity stability test",
+      "duration_s": 4.0,
+      "config": {
+        "command_hint": "stand"
+      }
+    },
+    {
+      "id": "joint_sweep_collision",
+      "name": "Joint Sweep",
+      "description": "Sweep all detected joints",
+      "duration_s": 6.0,
+      "config": {
+        "command_hint": "walk_forward"
+      }
+    },
+    {
+      "id": "mechanism_motion",
+      "name": "Mechanism Motion",
+      "description": "Simple mechanism motion command",
+      "duration_s": 5.0,
+      "config": {
+        "command_hint": "walk_forward"
+      }
+    }
+  ],
+  "payloads": [],
+  "environments": {
+    "default": "flat"
+  },
+  "controls": {
+    "mode": "joint_command_table"
+  },
+  "tests": [],
+  "render_cameras": [],
+  "generated_robot_descriptions": {},
+  "metadata_status": {
+    "missing_mass": false,
+    "missing_material": false,
+    "missing_joint": false,
+    "missing_actuator": false,
+    "missing_sensor": true,
+    "missing_collision_mesh": true,
+    "missing_control_script": true,
+    "missing_environment": false
+  }
+}

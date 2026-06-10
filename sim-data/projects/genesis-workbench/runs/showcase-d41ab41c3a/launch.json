@@ -1,0 +1,19 @@
+{
+  "launch_id": "showcase-d41ab41c3a",
+  "project_id": "genesis-workbench",
+  "scenario_id": "genesis-simulation-interface-controlling-a-robot",
+  "demo_name": "Controlling a robot",
+  "layer": "simulation-interface",
+  "repo": "genesis-world",
+  "script_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\genesis-world\\examples\\tutorials\\control_your_robot.py",
+  "repo_root": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\genesis-world",
+  "argv": [
+    "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\genesis-world\\examples\\tutorials\\control_your_robot.py"
+  ],
+  "pid": 32172,
+  "started_at": "2026-06-04T14:44:30.237456+00:00",
+  "status": "running",
+  "upstream_url": "https://github.com/Genesis-Embodied-AI/genesis-world/blob/main/examples/tutorials/control_your_robot.py",
+  "note": "Native Genesis viewer window should open (--vis passed when the script supports it). First launch may take 30\u201360s. Check the taskbar if you do not see it."
+}

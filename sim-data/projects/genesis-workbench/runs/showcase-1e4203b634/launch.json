@@ -1,0 +1,2407 @@
+{
+  "launch_id": "showcase-1e4203b634",
+  "project_id": "genesis-workbench",
+  "scenario_id": "genesis-web-viewer-minimal-cube-motion-start-here",
+  "demo_name": "Minimal: cube motion (start here)",
+  "layer": "web-viewer",
+  "repo": "buildables",
+  "script_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\apps\\api\\app\\scripts\\minimal_web_viewer_demo.py",
+  "repo_root": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables",
+  "argv": [
+    "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\apps\\api\\app\\scripts\\showcase_launcher.py",
+    "--script",
+    "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\apps\\api\\app\\scripts\\minimal_web_viewer_demo.py",
+    "--headless",
+    "--record-web"
+  ],
+  "view_mode": "web",
+  "headless": true,
+  "started_at": "2026-06-07T05:47:01.467904+00:00",
+  "status": "completed",
+  "lifecycle": "completed",
+  "upstream_url": "https://github.com/Genesis-Embodied-AI/genesis-world",
+  "demo_type": "motion",
+  "telemetry_channels": null,
+  "kind": "simulation",
+  "sensor_type": null,
+  "note": "Running physics and recording frames for the web viewer (works on AMD and NVIDIA).",
+  "pid": 29992,
+  "replay_available": true,
+  "replay_frames": 70,
+  "replay_version": 17,
+  "replay_ready": true,
+  "replay_status": "complete",
+  "replay_partial": false,
+  "replay_fps": 24.0,
+  "replay_meta": {
+    "diagnostics": {
+      "top_level_entities": 2,
+      "robot_links": 0,
+      "visual_geoms": 0,
+      "meshes_found": 0,
+      "meshes_exported": 0,
+      "mesh_export_failures": 0,
+      "tracked_objects": 2,
+      "franka_fallback": false,
+      "motion_diagnostics": {
+        "total_frames": 500,
+        "unique_pose_count": 500,
+        "meaningful_pose_count": 252,
+        "meaningful_keyframes": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          20,
+          22,
+          24,
+          26,
+          28,
+          30,
+          32,
+          34,
+          36,
+          38,
+          40,
+          42,
+          44,
+          46,
+          48,
+          50,
+          52,
+          54,
+          56,
+          58,
+          60,
+          62,
+          64,
+          66,
+          68,
+          70,
+          72,
+          74,
+          75,
+          77,
+          79,
+          81,
+          83,
+          85,
+          87,
+          89,
+          91,
+          93,
+          95,
+          97,
+          99,
+          101,
+          103,
+          105,
+          107,
+          109,
+          111,
+          113,
+          115,
+          117,
+          119,
+          121,
+          123,
+          125,
+          127,
+          129,
+          131,
+          133,
+          135,
+          137,
+          139,
+          141,
+          143,
+          145,
+          147,
+          149,
+          151,
+          153,
+          155,
+          157,
+          159,
+          161,
+          163,
+          165,
+          167,
+          169,
+          171,
+          173,
+          175,
+          177,
+          179,
+          181,
+          183,
+          185,
+          187,
+          189,
+          191,
+          193,
+          195,
+          197,
+          199,
+          201,
+          203,
+          205,
+          207,
+          209,
+          211,
+          213,
+          215,
+          217,
+          219,
+          221,
+          223,
+          225,
+          227,
+          229,
+          231,
+          233,
+          235,
+          237,
+          239,
+          241,
+          243,
+          245,
+          247,
+          249,
+          251,
+          253,
+          255,
+          257,
+          259,
+          261,
+          263,
+          265,
+          267,
+          269,
+          271,
+          273,
+          275,
+          277,
+          279,
+          281,
+          283,
+          285,
+          287,
+          289,
+          291,
+          293,
+          295,
+          297,
+          299,
+          301,
+          303,
+          305,
+          307,
+          309,
+          311,
+          313,
+          315,
+          317,
+          319,
+          321,
+          323,
+          325,
+          326,
+          328,
+          330,
+          332,
+          334,
+          336,
+          338,
+          340,
+          342,
+          344,
+          346,
+          348,
+          350,
+          352,
+          354,
+          356,
+          358,
+          360,
+          362,
+          364,
+          366,
+          368,
+          370,
+          372,
+          374,
+          376,
+          378,
+          380,
+          382,
+          384,
+          386,
+          388,
+          390,
+          392,
+          394,
+          396,
+          398,
+          400,
+          402,
+          404,
+          406,
+          408,
+          410,
+          412,
+          414,
+          416,
+          418,
+          420,
+          422,
+          424,
+          426,
+          428,
+          429,
+          431,
+          433,
+          435,
+          437,
+          439,
+          441,
+          443,
+          445,
+          447,
+          449,
+          451,
+          453,
+          455,
+          457,
+          459,
+          461,
+          463,
+          465,
+          467,
+          469,
+          471,
+          473,
+          475,
+          477,
+          479,
+          481,
+          483,
+          485,
+          487,
+          489,
+          491,
+          493,
+          495,
+          497,
+          499
+        ],
+        "longest_freeze_run": 1,
+        "perceptual_longest_freeze_run": 1,
+        "frozen_head_length": 1,
+        "frozen_tail_length": 0,
+        "moving_frame_count": 500,
+        "frozen_runs": [],
+        "jump_frames": [
+          75,
+          177,
+          326,
+          429
+        ],
+        "jump_count": 4,
+        "change_indices": [
+          0,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "top_moving_objects": [
+          {
+            "id": "manipuland/cube",
+            "total_delta": 4.485156
+          }
+        ],
+        "primary_motion_link": "manipuland/cube",
+        "identical_frame_ratio": 0.0,
+        "recorder_issue": "none",
+        "qpos_frame_counts": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "qpos_samples": {
+          "frame_0": {
+            "plane_7f0e79e": [],
+            "box_ed025fc": [
+              0.0,
+              0.15000000596046448,
+              0.34901899099349976,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "frame_mid": {
+            "plane_7f0e79e": [],
+            "box_ed025fc": [
+              -0.01161272544413805,
+              0.15000000596046448,
+              0.3488262891769409,
+              -3.712224497576244e-06,
+              2.446219696139451e-05,
+              -1.1631716006377246e-05
+            ]
+          },
+          "frame_last": {
+            "plane_7f0e79e": [],
+            "box_ed025fc": [
+              -0.03193523734807968,
+              0.15000000596046448,
+              0.34755900502204895,
+              -3.4430524920026073e-06,
+              2.3820837668608874e-05,
+              -2.3474865884054452e-05
+            ]
+          }
+        },
+        "tracked_object_count": 1
+      },
+      "source_frame_count": 500,
+      "unique_pose_count": 500,
+      "longest_freeze_run": 1,
+      "preview_frame_count": 70,
+      "recorder_issue": "none",
+      "replay_frames": 70
+    },
+    "entities": {
+      "env/floor": {
+        "kind": "checker_floor",
+        "size": [
+          4.0,
+          4.0
+        ]
+      },
+      "manipuland/cube": {
+        "kind": "box",
+        "size": [
+          0.18,
+          0.18,
+          0.18
+        ],
+        "color": "#c54b5d"
+      }
+    },
+    "motion_diagnostics": {
+      "total_frames": 500,
+      "unique_pose_count": 500,
+      "meaningful_pose_count": 252,
+      "meaningful_keyframes": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20,
+        22,
+        24,
+        26,
+        28,
+        30,
+        32,
+        34,
+        36,
+        38,
+        40,
+        42,
+        44,
+        46,
+        48,
+        50,
+        52,
+        54,
+        56,
+        58,
+        60,
+        62,
+        64,
+        66,
+        68,
+        70,
+        72,
+        74,
+        75,
+        77,
+        79,
+        81,
+        83,
+        85,
+        87,
+        89,
+        91,
+        93,
+        95,
+        97,
+        99,
+        101,
+        103,
+        105,
+        107,
+        109,
+        111,
+        113,
+        115,
+        117,
+        119,
+        121,
+        123,
+        125,
+        127,
+        129,
+        131,
+        133,
+        135,
+        137,
+        139,
+        141,
+        143,
+        145,
+        147,
+        149,
+        151,
+        153,
+        155,
+        157,
+        159,
+        161,
+        163,
+        165,
+        167,
+        169,
+        171,
+        173,
+        175,
+        177,
+        179,
+        181,
+        183,
+        185,
+        187,
+        189,
+        191,
+        193,
+        195,
+        197,
+        199,
+        201,
+        203,
+        205,
+        207,
+        209,
+        211,
+        213,
+        215,
+        217,
+        219,
+        221,
+        223,
+        225,
+        227,
+        229,
+        231,
+        233,
+        235,
+        237,
+        239,
+        241,
+        243,
+        245,
+        247,
+        249,
+        251,
+        253,
+        255,
+        257,
+        259,
+        261,
+        263,
+        265,
+        267,
+        269,
+        271,
+        273,
+        275,
+        277,
+        279,
+        281,
+        283,
+        285,
+        287,
+        289,
+        291,
+        293,
+        295,
+        297,
+        299,
+        301,
+        303,
+        305,
+        307,
+        309,
+        311,
+        313,
+        315,
+        317,
+        319,
+        321,
+        323,
+        325,
+        326,
+        328,
+        330,
+        332,
+        334,
+        336,
+        338,
+        340,
+        342,
+        344,
+        346,
+        348,
+        350,
+        352,
+        354,
+        356,
+        358,
+        360,
+        362,
+        364,
+        366,
+        368,
+        370,
+        372,
+        374,
+        376,
+        378,
+        380,
+        382,
+        384,
+        386,
+        388,
+        390,
+        392,
+        394,
+        396,
+        398,
+        400,
+        402,
+        404,
+        406,
+        408,
+        410,
+        412,
+        414,
+        416,
+        418,
+        420,
+        422,
+        424,
+        426,
+        428,
+        429,
+        431,
+        433,
+        435,
+        437,
+        439,
+        441,
+        443,
+        445,
+        447,
+        449,
+        451,
+        453,
+        455,
+        457,
+        459,
+        461,
+        463,
+        465,
+        467,
+        469,
+        471,
+        473,
+        475,
+        477,
+        479,
+        481,
+        483,
+        485,
+        487,
+        489,
+        491,
+        493,
+        495,
+        497,
+        499
+      ],
+      "longest_freeze_run": 1,
+      "perceptual_longest_freeze_run": 1,
+      "frozen_head_length": 1,
+      "frozen_tail_length": 0,
+      "moving_frame_count": 500,
+      "frozen_runs": [],
+      "jump_frames": [
+        75,
+        177,
+        326,
+        429
+      ],
+      "jump_count": 4,
+      "change_indices": [
+        0,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "top_moving_objects": [
+        {
+          "id": "manipuland/cube",
+          "total_delta": 4.485156
+        }
+      ],
+      "primary_motion_link": "manipuland/cube",
+      "identical_frame_ratio": 0.0,
+      "recorder_issue": "none",
+      "qpos_frame_counts": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "qpos_samples": {
+        "frame_0": {
+          "plane_7f0e79e": [],
+          "box_ed025fc": [
+            0.0,
+            0.15000000596046448,
+            0.34901899099349976,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "frame_mid": {
+          "plane_7f0e79e": [],
+          "box_ed025fc": [
+            -0.01161272544413805,
+            0.15000000596046448,
+            0.3488262891769409,
+            -3.712224497576244e-06,
+            2.446219696139451e-05,
+            -1.1631716006377246e-05
+          ]
+        },
+        "frame_last": {
+          "plane_7f0e79e": [],
+          "box_ed025fc": [
+            -0.03193523734807968,
+            0.15000000596046448,
+            0.34755900502204895,
+            -3.4430524920026073e-06,
+            2.3820837668608874e-05,
+            -2.3474865884054452e-05
+          ]
+        }
+      },
+      "tracked_object_count": 1
+    },
+    "source_frame_count": 500,
+    "unique_pose_count": 500,
+    "preview_frame_count": 70,
+    "preview_meta": {
+      "preview_frame_count": 70,
+      "keyframe_count": 251,
+      "keyframes": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20,
+        22,
+        24,
+        26,
+        28,
+        30,
+        32,
+        34,
+        36,
+        38,
+        40,
+        42,
+        44,
+        46,
+        48,
+        50,
+        52,
+        54,
+        56,
+        58,
+        60,
+        62,
+        64,
+        66,
+        68,
+        70,
+        72,
+        74,
+        76,
+        78,
+        80,
+        82,
+        84,
+        86,
+        88,
+        90,
+        92,
+        94,
+        96,
+        98,
+        100,
+        102,
+        104,
+        106,
+        108,
+        110,
+        112,
+        114,
+        116,
+        118,
+        120,
+        122,
+        124,
+        126,
+        128,
+        130,
+        132,
+        134,
+        136,
+        138,
+        140,
+        142,
+        144,
+        146,
+        148,
+        150,
+        152,
+        154,
+        156,
+        158,
+        160,
+        162,
+        164,
+        166,
+        168,
+        170,
+        172,
+        174,
+        176,
+        178,
+        180,
+        182,
+        184,
+        186,
+        188,
+        190,
+        192,
+        194,
+        196,
+        198,
+        200,
+        202,
+        204,
+        206,
+        208,
+        210,
+        212,
+        214,
+        216,
+        218,
+        220,
+        222,
+        224,
+        226,
+        228,
+        230,
+        232,
+        234,
+        236,
+        238,
+        240,
+        242,
+        244,
+        246,
+        248,
+        250,
+        252,
+        254,
+        256,
+        258,
+        260,
+        262,
+        264,
+        266,
+        268,
+        270,
+        272,
+        274,
+        276,
+        278,
+        280,
+        282,
+        284,
+        286,
+        288,
+        290,
+        292,
+        294,
+        296,
+        298,
+        300,
+        302,
+        304,
+        306,
+        308,
+        310,
+        312,
+        314,
+        316,
+        318,
+        320,
+        322,
+        324,
+        325,
+        327,
+        329,
+        331,
+        333,
+        335,
+        337,
+        339,
+        341,
+        343,
+        345,
+        347,
+        349,
+        351,
+        353,
+        355,
+        357,
+        359,
+        361,
+        363,
+        365,
+        367,
+        369,
+        371,
+        373,
+        375,
+        377,
+        379,
+        381,
+        383,
+        385,
+        387,
+        389,
+        391,
+        393,
+        395,
+        397,
+        399,
+        401,
+        403,
+        405,
+        407,
+        409,
+        411,
+        413,
+        415,
+        417,
+        419,
+        421,
+        423,
+        425,
+        427,
+        428,
+        430,
+        432,
+        434,
+        436,
+        438,
+        440,
+        442,
+        444,
+        446,
+        448,
+        450,
+        452,
+        454,
+        456,
+        458,
+        460,
+        462,
+        464,
+        466,
+        468,
+        470,
+        472,
+        474,
+        476,
+        478,
+        480,
+        482,
+        484,
+        486,
+        488,
+        490,
+        492,
+        494,
+        496,
+        498
+      ],
+      "pose_groups": [
+        {
+          "start": 0,
+          "end": 1,
+          "keyframe_index": 0
+        },
+        {
+          "start": 2,
+          "end": 3,
+          "keyframe_index": 2
+        },
+        {
+          "start": 4,
+          "end": 5,
+          "keyframe_index": 4
+        },
+        {
+          "start": 6,
+          "end": 7,
+          "keyframe_index": 6
+        },
+        {
+          "start": 8,
+          "end": 9,
+          "keyframe_index": 8
+        },
+        {
+          "start": 10,
+          "end": 11,
+          "keyframe_index": 10
+        },
+        {
+          "start": 12,
+          "end": 13,
+          "keyframe_index": 12
+        },
+        {
+          "start": 14,
+          "end": 15,
+          "keyframe_index": 14
+        },
+        {
+          "start": 16,
+          "end": 17,
+          "keyframe_index": 16
+        },
+        {
+          "start": 18,
+          "end": 19,
+          "keyframe_index": 18
+        },
+        {
+          "start": 20,
+          "end": 21,
+          "keyframe_index": 20
+        },
+        {
+          "start": 22,
+          "end": 23,
+          "keyframe_index": 22
+        },
+        {
+          "start": 24,
+          "end": 25,
+          "keyframe_index": 24
+        },
+        {
+          "start": 26,
+          "end": 27,
+          "keyframe_index": 26
+        },
+        {
+          "start": 28,
+          "end": 29,
+          "keyframe_index": 28
+        },
+        {
+          "start": 30,
+          "end": 31,
+          "keyframe_index": 30
+        },
+        {
+          "start": 32,
+          "end": 33,
+          "keyframe_index": 32
+        },
+        {
+          "start": 34,
+          "end": 35,
+          "keyframe_index": 34
+        },
+        {
+          "start": 36,
+          "end": 37,
+          "keyframe_index": 36
+        },
+        {
+          "start": 38,
+          "end": 39,
+          "keyframe_index": 38
+        },
+        {
+          "start": 40,
+          "end": 41,
+          "keyframe_index": 40
+        },
+        {
+          "start": 42,
+          "end": 43,
+          "keyframe_index": 42
+        },
+        {
+          "start": 44,
+          "end": 45,
+          "keyframe_index": 44
+        },
+        {
+          "start": 46,
+          "end": 47,
+          "keyframe_index": 46
+        },
+        {
+          "start": 48,
+          "end": 49,
+          "keyframe_index": 48
+        },
+        {
+          "start": 50,
+          "end": 51,
+          "keyframe_index": 50
+        },
+        {
+          "start": 52,
+          "end": 53,
+          "keyframe_index": 52
+        },
+        {
+          "start": 54,
+          "end": 55,
+          "keyframe_index": 54
+        },
+        {
+          "start": 56,
+          "end": 57,
+          "keyframe_index": 56
+        },
+        {
+          "start": 58,
+          "end": 59,
+          "keyframe_index": 58
+        },
+        {
+          "start": 60,
+          "end": 61,
+          "keyframe_index": 60
+        },
+        {
+          "start": 62,
+          "end": 63,
+          "keyframe_index": 62
+        },
+        {
+          "start": 64,
+          "end": 65,
+          "keyframe_index": 64
+        },
+        {
+          "start": 66,
+          "end": 67,
+          "keyframe_index": 66
+        },
+        {
+          "start": 68,
+          "end": 69,
+          "keyframe_index": 68
+        },
+        {
+          "start": 70,
+          "end": 71,
+          "keyframe_index": 70
+        },
+        {
+          "start": 72,
+          "end": 73,
+          "keyframe_index": 72
+        },
+        {
+          "start": 74,
+          "end": 75,
+          "keyframe_index": 74
+        },
+        {
+          "start": 76,
+          "end": 77,
+          "keyframe_index": 76
+        },
+        {
+          "start": 78,
+          "end": 79,
+          "keyframe_index": 78
+        },
+        {
+          "start": 80,
+          "end": 81,
+          "keyframe_index": 80
+        },
+        {
+          "start": 82,
+          "end": 83,
+          "keyframe_index": 82
+        },
+        {
+          "start": 84,
+          "end": 85,
+          "keyframe_index": 84
+        },
+        {
+          "start": 86,
+          "end": 87,
+          "keyframe_index": 86
+        },
+        {
+          "start": 88,
+          "end": 89,
+          "keyframe_index": 88
+        },
+        {
+          "start": 90,
+          "end": 91,
+          "keyframe_index": 90
+        },
+        {
+          "start": 92,
+          "end": 93,
+          "keyframe_index": 92
+        },
+        {
+          "start": 94,
+          "end": 95,
+          "keyframe_index": 94
+        },
+        {
+          "start": 96,
+          "end": 97,
+          "keyframe_index": 96
+        },
+        {
+          "start": 98,
+          "end": 99,
+          "keyframe_index": 98
+        },
+        {
+          "start": 100,
+          "end": 101,
+          "keyframe_index": 100
+        },
+        {
+          "start": 102,
+          "end": 103,
+          "keyframe_index": 102
+        },
+        {
+          "start": 104,
+          "end": 105,
+          "keyframe_index": 104
+        },
+        {
+          "start": 106,
+          "end": 107,
+          "keyframe_index": 106
+        },
+        {
+          "start": 108,
+          "end": 109,
+          "keyframe_index": 108
+        },
+        {
+          "start": 110,
+          "end": 111,
+          "keyframe_index": 110
+        },
+        {
+          "start": 112,
+          "end": 113,
+          "keyframe_index": 112
+        },
+        {
+          "start": 114,
+          "end": 115,
+          "keyframe_index": 114
+        },
+        {
+          "start": 116,
+          "end": 117,
+          "keyframe_index": 116
+        },
+        {
+          "start": 118,
+          "end": 119,
+          "keyframe_index": 118
+        },
+        {
+          "start": 120,
+          "end": 121,
+          "keyframe_index": 120
+        },
+        {
+          "start": 122,
+          "end": 123,
+          "keyframe_index": 122
+        },
+        {
+          "start": 124,
+          "end": 125,
+          "keyframe_index": 124
+        },
+        {
+          "start": 126,
+          "end": 127,
+          "keyframe_index": 126
+        },
+        {
+          "start": 128,
+          "end": 129,
+          "keyframe_index": 128
+        },
+        {
+          "start": 130,
+          "end": 131,
+          "keyframe_index": 130
+        },
+        {
+          "start": 132,
+          "end": 133,
+          "keyframe_index": 132
+        },
+        {
+          "start": 134,
+          "end": 135,
+          "keyframe_index": 134
+        },
+        {
+          "start": 136,
+          "end": 137,
+          "keyframe_index": 136
+        },
+        {
+          "start": 138,
+          "end": 139,
+          "keyframe_index": 138
+        },
+        {
+          "start": 140,
+          "end": 141,
+          "keyframe_index": 140
+        },
+        {
+          "start": 142,
+          "end": 143,
+          "keyframe_index": 142
+        },
+        {
+          "start": 144,
+          "end": 145,
+          "keyframe_index": 144
+        },
+        {
+          "start": 146,
+          "end": 147,
+          "keyframe_index": 146
+        },
+        {
+          "start": 148,
+          "end": 149,
+          "keyframe_index": 148
+        },
+        {
+          "start": 150,
+          "end": 151,
+          "keyframe_index": 150
+        },
+        {
+          "start": 152,
+          "end": 153,
+          "keyframe_index": 152
+        },
+        {
+          "start": 154,
+          "end": 155,
+          "keyframe_index": 154
+        },
+        {
+          "start": 156,
+          "end": 157,
+          "keyframe_index": 156
+        },
+        {
+          "start": 158,
+          "end": 159,
+          "keyframe_index": 158
+        },
+        {
+          "start": 160,
+          "end": 161,
+          "keyframe_index": 160
+        },
+        {
+          "start": 162,
+          "end": 163,
+          "keyframe_index": 162
+        },
+        {
+          "start": 164,
+          "end": 165,
+          "keyframe_index": 164
+        },
+        {
+          "start": 166,
+          "end": 167,
+          "keyframe_index": 166
+        },
+        {
+          "start": 168,
+          "end": 169,
+          "keyframe_index": 168
+        },
+        {
+          "start": 170,
+          "end": 171,
+          "keyframe_index": 170
+        },
+        {
+          "start": 172,
+          "end": 173,
+          "keyframe_index": 172
+        },
+        {
+          "start": 174,
+          "end": 175,
+          "keyframe_index": 174
+        },
+        {
+          "start": 176,
+          "end": 177,
+          "keyframe_index": 176
+        },
+        {
+          "start": 178,
+          "end": 179,
+          "keyframe_index": 178
+        },
+        {
+          "start": 180,
+          "end": 181,
+          "keyframe_index": 180
+        },
+        {
+          "start": 182,
+          "end": 183,
+          "keyframe_index": 182
+        },
+        {
+          "start": 184,
+          "end": 185,
+          "keyframe_index": 184
+        },
+        {
+          "start": 186,
+          "end": 187,
+          "keyframe_index": 186
+        },
+        {
+          "start": 188,
+          "end": 189,
+          "keyframe_index": 188
+        },
+        {
+          "start": 190,
+          "end": 191,
+          "keyframe_index": 190
+        },
+        {
+          "start": 192,
+          "end": 193,
+          "keyframe_index": 192
+        },
+        {
+          "start": 194,
+          "end": 195,
+          "keyframe_index": 194
+        },
+        {
+          "start": 196,
+          "end": 197,
+          "keyframe_index": 196
+        },
+        {
+          "start": 198,
+          "end": 199,
+          "keyframe_index": 198
+        },
+        {
+          "start": 200,
+          "end": 201,
+          "keyframe_index": 200
+        },
+        {
+          "start": 202,
+          "end": 203,
+          "keyframe_index": 202
+        },
+        {
+          "start": 204,
+          "end": 205,
+          "keyframe_index": 204
+        },
+        {
+          "start": 206,
+          "end": 207,
+          "keyframe_index": 206
+        },
+        {
+          "start": 208,
+          "end": 209,
+          "keyframe_index": 208
+        },
+        {
+          "start": 210,
+          "end": 211,
+          "keyframe_index": 210
+        },
+        {
+          "start": 212,
+          "end": 213,
+          "keyframe_index": 212
+        },
+        {
+          "start": 214,
+          "end": 215,
+          "keyframe_index": 214
+        },
+        {
+          "start": 216,
+          "end": 217,
+          "keyframe_index": 216
+        },
+        {
+          "start": 218,
+          "end": 219,
+          "keyframe_index": 218
+        },
+        {
+          "start": 220,
+          "end": 221,
+          "keyframe_index": 220
+        },
+        {
+          "start": 222,
+          "end": 223,
+          "keyframe_index": 222
+        },
+        {
+          "start": 224,
+          "end": 225,
+          "keyframe_index": 224
+        },
+        {
+          "start": 226,
+          "end": 227,
+          "keyframe_index": 226
+        },
+        {
+          "start": 228,
+          "end": 229,
+          "keyframe_index": 228
+        },
+        {
+          "start": 230,
+          "end": 231,
+          "keyframe_index": 230
+        },
+        {
+          "start": 232,
+          "end": 233,
+          "keyframe_index": 232
+        },
+        {
+          "start": 234,
+          "end": 235,
+          "keyframe_index": 234
+        },
+        {
+          "start": 236,
+          "end": 237,
+          "keyframe_index": 236
+        },
+        {
+          "start": 238,
+          "end": 239,
+          "keyframe_index": 238
+        },
+        {
+          "start": 240,
+          "end": 241,
+          "keyframe_index": 240
+        },
+        {
+          "start": 242,
+          "end": 243,
+          "keyframe_index": 242
+        },
+        {
+          "start": 244,
+          "end": 245,
+          "keyframe_index": 244
+        },
+        {
+          "start": 246,
+          "end": 247,
+          "keyframe_index": 246
+        },
+        {
+          "start": 248,
+          "end": 249,
+          "keyframe_index": 248
+        },
+        {
+          "start": 250,
+          "end": 251,
+          "keyframe_index": 250
+        },
+        {
+          "start": 252,
+          "end": 253,
+          "keyframe_index": 252
+        },
+        {
+          "start": 254,
+          "end": 255,
+          "keyframe_index": 254
+        },
+        {
+          "start": 256,
+          "end": 257,
+          "keyframe_index": 256
+        },
+        {
+          "start": 258,
+          "end": 259,
+          "keyframe_index": 258
+        },
+        {
+          "start": 260,
+          "end": 261,
+          "keyframe_index": 260
+        },
+        {
+          "start": 262,
+          "end": 263,
+          "keyframe_index": 262
+        },
+        {
+          "start": 264,
+          "end": 265,
+          "keyframe_index": 264
+        },
+        {
+          "start": 266,
+          "end": 267,
+          "keyframe_index": 266
+        },
+        {
+          "start": 268,
+          "end": 269,
+          "keyframe_index": 268
+        },
+        {
+          "start": 270,
+          "end": 271,
+          "keyframe_index": 270
+        },
+        {
+          "start": 272,
+          "end": 273,
+          "keyframe_index": 272
+        },
+        {
+          "start": 274,
+          "end": 275,
+          "keyframe_index": 274
+        },
+        {
+          "start": 276,
+          "end": 277,
+          "keyframe_index": 276
+        },
+        {
+          "start": 278,
+          "end": 279,
+          "keyframe_index": 278
+        },
+        {
+          "start": 280,
+          "end": 281,
+          "keyframe_index": 280
+        },
+        {
+          "start": 282,
+          "end": 283,
+          "keyframe_index": 282
+        },
+        {
+          "start": 284,
+          "end": 285,
+          "keyframe_index": 284
+        },
+        {
+          "start": 286,
+          "end": 287,
+          "keyframe_index": 286
+        },
+        {
+          "start": 288,
+          "end": 289,
+          "keyframe_index": 288
+        },
+        {
+          "start": 290,
+          "end": 291,
+          "keyframe_index": 290
+        },
+        {
+          "start": 292,
+          "end": 293,
+          "keyframe_index": 292
+        },
+        {
+          "start": 294,
+          "end": 295,
+          "keyframe_index": 294
+        },
+        {
+          "start": 296,
+          "end": 297,
+          "keyframe_index": 296
+        },
+        {
+          "start": 298,
+          "end": 299,
+          "keyframe_index": 298
+        },
+        {
+          "start": 300,
+          "end": 301,
+          "keyframe_index": 300
+        },
+        {
+          "start": 302,
+          "end": 303,
+          "keyframe_index": 302
+        },
+        {
+          "start": 304,
+          "end": 305,
+          "keyframe_index": 304
+        },
+        {
+          "start": 306,
+          "end": 307,
+          "keyframe_index": 306
+        },
+        {
+          "start": 308,
+          "end": 309,
+          "keyframe_index": 308
+        },
+        {
+          "start": 310,
+          "end": 311,
+          "keyframe_index": 310
+        },
+        {
+          "start": 312,
+          "end": 313,
+          "keyframe_index": 312
+        },
+        {
+          "start": 314,
+          "end": 315,
+          "keyframe_index": 314
+        },
+        {
+          "start": 316,
+          "end": 317,
+          "keyframe_index": 316
+        },
+        {
+          "start": 318,
+          "end": 319,
+          "keyframe_index": 318
+        },
+        {
+          "start": 320,
+          "end": 321,
+          "keyframe_index": 320
+        },
+        {
+          "start": 322,
+          "end": 323,
+          "keyframe_index": 322
+        },
+        {
+          "start": 324,
+          "end": 324,
+          "keyframe_index": 324
+        },
+        {
+          "start": 325,
+          "end": 326,
+          "keyframe_index": 325
+        },
+        {
+          "start": 327,
+          "end": 328,
+          "keyframe_index": 327
+        },
+        {
+          "start": 329,
+          "end": 330,
+          "keyframe_index": 329
+        },
+        {
+          "start": 331,
+          "end": 332,
+          "keyframe_index": 331
+        },
+        {
+          "start": 333,
+          "end": 334,
+          "keyframe_index": 333
+        },
+        {
+          "start": 335,
+          "end": 336,
+          "keyframe_index": 335
+        },
+        {
+          "start": 337,
+          "end": 338,
+          "keyframe_index": 337
+        },
+        {
+          "start": 339,
+          "end": 340,
+          "keyframe_index": 339
+        },
+        {
+          "start": 341,
+          "end": 342,
+          "keyframe_index": 341
+        },
+        {
+          "start": 343,
+          "end": 344,
+          "keyframe_index": 343
+        },
+        {
+          "start": 345,
+          "end": 346,
+          "keyframe_index": 345
+        },
+        {
+          "start": 347,
+          "end": 348,
+          "keyframe_index": 347
+        },
+        {
+          "start": 349,
+          "end": 350,
+          "keyframe_index": 349
+        },
+        {
+          "start": 351,
+          "end": 352,
+          "keyframe_index": 351
+        },
+        {
+          "start": 353,
+          "end": 354,
+          "keyframe_index": 353
+        },
+        {
+          "start": 355,
+          "end": 356,
+          "keyframe_index": 355
+        },
+        {
+          "start": 357,
+          "end": 358,
+          "keyframe_index": 357
+        },
+        {
+          "start": 359,
+          "end": 360,
+          "keyframe_index": 359
+        },
+        {
+          "start": 361,
+          "end": 362,
+          "keyframe_index": 361
+        },
+        {
+          "start": 363,
+          "end": 364,
+          "keyframe_index": 363
+        },
+        {
+          "start": 365,
+          "end": 366,
+          "keyframe_index": 365
+        },
+        {
+          "start": 367,
+          "end": 368,
+          "keyframe_index": 367
+        },
+        {
+          "start": 369,
+          "end": 370,
+          "keyframe_index": 369
+        },
+        {
+          "start": 371,
+          "end": 372,
+          "keyframe_index": 371
+        },
+        {
+          "start": 373,
+          "end": 374,
+          "keyframe_index": 373
+        },
+        {
+          "start": 375,
+          "end": 376,
+          "keyframe_index": 375
+        },
+        {
+          "start": 377,
+          "end": 378,
+          "keyframe_index": 377
+        },
+        {
+          "start": 379,
+          "end": 380,
+          "keyframe_index": 379
+        },
+        {
+          "start": 381,
+          "end": 382,
+          "keyframe_index": 381
+        },
+        {
+          "start": 383,
+          "end": 384,
+          "keyframe_index": 383
+        },
+        {
+          "start": 385,
+          "end": 386,
+          "keyframe_index": 385
+        },
+        {
+          "start": 387,
+          "end": 388,
+          "keyframe_index": 387
+        },
+        {
+          "start": 389,
+          "end": 390,
+          "keyframe_index": 389
+        },
+        {
+          "start": 391,
+          "end": 392,
+          "keyframe_index": 391
+        },
+        {
+          "start": 393,
+          "end": 394,
+          "keyframe_index": 393
+        },
+        {
+          "start": 395,
+          "end": 396,
+          "keyframe_index": 395
+        },
+        {
+          "start": 397,
+          "end": 398,
+          "keyframe_index": 397
+        },
+        {
+          "start": 399,
+          "end": 400,
+          "keyframe_index": 399
+        },
+        {
+          "start": 401,
+          "end": 402,
+          "keyframe_index": 401
+        },
+        {
+          "start": 403,
+          "end": 404,
+          "keyframe_index": 403
+        },
+        {
+          "start": 405,
+          "end": 406,
+          "keyframe_index": 405
+        },
+        {
+          "start": 407,
+          "end": 408,
+          "keyframe_index": 407
+        },
+        {
+          "start": 409,
+          "end": 410,
+          "keyframe_index": 409
+        },
+        {
+          "start": 411,
+          "end": 412,
+          "keyframe_index": 411
+        },
+        {
+          "start": 413,
+          "end": 414,
+          "keyframe_index": 413
+        },
+        {
+          "start": 415,
+          "end": 416,
+          "keyframe_index": 415
+        },
+        {
+          "start": 417,
+          "end": 418,
+          "keyframe_index": 417
+        },
+        {
+          "start": 419,
+          "end": 420,
+          "keyframe_index": 419
+        },
+        {
+          "start": 421,
+          "end": 422,
+          "keyframe_index": 421
+        },
+        {
+          "start": 423,
+          "end": 424,
+          "keyframe_index": 423
+        },
+        {
+          "start": 425,
+          "end": 426,
+          "keyframe_index": 425
+        },
+        {
+          "start": 427,
+          "end": 427,
+          "keyframe_index": 427
+        },
+        {
+          "start": 428,
+          "end": 429,
+          "keyframe_index": 428
+        },
+        {
+          "start": 430,
+          "end": 431,
+          "keyframe_index": 430
+        },
+        {
+          "start": 432,
+          "end": 433,
+          "keyframe_index": 432
+        },
+        {
+          "start": 434,
+          "end": 435,
+          "keyframe_index": 434
+        },
+        {
+          "start": 436,
+          "end": 437,
+          "keyframe_index": 436
+        },
+        {
+          "start": 438,
+          "end": 439,
+          "keyframe_index": 438
+        },
+        {
+          "start": 440,
+          "end": 441,
+          "keyframe_index": 440
+        },
+        {
+          "start": 442,
+          "end": 443,
+          "keyframe_index": 442
+        },
+        {
+          "start": 444,
+          "end": 445,
+          "keyframe_index": 444
+        },
+        {
+          "start": 446,
+          "end": 447,
+          "keyframe_index": 446
+        },
+        {
+          "start": 448,
+          "end": 449,
+          "keyframe_index": 448
+        },
+        {
+          "start": 450,
+          "end": 451,
+          "keyframe_index": 450
+        },
+        {
+          "start": 452,
+          "end": 453,
+          "keyframe_index": 452
+        },
+        {
+          "start": 454,
+          "end": 455,
+          "keyframe_index": 454
+        },
+        {
+          "start": 456,
+          "end": 457,
+          "keyframe_index": 456
+        },
+        {
+          "start": 458,
+          "end": 459,
+          "keyframe_index": 458
+        },
+        {
+          "start": 460,
+          "end": 461,
+          "keyframe_index": 460
+        },
+        {
+          "start": 462,
+          "end": 463,
+          "keyframe_index": 462
+        },
+        {
+          "start": 464,
+          "end": 465,
+          "keyframe_index": 464
+        },
+        {
+          "start": 466,
+          "end": 467,
+          "keyframe_index": 466
+        },
+        {
+          "start": 468,
+          "end": 469,
+          "keyframe_index": 468
+        },
+        {
+          "start": 470,
+          "end": 471,
+          "keyframe_index": 470
+        },
+        {
+          "start": 472,
+          "end": 473,
+          "keyframe_index": 472
+        },
+        {
+          "start": 474,
+          "end": 475,
+          "keyframe_index": 474
+        },
+        {
+          "start": 476,
+          "end": 477,
+          "keyframe_index": 476
+        },
+        {
+          "start": 478,
+          "end": 479,
+          "keyframe_index": 478
+        },
+        {
+          "start": 480,
+          "end": 481,
+          "keyframe_index": 480
+        },
+        {
+          "start": 482,
+          "end": 483,
+          "keyframe_index": 482
+        },
+        {
+          "start": 484,
+          "end": 485,
+          "keyframe_index": 484
+        },
+        {
+          "start": 486,
+          "end": 487,
+          "keyframe_index": 486
+        },
+        {
+          "start": 488,
+          "end": 489,
+          "keyframe_index": 488
+        },
+        {
+          "start": 490,
+          "end": 491,
+          "keyframe_index": 490
+        },
+        {
+          "start": 492,
+          "end": 493,
+          "keyframe_index": 492
+        },
+        {
+          "start": 494,
+          "end": 495,
+          "keyframe_index": 494
+        },
+        {
+          "start": 496,
+          "end": 497,
+          "keyframe_index": 496
+        },
+        {
+          "start": 498,
+          "end": 498,
+          "keyframe_index": 498
+        }
+      ],
+      "segment_plan": [
+        {
+          "index": 0,
+          "start_idx": 0,
+          "end_idx": 2,
+          "segment_frames": 1
+        },
+        {
+          "index": 36,
+          "start_idx": 72,
+          "end_idx": 74,
+          "segment_frames": 24
+        },
+        {
+          "index": 87,
+          "start_idx": 174,
+          "end_idx": 176,
+          "segment_frames": 24
+        },
+        {
+          "index": 214,
+          "start_idx": 427,
+          "end_idx": 428,
+          "segment_frames": 24
+        },
+        {
+          "index": 249,
+          "start_idx": 496,
+          "end_idx": 498,
+          "segment_frames": 1
+        }
+      ],
+      "preview_fps": 24.0,
+      "mode": "smooth_preview",
+      "preserve_holds": false,
+      "trim_info": {
+        "frozen_head_length": 1,
+        "frozen_tail_length": 0,
+        "first_motion_index": 1,
+        "last_motion_index": 69,
+        "collapsed_frames": 0,
+        "trim_log": [
+          "Trimmed frozen head: 1 frames",
+          "Trimmed frozen tail: 0 frames"
+        ],
+        "source_frame_count": 500,
+        "trimmed_head_frames": 1,
+        "trimmed_tail_frames": 0,
+        "preview_distinct_pose_count": 70,
+        "moving_frame_count": 70
+      },
+      "validation": {
+        "preview_frames": 70,
+        "moving_frames": 70,
+        "frozen_tail_starts_at": null,
+        "longest_frozen_run": 1,
+        "max_position_jump": 0.664483,
+        "max_angular_jump_deg": 0.691,
+        "visible_links_changing_after_tail": true,
+        "total_frames": 70,
+        "repeated_consecutive_frames": 0,
+        "max_angular_jump_rad": 0.01206,
+        "valid": false
+      },
+      "preview_motion_diagnostics": {
+        "preview_frames": 70,
+        "moving_frames": 70,
+        "frozen_tail_starts_at": null,
+        "longest_frozen_run": 1,
+        "max_position_jump": 0.664483,
+        "max_angular_jump_deg": 0.691,
+        "visible_links_changing_after_tail": true
+      },
+      "cap_info": {
+        "capped": false,
+        "preview_expansion_ratio": 1.0
+      }
+    },
+    "preview_validation": {
+      "preview_frames": 70,
+      "moving_frames": 70,
+      "frozen_tail_starts_at": null,
+      "longest_frozen_run": 1,
+      "max_position_jump": 0.664483,
+      "max_angular_jump_deg": 0.691,
+      "visible_links_changing_after_tail": true,
+      "total_frames": 70,
+      "repeated_consecutive_frames": 0,
+      "max_angular_jump_rad": 0.01206,
+      "valid": false
+    },
+    "demo_type": "motion",
+    "script_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\apps\\api\\app\\scripts\\minimal_web_viewer_demo.py",
+    "kind": "simulation",
+    "scenario_id": "genesis-web-viewer-minimal-cube-motion-start-here",
+    "visual_raw_frame_count": 500,
+    "telemetry_sample_count": 0,
+    "telemetry_distinct_sample_count": 0,
+    "longest_repeated_telemetry_run": 0,
+    "visual_trim_applied": true,
+    "telemetry_trim_applied": false,
+    "trim_reason": "motion_demo_visual_trim",
+    "replay_mode": "smooth_preview",
+    "playback_fps": 24,
+    "demo_name": "Minimal: cube motion (start here)",
+    "repo": "buildables",
+    "preview_expansion_ratio": 1.0,
+    "preview_duration_sec": null,
+    "preview_motion_diagnostics": {
+      "preview_frames": 70,
+      "moving_frames": 70,
+      "frozen_tail_starts_at": null,
+      "longest_frozen_run": 1,
+      "max_position_jump": 0.664483,
+      "max_angular_jump_deg": 0.691,
+      "visible_links_changing_after_tail": true
+    }
+  },
+  "replay_objects": 2,
+  "replay_robot_links": 0,
+  "replay_tracked_objects": 2,
+  "source_frame_count": 500,
+  "preview_frame_count": 70,
+  "unique_pose_count": 500,
+  "replay_mode": "smooth_preview",
+  "exit_code": 0,
+  "ended_at": "2026-06-07T05:47:18.489929+00:00"
+}

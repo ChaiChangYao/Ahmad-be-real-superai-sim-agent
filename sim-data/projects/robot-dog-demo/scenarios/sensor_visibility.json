@@ -1,0 +1,8 @@
+﻿{
+    "config":  {
+                   "required_clearance_m":  0.15
+               },
+    "duration_s":  5,
+    "name":  "Sensor Visibility",
+    "id":  "sensor_visibility"
+}

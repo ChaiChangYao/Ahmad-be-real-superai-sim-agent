@@ -1,0 +1,8 @@
+﻿{
+    "config":  {
+                   "terrain":  "rough"
+               },
+    "duration_s":  8,
+    "name":  "Rough Terrain",
+    "id":  "rough_terrain"
+}

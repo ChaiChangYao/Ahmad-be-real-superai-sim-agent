@@ -1,0 +1,106 @@
+{
+  "run_id": "agentic-57d2563495",
+  "project_id": "default-robot-dog",
+  "script_id": "script-08102ef554",
+  "test_id": "static_mesh_preview",
+  "template_id": "static_mesh_preview",
+  "backend": "local",
+  "status": "timed_out",
+  "created_at": "2026-06-08T06:17:25.805428+00:00",
+  "started_at": "2026-06-08T06:17:25.851432+00:00",
+  "completed_at": "2026-06-08T06:17:46.163637+00:00",
+  "run_dir": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\runs\\agentic-57d2563495",
+  "command": [
+    "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\apps\\api\\.venv\\Scripts\\python.exe",
+    "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\apps\\api\\app\\scripts\\showcase_launcher.py",
+    "--script",
+    "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\runs\\agentic-57d2563495\\generated\\script.py",
+    "--headless",
+    "--record-web"
+  ],
+  "pid": 32880,
+  "exit_code": 1,
+  "timeout_seconds": 20,
+  "stdout_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\runs\\agentic-57d2563495\\stdout.log",
+  "stderr_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\runs\\agentic-57d2563495\\stderr.log",
+  "combined_log_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\runs\\agentic-57d2563495\\combined.log",
+  "manifest_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\runs\\agentic-57d2563495\\manifest.json",
+  "replay_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\runs\\agentic-57d2563495\\state_timeseries.json",
+  "telemetry_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\runs\\agentic-57d2563495\\telemetry_timeseries.json",
+  "report_path": "",
+  "error_summary": "Simulation exceeded 20 second limit.",
+  "warning_summary": "",
+  "artifacts": [
+    {
+      "artifact_id": "agentic-57d2563495:manifest",
+      "run_id": "agentic-57d2563495",
+      "kind": "manifest",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\runs\\agentic-57d2563495\\run.json",
+      "url": "",
+      "size_bytes": 4611,
+      "content_type": "application/json",
+      "created_at": ""
+    },
+    {
+      "artifact_id": "agentic-57d2563495:manifest",
+      "run_id": "agentic-57d2563495",
+      "kind": "manifest",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\runs\\agentic-57d2563495\\manifest.json",
+      "url": "",
+      "size_bytes": 746,
+      "content_type": "application/json",
+      "created_at": ""
+    },
+    {
+      "artifact_id": "agentic-57d2563495:stdout",
+      "run_id": "agentic-57d2563495",
+      "kind": "stdout",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\runs\\agentic-57d2563495\\stdout.log",
+      "url": "",
+      "size_bytes": 449,
+      "content_type": "text/plain",
+      "created_at": ""
+    },
+    {
+      "artifact_id": "agentic-57d2563495:stderr",
+      "run_id": "agentic-57d2563495",
+      "kind": "stderr",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\runs\\agentic-57d2563495\\stderr.log",
+      "url": "",
+      "size_bytes": 0,
+      "content_type": "text/plain",
+      "created_at": ""
+    },
+    {
+      "artifact_id": "agentic-57d2563495:log",
+      "run_id": "agentic-57d2563495",
+      "kind": "log",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\runs\\agentic-57d2563495\\combined.log",
+      "url": "",
+      "size_bytes": 621,
+      "content_type": "text/plain",
+      "created_at": ""
+    },
+    {
+      "artifact_id": "agentic-57d2563495:generated_script",
+      "run_id": "agentic-57d2563495",
+      "kind": "generated_script",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\runs\\agentic-57d2563495\\generated\\script.py",
+      "url": "",
+      "size_bytes": 11239,
+      "content_type": "text/plain",
+      "created_at": ""
+    },
+    {
+      "artifact_id": "agentic-57d2563495:context",
+      "run_id": "agentic-57d2563495",
+      "kind": "context",
+      "path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\default-robot-dog\\runs\\agentic-57d2563495\\generated\\script.context.json",
+      "url": "",
+      "size_bytes": 14945,
+      "content_type": "application/json",
+      "created_at": ""
+    }
+  ],
+  "failure": null
+}

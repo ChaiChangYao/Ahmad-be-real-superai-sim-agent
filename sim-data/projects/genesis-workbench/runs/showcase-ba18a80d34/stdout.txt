@@ -1,0 +1,39 @@
+[showcase_launcher] Running script: C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\genesis-world\examples\sensors\imu_franka.py
+[showcase_launcher] Headless: True · Web record: True
+[showcase_launcher] Record path: C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-ba18a80d34\state_timeseries.json
+[38;5;159m[Genesis] [19:13:06] [INFO] [38;5;121m╭───────────────────────────────────────────────╮[0m[38;5;159m[0m
+[38;5;159m[Genesis] [19:13:06] [INFO] [38;5;121m│┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈[0m[38;5;159m [38;5;121m[1m[3mGenesis[0m[38;5;159m [38;5;121m┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈│[0m[38;5;159m[0m
+[38;5;159m[Genesis] [19:13:06] [INFO] [38;5;121m╰───────────────────────────────────────────────╯[0m[38;5;159m[0m
+[38;5;226m[Genesis] [19:13:08] [WARNING] Backend [38;5;121m[4mgs.gpu[0m[38;5;226m not available on this machine. Falling back to CPU.[0m
+[38;5;159m[Genesis] [19:13:09] [INFO] Running on [38;5;121m[4m[AMD Ryzen 7 6800H with Radeon Graphics][0m[38;5;159m with backend [38;5;121m[4mgs.cpu[0m[38;5;159m. Device memory: [38;5;121m[4m15.25[0m[38;5;159m GB.[0m
+[38;5;159m[Genesis] [19:13:09] [INFO] 🚀 Genesis initialized. 🔖 version: [38;5;121m[4m1.0.0[0m[38;5;159m, 🎨 theme: [38;5;121m[4mdark[0m[38;5;159m, 🌱 seed: [38;5;121m[4mNone[0m[38;5;159m, 🐛 debug: [38;5;121m[4mFalse[0m[38;5;159m, 📏 precision: [38;5;121m[4m32[0m[38;5;159m, 🔥 performance: [38;5;121m[4mFalse[0m[38;5;159m, 💬 verbose: [38;5;121m[4mINFO[0m[38;5;159m[0m
+[38;5;159m[Genesis] [19:13:13] [INFO] Scene [38;5;121m[3m<7bca00e>[0m[38;5;159m created.[0m
+[38;5;159m[Genesis] [19:13:13] [INFO] Adding [38;5;121m<gs.engine.entities.RigidEntity>[0m[38;5;159m. idx: [38;5;121m0[0m[38;5;159m, uid: [38;5;121m[3m<275a312>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Plane>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [19:13:14] [INFO] Adding [38;5;121m<gs.engine.entities.RigidEntity>[0m[38;5;159m. idx: [38;5;121m1[0m[38;5;159m, uid: [38;5;121m[3m<cb02fd9>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.MJCF(file='C:\Users\user\AppData\Local\Programs\Python\Python311\Lib\site-packages\genesis\assets\xml/franka_emika_panda/panda.xml')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [19:13:14] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint1`[0m
+[38;5;226m[Genesis] [19:13:14] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint2`[0m
+[38;5;159m[Genesis] [19:13:15] [INFO] pyqtgraph not found, falling back to matplotlib.[0m
+[38;5;159m[Genesis] [19:13:15] [INFO] Building scene [38;5;121m[3m<7bca00e>[0m[38;5;159m...[0m
+[38;5;226m[Genesis] [19:13:16] [WARNING] Neutral robot position (qpos0) exceeds joint limits.[0m
+[38;5;226m[Genesis] [19:13:16] [WARNING] Constraint solver time constant should be greater than 2*substep_dt. timeconst is changed from `0.005` to `0.02`). Decrease simulation timestep or increase timeconst to avoid altering the original value.[0m
+[38;5;226m[Genesis] [19:13:20] [WARNING] Filtered out geometry pairs causing self-collision for the neutral configuration (qpos0): (6, 11), (7, 11), (14, 21), (15, 20), (16, 23), (17, 22). Consider tuning Morph option 'decompose_robot_error_threshold' or specify dedicated collision meshes. This behavior can be disabled by setting Morph option 'enable_neutral_collision=True'.[0m
+[38;5;159m[Genesis] [19:13:28] [INFO] Compiling simulation kernels...[0m
+[38;5;159m[Genesis] [19:13:36] [INFO] Building visualizer...[0m
+[38;5;159m[Genesis] [19:13:47] [INFO] [MPLLinePlotter] created matplotlib window[0m
+[showcase_launcher] Franka OBJ meshes exported: 11 links
+[showcase_launcher] Transform sample (raw Genesis, upAxis=z): [{"id": "env/floor", "position": [0.0, 0.0, 0.0], "quaternion": [1.0, 0.0, 0.0, 0.0]}, {"id": "franka/link0", "position": [0.0, 0.0, 0.0], "quaternion": [1.0, 0.0, 0.0, 0.0]}, {"id": "franka/link1", "position": [0.0, 0.0, 0.3330000042915344], "quaternion": [1.0, 0.0, 0.0, 0.0]}, {"id": "franka/link2", "position": [0.0, 0.0, 0.3330000042915344], "quaternion": [0.7071068286895752, -0.7071068286895752, 0.0, 0.0]}]
+[showcase_launcher] Scene export: top_level=2 robot_links=11 visual_geoms=81 meshes_exported=11 tracked_objects=12 franka_fallback=False
+[showcase_launcher] Frame 0: link franka/link0 pos delta=0.000000 qpos_keys=2
+[38;5;159m[Genesis] [19:14:02] [INFO] Simulation finished.[0m
+[38;5;159m[Genesis] [19:14:03] [INFO] [NPZFileWriter] Saved data with keys ['timestamp', 'lin_acc', 'ang_vel', 'mag'] to [38;5;121m"imu_data.npz"[0m[38;5;159m.[0m
+Ground truth data:
+IMUData(lin_acc=tensor([ -3.2770,  -1.8053, -10.6067]), ang_vel=tensor([ 1.2184, -1.2217,  0.2335]), mag=tensor([-0.0278, -0.0275, -0.4985]))
+Measured data:
+IMUData(lin_acc=tensor([ -3.2736,  -1.8168, -10.6051]), ang_vel=tensor([ 1.1970, -1.2230,  0.2364]), mag=tensor([-0.0278, -0.0275, -0.4985]))
+[showcase_launcher] Demo finished.
+[showcase_launcher] Replay diagnostics: 5 frames, 5 unique poses, 2 meaningful keyframes, longest freeze 1 frames, jump at frame none, primary motion=franka/link6, issue=sparse_motion_phases
+[showcase_launcher] Demo has dense micro-motion; preview will preserve per-step finger/object motion.
+[showcase_launcher] Dense trim preview: 5 raw -> 5 preview frames (last_motion_raw=4, trimmed_tail=0)
+[showcase_launcher] Preview (dense_trim): 5 raw frames -> 5 preview frames (longest_freeze=None, max_jump=0.004729)
+[showcase_launcher] Wrote 5 replay frames (final, v1) · raw=5 unique_poses=5 preview=5 · 12 objects (11 robot links) to C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\sim-data\projects\genesis-workbench\runs\showcase-ba18a80d34\state_timeseries.json
+[38;5;159m[Genesis] [19:14:03] [INFO] 💤 Exiting Genesis and caching compiled kernels...[0m

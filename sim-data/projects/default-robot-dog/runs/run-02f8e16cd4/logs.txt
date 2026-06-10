@@ -1,0 +1,5 @@
+[Genesis] Native scenario executor started.
+[Genesis] profile=payload_load base_mode=free_floating
+[Genesis] scene.build() complete, stepped=240
+[Scenario] verify_payload duration=3.0s
+[Result] FAIL

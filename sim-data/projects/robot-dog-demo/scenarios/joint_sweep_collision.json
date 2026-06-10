@@ -1,0 +1,8 @@
+﻿{
+    "config":  {
+                   "sweep_samples":  20
+               },
+    "duration_s":  5,
+    "name":  "Joint Sweep Collision",
+    "id":  "joint_sweep_collision"
+}

@@ -1,0 +1,376 @@
+{
+  "launch_id": "showcase-551cf30e30",
+  "project_id": "genesis-workbench",
+  "scenario_id": "genesis-simulation-interface-sensor-imu",
+  "demo_name": "Sensor: IMU",
+  "layer": "simulation-interface",
+  "repo": "genesis-world",
+  "script_path": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\genesis-world\\examples\\sensors\\imu_franka.py",
+  "repo_root": "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\genesis-world",
+  "argv": [
+    "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\apps\\api\\app\\scripts\\showcase_launcher.py",
+    "--script",
+    "C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\genesis-world\\examples\\sensors\\imu_franka.py",
+    "--headless",
+    "--record-web"
+  ],
+  "view_mode": "web",
+  "headless": true,
+  "started_at": "2026-06-05T11:14:19.833020+00:00",
+  "status": "completed",
+  "lifecycle": "completed",
+  "upstream_url": "https://github.com/Genesis-Embodied-AI/genesis-world/blob/main/examples/sensors/imu_franka.py",
+  "note": "Running physics and recording frames for the web viewer (works on AMD and NVIDIA).",
+  "pid": 1944,
+  "replay_available": true,
+  "replay_frames": 5,
+  "replay_version": 1,
+  "replay_ready": true,
+  "replay_status": "complete",
+  "replay_partial": false,
+  "replay_fps": 24.0,
+  "replay_meta": {
+    "diagnostics": {
+      "top_level_entities": 2,
+      "robot_links": 11,
+      "visual_geoms": 81,
+      "meshes_found": 0,
+      "meshes_exported": 11,
+      "mesh_export_failures": 0,
+      "tracked_objects": 12,
+      "franka_fallback": false,
+      "motion_diagnostics": {
+        "total_frames": 5,
+        "unique_pose_count": 5,
+        "meaningful_pose_count": 2,
+        "meaningful_keyframes": [
+          0,
+          3
+        ],
+        "longest_freeze_run": 1,
+        "jump_frames": [],
+        "jump_count": 0,
+        "change_indices": [
+          0,
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "top_moving_objects": [
+          {
+            "id": "franka/link6",
+            "total_delta": 0.081948
+          },
+          {
+            "id": "franka/link7",
+            "total_delta": 0.080672
+          },
+          {
+            "id": "franka/link5",
+            "total_delta": 0.077984
+          },
+          {
+            "id": "franka/hand",
+            "total_delta": 0.073768
+          },
+          {
+            "id": "franka/link4",
+            "total_delta": 0.070399
+          }
+        ],
+        "primary_motion_link": "franka/link6",
+        "identical_frame_ratio": 0.0,
+        "recorder_issue": "sparse_motion_phases",
+        "qpos_frame_counts": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "qpos_samples": {
+          "frame_0": {
+            "plane_7c27320": [],
+            "panda_dafd5dc": [
+              -8.36588951642625e-05,
+              -0.00673114275559783,
+              -6.500243034679443e-05,
+              -0.017317162826657295,
+              0.0008480185642838478,
+              -0.002092949580401182,
+              -6.121814658399671e-05,
+              1.0134612011825084e-06,
+              -1.0134662034033681e-06
+            ]
+          },
+          "frame_mid": {
+            "plane_7c27320": [],
+            "panda_dafd5dc": [
+              -0.0020814333111047745,
+              -0.01977163925766945,
+              0.002256944542750716,
+              -0.05764114111661911,
+              0.0009240686194971204,
+              -0.00498143769800663,
+              0.001511605572886765,
+              -2.0917759684380144e-06,
+              2.091757323796628e-06
+            ]
+          },
+          "frame_last": {
+            "plane_7c27320": [],
+            "panda_dafd5dc": [
+              -0.004045968875288963,
+              -0.03388272598385811,
+              0.004598105791956186,
+              -0.10602643340826035,
+              0.0010655244113877416,
+              -0.006089065223932266,
+              0.005331485532224178,
+              1.979345825020573e-06,
+              8.339326086570509e-06
+            ]
+          }
+        },
+        "tracked_object_count": 11
+      },
+      "source_frame_count": 5,
+      "unique_pose_count": 5,
+      "longest_freeze_run": 1,
+      "preview_frame_count": 5,
+      "recorder_issue": "sparse_motion_phases",
+      "replay_frames": 5
+    },
+    "entities": {
+      "env/floor": {
+        "kind": "checker_floor",
+        "size": [
+          4.0,
+          4.0
+        ]
+      },
+      "franka/link0": {
+        "kind": "robot_link",
+        "color": "#e8e8e8",
+        "meshPath": "meshes/franka/link0.json",
+        "meshSource": "franka_obj_assets"
+      },
+      "franka/link1": {
+        "kind": "robot_link",
+        "color": "#e8e8e8",
+        "meshPath": "meshes/franka/link1.json",
+        "meshSource": "franka_obj_assets"
+      },
+      "franka/link2": {
+        "kind": "robot_link",
+        "color": "#e8e8e8",
+        "meshPath": "meshes/franka/link2.json",
+        "meshSource": "franka_obj_assets"
+      },
+      "franka/link3": {
+        "kind": "robot_link",
+        "color": "#e8e8e8",
+        "meshPath": "meshes/franka/link3.json",
+        "meshSource": "franka_obj_assets"
+      },
+      "franka/link4": {
+        "kind": "robot_link",
+        "color": "#e8e8e8",
+        "meshPath": "meshes/franka/link4.json",
+        "meshSource": "franka_obj_assets"
+      },
+      "franka/link5": {
+        "kind": "robot_link",
+        "color": "#e8e8e8",
+        "meshPath": "meshes/franka/link5.json",
+        "meshSource": "franka_obj_assets"
+      },
+      "franka/link6": {
+        "kind": "robot_link",
+        "color": "#e8e8e8",
+        "meshPath": "meshes/franka/link6.json",
+        "meshSource": "franka_obj_assets"
+      },
+      "franka/link7": {
+        "kind": "robot_link",
+        "color": "#e8e8e8",
+        "meshPath": "meshes/franka/link7.json",
+        "meshSource": "franka_obj_assets"
+      },
+      "franka/hand": {
+        "kind": "robot_link",
+        "color": "#e8e8e8",
+        "meshPath": "meshes/franka/hand.json",
+        "meshSource": "franka_obj_assets"
+      },
+      "franka/left_finger": {
+        "kind": "robot_link",
+        "color": "#e8e8e8",
+        "meshPath": "meshes/franka/left_finger.json",
+        "meshSource": "franka_obj_assets"
+      },
+      "franka/right_finger": {
+        "kind": "robot_link",
+        "color": "#e8e8e8",
+        "meshPath": "meshes/franka/right_finger.json",
+        "meshSource": "franka_obj_assets"
+      }
+    },
+    "motion_diagnostics": {
+      "total_frames": 5,
+      "unique_pose_count": 5,
+      "meaningful_pose_count": 2,
+      "meaningful_keyframes": [
+        0,
+        3
+      ],
+      "longest_freeze_run": 1,
+      "jump_frames": [],
+      "jump_count": 0,
+      "change_indices": [
+        0,
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "top_moving_objects": [
+        {
+          "id": "franka/link6",
+          "total_delta": 0.081948
+        },
+        {
+          "id": "franka/link7",
+          "total_delta": 0.080672
+        },
+        {
+          "id": "franka/link5",
+          "total_delta": 0.077984
+        },
+        {
+          "id": "franka/hand",
+          "total_delta": 0.073768
+        },
+        {
+          "id": "franka/link4",
+          "total_delta": 0.070399
+        }
+      ],
+      "primary_motion_link": "franka/link6",
+      "identical_frame_ratio": 0.0,
+      "recorder_issue": "sparse_motion_phases",
+      "qpos_frame_counts": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "qpos_samples": {
+        "frame_0": {
+          "plane_7c27320": [],
+          "panda_dafd5dc": [
+            -8.36588951642625e-05,
+            -0.00673114275559783,
+            -6.500243034679443e-05,
+            -0.017317162826657295,
+            0.0008480185642838478,
+            -0.002092949580401182,
+            -6.121814658399671e-05,
+            1.0134612011825084e-06,
+            -1.0134662034033681e-06
+          ]
+        },
+        "frame_mid": {
+          "plane_7c27320": [],
+          "panda_dafd5dc": [
+            -0.0020814333111047745,
+            -0.01977163925766945,
+            0.002256944542750716,
+            -0.05764114111661911,
+            0.0009240686194971204,
+            -0.00498143769800663,
+            0.001511605572886765,
+            -2.0917759684380144e-06,
+            2.091757323796628e-06
+          ]
+        },
+        "frame_last": {
+          "plane_7c27320": [],
+          "panda_dafd5dc": [
+            -0.004045968875288963,
+            -0.03388272598385811,
+            0.004598105791956186,
+            -0.10602643340826035,
+            0.0010655244113877416,
+            -0.006089065223932266,
+            0.005331485532224178,
+            1.979345825020573e-06,
+            8.339326086570509e-06
+          ]
+        }
+      },
+      "tracked_object_count": 11
+    },
+    "source_frame_count": 5,
+    "unique_pose_count": 5,
+    "preview_frame_count": 5,
+    "preview_meta": {
+      "preview_frame_count": 5,
+      "keyframe_count": 5,
+      "preview_fps": 24.0,
+      "mode": "dense_trim",
+      "last_motion_raw_index": 4,
+      "trim_info": {
+        "trimmed_tail_frames": 0,
+        "last_motion_index": 4
+      },
+      "validation": {
+        "preview_frames": 5,
+        "moving_frames": 5,
+        "frozen_tail_starts_at": null,
+        "longest_frozen_run": 1,
+        "max_position_jump": 0.004729,
+        "max_angular_jump_deg": 1.034,
+        "visible_links_changing_after_tail": true,
+        "total_frames": 5,
+        "repeated_consecutive_frames": 0,
+        "max_angular_jump_rad": 0.018047,
+        "valid": true
+      },
+      "preview_motion_diagnostics": {
+        "preview_frames": 5,
+        "moving_frames": 5,
+        "frozen_tail_starts_at": null,
+        "longest_frozen_run": 1,
+        "max_position_jump": 0.004729,
+        "max_angular_jump_deg": 1.034,
+        "visible_links_changing_after_tail": true
+      }
+    },
+    "preview_validation": {
+      "preview_frames": 5,
+      "moving_frames": 5,
+      "frozen_tail_starts_at": null,
+      "longest_frozen_run": 1,
+      "max_position_jump": 0.004729,
+      "max_angular_jump_deg": 1.034,
+      "visible_links_changing_after_tail": true,
+      "total_frames": 5,
+      "repeated_consecutive_frames": 0,
+      "max_angular_jump_rad": 0.018047,
+      "valid": true
+    },
+    "replay_mode": "dense_trim",
+    "playback_fps": 24
+  },
+  "replay_objects": 12,
+  "replay_robot_links": 11,
+  "replay_tracked_objects": 12,
+  "exit_code": 0,
+  "ended_at": "2026-06-05T11:15:06.806075+00:00"
+}

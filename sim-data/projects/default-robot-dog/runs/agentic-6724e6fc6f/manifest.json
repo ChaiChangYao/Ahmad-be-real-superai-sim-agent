@@ -1,0 +1,29 @@
+{
+  "runId": "agentic-6724e6fc6f",
+  "projectId": "default-robot-dog",
+  "testId": "gravity_stability",
+  "scriptId": "script-9128fd0ccf",
+  "templateId": "gravity_stability",
+  "status": "failed",
+  "startedAt": "2026-06-08T05:06:17.692653+00:00",
+  "completedAt": "2026-06-08T05:06:48.157763+00:00",
+  "backend": "ExecutionBackend.local",
+  "visual": {
+    "hasReplay": false,
+    "frameCount": 0,
+    "fps": 24.0,
+    "path": "state_timeseries.json"
+  },
+  "telemetry": {
+    "hasTelemetry": false,
+    "sampleCount": 0,
+    "sensorTypes": [],
+    "path": ""
+  },
+  "errors": [
+    "Simulation exceeded 30 second limit.",
+    "[showcase_launcher] Forwarded args: (none)"
+  ],
+  "warnings": [],
+  "exitCode": 1
+}

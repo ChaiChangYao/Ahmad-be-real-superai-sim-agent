@@ -1,0 +1,19 @@
+<robot name="default_robot_dog">
+  <link name="body" />
+  <link name="fl_upper" />
+  <link name="fl_lower" />
+  <link name="fr_upper" />
+  <link name="fr_lower" />
+  <link name="rl_upper" />
+  <link name="rl_lower" />
+  <link name="rr_upper" />
+  <link name="rr_lower" />
+  <joint name="j-hip-fl" type="revolute"><parent link="body"/><child link="fl_upper"/></joint>
+  <joint name="j-knee-fl" type="revolute"><parent link="fl_upper"/><child link="fl_lower"/></joint>
+  <joint name="j-hip-fr" type="revolute"><parent link="body"/><child link="fr_upper"/></joint>
+  <joint name="j-knee-fr" type="revolute"><parent link="fr_upper"/><child link="fr_lower"/></joint>
+  <joint name="j-hip-rl" type="revolute"><parent link="body"/><child link="rl_upper"/></joint>
+  <joint name="j-knee-rl" type="revolute"><parent link="rl_upper"/><child link="rl_lower"/></joint>
+  <joint name="j-hip-rr" type="revolute"><parent link="body"/><child link="rr_upper"/></joint>
+  <joint name="j-knee-rr" type="revolute"><parent link="rr_upper"/><child link="rr_lower"/></joint>
+</robot>

@@ -1,0 +1,5 @@
+[Genesis] Native scenario executor started.
+[Genesis] profile=joint_sweep base_mode=fixed_to_world
+[Genesis] scene.build() complete, stepped=360
+[Scenario] joint_sweep_collision duration=6.0s
+[Result] FAIL

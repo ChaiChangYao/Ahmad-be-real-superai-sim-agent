@@ -1,0 +1,19 @@
+[showcase_launcher] Demo crashed:
+Traceback (most recent call last):
+  File "C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\apps\api\app\scripts\showcase_launcher.py", line 102, in main
+    runpy.run_path(script_path, run_name="__main__")
+  File "<frozen runpy>", line 291, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\genesis-world\examples\rigid\franka_cube.py", line 93, in <module>
+    main()
+  File "C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\genesis-world\examples\rigid\franka_cube.py", line 77, in main
+    scene.step()
+  File "C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\apps\api\app\services\genesis_showcase\scene_replay_exporter.py", line 506, in recording_step
+    exporter.flush(partial=True)
+  File "C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\apps\api\app\services\genesis_showcase\scene_replay_exporter.py", line 456, in flush
+    manifest = write_replay_bundle(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Physics Sim Buildables\PhysicsSimBuildables\apps\api\app\services\genesis_showcase\replay_atomic_io.py", line 79, in write_replay_bundle
+    os.replace(tmp_path, final_path)
+PermissionError: [WinError 5] Access is denied: 'C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\genesis-workbench\\runs\\showcase-91399bf42a\\state_timeseries.json.tmp' -> 'C:\\Users\\user\\Physics Sim Buildables\\PhysicsSimBuildables\\sim-data\\projects\\genesis-workbench\\runs\\showcase-91399bf42a\\state_timeseries.json'
