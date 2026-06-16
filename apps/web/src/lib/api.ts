@@ -1,12 +1,15 @@
 import { GenesisCatalog, GenesisStatus, ManifestState, RunResult, ShowcaseCatalog, ShowcaseLaunchResult, TestCatalogItem, TestRunResult } from "./types";
+import { API_PRODUCTION_HINT, getApiBase } from "./apiBase";
 
-const API_BASE = process.env.NEXT_PUBLIC_API_BASE_URL ?? "http://127.0.0.1:8000";
+const API_BASE = getApiBase();
 const API_TIMEOUT_MS = 15000;
 export const API_BOOT_TIMEOUT_MS = 90000;
 /** Zip import + scan/inspect/plan on large robot projects can exceed 15s. */
 export const AGENTIC_PREFLIGHT_TIMEOUT_MS = 120_000;
 const API_DEV_HINT =
-  "From the repo root run: npm run dev\n(This starts the API on :8000 and web on :3000 together.)";
+  process.env.NODE_ENV === "production"
+    ? API_PRODUCTION_HINT
+    : "From the repo root run: npm run dev\n(This starts the API on :8000 and web on :3000 together.)";
 
 type ApiFetchOptions = RequestInit & { timeoutMs?: number };
 

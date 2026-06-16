@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: ahmad-sim-agent-api
+    runtime: docker
+    dockerfilePath: ./Dockerfile.api
+    dockerContext: .
+    plan: starter
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHONUNBUFFERED
+        value: "1"
+      - key: SIM_DATA_ROOT
+        value: sim-data

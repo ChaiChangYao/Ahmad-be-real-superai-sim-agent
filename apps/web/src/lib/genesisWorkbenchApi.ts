@@ -45,7 +45,9 @@ export type UploadRequirements = {
   simulation_readiness?: Record<string, unknown>;
 };
 
-const API_BASE = process.env.NEXT_PUBLIC_API_BASE_URL ?? "http://127.0.0.1:8000";
+import { getApiBase } from "./apiBase";
+
+const API_BASE = getApiBase();
 
 export async function getGenesisWorkbenchReadiness(): Promise<GenesisWorkbenchReadiness> {
   const res = await apiFetch(`${API_BASE}/genesis/workbench/readiness`, {

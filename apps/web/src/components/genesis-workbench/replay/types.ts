@@ -247,8 +247,10 @@ export function normalizeReplay(
   };
 }
 
+import { getApiBase } from "@/lib/apiBase";
+
 export function showcaseMeshUrl(projectId: string, launchId: string, meshPath: string): string {
-  const base = process.env.NEXT_PUBLIC_API_BASE_URL ?? "http://127.0.0.1:8000";
+  const base = getApiBase();
   const safe = meshPath.replace(/^\//, "");
   return `${base}/projects/${projectId}/genesis/showcase/launch/${launchId}/mesh/${safe}`;
 }
