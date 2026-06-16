@@ -13,3 +13,5 @@ services:
         value: sim-data
       - key: UVICORN_WORKERS
         value: "1"
+      - key: BUILDABLES_SKIP_GENESIS_WARM
+        value: "1"

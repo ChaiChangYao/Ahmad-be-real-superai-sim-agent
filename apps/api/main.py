@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+import os
 
 from app.paths import ensure_base_paths
 from app.routes import agentic, assets, genesis, genesis_catalog, genesis_controls, genesis_showcase, genesis_workbench, health, imports, manifests, projects, scenarios, settings, simulations, tests
@@ -13,6 +14,8 @@ app = FastAPI(title="Buildables Sim Sandbox API", version="0.1.0")
 @app.on_event("startup")
 def warm_genesis_runtime() -> None:
     """Warm Genesis in background so /health responds immediately for the web UI."""
+    if os.getenv("BUILDABLES_SKIP_GENESIS_WARM", "").lower() in ("1", "true", "yes"):
+        return
 
     def _warm() -> None:
         try:

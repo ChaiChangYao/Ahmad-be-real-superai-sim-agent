@@ -14,4 +14,4 @@ export function getApiBase(): string {
 }
 
 export const API_PRODUCTION_HINT =
-  "Deploy the Python API (see render.yaml), set API_UPSTREAM_URL on Vercel to that URL, then redeploy.";
+  "Deploy the Python API on Render (see render.yaml). Set NEXT_PUBLIC_API_BASE_URL or API_UPSTREAM_URL on Vercel, then redeploy. Genesis sims need Render Starter+ RAM; free tier may OOM during physics runs.";
