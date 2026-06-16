@@ -4,8 +4,9 @@
 
 import { useRef, useState } from "react";
 
-import {
+import { isTransientPollError } from "@/lib/pollUtils";
 
+import {
   getShowcaseLaunchLogs,
 
   getShowcaseLaunchStatus,
@@ -434,7 +435,17 @@ export function GenesisDemoDetail({
 
       } catch (error) {
 
-        onLog(`[Launch][Poll] ${(error as Error).message}`);
+        const msg = (error as Error).message;
+
+        if (isTransientPollError(msg)) {
+
+          onLog(`[Launch][Poll] ${msg} — simulation still running, retrying…`);
+
+          continue;
+
+        }
+
+        onLog(`[Launch][Poll] ${msg}`);
 
         setLifecycleState("failed");
 

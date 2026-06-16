@@ -4,6 +4,8 @@ import { API_PRODUCTION_HINT, getApiBase } from "./apiBase";
 const API_BASE = getApiBase();
 const API_TIMEOUT_MS = 15000;
 export const API_BOOT_TIMEOUT_MS = 90000;
+/** Genesis showcase status/logs while CPU-heavy sim runs on Render can exceed 15s. */
+export const SHOWCASE_API_TIMEOUT_MS = 180_000;
 /** Zip import + scan/inspect/plan on large robot projects can exceed 15s. */
 export const AGENTIC_PREFLIGHT_TIMEOUT_MS = 120_000;
 const API_DEV_HINT =
@@ -211,7 +213,7 @@ export async function launchShowcaseDemo(
   const suffix = q.size ? `?${q}` : "";
   const res = await apiFetch(`${API_BASE}/projects/${projectId}/genesis/showcase/${scenarioId}/launch${suffix}`, {
     method: "POST",
-    timeoutMs: 60000,
+    timeoutMs: SHOWCASE_API_TIMEOUT_MS,
   });
   if (!res.ok) {
     const body = await res.text();
@@ -242,7 +244,7 @@ export async function getShowcaseLaunchTimeseries(
 }> {
   const res = await apiFetch(
     `${API_BASE}/projects/${projectId}/genesis/showcase/launch/${launchId}/timeseries`,
-    { cache: "no-store" },
+    { cache: "no-store", timeoutMs: SHOWCASE_API_TIMEOUT_MS },
   );
   if (!res.ok) {
     const body = await res.text();
@@ -257,7 +259,7 @@ export async function getShowcaseLaunchTelemetry(
 ): Promise<{ launch_id: string; telemetry: Record<string, unknown> }> {
   const res = await apiFetch(
     `${API_BASE}/projects/${projectId}/genesis/showcase/launch/${launchId}/telemetry`,
-    { cache: "no-store" },
+    { cache: "no-store", timeoutMs: SHOWCASE_API_TIMEOUT_MS },
   );
   if (!res.ok) {
     const body = await res.text();
@@ -272,7 +274,7 @@ export async function getShowcaseLaunchLogs(
 ): Promise<{ launch_id: string; stdout: string; stderr: string }> {
   const res = await apiFetch(
     `${API_BASE}/projects/${projectId}/genesis/showcase/launch/${launchId}/logs`,
-    { cache: "no-store" },
+    { cache: "no-store", timeoutMs: SHOWCASE_API_TIMEOUT_MS },
   );
   if (!res.ok) {
     const body = await res.text();
@@ -282,7 +284,10 @@ export async function getShowcaseLaunchLogs(
 }
 
 export async function getShowcaseLaunchStatus(projectId: string, launchId: string): Promise<Record<string, unknown>> {
-  const res = await apiFetch(`${API_BASE}/projects/${projectId}/genesis/showcase/launch/${launchId}`, { cache: "no-store" });
+  const res = await apiFetch(`${API_BASE}/projects/${projectId}/genesis/showcase/launch/${launchId}`, {
+    cache: "no-store",
+    timeoutMs: SHOWCASE_API_TIMEOUT_MS,
+  });
   if (!res.ok) {
     const body = await res.text();
     throw new Error(body || `Showcase launch status failed: ${res.status}`);

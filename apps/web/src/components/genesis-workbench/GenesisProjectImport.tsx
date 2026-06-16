@@ -13,6 +13,7 @@ import {
   type LaunchReadiness,
 } from "@/lib/genesisWorkbenchApi";
 import { cancelAgenticRun, getAgenticRunLogs, getTestRequirements, saveAgenticState } from "@/lib/agentic/api";
+import { isTransientPollError } from "@/lib/pollUtils";
 import {
   autoRunAgenticTest,
   generateEngineeringReport,
@@ -490,7 +491,12 @@ export function GenesisProjectImport({
           return;
         }
       } catch (error) {
-        onLaunchNative(`[Web][Poll] ${(error as Error).message}`);
+        const msg = (error as Error).message;
+        if (isTransientPollError(msg)) {
+          onLaunchNative(`[Web][Poll] ${msg} — still running, retrying…`);
+          continue;
+        }
+        onLaunchNative(`[Web][Poll] ${msg}`);
         setLifecycleState("failed");
         return;
       }
