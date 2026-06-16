@@ -3,15 +3,22 @@ starlette==0.46.2
 uvicorn[standard]==0.34.2
 pydantic==2.11.4
 python-multipart==0.0.20
-genesis-world
-trimesh>=4.8.2
+genesis-world==1.0.0
+trimesh==4.12.2
 numpy==2.2.5
-pydantic-ai>=0.0.14
-urdfpy>=0.0.22
-lxml>=5.0.0
-jinja2>=3.1.0
+lxml==6.1.1
+jinja2==3.1.6
+
+# Resolver stabilizers for genesis-world on Python 3.11.
+anyio==4.13.0
+networkx==2.2
+pycollada==0.6
+mujoco==3.9.0
+moviepy==2.2.1
+Pillow==11.2.1
+scipy==1.17.1
+z3-solver==4.15.4.0
 
 # Optional (install separately if needed):
-# cadquery
-# e2b
-# crewai
+# urdfpy==0.0.22 pulls pyrender, which conflicts with genesis-world's PyOpenGL>=3.1.4.
+# pydantic-ai>=0.0.14 pulls many provider extras; keep out of production images.
