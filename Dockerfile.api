@@ -44,6 +44,8 @@ RUN git clone --depth 1 https://github.com/Genesis-Embodied-AI/Genesis.git /app/
 
 COPY apps/api /app/apps/api
 COPY packages /app/packages
+COPY scripts/render-api-start.sh /render-api-start.sh
+RUN chmod +x /render-api-start.sh && sed -i 's/\r$//' /render-api-start.sh
 COPY sim-data/active_project.json /app/sim-data/active_project.json
 COPY sim-data/component-profiles /app/sim-data/component-profiles
 COPY sim-data/material-profiles /app/sim-data/material-profiles
@@ -52,4 +54,5 @@ COPY sim-data/projects/genesis-workbench /app/sim-data/projects/genesis-workbenc
 
 EXPOSE 8000
 
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000", "--workers", "2"]
+# Render injects $PORT — must bind to it, not a hardcoded port.
+CMD ["/render-api-start.sh"]

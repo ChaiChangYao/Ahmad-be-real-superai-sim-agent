@@ -11,3 +11,5 @@ services:
         value: "1"
       - key: SIM_DATA_ROOT
         value: sim-data
+      - key: UVICORN_WORKERS
+        value: "1"
